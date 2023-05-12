@@ -1,11 +1,11 @@
-import avatar_pro from './avatar_pro_v1.svg';
-import avatar_etudiant from './avatar_etudiant.svg';
+import avatar_pro from './images/avatar_pro_v1.svg';
+import avatar_etudiant from './images/avatar_etudiant.svg';
 import Schema from './Schema';
 import { Link } from 'react-router-dom';
-import offre_c1 from './offre_c1.svg';
-import offre_c2 from './offre_c2.svg';
-import offre_c3 from './offre_c3.svg';
-import offre_c4 from './offre_c4.svg';
+import offre_c1 from './images/offre_c1.svg';
+import offre_c2 from './images/offre_c2.svg';
+import offre_c3 from './images/offre_c3.svg';
+import offre_c4 from './images/offre_c4.svg';
 
 
 
@@ -161,7 +161,7 @@ moments clés de leur parcours : <br />
       
       <blue><content2>' Mon objectif : m'adapter en douceur à mon nouvel environnement '</content2></blue>
 </div>
-<div id="name">Quentin - Chargé d'affaires</div>
+
 
 </div>
 

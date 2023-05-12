@@ -1,4 +1,4 @@
-import offre_c1 from './offre_c1.svg'
+import offre_c1 from './images/offre_c1.svg'
 import { Link } from 'react-router-dom';
 
 /*<img src={logo} className="win-logo" alt="logo" />*/
@@ -42,7 +42,7 @@ function Offre() {
 <div class="column_start">
 
 <content1><blue>Atelier  </blue><i class="fa-solid fa-arrow-down"></i></content1>
-<div class="offre_contexte"><content><a onClick={() => window.scrollTo(0,1800)}>Réussir ses entretiens</a></content></div>
+<div class="offre_contexte"><content><a onClick={() => window.scrollTo(0,1800)}>Construire sa visibilité</a></content></div>
 
             
             
@@ -50,8 +50,8 @@ function Offre() {
 
 <div class="column_start">
 
-<content1><blue>Atelier  </blue><i class="fa-solid fa-arrow-down"></i></content1>
-<div class="offre_contexte"><content><a onClick={window.scrollTo(0,850)}>Réussir ses entretiens</a></content></div>
+<content1><blue>Coaching  </blue><i class="fa-solid fa-arrow-down"></i></content1>
+<div class="offre_contexte"><content><a onClick={window.scrollTo(0,850)}>Évaluer une opportunité</a></content></div>
 
             
            
@@ -59,8 +59,8 @@ function Offre() {
 
 <div class="column_start">
 
-<content1><blue>Atelier  </blue><i class="fa-solid fa-arrow-down"></i></content1>
-<Link to='/home'><div class="offre_contexte"><content><a>Réussir ses entretiens</a></content></div>
+<content1><blue>Coaching  </blue><i class="fa-solid fa-arrow-down"></i></content1>
+<Link to='/home'><div class="offre_contexte"><content><a>S'adapter au changement</a></content></div>
 
             
             </Link>
@@ -72,7 +72,7 @@ function Offre() {
 
                         <div class="section block">
                         <div class="margin_left">
-                        <h2title>Quelle offre adaptée à vos besoins ?</h2title>
+                        <h2title>Quelle offre selon votre situation ?</h2title>
                         <div id="underline"></div>
                         </div>
                   </div>
@@ -118,7 +118,7 @@ function Offre() {
 
     <div class="column">
      
-    <content class="tab_offre">Construire sa visibilité</content>
+    <content class="tab_offre">Réussir ses entretiens</content>
     
     
     </div>
@@ -149,7 +149,7 @@ function Offre() {
     <div class="column">
      
      <content class="tab_offre">Construire sa visibilité</content>
-     <content class="tab_offre">Construire sa visibilité</content>
+     <content class="tab_offre">Réussir ses entretiens</content>
      
      
      </div>
@@ -181,7 +181,7 @@ function Offre() {
 
      <div class="column">
      
-     <content class="tab_offre">Construire sa visibilité</content>
+     <content class="tab_offre">Réussir ses entretiens</content>
      </div>
 
      
@@ -206,13 +206,13 @@ function Offre() {
      </div>
 
      <div class="column">
-     <content class="tab_offre">Construire sa visibilité</content>
+     <content class="tab_offre">S'adapter au changement</content>
      
      </div>
      
      <div class="column">
      
-     <content class="tab_offre">Construire sa visibilité</content>
+     <content class="tab_offre">S'adapter au changement</content>
      </div>
      
 
@@ -235,7 +235,7 @@ function Offre() {
 
      <div class="column">
      
-     <content class="tab_offre">Construire sa visibilité</content>
+     <content class="tab_offre">Évaluer une opportunité</content>
 
      </div>
      
@@ -267,8 +267,8 @@ function Offre() {
      </div>
      <div class="column">
 
-     <content class="tab_offre">Réussir ses entretiens</content>
-     <content class="tab_offre">Réussir ses entretiens</content>
+     <content class="tab_offre">Évaluer une opportunité</content>
+     <content class="tab_offre">S'adapter au changement</content>
      
      </div>
 
@@ -291,12 +291,12 @@ function Offre() {
 
      <div class="column">
      
-     <content class="tab_offre">Réussir ses entretiens</content>
+     <content class="tab_offre">Construire sa visibilité</content>
      </div>
 
      <div class="column">
      
-     <content class="tab_offre">Réussir ses entretiens</content>
+     <content class="tab_offre">Construire sa visibilité</content>
      </div>
 
      

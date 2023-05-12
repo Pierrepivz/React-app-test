@@ -1,6 +1,6 @@
 /*<img src={logo} className="win-logo" alt="logo" />*/
 import React, { useState } from "react";
-import logo from './logo_negatif.svg';
+import logo from './images/logo_negatif.svg';
 
 function Footer() {
 
@@ -33,8 +33,7 @@ function Footer() {
         <div class= "column_start" id="foot_content">
         <ftitle><content>Nous suivre</content></ftitle>
 
-        <h2title><a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></h2title>
-        <h2title><a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a></h2title>
+        
         <h2title><a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a></h2title>
         
 

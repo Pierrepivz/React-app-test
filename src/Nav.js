@@ -1,9 +1,7 @@
 
-import logo from './logow2n.svg';
-/*<img src={logo} className="win-logo" alt="logo" />*/
+import logo from './images/logow2n.svg';
 import { Link } from "react-router-dom";
-import Homepage from './Homepage';
-import Offre from './Offre';
+
 function Nav() {
   /*<div class="sub-nav">
         
@@ -22,7 +20,7 @@ function Nav() {
       for (var i = position; i < 850; i++){
         setInterval(() => { window.scrollTo(0,i); }, 5000);
          
-        
+        dddddd
       
     }
     }*/
@@ -33,7 +31,7 @@ function Nav() {
       <div className="Nav">
         
 
-      <div class='navel'>
+      
       
       <Link to='./home'>
         <div class="nav-logo">
@@ -48,18 +46,6 @@ function Nav() {
         
         <a>La méthode</a>
 
-        <div class="sub-nav">
-        
-        <a>sous-lien 1</a>
-        
-        
-        <a>sous-lien 2</a>
-        
-        
-        <a>sous-lien 3</a>
-
-        
-        </div>
 
         </ul>
         
@@ -71,12 +57,14 @@ function Nav() {
         <div class="sub-nav">
         
         
-        <a onClick={() => window.scrollTo(0,850)}>CV</a>
-        
-        <a onClick={() => window.scrollTo(0,1800)}>offre 2</a>
-        
-        <a onClick={() => window.scrollTo(0,1800)}>offre 3</a>
-        
+        <a onClick={() => window.scrollTo(0,850)}>Réussir ses entretiens</a>
+        <br/>
+        <a onClick={() => window.scrollTo(0,1800)}>Construire sa visibilité</a>
+        <br/>
+        <a onClick={() => window.scrollTo(0,1800)}>Évaluer une opportunité</a>
+        <br/>
+        <a onClick={() => window.scrollTo(0,1800)}>S'adapter au changement</a>
+        <br/>
         
         
         <Link to='./Methode'>
@@ -90,24 +78,26 @@ function Nav() {
         
         <ul>
         <a>La coach</a>
-        <div class="sub-nav">
         
-        <a>sous-lien 1</a>
-        
-        
-        <a>sous-lien 2</a>
-        
-        
-        <a>sous-lien 3</a>
-
-        
-        </div>
         </ul>
 
         <ul>
           <Link to='./Actual'>
         <a >Actualités</a>
           </Link>
+
+          <div class="sub-nav">
+        
+        <a>dernières actualités</a>
+        
+        <br/>
+        <a>Parcourir</a>
+        
+        
+        
+
+        
+        </div>
         
         </ul>
 
@@ -118,7 +108,7 @@ function Nav() {
         </ul>
         </div>
         
-       </div>
+       
       
 
 
