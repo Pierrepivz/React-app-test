@@ -69,7 +69,7 @@ function Nav() {
         
         <Link to='./Methode'>
 
-        <a onClick={() => window.scrollTo(0,0.0)}>Prendre rdv</a>
+        <a>Prendre rdv</a>
         </Link>
         </div>
 

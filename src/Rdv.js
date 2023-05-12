@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
-import { useState } from "react";
+
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './calendar.css';
+
 /*import Axios from "Axios";*/
 
 
@@ -16,10 +17,7 @@ function Rdv() {
   const [hour, setHour] = useState('');
   const current = `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
   
-
-  
-
-   var text = document.getElementById('text_recap');
+  var text = document.getElementById('text_recap');
   var btnoff = document.querySelector('.btn');
 
   function selectcheck(){
@@ -68,12 +66,7 @@ function Rdv() {
 
       e.preventDefault();
 
-      /*Axios.post("http://localhost:3001/api/insert",{
-    Id: 4,
-    subject: current,
-    content: email,
-    
-});*/
+      
 
       emailjs.sendForm('booking_winent', 'rdv78', e.target, '6nusaoR8fQQLjbcrX')
       .then((result) => {
