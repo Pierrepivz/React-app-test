@@ -69,7 +69,7 @@ function Nav() {
         
         <Link to='./Methode'>
 
-        <a>Prendre rdv</a>
+        <a><italic><blue>Prendre rdv</blue></italic></a>
         </Link>
         </div>
 
@@ -86,18 +86,7 @@ function Nav() {
         <a >Actualités</a>
           </Link>
 
-          <div class="sub-nav">
-        
-        <a>dernières actualités</a>
-        
-        <br/>
-        <a>Parcourir</a>
-        
-        
-        
-
-        
-        </div>
+         
         
         </ul>
 

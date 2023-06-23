@@ -93,9 +93,9 @@ moments clés de leur parcours : <br />
 
                         <div class="cta-actual">
                               <div class="">
-                                    <content>  RÉUSSIR LE CONCOURS  
+                                    <content>  Actualité : ce qui a changé dans les 
                                     <Link to='/offre'>
-                                    <t_orange> VATEL </t_orange>
+                                    <t_orange> concours postbac  </t_orange>
                                     </Link>
                                     
                                     
@@ -111,8 +111,8 @@ moments clés de leur parcours : <br />
 
 
 <div id="objectif_box" class="column_items_center">
-      <content1>Créer mon CV</content1>
-      <content1><i class="fa-solid fa-arrow-down" id="icon"></i></content1>
+      <content1>Créer mon CV </content1>
+      
       
       <blue><content2>' Un CV qui me ressemble <br/> et qui retient l'attention '</content2></blue>
 </div>
@@ -141,7 +141,7 @@ moments clés de leur parcours : <br />
 
 <div id="objectif_box" class="column_items_center">
       <content1>Décrocher un poste</content1>
-      <content1><i class="fa-solid fa-arrow-down" id="icon"></i></content1>
+      
       
       
       <blue><content2>' Je veux réussir les entretiens d'embauche '</content2></blue>
@@ -159,7 +159,7 @@ moments clés de leur parcours : <br />
 <div id="objectif_box" class="column_items_center">
       <content1>Réussir un changement professionnel</content1>
       
-      <blue><content2>' Mon objectif : m'adapter en douceur à mon nouvel environnement '</content2></blue>
+      <blue><content2>' J'ai du mal à gérer ma nouvelle charge de travail '</content2></blue>
 </div>
 
 
@@ -179,7 +179,7 @@ moments clés de leur parcours : <br />
                   <div class="block column_start margin_left margin_right">
 
                   <div id="titre_second"class='column_items_center'>
-                              <h1title>Mon objectif : vous aider à atteindre le vôtre</h1title>
+                              <h1title>Taux de réussite 2022 : 98%</h1title>
                               <h2under></h2under>
                               <h2under2></h2under2>
                               
@@ -187,7 +187,8 @@ moments clés de leur parcours : <br />
                         <div class="note">
                               
                               
-                              <content> Voici <strong>quelques-unes des situations</strong> où j’interviens pour <strong>accompagner<br /> les parcours</strong> de mes clients :</content></div>                      
+                              <content> Coach professionnelle au sein de winentretien, j'accompagne <strong>professionnels et étudiants</strong> dans les étapes clé
+de leur parcours. Quelques exemples : </content></div>                      
                   
                         
 <div class='line'>
@@ -234,7 +235,7 @@ souvent de les résoudre</content500> <br />
 
                                     
                                     
-      
+      <div class="carole_coach"></div>
 
       <div class="cible_graph"></div>
      
@@ -276,6 +277,23 @@ souvent de les résoudre</content500> <br />
                         <div class="line margin_left margin_right">
                         <div class="column_start">
                          
+                        
+                        <div id="objectif_persona">
+
+                              <img src={avatar_pro} className="avatars" alt="logo" />
+
+                              
+                              <div class="box_content">
+                              <content>
+                              <strong>Professionnels : <br /></strong>
+                              Entretien de <blue>recrutement</blue><br />
+                              Changement de <blue>poste</blue><br />
+                              Bilan de <blue>compétences</blue><br />
+                              <blue>Réorientation </blue>
+                              </content>
+                              </div>
+                        </div>
+
                         <div id="objectif_persona">
 
                               <img src={avatar_etudiant} className="avatars" alt="logo" />
@@ -292,21 +310,6 @@ souvent de les résoudre</content500> <br />
                               <blue>Sesame - Access</blue>
                               </content>
 </div>
-                        </div>
-                        <div id="objectif_persona">
-
-                              <img src={avatar_pro} className="avatars" alt="logo" />
-
-                              
-                              <div class="box_content">
-                              <content>
-                              <strong>Professionnels : <br /></strong>
-                              Entretien de <blue>recrutement</blue><br />
-                              Changement de <blue>poste</blue><br />
-                              Bilan de <blue>compétences</blue><br />
-                              <blue>Réorientation </blue>
-                              </content>
-                              </div>
                         </div>
                         
                         </div>
@@ -369,7 +372,7 @@ personnes que vous aurez à convaincre se poseront ces questions.</content500>
 
                   <div class="section block">
                         <div class="margin_left">
-                        <h2title>Comment ca marche ?</h2title>
+                        <h1title>Comment ca marche ?</h1title>
                         <div id="underline"></div>
                         </div>
                   </div>
@@ -377,7 +380,7 @@ personnes que vous aurez à convaincre se poseront ces questions.</content500>
 
                   <div class="section block">
                          <div class="margin_left">
-                        <h2title>Mon offre</h2title>
+                        <h1title>Mon offre</h1title>
                         <div id="underline"></div>
                         </div>
                   </div>
@@ -409,7 +412,7 @@ personnes que vous aurez à convaincre se poseront ces questions.</content500>
                               <div class="offre_icon" ><img src={offre_c1}  /></div>
                                    
                                     <h3title>
-                                    <blue>Atelier : </blue>Réussir ses entretiens
+                                    <blue>Atelier : </blue>Réussir en entretien
                                     </h3title>
                                     <h2under></h2under>
                                     <div id="blue_content">
@@ -419,18 +422,15 @@ entretien de recrutement ? »</content>
                                     </div>
                                     
                                     <div class='head_text'>
-                                    <content>Que vous passiez un concours ou un
-entretien d’embauche, votre motivation à
-réussir est liée à un projet, unique et
-personnel. 
+                                    <content>Concours postbac, entretien d’embauche: pour les
+réussir, il faut savoir répondre à une question simple.
 
-<strong> Pourquoi vous ?</strong><br /> C’est la première
-question que le jury va se poser.
+<strong> Pourquoi vous ?</strong><br /> <br />
 
 Mettons ensemble des mots sur votre
 parcours, votre motivation, votre projet
-professionnel. <br /><br />C’est comme cela que
-vous allez convaincre. <br />
+professionnel. Les mots justes pour convaincre de la pertinence de
+votre candidature. <br />
 
 <blue>Parler de soi s’apprend.</blue></content>
                                     </div>
@@ -447,7 +447,7 @@ vous allez convaincre. <br />
                                     <div class="offre_icon"><img src={offre_c2}  /></div>
 
                                     <h3title>
-                                    <blue>Atelier : </blue>Construire sa visibilité
+                                    <blue>Atelier : </blue>CV et profil
                                     </h3title>
                                     <h2under></h2under>
                                     <div id="blue_content">
@@ -457,18 +457,16 @@ de vous rencontrer ? »</content>
                                     </div>
 
                                     <div class='head_text'>
-                                    <content>Vous finissez vos études et vous
-souhaitez acquérir une 1ère
-expérience mais vous n’avez pas de
-<strong> CV qui vous ressemble ?</strong> <br />
+                                    <content>Vous cherchez un stage ou un 1er emploi mais vous n’
+êtes pas <strong>sûr de votre CV ?</strong>
+ <br />
 
-Vous êtes en activité et n’avez pas
-revu votre CV depuis …
-longtemps ? <br />
+ Vous êtes en activité et vous n’avez pas revu votre CV
+ou votre profil LinkedIn depuis… longtemps ? <br /><br />
 
-Réalisons ensemble un CV qui parle
-de <strong>votre valeur-ajoutée</strong> – oui, vous
-en avez. <br /><br />
+Apprenez à réaliser plusieurs versions de votre CV qui
+parlent de l’essentiel : votre valeur-ajoutée – oui, vous
+en avez. <br />
 <blue>
 Enfin, un CV qui se fait remarquer !</blue></content>
                                     </div>
@@ -496,7 +494,7 @@ Enfin, un CV qui se fait remarquer !</blue></content>
                                     <div class="offre_icon"><img src={offre_c3}  /></div>
 
                                     <h3title>
-                                    <blue>Coaching : </blue> Évaluer une opportunité
+                                    <blue>Coaching : </blue> Faire un choix
                                     </h3title>
                                     <h2under></h2under>
                                     <div id="blue_content">
@@ -511,16 +509,14 @@ prendre rapidement ? »</content>
 d’entreprise, de métier, décision
 de reprendre des études : <br />
 <strong> opportunité ou risque?</strong><br />
-
-Vous avez besoin de faire le tri, et
-envie d’une écoute attentive et
-objective pour vous y aider.
 <br />
+Le bon choix, c’est celui qui vous permet d’avancer.
+Pour cela,
+
 Ma méthode <strong><a href="./Methode"><t_orange>'Coaching orienté
 résultats’</t_orange></a></strong> peut vous y aider.
 
-<blue> <br /><br />Essayons d’y voir plus clair
-ensemble.</blue></content>
+<blue> <br /><br />Faire un choix en accord avec soi-même</blue></content>
                                     </div>
 
                                     </div>
@@ -535,7 +531,7 @@ ensemble.</blue></content>
                               <div class="offre_icon" ><img src={offre_c4}  /></div>
 
                                     <h3title>
-                                    <blue>Coaching : </blue>S'adapter au changement
+                                    <blue>Coaching : </blue>Prise de poste
                                     </h3title>
                                     <h2under></h2under>
                                     <div id="blue_content">
@@ -545,19 +541,18 @@ nouveau poste… comment faire face ? »</content>
                                     </div>
                                     
                                     <div class='head_text'>
-                                    <content>Tout challenge professionnel
-demande de s’adapter rapidement
-à un <strong>nouvel environnement</strong>.<br />
+                                    <content>La prise d’un nouveau poste s’accompagne souvent
 
-Avec son lot de petits (ou moyens)
-soucis.<br /><br />
+d’ un challenge : s’adapter et faire ses
+preuves.<br />
 
-<strong>Parlons-en</strong>. Construisons des
-stratégies pour les éliminer – ou au
-moins réduire leurs effets.<br /><br />
 
-<blue>Etape par étape, je me familiarise
-avec le changement.</blue></content>
+
+<strong>Comment gérer ce challenge ?<br /><br /></strong>Construisons des stratégies concrètes pour gérer les
+effets indésirables en s’appuyant sur ma méthode 
+<t_orange> 'Coaching Orienté Résultats.'</t_orange><br /><br />
+
+<blue>Je prends le contrôle de mon nouveau poste</blue></content>
                                     </div>
                                     
                                     </div>
@@ -585,7 +580,7 @@ avec le changement.</blue></content>
 
                   <div class="section">
                         <div class="margin_left">
-                        <h2title>Qui-suis-je ?</h2title>
+                        <h1title>Qui-suis-je ?</h1title>
                         <div id="underline"></div>
                         </div>
                   </div>
@@ -593,8 +588,8 @@ avec le changement.</blue></content>
             <div class="block">
                   <div class='column_items_center'>
                   <br />
-                              <div class="note"><italic><content>" Ce que l’on conçoit bien s’énonce clairement.<br/>
-Et les mots pour le dire arrivent aisément. " </content></italic><br /><br />
+                              <div class="note"><italic><h3title>" Ce que l’on conçoit bien s’énonce clairement.<br/>
+Et les mots pour le dire arrivent aisément. " </h3title></italic><br /><br />
 <strong><content>- Nicolas Boileau</content></strong></div>
                               
 <br />
@@ -642,9 +637,9 @@ Par des techniques de questionnement, je vous aide à construire une communicati
                   </div>
                   
                   <div class="head_text">
-                  <content><blue><strong>Pour me contacter :</strong><br/>
-carole@winentretien.com<br/>
-06 51 43 26 77</blue></content></div>
+                  <content><blue><strong>Carole Pivin </strong><br/>
+                  carole@winentretien.com<br/>
+06.51.43.26.77</blue></content></div>
                   </div>
                   
 

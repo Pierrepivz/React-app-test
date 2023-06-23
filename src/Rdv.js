@@ -99,6 +99,8 @@ function Rdv() {
      
    <div class="column_start">
 
+    
+
 <div class="column_start">
 <h2title>Date et Heure</h2title><i class="fa-solid fa-calendar" id="icon"></i>
 

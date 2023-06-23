@@ -1,4 +1,7 @@
 import offre_c1 from './images/offre_c1.svg'
+import offre_c2 from './images/offre_c2.svg'
+import offre_c3 from './images/offre_c3.svg'
+import offre_c4 from './images/offre_c4.svg'
 import { Link } from 'react-router-dom';
 
 /*<img src={logo} className="win-logo" alt="logo" />*/
@@ -13,6 +16,7 @@ function Offre() {
             <div className="Offre">
 
 <div id="titre_second"class='column_items_center'>
+                              
                               
                               <h1title>Mon offre</h1title>
                               <h2under></h2under>
@@ -32,47 +36,43 @@ function Offre() {
 
 <div class="column_start">
 
-<content1><blue>Atelier  </blue><i class="fa-solid fa-arrow-down"></i></content1>
-<div class="offre_contexte"><content><a onClick={() => window.scrollTo(0,850)}>Réussir ses entretiens</a></content></div>
-
+<content><blue>Réussir un entretien  </blue><i class="fa-solid fa-arrow-down"></i></content>
+<div class="pre_offre_icon" >  <img src={offre_c1}  />  </div>
             
             
 </div>
 
 <div class="column_start">
 
-<content1><blue>Atelier  </blue><i class="fa-solid fa-arrow-down"></i></content1>
-<div class="offre_contexte"><content><a onClick={() => window.scrollTo(0,1800)}>Construire sa visibilité</a></content></div>
-
+<content><blue>Faire un choix  </blue><i class="fa-solid fa-arrow-down"></i></content>
+<div class="pre_offre_icon" >  <img src={offre_c2}  />  </div>
             
             
 </div>
 
 <div class="column_start">
 
-<content1><blue>Coaching  </blue><i class="fa-solid fa-arrow-down"></i></content1>
-<div class="offre_contexte"><content><a onClick={window.scrollTo(0,850)}>Évaluer une opportunité</a></content></div>
-
+<content><blue>CV et profil  </blue><i class="fa-solid fa-arrow-down"></i></content>
+<div class="pre_offre_icon" >  <img src={offre_c3}  />  </div>
             
            
 </div>
 
 <div class="column_start">
 
-<content1><blue>Coaching  </blue><i class="fa-solid fa-arrow-down"></i></content1>
-<Link to='/home'><div class="offre_contexte"><content><a>S'adapter au changement</a></content></div>
-
-            
-            </Link>
+<content><blue>Prise de poste  </blue><i class="fa-solid fa-arrow-down"></i></content>
+<div class="pre_offre_icon" >  <img src={offre_c4}  />  </div>
 </div>
 
 </div>
+
+
 <br/><br/><br/><br/>
 </div>
 
                         <div class="section block">
                         <div class="margin_left">
-                        <h2title>Quelle offre selon votre situation ?</h2title>
+                        <h2title>Quelle offre pour moi ?</h2title>
                         <div id="underline"></div>
                         </div>
                   </div>
@@ -85,7 +85,16 @@ function Offre() {
 
                         <div class="column_items_center block">
 
-                        
+                        <div class='column_items_center'>
+                  <br />
+                              <div class="note"><content>" Il existe une offre adaptée à <strong>chacune des situations professionnelles</strong> que vous traversez ! " </content>
+</div>
+                              
+
+
+
+
+                        </div>      
 
 
 
@@ -101,87 +110,36 @@ function Offre() {
 
      
 
-     <content1>etudiant <i class="fa-solid fa-arrow-right"></i> <br/> <div class="underline"></div></content1>
+     <content1>Je suis <br/> etudiant <i class="fa-solid fa-arrow-right"></i> <br/> <div class="underline"></div></content1>
+     
+     <content1><content>Je suis <br/></content> professionnel <i class="fa-solid fa-arrow-right"></i><br/><div class="underline"></div></content1>
 
-     <content1>pro <i class="fa-solid fa-arrow-right"></i><br/><div class="underline"></div></content1>
-
-     <content1>advanced <i class="fa-solid fa-arrow-right"></i><br/><div class="underline"></div></content1>
-
+     
     </div>
     </div>
+
+     
+
+
+    
 
     <div class="column"> 
 
-    <content class="tab_title"><blue>Après le bac <br/> <i class="fa-solid fa-arrow-right"></i></blue></content>
-
-    <div class="tab_col2 column">
-
-    <div class="column">
-     
-    <content class="tab_offre">Réussir ses entretiens</content>
-    
-    
-    </div>
-
-    <div class="column">
-     
-     
-     </div>
-
-     <div class="column">
-     
-     
-     </div>
-
-     
-
-    </div>
-
-    </div> 
-
-
-    <div class="column"> 
-
-    <content class="tab_title"><blue>Entrer dans la vie active <i class="fa-solid fa-arrow-right"></i></blue></content>
-
-    <div class="tab_col2 column">
-
-    <div class="column">
-     
-     <content class="tab_offre">Construire sa visibilité</content>
-     <content class="tab_offre">Réussir ses entretiens</content>
-     
-     
-     </div>
-     
-     <div class="column">
-     
-     
-     </div>
-
-
-     <div class="column">
-     
-     
-     </div>
-
-    </div>
-    
-    </div>  
-
-    <div class="column"> 
-
-    <content class="tab_title"><blue>Passer un entretien de recrutement <i class="fa-solid fa-arrow-right"></i></blue></content>
+    <content2 class="tab_title"><blue>Passer un concours, trouver un stage <i class="fa-solid fa-arrow-right"></i></blue></content2>
 
     <div class="tab_col2 column">
      
-    
-
-    
+     <div class="flex">
+           
+      
+     <img src={offre_c2} class="tab_offre_icon" /> 
+     
+     <img src={offre_c1} class="tab_offre_icon" /> 
+     </div>
 
      <div class="column">
      
-     <content class="tab_offre">Réussir ses entretiens</content>
+     
      </div>
 
      
@@ -194,26 +152,25 @@ function Offre() {
 
     <div class="column"> 
 
-    <content class="tab_title"><blue>S'adapter à son nouveau poste <i class="fa-solid fa-arrow-right"></i></blue></content>
+    <content class="tab_title"><blue>S'adapter à un nouveau poste <i class="fa-solid fa-arrow-right"></i></blue></content>
 
     <div class="tab_col2 column">
-     
+    <div class="flex">
+
+           <img src={offre_c4} class="tab_offre_icon" /> 
+
+           </div>
     
 
-    <div class="column">
+    <div class="flex">
      
-     
+    <img src={offre_c4} class="tab_offre_icon" /> 
+
      </div>
 
-     <div class="column">
-     <content class="tab_offre">S'adapter au changement</content>
      
-     </div>
      
-     <div class="column">
      
-     <content class="tab_offre">S'adapter au changement</content>
-     </div>
      
 
     </div>
@@ -222,28 +179,26 @@ function Offre() {
 
     <div class="column"> 
 
-    <content class="tab_title"><blue>Accepter ou refuser une opportunité <i class="fa-solid fa-arrow-right"></i></blue></content>
+    <content class="tab_title"><blue>Partir ou rester où je suis <i class="fa-solid fa-arrow-right"></i></blue></content>
 
     <div class="tab_col2 column">
      
-    
-
     <div class="column">
      
      
      </div>
+    
 
-     <div class="column">
+    <div class="flex">
      
-     <content class="tab_offre">Évaluer une opportunité</content>
+    <img src={offre_c3} class="tab_offre_icon" /> 
 
-     </div>
+    </div>
+
+     
      
 
-     <div class="column">
-     
-     
-     </div>
+    
 
     </div>
     
@@ -254,23 +209,23 @@ function Offre() {
     <content class="tab_title"><blue>Changer <br/>d'orientation <i class="fa-solid fa-arrow-right"></i></blue></content>
 
     <div class="tab_col2 column">
-     
+    <div class="flex">
 
-    <div class="column">
+           <img src={offre_c1} class="tab_offre_icon" /> 
+
+           </div>
+    
+
+    <div class="flex">
      
-     
+    <img src={offre_c1} class="tab_offre_icon" /> 
+
      </div>
 
-     <div class="column">
      
      
-     </div>
-     <div class="column">
-
-     <content class="tab_offre">Évaluer une opportunité</content>
-     <content class="tab_offre">S'adapter au changement</content>
      
-     </div>
+     
 
     </div>
     
@@ -278,27 +233,24 @@ function Offre() {
 
     <div class="column"> 
 
-    <content class="tab_title"><blue>Mettre à jour son profil personel <i class="fa-solid fa-arrow-right"></i></blue></content>
+    <content class="tab_title"><blue>Passer un entretien de recrutement <i class="fa-solid fa-arrow-right"></i></blue></content>
 
     <div class="tab_col2 column">
-     
-     
-
     <div class="column">
-     
-     
-     </div>
 
-     <div class="column">
+           
+           </div>
+    <div class="column_items_center">
+           <img src={offre_c3} class="tab_offre_icon" />
+    <div class="flex">
      
-     <content class="tab_offre">Construire sa visibilité</content>
-     </div>
-
-     <div class="column">
      
-     <content class="tab_offre">Construire sa visibilité</content>
-     </div>
+    <img src={offre_c1} class="tab_offre_icon" /> 
+    <img src={offre_c2} class="tab_offre_icon" /> 
 
+     </div>
+</div>
+     
      
      
      
@@ -321,7 +273,7 @@ function Offre() {
             
             <div class="row">
             <div class="column_start">
-                  <h2title>Construire sa visibilité</h2title>
+                  <h2title>Changer d'orientation</h2title>
                   <h2under2></h2under2>
             </div>
             </div>
