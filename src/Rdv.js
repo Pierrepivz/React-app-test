@@ -19,31 +19,39 @@ function Rdv() {
   
   var text = document.getElementById('text_recap');
   var btnoff = document.querySelector('.btn');
-
+  
   function selectcheck(){
-
+    
+    if(email  !== '' && prenom  !== '' && nom  !== '' && hour !== ''){
     if(text.classList.contains("none"))
           text.classList.add("display");
-
-
+    }
+  
+  }
+  function dateselect(e){
+    setHour(e);
+    var date = document.querySelector('.date');
+    date.classList.remove("colored");
+    date.classList.add("selectcolor");
   }
   
   function btncheck(e){
-    
+  
     selectcheck();
 
-      if(email  === '' || prenom  === '' || nom  === '' || hour === ''){
-
-          btnoff.classList.add("disabled");
-          btnoff.classList.remove("able");
+      if(email  !== '' && prenom  !== '' && nom  !== '' && hour !== ''){
           
-
-        
-      }else{
-
           btnoff.classList.remove("disabled");
           btnoff.classList.add("able");
+          
+          
 
+  
+      }else{
+
+          
+          btnoff.classList.add("disabled");
+          btnoff.classList.remove("able");
           
       }
 
@@ -61,7 +69,7 @@ function Rdv() {
   };
   
   
-    
+  
   function sendEmail(e) {
 
       e.preventDefault();
@@ -70,7 +78,7 @@ function Rdv() {
 
       emailjs.sendForm('booking_winent', 'rdv78', e.target, '6nusaoR8fQQLjbcrX')
       .then((result) => {
-          window.location = "./confirmation";
+          window.location = "./confirmationrdv";
       }, (error) => {
           
       });
@@ -114,22 +122,22 @@ function Rdv() {
 <div class='select column' value="yooooooo" onClick={(e) => {btncheck(e)}}>
 
 <div class="row">
-<buton  class="date" onClick={(e) => setHour('9:30')} ><content>9 h 30</content></buton>
-<buton  class="date" onClick={(e) => setHour('10:00')}><content>10 h 00</content></buton>
-<buton  class="date" onClick={(e) => setHour('10:30')}><content>10 h 30</content></buton>
-<buton  class="date" onClick={(e) => setHour('11:00')}><content>11 h 00</content></buton>
+<buton  class="date colored" onClick={(e) => {dateselect("9:30")}} ><content>9 h 30</content></buton>
+<buton  class="date colored" onClick={(e) => {dateselect("10:00")}}><content>10 h 00</content></buton>
+<buton  class="date colored" onClick={(e) => setHour('10:30')}><content>10 h 30</content></buton>
+<buton  class="date colored" onClick={(e) => setHour('11:00')}><content>11 h 00</content></buton>
 </div>
 <div class="row">
-<buton  class="date" onClick={(e) => setHour('11:30')}><content>11 h 30</content></buton>
-<buton  class="date" onClick={(e) => setHour('12:00')}><content>9 h 30</content></buton>
-<buton  class="date" onClick={(e) => setHour('13:30')}><content>9 h 30</content></buton>
-<buton  class="date" onClick={(e) => setHour('13:00')}><content>9 h 30</content></buton>
+<buton  class="date colored" onClick={(e) => setHour('11:30')}><content>11 h 30</content></buton>
+<buton  class="date colored" onClick={(e) => setHour('12:00')}><content>9 h 30</content></buton>
+<buton  class="date colored" onClick={(e) => setHour('13:30')}><content>9 h 30</content></buton>
+<buton  class="date colored" onClick={(e) => setHour('13:00')}><content>9 h 30</content></buton>
 </div>
 <div class="row">
-<buton  class="date" onClick={(e) => setHour('14:00')}><content>9 h 30</content></buton>
-<buton  class="date" onClick={(e) => setHour('14:30')}><content>9 h 30</content></buton>
-<buton  class="date" onClick={(e) => setHour('15:00')}><content>15 h 00</content></buton>
-<buton  class="date" onClick={(e) => setHour('15:30')}><content>15 h 30</content></buton>
+<buton  class="date colored" onClick={(e) => setHour('14:00')}><content>9 h 30</content></buton>
+<buton  class="date colored" onClick={(e) => setHour('14:30')}><content>9 h 30</content></buton>
+<buton  class="date colored" onClick={(e) => setHour('15:00')}><content>15 h 00</content></buton>
+<buton  class="date colored" onClick={(e) => setHour('15:30')}><content>15 h 30</content></buton>
 </div>
 
 
@@ -155,12 +163,13 @@ function Rdv() {
 <div class="column_items_center">
 
         <div class="column_items_center">
+                <content>Prenom</content>
                 <input type="text" className="form-control" placeholder="prenom" name="prenom" id="input" value={prenom} required
                 onChange={(e) => setPrenom(e.target.value)}/>
-            
+                <content>Nom</content>
                 <input type="text" className="form-control" placeholder="nom" name="nom" id="input" value={nom} required
                 onChange={(e) => setNom(e.target.value)}/>
-
+                <content>Email</content>
                 <input type="email" className="form-control" placeholder="Email Address" name="email" id="input" value={email} required
                 onChange={(e) => setEmail(e.target.value)}/> 
 

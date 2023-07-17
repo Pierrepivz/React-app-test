@@ -1,11 +1,15 @@
 
-import { Link } from 'react-router-dom';
 import emailjs from "emailjs-com";
 import { useState } from "react";
+import Recaptach from './Recaptcha.js';
+import img_map from "./images/img_map.png";
+import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
+
 
 function Contact(){
 
     const [email, setEmail] = useState('');
+    const [tel, setTel] = useState('');
     const [prenom, setPrenom] = useState('');  
     const [nom, setNom] = useState('');
     const [message, setMessage] = useState('');
@@ -14,9 +18,9 @@ function Contact(){
   function sendMessage(e) {
     e.preventDefault();
 
-    emailjs.sendForm('booking_winent', 'rdv78', e.target, '6nusaoR8fQQLjbcrX')
+    emailjs.sendForm('booking_winent', 'contact_template', e.target, '6nusaoR8fQQLjbcrX')
     .then((result) => {
-        window.location = "./confirmation";
+        window.location = "./confirmationcontact";
     }, (error) => {
         
     });
@@ -25,6 +29,8 @@ function Contact(){
     
        }
 
+       
+/*
        var btnoff = document.querySelector('.btn');
        function btncheck(){
         if(email  === '' || prenom  === '' || nom  === '' || message  === '' ){
@@ -42,10 +48,24 @@ function Contact(){
     window.addEventListener("input", btncheck);
 
 
+    <div class="column_start">
+             <h3title>Où nous trouver ? </h3title> 
+             
+                  <h2under2></h2under2>
+  
+
+   
+     <div id="map"><img src={img_map}  /></div>
+     
+     
+     </div>
+*/
+
 
   return(
 
-   <div className="Contact">
+   <div className="Contact Page_container">
+           
 
 <div id="titre_second"class='column_items_center'>
                               
@@ -57,23 +77,10 @@ function Contact(){
                         </div>
 
 
-  <div class="line_around margin_left block">
+  <div class="column_items_center margin_left block">
 
-  
-
-  <div class="column_start">
-             <h3title>Où nous trouver ? </h3title> 
-             
-                  <h2under2></h2under2>
-
-
-   <div id="blue_content">
-     <div id="map"></div>
-     </div> 
-
-     </div>
-     
-     <form onSubmit={sendMessage} class="form_rdv" > 
+  <div class="row">
+  <form onSubmit={sendMessage} class="form_rdv" > 
      
                  
 
@@ -83,30 +90,52 @@ function Contact(){
              
                   <h2under2></h2under2></div>
         
-        <div class="content_blue" >   
+        <div class="formulaire_contact" >   
 
 <div class="column_items_center">
+        
+       
+        <div class="column_start">
+                <br/>
+                <content>Prénom : <br/></content>
+                <input type="text" className="form-control" placeholder="Prenom" name="prenom" id="input" value={prenom} required
+                onChange={(e) => setPrenom(e.target.value)}/>
+                <content>Nom : <br/></content>
+                <input type="text" className="form-control" placeholder="Nom" name="nom" id="input" value={nom} required
+                onChange={(e) => setNom(e.target.value)}/>
+                
+
+        </div>
+
+        <div class="column_start">
+        <content>Email : <br/></content>
+                <input type="email" className="form-control" placeholder="Email" name="email" id="input" value={email} required
+                onChange={(e) => setEmail(e.target.value)}/>
+        <content>Téléphone : <br/></content>
+                <input type="tel" className="form-control" placeholder="Téléphone" name="tel" id="input" value={tel} required
+                onChange={(e) => setTel(e.target.value)}/>
+        </div>
+
+        <Recaptach />
+        
 
         <div class="column_items_center">
-                <input type="text" className="form-control" placeholder="prenom" name="prenom" id="input" value={prenom} required
-                onChange={(e) => setPrenom(e.target.value)}/>
-            
-                <input type="text" className="form-control" placeholder="nom" name="nom" id="input" value={nom} required
-                onChange={(e) => setNom(e.target.value)}/>
 
-                <input type="email" className="form-control" placeholder="Email Address" name="email" id="input" value={email} required
-                onChange={(e) => setEmail(e.target.value)}/>
+        <content><italic>Votre message : </italic><br/><br/></content>
+                <textarea  id="message" placeholder="votre message" name="message" value={message} required
+                onChange={(e) => setMessage(e.target.value)}/>  <br/>
+        
+        <input type="submit" class="btn" id="bouton" onClick={(e) => e.target.reset()} value="envoyer"></input>
 
-                <textarea  placeholder="message" name="message" value={message} required
-                onChange={(e) => setMessage(e.target.value)}/>  <br/><br/>
-
-<input type="submit" class="disabled btn" onClick={(e) => e.target.reset()} value="envoyer"></input>
-
+        
+        
         </div>
 
        
 
 </div>
+
+
 
                 
                 
@@ -128,66 +157,29 @@ function Contact(){
     
     </form>
     
+
+    <div class="margin_left column_start">
+             <h2title>Où nous trouver ?</h2title> 
+             
+                  <h2under2></h2under2>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83997.91599575017!2d2.2775578595247836!3d48.85945224507882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671ef6ff7f46f%3A0x50b82c368941a90!2s5e%20Arrondissement%2C%2075005%20Paris!5e0!3m2!1sfr!2sfr!4v1688041214845!5m2!1sfr!2sfr" width="350" height="240" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div id="mapmessage">
+            <content>Vous pouvez nous trouver a paris ou au vesinet</content> </div>
+      </div>
+
+
+    </div>
+     
+    
     </div>
 
     
     
     
-    <div class="line">
- 
-                        <blue><content>Obtenir un premier poste </content></blue><i class="fa-solid fa-arrow-right"></i><blue><content>s'adapter à un nouveau poste</content></blue><i class="fa-solid fa-arrow-right"></i>
-                        <blue><content>Analyser les opportunités de changement</content></blue><i class="fa-solid fa-arrow-right"></i><blue><content>Changement de poste</content></blue>
+    
 
-
-                        </div>
-
-                        <div class="contextes">
-
-                        <content1>
-                              <div class="line_around"><blue> Étudiants </blue> <blue> professionnels </blue> <blue> Réorientation </blue> </div>
-                        </content1>      
-                              
-                              </div>
-                        
-                        <div class="line_around" id="offre_box">
-
-                        <div class="column_start">
-                        <div id="dropbar"></div>
-                        <content1><blue>Atelier  </blue><i class="fa-solid fa-arrow-down"></i></content1>
-                        <div class="offre_contexte"><content><a onClick={() => window.scrollTo(0,850)}>Réussir ses entretiens</a></content></div>
-                        
-                                    
-                                    
-                        </div>
-
-                        <div class="column_start">
-                        <div id="dropbar"></div>
-                        <content1><blue>Atelier  </blue><i class="fa-solid fa-arrow-down"></i></content1>
-                        <div class="offre_contexte"><content><a onClick={() => window.scrollTo(0,1800)}>Réussir ses entretiens</a></content></div>
-                        
-                                    
-                                    
-                        </div>
-
-                        <div class="column_start">
-                        <div id="dropbar"></div>
-                        <content1><blue>Atelier  </blue><i class="fa-solid fa-arrow-down"></i></content1>
-                        <div class="offre_contexte"><content><a onClick={window.scrollTo(0,850)}>Réussir ses entretiens</a></content></div>
-                        
-                                    
-                                   
-                        </div>
-
-                        <div class="column_start">
-                        <div id="dropbar"></div>
-                        <content1><blue>Atelier  </blue><i class="fa-solid fa-arrow-down"></i></content1>
-                        <Link to='/home'><div class="offre_contexte"><content><a>Réussir ses entretiens</a></content></div>
-                        
-                                    
-                                    </Link>
-                        </div>
-
-                        </div>
+          
     
 
     

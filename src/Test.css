@@ -540,6 +540,12 @@
     
   
   }
+  .Page_container{
+
+    padding-top: 8%;
+    padding-bottom: 10%;
+
+  }
   
   
   .Offre .note{
@@ -1177,6 +1183,7 @@
      align-self: center;
      justify-items: center;
    }
+   
 
    .line{
      display: flex;

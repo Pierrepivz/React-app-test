@@ -176,43 +176,7 @@ objectif par séance, et selon un calendrier conforme à vos contraintes.</conte
 
 <br/><br/>
 <div class="column">
-<div class="flex block" >
-            
-            <div id='box_graph' class="column_items_center">
-      
-            <div id="circle"></div>
-            <div id="dropbar"></div>
-            
-      
-            </div>
-      
-            
-            
-            <div class='column'>
-            
-            <div class='row'>
-            
-      
-            <h2title>
-            Prise de rendez-vous
-            </h2title>
-            <i class="fa-solid fa-calendar" id="icon"></i>
-      
-            </div>
-      
-      
-            <div id='underline2'></div>
-            <div id='box_content'>
-            <content>Vous vous inscrivez pour un 1 er entretien <br />sous Teams  de 30 minutes sur le <br /><Link to='./offre'><a href='#'><t_orange>calendrier en ligne </t_orange></a></Link>
-      selon vos disponibilités. <br/>
-      C’est sans engagement de part et d’autre et entièrement gratuit.</content>
-            </div>
-      
-      
-            </div>
-      
-      
-                    </div>
+
 
 <Rdv />
 

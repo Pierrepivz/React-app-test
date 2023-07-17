@@ -1,21 +1,112 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import React from "react";
+import axios from 'axios';
+import Blog from './view_blog.js';
+import { Link } from "react-router-dom";
+
 
 
 
 function Home_Blog() {
 
-    /*test*/
-    /*function test1(){
-
-        var test = document.querySelector(".swipe_buton");
-    test.style.display = "none";
-    }*/
+  
+    const [article_name,setArticlename] = useState('');
+    const [filter,setFilter] = useState('');
+    const [input,setInput] = useState('');
+    const [Listset, setDatalist] = useState([]);
+    const [description,setDescription] = useState('');
+    const [title,setTitle] = useState('');
+    const [articlefilter,setArticleFilter] = useState('');
+    const [image,setImage] = useState('');
 
     
 
-    const searchBar = document.querySelector("#search_bar");
-    const filtre = document.querySelector(".filtres");
+  useEffect (() => {
+
+    axios.get('http://localhost:3001/api/get')
+      .then((response) =>  { 
+        setDatalist(response.data);}
+      );
+      
+    
+    }, []); 
+  
+  var verif = (Listset.map(value => value.id));
+  var last = verif.length - 1;
+  var id = verif[last] + 1;
+  
+
+  const submit = () => {
+
+    if(window.confirm("voulez vous vraiment ajouter cet article ?")){
+  
+  
+  axios.post('http://localhost:3001/api/insert', {
+    id: id,
+    article_name: title,
+    description: description,
+    filter: articlefilter,
+    image: image
+
+  })
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+
+  window.location.reload();
+}
+  
+}
+
+const updatefunction = (aname) => {
+
+setArticlename(aname);
+
+}
+const editfunction = (id) => {
+ 
+  axios.put('http://localhost:3001/api/update', {
+    id: id,
+    article_name: title,
+    description: description,
+    filter: articlefilter,
+    image: image
+
+});
+  
+  
+  }
+
+
+const update = (article_name) => {
+            
+  axios.put('http://localhost:3001/api/update', {
+
+article_name: article_name,
+description: "nouvelle desc",
+
+})
+.then(function (response) {
+console.log(response);
+})
+.catch(function (error) {
+console.log(error);
+});
+
+
+  }
+  const deletefunction = (article_name) => {
+    if(window.confirm("voulez vous vraiment supprimer cet article ? tout son contenu sera également supprimé")){
+    axios.delete(`http://localhost:3001/api/delete/${article_name}`);
+    axios.delete(`http://localhost:3001/api/deletecontent/${article_name}`);
+    window.location.reload();}
+
+  }
+  
+    
     
     window.addEventListener("input", search);
 
@@ -23,27 +114,20 @@ function Home_Blog() {
         
         const cards = document.querySelectorAll(".home_article");
         
-       /*filterelements(input,cards);*/
+       
 
     }
-
-     const elements = [["article sur vatel", "article sur vatel contenant un récap de blabla bla" , "écoles" , "blog"],["article sur HEC", "y" , "emplois"],["article sur INSA", "y","concours"],["dauphine", "y","concours"],["école ECE","tavuca","emplois"]];
-
-
-     const [filter,setFilter] = useState('');
-     const [input,setInput] = useState('');
-
      const getfiltereditems = (query,elements,select) => {
             
         if(!query && !select){
             return elements;
         }else{
-
-           
+            
+            
             if(!select){
-            return elements.filter( card => card[0].includes(query));
+            return elements.filter( card => card.article_name.includes(query) );
         }else{
-            return elements.filter( card => card[0].includes(query) ).filter( card => card[2].includes(select));
+            return elements.filter( card => card.article_name.includes(query) ).filter( card => card.filtre.includes(select));
             
         }
 
@@ -52,7 +136,11 @@ function Home_Blog() {
 
     }
 
-     const filtereditems = getfiltereditems(input,elements,filter);
+     const filtereditems = getfiltereditems(input,Listset,filter);
+
+     
+
+  
 
     /*const [filter,Setfilter] = useState('');
 
@@ -75,18 +163,21 @@ function Home_Blog() {
       
       <div class='column_items_center'>
                               
-    <h1title>Actualités</h1title>
-    <h2under></h2under>
-                              <h2under2></h2under2>
-                              
                               
                             <div class="line_between">
                               
-                              <div class="note column_items_center">
+                              <div class="column_items_center">
                               
-                              <content> Retrouvez ici nos articles</content>
+                              <content class="note"> Retrouvez toutes nos actualités</content>
+    
+                              
+                  
                               
                              </div>
+
+
+
+                             
                     
                     </div>
                     
@@ -115,15 +206,24 @@ function Home_Blog() {
                     </div>
 
                     <div class="blog_list column block">
-
+                    
     <div class="line_around" id="articles_select">
+   
     
     {filtereditems.map(value => 
     <div class="column_start">
-        <h2title>{value[0]}</h2title>
+        
 
-        <a href={value[3]}><div class="home_article"> <div class="article_photo"></div> 
-        <content1>{value[1]}</content1>
+        <a href={value[3]}><div class="home_article"> <div class="article_photo" ><img src={value.image}></img></div> 
+        <content1>{value.article_name}<br/></content1>
+        <content1>{value.description}</content1>
+        
+       <Link to="/blog" >
+        <button class="but" onClick={() => {updatefunction(value.article_name)}}>check</button>
+       </Link>
+        
+        
+        
         </div>
         </a>
         </div>
@@ -137,9 +237,15 @@ function Home_Blog() {
 
 
     </div>
+    <div class="block">
+       
+      
+
+    </div>
     
     </div>
-                              
+       
+    
                         </div>
   
         

@@ -7,12 +7,13 @@ import Contact from './Contact.js';
 import Homepage from './Homepage.js';
 import Footer from './Footer.js';
 import Offre from './Offre.js';
-import Blog from './blog.js';
 import Rdv from './Rdv.js';
 import Methode from './Methode.js';
 import Coach from './Coach.js';
 import Home_Blog from './home_blog.js';
 import Rdvconfirm from './Rdvconfirm.js';
+import Contactconfirm from './Contactconfirm.js';
+import Blog from './view_blog.js';
 /*
 
 
@@ -31,7 +32,7 @@ function Test()
     <Router>
     <div className="Test">
       <script src="https://kit.fontawesome.com/c298d004d1.js" crossorigin="anonymous"></script>
-      ddddd
+      
       <Nav />
       
       <Switch>
@@ -61,11 +62,19 @@ function Test()
 
       </Route>
 
-      <Route path='/confirmation'>
+      <Route path='/confirmationrdv'>
 
         <br /> <br /><br /><br /><br /><br /><br />
       
       <Rdvconfirm/>
+      
+      </Route>
+
+      <Route path='/confirmationcontact'>
+
+        <br /> <br /><br /><br /><br /><br /><br />
+      
+      <Contactconfirm/>
       
       </Route>
 
@@ -84,7 +93,7 @@ function Test()
 
       <Route path='/blog'>
       
-      <Blog />
+      <Blog props="check" />
 
       </Route>
 

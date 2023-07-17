@@ -41,6 +41,7 @@ width: 48%;}
 #retours_client .note{
   
   width: 800px;
+  height: 350px;
 
   
 }
@@ -72,8 +73,29 @@ width: 48%;}
   font-size: 36px;
 
 }
+.temoignage_etudiant{
+
+  display: flex;
+  flex-direction: column;
+
+}
+.temoignage_etudiant img{
+
+  position: absolute;
+  
+  
+}
+.temoignage_etudiant .note{
+
+  margin-left: 90px;
+  background: #3e8ce6;
+  color: white;
+  
+  
+}
 
 .back_white{
+
   background: white;
   padding: 10px;
   padding-top: 5px;
@@ -84,31 +106,46 @@ width: 48%;}
   border-width: 4px;
   border-color: #3e8ce6;
   
-  
 } 
 .offre_icon_small{
+
   height: 20px;
   width: 20px;
   margin-left: 620px;
   z-index:1;
   
 }
-
+.offre_note{
+  opacity: 0;
+  transition-duration: 1s;
+  position: absolute;
+  width: 140px;
+  padding: 20px;
+  margin-top: 60px;
+  margin-left: -30px;
+  font-size: 12px;
+  font-weight: 600;
+  border-style: solid;
+  border-color: #3e8ce6;
+  border-radius: 4px;
+  background-color: white;
+  color: #3e8ce6;
   
-  
-  
-
-
+}
+#prise_de_poste:hover + .offre_note{
+  opacity: 1;
+}
 
 
 .profils{
-  height: 100px;
-  width: 100px;
+  height: 125px;
+  width: 125px;
   border-style: solid;
   border-radius: 100px;
   justify-content: center;
   border-width: 3px;
   border-color: #3e8ce6;
+  overflow: hidden;
   
 
 }
@@ -182,6 +219,25 @@ text-align: center;
   
 }
 
+.formulaire_contact{
+  margin-right: 150px;
+  background-color: #E5F8FF;
+    border-radius: 10px;
+    height: auto;
+    width: 500px;
+    padding: 20px;
+    border-top-style: solid;
+    border-top-width: 23px;
+    border-top-color: #2873C9;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 100px;
+}
+
 
 .none{
   display:none;
@@ -234,23 +290,31 @@ text-align: center;
 
 height: 250px;
 width: 82%;
-
-
 border-width: 4px;
 justify-content: space-around;
 align-items: center;
-
 border-radius: 9px;
 margin-bottom: 10%;
+background: white;
+
 }
+
 .select .row{
 
 justify-content: space-around;
 
 }
 
+.selectcolor{
+  background-color: #2873C9;
+}
+.colored{
+  background-color:  #b1e5f8;
+}
 
-
+.dateempty{
+  background-color: #d6f2fc;
+}
 
 .date{
 height: 40px;
@@ -266,6 +330,7 @@ color: white;
 display: flex;
 align-items: center;
 justify-content: center;
+
 
 }
 
@@ -293,6 +358,66 @@ justify-content: center;
 #input{
   
   width: 180px;
+  height: 33px;
+  border-style: solid;
+  border-color: #3e8ce6;
+  
+  border-radius: 100px;
+  margin-bottom: 40px;
+  font-style: "montserrat";
+  font-weight: 500;
+  padding-left: 10px;
+  
+  
+
+}
+#message{
+
+  border-style: solid;
+  border-color: #3e8ce6;
+  border-width: 2px;
+  border-radius: 3px;
+  margin-bottom: 40px;
+  font-style: "montserrat";
+  width: 380px;
+  height: 160px;
+  font-weight: 500;
+  padding-left: 10px;
+
+
+}
+iframe{
+  
+  border-style: solid;
+  border-color: #3e8ce6;
+  border-width: 4px;
+  border-radius: 3px;
+
+}
+#mapmessage{
+  
+  border-top-style: solid;
+  border-top-width: 23px;
+  border-top-color: #2873C9;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-top: 10px;
+  background: #E5F8FF;
+  width: auto;
+  height: 120px;
+  font-style: "montserrat";
+  border-color: #3e8ce6;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+  padding: 10px;
+  border-radius: 3px;
+  
+
+}
+.recaptcha{
+  margin-bottom: 30px;
+}
+textarea{
+  width: 180px;
   height: 28px;
   border-style: solid;
   border-color: #3e8ce6;
@@ -301,9 +426,6 @@ justify-content: center;
   font-style: "montserrat";
   font-weight: 500;
   padding-left: 10px;
-  
-  
-
 }
 .textarea{
   
@@ -361,12 +483,14 @@ height: 200px;
   width: 130%;
 }
 #map{
-  height: 100%;
-  width: 100%;
+  height: 250px;
+  width: 300px;
+  background-image: cover;
   background-color: white;
   border-style: solid;
   border-color: #3e8ce6;
   border-radius: 4px;
+  overflow: hidden;
 }
 textarea{
   width: 250px;
@@ -403,18 +527,32 @@ tr{
 }
 
 .tab_col{
- margin-right: 20px;
+
+  margin-right: 40px;
   height: 300px;
   width: 150px;
   border-radius: 9px;
   color: white;
-  background:#3e8ce6 ;
+  background:#3e8ce6;
   justify-content: space-evenly;
   align-items: flex-start;
   padding-left: 10px;
   
   
 }
+.tab_col content1{
+  width: 90%;
+  border-bottom-style: solid;
+  border-bottom-width: 7px;
+  
+   
+   
+ }
+ .tab_col content1 .avatars{
+   height: 80px;
+   position: absolute;
+   margin-left: 110px;
+ }
 
 .underline{
   width: auto;

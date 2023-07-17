@@ -6,6 +6,10 @@ import offre_c1 from './images/offre_c1.svg';
 import offre_c2 from './images/offre_c2.svg';
 import offre_c3 from './images/offre_c3.svg';
 import offre_c4 from './images/offre_c4.svg';
+import img_mathilde from './images/photo_mathilde.png';
+import img_milena from './images/photo_milena.png';
+import img_jade from './images/photo_jade.jpg';
+
 
 
 
@@ -13,6 +17,8 @@ import offre_c4 from './images/offre_c4.svg';
 /*<img src={logo} className="win-logo" alt="logo" />*/
 
 function Homepage() {
+
+     
 
       /*var swipe_left = document.querySelector("#swipe_left");
       var swipe_right = document.querySelector("#swipe_right");
@@ -46,11 +52,11 @@ function Homepage() {
                               Depuis 15 ans <strong>win</strong><blue>entretien</blue> entraîne les étudiants et les
 professionnels à adopter les bons réflexes dans tous les
 moments clés de leur parcours : <br />
-                                    <br />
+                                <br />
                                     
                               <blue><h3title>
                               
-                                  Concours d’entrée dans les écoles postbac<br /><br /> 
+                                  Concours d’entrée dans les grandes écoles <br /><br /> 
                                     
                                     
                                      Entretiens d'embauche <br /><br />
@@ -93,7 +99,7 @@ moments clés de leur parcours : <br />
 
                         <div class="cta-actual">
                               <div class="">
-                                    <content>  Actualité : ce qui a changé dans les 
+                                    <content>  ACTUALITÉ : ce qui a changé dans les 
                                     <Link to='/offre'>
                                     <t_orange> concours postbac  </t_orange>
                                     </Link>
@@ -187,7 +193,7 @@ moments clés de leur parcours : <br />
                         <div class="note">
                               
                               
-                              <content> Coach professionnelle au sein de winentretien, j'accompagne <strong>professionnels et étudiants</strong> dans les étapes clé
+                              <content> Coach professionnelle au sein de <strong>win</strong><blue>entretien</blue>, j'accompagne <strong>professionnels et étudiants</strong> dans les étapes clé
 de leur parcours. Quelques exemples : </content></div>                      
                   
                         
@@ -295,9 +301,9 @@ souvent de les résoudre</content500> <br />
                         </div>
 
                         <div id="objectif_persona">
-
+                              
                               <img src={avatar_etudiant} className="avatars" alt="logo" />
-
+                              
                               
                               <div class="box_content">
                               <content>
@@ -307,7 +313,7 @@ souvent de les résoudre</content500> <br />
                               Concours des écoles d'ingénieurs : <br />
                               <a href="#"><t_orange>Groupe UT </t_orange><blue> -</blue> </a><a href="#"><t_orange>Groupe Insa </t_orange></a><br />
                               Concours des écoles de commerce : <br />
-                              <blue>Sesame - Access</blue>
+                              <blue><a href="#"><t_orange>EDHEC</t_orange></a> - Sesame - Access</blue>
                               </content>
 </div>
                         </div>
@@ -639,7 +645,7 @@ Par des techniques de questionnement, je vous aide à construire une communicati
                   <div class="head_text">
                   <content><blue><strong>Carole Pivin </strong><br/>
                   carole@winentretien.com<br/>
-06.51.43.26.77</blue></content></div>
+                  téléphone : +33 6 51 43 26 77</blue></content></div>
                   </div>
                   
 
@@ -657,6 +663,19 @@ Par des techniques de questionnement, je vous aide à construire une communicati
 
 
                   <div class="column_items_center">
+
+                  <div class="temoignage_etudiant">
+                              
+                  <img src={avatar_etudiant} className="avatars" alt="logo" />
+                  
+                              <div class="note"><italic><h3title>" Avec la préparation individuelle  j'ai pu mettre des mots sur mon envie de travailler dans l'hôtellerie de luxe. J'ai été admis à VATEL Paris. " </h3title></italic><br /><br />
+<strong><content></content></strong></div></div>
+                              
+
+
+
+
+                        
 
     <div class='column_items_center'>
                               
@@ -677,31 +696,39 @@ Par des techniques de questionnement, je vous aide à construire une communicati
 
 
     <div class="column_items_center note img_temoignage" id="img_1" >
-    <div class="profils column"><h1><i class="fa-solid fa-car icon_temoignage"></i></h1></div><br/>
-    <h3title>Julien</h3title>
-    <content1><blue>commercial dans le secteur Automobiles</blue></content1>
+    <div class="profils column"><img src={img_mathilde}  /></div><br/>
+    <h3title>Caroline</h3title>
+    <content1><blue>Coaching dirigeant dans le cadre d’une reprise d’entreprise familiale</blue></content1>
     <br/>
-    <content>"j'ai bien aimé ct cool"</content>
+    <content>" Le coaching avec Carole a été la bouée d’ancrage me permettant
+d’avancer un peu mieux et un peu plus sereinement chaque mois.
+Cette expérience de coaching pousse au-delà même après les séances. Merci."</content>
     
 
     </div>
 
     <div class="column_items_center note img_temoignage" >
-    <div class="profils column"><h2title><i class="fa-solid fa-car icon_temoignage"></i></h2title></div><br/>
-    <h3title>Julien</h3title>
-    <content1><blue>commercial dans le secteur Automobiles</blue></content1>
+    <div class="profils column"><img src={img_milena}  /></div><br/>
+    <h3title>Milena</h3title>
+    <content1><blue>Chargée de projets, chargée de partenariats dans le milieu associatif</blue></content1>
     <br/>
-    <content>"j'ai bien aimé ct cool"</content>
+    <content>" Carole Pivin m'a accompagnée en 2021 pendant quelques mois. <br/>
+    Le coaching avec carole à été une merveilleuse expèrience dont j'ai tiré beaucoup d'enseignements. <br/> Elle m'a aidé a prendre confiance en moi au niveau professionnel et à définir davantage mon projet ainsi que la stratégie à adopter pour y arriver. <br/>
+    <br/>Je recommande chaleureusement le coaching avec elle, car il s'agit d'une expèrience qui sera forcément enrichissante, prodiguée en plus par une belle personne qui est capable de comprendre rapidement ce qui vous bloque et quelles sont les méthodes à adopter pour vous aider à progresser et à construire la carrière dont vous rêvez. "</content>
     
 
     </div>
 
     <div class="column_items_center note img_temoignage" >
-    <div class="profils column"><h2title><i class="fa-solid fa-users-gear icon_temoignage"></i></h2title></div><br/>
-    <h3title>Mathilde</h3title>
-    <content1><blue>RH dans l'ingénierie de services</blue></content1>
+    <div class="profils column"><img src={img_jade}  /></div><br/>
+    <h3title>Jade</h3title>
+    <content1><blue></blue></content1>
     <br/>
-    <content>"j'ai bien aimé ct cool"</content>
+    <content>"Le coaching avec Carole à été d’une grande aide pour moi et 
+          s’est révélé très efficace. Carole m’a permis de prendre conscience 
+          de mes points forts et également de mes points d’amélioration. 
+          Je suis convaincue que grâce à son coaching,
+           j’ai pu obtenir l’école que je souhaitais rejoindre, l’EDHEC."</content>
     
     </div>
    
