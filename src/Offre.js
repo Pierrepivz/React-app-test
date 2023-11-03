@@ -46,14 +46,8 @@ votre poste.</content></div>
                               
                         </div> 
 
-                        <div class="column_items_center">
-                              
-                              
-                        
+                        <br/><br/>
 
-
-<br/><br/><br/><br/>
-</div>
 
                         <div class="section block">
                         <div class="margin_left">
@@ -185,7 +179,7 @@ l’adhésion de votre audience.
                 <a id='bouton' >Prendre rendez-vous</a>
                 </Link>
 
-
+<br/><br/><br/>
 
 
                              
@@ -198,36 +192,130 @@ l’adhésion de votre audience.
 
     
     </div>
-
-                        
-                        
-                        
-
-            
-
-            
-            
-
-
-
-
-
-
-            
-
-
-
-
-
-            
-
-
-            
-
-
-            
-
+    </div>
+                        <div class="section block">
+                        <div class="margin_left">
+                        <h2title>Être bien dans son poste</h2title>
+                        <div id="underline"></div>
                         </div>
+                  </div>
+
+                  <div class="window">
+                  <div class='column_items_center block'>
+                        
+                        <div class="note"><content> Nous vous aidons à résoudre les principales difficultés de la vie professionnelle rencontrées en entreprise au<br/>
+moment d’une prise de poste, d’une évolution personnelle ou d’un <strong>changement organisationnel.</strong></content></div>                      
+
+<div class="offre_content line_between">
+
+<div class='home_offre column_items_center'>
+
+                        
+<div class="photo"></div>
+
+
+
+</div>
+
+<div class="offre_text column_start">
+<h2title>Gérer ses priorités :</h2title>
+<h2under2></h2under2>
+<content1>
+Quand on parle d’efficacité au travail, de quoi parle-t-on
+exactement ? Des heures de travail accumulées, du temps passé
+sur ce qui était planifié, ou du temps passé sur l’imprévu ?<br/><br/>
+
+La matrice d’Eisenhower est un bon début, à condition de définir
+ce que ‘urgent’ et ‘important’ signifient pour vous
+
+</content1>
+
+<Link to="/Methode">
+          <a id='bouton' >Prendre rendez-vous</a>
+          </Link>
+
+</div>
+
+
+
+</div> 
+
+<div class="offre_content line_between">
+
+
+<div class="offre_text column_start">
+<h2title>Leadership :</h2title>
+<h2under2></h2under2>
+<content1>
+Développer son leadership, accroître sa visibilité : parlons de ce
+que ses termes regroupent dans la situation qui est la vôtre.<br/><br/>
+
+Il y a autant de styles de management que de managers,
+trouvons ensemble celui qui convient le mieux à vos équipes, et
+à vous-même.
+</content1>
+
+
+
+</div>
+
+<div class="offre_text column_start">
+<h2title>Gestion du stress :</h2title>
+<h2under2></h2under2>
+<content1>
+Dans le domaine de la gestion du stress, le temps est précieux.<br/><br/> Evoquer
+ensemble vos sources de tensions avant qu’elles ne deviennent récurrentes,
+tenter quelques actions pour les résoudre, vous initier à la pleine conscience,
+je vous invite à partager votre stress afin de vous alléger.
+
+
+</content1>
+
+
+
+</div>
+
+<div class="offre_text column_start">
+<h2title>Rester ou changer :</h2title>
+<h2under2></h2under2>
+<content1>
+Une opportunité de changement professionnel se présente, et vous hésitez.
+La liste Avantages / Inconvénients ne vous permet pas d’y voir plus clair ?<br/><br/> 
+C’est peut-être parce qu’une telle décision n’est pas réductible à un choix
+rationnel. <br/>Imaginons ensemble les conséquences de chacune de vos options,
+et essayons de trouver celle que vous avez envie d’explorer
+
+
+</content1>
+
+
+
+</div>
+
+
+</div>                        
+                      
+                      
+
+
+
+
+<br/>
+
+
+                       
+
+
+
+
+
+
+
+
+</div>
+                  </div>
+
+            
                         
                         
                         

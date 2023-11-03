@@ -222,7 +222,7 @@
     
     transition-property: all ;
     transition-duration: 1s;
-    font-size: 14.2px;
+    
    
   }
   .content_blue{
@@ -323,7 +323,7 @@
   }
 
   hcontent{
-  height: 420px;
+  height: 380px;
   width: 450px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;

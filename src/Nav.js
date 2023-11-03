@@ -96,7 +96,7 @@ function Nav() {
 
         <ul>
           <Link to='./Actual'>
-        <a >Actualités</a>
+        <a >Le Blog</a>
           </Link>
 
          

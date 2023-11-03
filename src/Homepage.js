@@ -57,41 +57,25 @@ function Homepage() {
                               <div id='underline2'></div>
                               
                               <hcontent>
-                              Depuis 15 ans winentretien accompagne étudiants et
-professionnels et les aide à réussir les entretiens de
-motivation : <br/><blue>concours d’entrée dans une école, entretien
-d’embauche.</blue><br/><br/>
-Pour cela, nous proposons une méthode éprouvée qui leur
-permet de bien définir leur projet, de mettre des mots
-précis sur leur motivation et de s’entraîner.<br/><br/>
-Désormais, nous proposons également de vous
-accompagner une fois que vous êtes en poste, pour
-l’acquisition ou le renforcement de compétences essentielles
-comme : être efficace, savoir gérer sa charge de travail, ou
-encore bien communiquer.<br/><br/>
-Si votre objectif est de développer ces compétences ou
-d’autres ‘soft-skills’, <strong>
-                                    <orange>nous pouvons vous y aider.</orange>
-</strong> <br />
-                                <br />
-                                    
-                              
-                                   
-                                    
-                                    
-                                    
-                                    <br /><br />
-                                    
-                                    
+                              Depuis 15 ans, winentretien permet à des étudiants et
+des professionnels de réussir leur entretien de
+motivation : <br/><br/><blue><h3title>Concours d’entrée dans une école</h3title><br/><br/>
+
+<h3title>Entretien d’embauche</h3title></blue><br/><br/>
+Une fois en poste, nous vous proposons maintenant
+des services de coaching orientés vers les difficultés de
+communication ou de management que vous pouvez
+rencontrer. Avec un objectif précis :
+<br/><br/>
+<strong>
+                              <orange><h3title>Être bien dans son poste</h3title></orange>
+</strong>                        
 
       </hcontent>
                                     
                                     <Link to='/offre'>
                                     <a id='bouton' >Mon offre</a>
                                     </Link>
-                                    
-                                    
-
                                     
                         </div>
                         
@@ -176,7 +160,7 @@ un CV qui retient l’attention '</content2></blue>
                   <div class="block column_start margin_left margin_right">
 
                   <div id="titre_second"class='column_items_center'>
-                              <h1title>Taux de réussite 2022 : 95%</h1title>
+                              <h1title>Taux de réussite 2022 : 98%</h1title>
                               
                               <h2under2></h2under2>
                               
@@ -184,9 +168,10 @@ un CV qui retient l’attention '</content2></blue>
                         <div class="note">
                               
                               
-                              <content> Ce taux est calculé sur l’ensemble des accompagnements réalisés en 2022 pour préparer le concours d’entrée à une école –<blue> postbac,
+                              <content> Ce taux est calculé sur <strong>l’ensemble des accompagnements</strong> réalisés en 2022 pour préparer le concours d’entrée à une école –<blue> postbac,
 Bac +2 et au-delà.</blue><br/><br/>
-Nous personnalisons la méthode à votre situation personnelle et nous commençons par vous poser <strong>3 questions importantes :</strong> </content></div>                      
+Nous personnalisons la méthode à votre situation personnelle et 
+nous commençons par vous poser <strong>3 questions importantes :</strong> </content></div>                      
                   
                         
 <div class='line'>
@@ -194,31 +179,36 @@ Nous personnalisons la méthode à votre situation personnelle et nous commenço
 <div class='column_items_center'>
 
 <div class='content_blue width'>
-<orange><h3title>Vous candidatez pour une école ou vous postulez pour un poste ?</h3title></orange>
+<orange><h3title>Vous candidatez pour une école hôtelière, une école
+d’ingénieurs, ou une école de commerce :</h3title></orange>
 <br />
 <br />
 
 
-<content500>Ce n’est pas par hasard : vous avez des raisons particulières
-et personnelles de le faire.</content500>
+<content500>Le choix de la filière d’orientation après le Bac est important et
+souvent difficile.</content500>
 <br /><white><content>
-Quels sont les mots qui seront les plus efficaces pour convaincre 
-un jury ou un recruteur ?</content></white><br /><br />
+Quelles sont vos raisons personnelles d’avoir choisi cette filière ?</content></white><br /><br />
 
 
-<orange><h3title>Vous êtes démarché pour un nouveau poste mais vous hésitez ?</h3title></orange><br /><br />
-<content500>Vous avez raison. Il est important de prendre la mesure
-d’une décision qui peut changer votre vie.</content500><br />
+<orange><h3title>Votre 1er choix d’école :</h3title></orange><br /><br />
+<content500>Vous êtes attiré(e) par une école pour certaines raisons évidentes
+mais pour être admis vous devrez aller plus loin : savoir expliquer
+pourquoi cette école plutôt qu’une autre.</content500><br />
 <white><content>
-Quelles raisons vous poussent à accepter  ? Et à refuser ?
+Comment allez-vous justifier votre candidature ?
 </content></white>
 <br /><br />
 
-<orange><h3title>Promotion, changement d’organisation, de métier : challenge ou stress ?</h3title></orange><br /><br />
-<content500>Sans doute les deux à la fois. Evoquer les difficultés que cette transition soulève permet
-souvent de les résoudre</content500> <br />
+<orange><h3title>Si vous êtes pris :</h3title></orange><br /><br />
+<content500>Le rôle du jury est aussi d’anticiper de quelle manière vous
+pouvez contribuer à faire de leur école un lieu attractif,
+bienveillant, dynamique.</content500> <br />
 
-<white><content>A quoi verrez-vous que vous avez trouvé vos marques ?</content></white>
+<white><content>Pourquoi vous ?</content></white><br/><br/>
+
+<content><strong><blue>Win</blue>entretien</strong> vous accompagne tout au long des étapes de la
+préparation de votre entretien de motivation</content>
 
 
  
@@ -234,7 +224,7 @@ souvent de les résoudre</content500> <br />
                                     
                                     
       <div class="name_boxes" id="carole_name">
-                              <content>Carole,<br/></content><content2>Coach</content2>
+                              <content>Carole,<br/></content><content2>La Coach</content2>
                               </div>
 
       <div class="cible_graph"></div>
@@ -291,14 +281,14 @@ souvent de les résoudre</content500> <br />
                               Prise de <blue>poste</blue><br />
 
                               <blue>Efficacité</blue><br/>
-                              Atteinte des objectifs<br/>
-                              Gestion des priorités<br/>
+                              <italic>- Atteinte des objectifs</italic><br/>
+                              <italic>- Gestion des priorités</italic><br/>
                              <blue>Leadership</blue><br />
-                             Engagement <br/>
-                             Management d'équipe<br/>
+                             <italic>- Engagement </italic><br/>
+                             <italic>- Management d'équipe</italic><br/>
                               <blue>Gestion du stress </blue><br/>
                               <blue>Communication </blue><br/>
-                              Prise de parole <br/> Reporting
+                              <italic>- Prise de parole </italic><br/><italic> - Reporting</italic>
                               </content>
                               </div>
                         </div>
@@ -312,11 +302,11 @@ souvent de les résoudre</content500> <br />
                               <content>
                               <strong>Étudiants : <br /></strong>
                               Concours des écoles Hôtelières : <br /> 
-                              <a href="#"><t_orange>VATEL</t_orange></a><blue>, EHL, Glion, Tunon</blue><br />
+                              <a href="#"><t_orange>VATEL</t_orange></a><strong>, EHL, Glion, Tunon</strong><br />
                               Concours des écoles d'ingénieurs : <br />
-                              <a href="#"><t_orange>Groupe UT </t_orange><blue> -</blue> </a><a href="#"><t_orange>Groupe Insa </t_orange></a><br />
+                              <a href="#"><t_orange>Groupe UT </t_orange> - </a><a href="#"><t_orange>Groupe Insa </t_orange></a><br />
                               Concours des écoles de commerce : <br />
-                              <blue><a href="#"><t_orange>EDHEC</t_orange></a> - Sesame - Access</blue>
+                              <strong><a href="#">EDHEC</a> - Sesame - Access</strong>
                               </content>
 </div>
                         </div>
@@ -329,9 +319,8 @@ souvent de les résoudre</content500> <br />
 
 
 <content500>
-La préparation aux entretiens est notre cœur de métier : elle concerne à la fois les étudiants (concours,
-1
-er job) et les professionnels (entretien d’embauche, d’évaluation).<br/><br/>
+La préparation aux entretiens est notre <strong>cœur de métier</strong>: elle concerne à la fois les étudiants (concours,
+1er job) et les professionnels (entretien d’embauche, d’évaluation).<br/><br/>
 Nous avons renforcé cette offre avec des services de coaching centrés sur <orange>les problématiques les plus
 fréquemment rencontrées</orange> une fois en poste – <blue><br/>indiqués en bleu</blue> </content500>
 <br /><br />
@@ -370,7 +359,7 @@ fréquemment rencontrées</orange> une fois en poste – <blue><br/>indiqués en
 
                   <div class="section block">
                          <div class="margin_left">
-                        <h1title>Mon offre</h1title>
+                        <h1title>L'offre</h1title>
                         <div id="underline"></div>
                         </div>
                   </div>
@@ -465,7 +454,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
 
                   <div class="section">
                         <div class="margin_left">
-                        <h1title>Qui-suis-je ?</h1title>
+                        <h1title>Témoignages</h1title>
                         <div id="underline"></div>
                         </div>
                   </div>
@@ -473,65 +462,14 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
             <div class="block">
                   <div class='column_items_center'>
                   <br />
-                              <div class="note"><italic><h3title>" Ce que l’on conçoit bien s’énonce clairement.<br/>
-Et les mots pour le dire arrivent aisément. " </h3title></italic><br /><br />
-<strong><content>- Nicolas Boileau</content></strong></div>
+                              
                               
 <br />
 
 
 
                         </div>
-                  <div class="line" >
-
                   
-
-                  
-
-                  <div class="column_start" id="coach">
-                  <h2title>La Coach : Carole Pivin</h2title>
-                  <div id="underline2"></div>
-
-                  
-
-                  <div class="content_blue">
-                  <content>
-                  Quelques mots pour parler de mon envie de vous accompagner...<br/>
-
-Dans les trois professions que j'exerce depuis plus de 25 ans :  <strong>la formation, le conseil et le coaching</strong>, il y a un point de convergence essentiel qui est la relation à l'autre.<br/><br/>
-
-C'est l'unicité de la rencontre, avec une classe, un groupe de dirigeants ou tout simplement une personnalité unique  - car tous mes clients sont de belles personnes - qui permet de développer une relation singulière, où la qualité de l'attention portée à l'autre permet que surviennent des instants de vérité et de possibilités.  <br/>
-
-La recherche de ces moments suspendus, où la compréhension et l'acceptation surgissent, dans un climat de totale bienveillance : c'est cela que je tente à chaque fois de développer avec vous.<br/><br/>
-
-Par <strong>l'écoute, la reformulation, l'équanimité.</strong><br/><br/>
-
-Par des techniques qui s'appuient sur le pouvoir des mots, des silences et de toutes leurs combinaisons.<br/>  <i class="fa-solid fa-arrow-down" id="icon"></i></content>
-
-
-</div>
-                 <Link to="/coach">
-                 <a id='bouton' >En savoir +</a>
-                 </Link>
-                  </div>
-
-                  
-                  
-
-                  <div class="column_start" id="contact">
-
-                  <div id="blue_content">
-                        <div id="photo"></div>
-                        <div class="photo_avatar"></div>
-
-                  </div>
-                  
-                 
-
-                  </div>
-                  
-
-                  </div>
 
                  
 
@@ -540,21 +478,9 @@ Par des techniques qui s'appuient sur le pouvoir des mots, des silences et de to
 
                   <div class="column_items_center">
 
-                  <div class='column_items_center'>
-                              
-                              <h2title>Témoignages<blue> <i class="fa-solid fa-users" id="icon"></i></blue></h2title>
-                              <h2under></h2under>
-                              <h2under2></h2under2>
-                              
-                              
-                        </div>
-
-                  <div class="temoignage_etudiant block">
-                   <content1><italic><blue>Jules, Terminale S, Admis VATEL en 2022</blue></italic> </content1>          
-                  <img src={avatar_etudiant} className="avatars" alt="logo" />
                   
-                              <div class="note"><italic><h3title>"Grâce aux 4 heures de préparation à l'entretien, j'ai pu mettre des mots sur ma motivation et j'ai été admis à VATEL Paris." </h3title></italic><br /><br />
-<strong><content></content></strong></div></div>
+
+                  
                               
 
 

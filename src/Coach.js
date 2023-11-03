@@ -1,5 +1,6 @@
 import "./Coach.css";
 import livre_eyrolles from "./images/photo_eyrolles.jpeg";
+import { Link } from "react-router-dom";
 
 function Coach(){
 
@@ -28,7 +29,61 @@ function Coach(){
                               
                         </div>
 
-<div class="margin_left window line_between block">
+<div class="window column block">
+
+<div class="line" >
+
+                  
+
+                  
+
+                  <div class="column_start" id="coach">
+                  <h2title>La Coach : Carole Pivin</h2title>
+                  <div id="underline2"></div>
+
+                  
+
+                  <div class="content_blue">
+                  <content>
+                  Quelques mots pour parler de mon envie de vous accompagner...<br/>
+
+Dans les trois professions que j'exerce depuis plus de 25 ans :  <strong>la formation, le conseil et le coaching</strong>, il y a un point de convergence essentiel qui est la relation à l'autre.<br/><br/>
+
+C'est l'unicité de la rencontre, avec une classe, un groupe de dirigeants ou tout simplement une personnalité unique  - car tous mes clients sont de belles personnes - qui permet de développer une relation singulière, où la qualité de l'attention portée à l'autre permet que surviennent des instants de vérité et de possibilités.  <br/>
+
+La recherche de ces moments suspendus, où la compréhension et l'acceptation surgissent, dans un climat de totale bienveillance : c'est cela que je tente à chaque fois de développer avec vous.<br/><br/>
+
+Par <strong>l'écoute, la reformulation, l'équanimité.</strong><br/><br/>
+
+Par des techniques qui s'appuient sur le pouvoir des mots, des silences et de toutes leurs combinaisons.<br/>  <i class="fa-solid fa-arrow-down" id="icon"></i></content>
+
+
+</div>
+                 <Link to="/coach">
+                 <a id='bouton' >En savoir +</a>
+                 </Link>
+                  </div>
+
+                  
+                  
+
+                  <div class="column_start" id="contact">
+
+                  <div id="blue_content">
+                        <div id="photo"></div>
+                        <div class="photo_avatar"></div>
+
+                  </div>
+                  
+                 
+
+                  </div>
+                  
+
+                  </div>
+
+
+<div class="margin_left line_between block">
 
 
 
@@ -479,16 +534,9 @@ changement</blue> qui oriente mes interventions.</content>
 
 
 </div>
+</div>
 
-<div id="titre_second"class='column_items_center block'>
-                              
-                              <h1title>En bref</h1title>
-                              <h2under2></h2under2>
-                              <br/>
-                              <italic><h2title><blue>Co-responsabilité et Humilité</blue></h2title></italic>
-                              
-                              
-                        </div>
+
 
 
 
