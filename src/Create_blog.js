@@ -1,29 +1,73 @@
 
-  import { useState } from "react";
+  import { useState, useRef, useEffect } from "react";
+  import { Editor } from "@tinymce/tinymce-react";
+  import ReactDOM from 'react-dom';
+  import axios from "axios";
 
-function Create_Blog() {
+function Create_Blog(props) {
 
-  
-  
-  const [description,setDescription] = useState('');
-  const [Soustitre,setSoustitre] = useState('');
+
   const [title,setTitle] = useState('');
-  const [notetitle,setNotetitle] = useState('');
-  const [notetext,setNotetext] = useState('');
   const [links,setLinks] = useState('');
-
-  /*function new_section(){
-  
-  const content = [title,Soustitre,description];
-
-  article.add(content);
+  const [content,setContent] = useState('');
+  const [value,setValue] = useState('');
+  const editorRef = useRef();
   
 
-  }*/
+  /*initialisation  Axios useEffect : Article.map ( articles title, content ... )
+  on récupère l'article visée pour modifier son contenu via les paramètres url  */ 
   
+  const queryParameters = new URLSearchParams(window.location.search);
+  const id = queryParameters.get("id");
+  const [Article,setArticle] = useState([]);
+  
+  
+  useEffect (() => {
+
+    axios.get(`http://localhost:3001/api/getblogs/${id}`)
+    .then((response) =>  { 
+      
+      setArticle(response.data);}
+    );
+      
+    
+    }, []); 
+  
+  
+  
+ const initialcontent = Article.map( value => value.content );
+ const inittitle = Article.map(value => value.article_name);
+ 
   
 
 
+
+  
+/* article content tinymce article g */
+
+  function updatearticle() {
+
+    if(window.confirm("voulez vous enregistrer les modifications ?")){
+
+    axios.put('http://localhost:3001/api/updatearticlecontent', {
+  
+  article_name: title,
+  content: value,
+  article: inittitle,
+  
+})
+.then(function (response) {
+  console.log(response);
+})
+.catch(function (error) {
+  console.log(error);
+});
+
+
+}
+    
+
+  }
 
 
   var textareas = document.querySelectorAll(".textarea");
@@ -60,20 +104,28 @@ function Create_Blog() {
     <div className="Page Blog">
 
 <div class='column_items_center'>
-                              
 
-                              <h1title>{title}</h1title>
-                              <h2under2></h2under2>
+
+<div class="note">
+                              
+                              <content>  Créer et visualisez votre article ici </content>
+                              
+                             </div>
+
+                              
+                              
+  <input type="input" class="textarea" placeholder = "Titre de l'article" onChange={(e) => setTitle(e.target.value)} defaultValue={inittitle}></input>                      
+    <h2title>{inittitle}</h2title>
+    <h2under2></h2under2>
+
+
+                              
                               
                               <div class="line_between">
                               
                               
                               
-                              <div class="note column_items_center">
                               
-                              <content>  Créer et visualisez votre article ici </content>
-                              
-                             </div>
                     
 
                     
@@ -82,61 +134,65 @@ function Create_Blog() {
                               
                         </div>
 
+
+<div class="editor_container">
+  <Editor
+
+  onInit={( evt, editor ) => editorRef.current = editor  
+  }
+  onEditorChange={( nv , editor ) => { setValue(nv); }
+ }
+ init={{
+   
+   service_message: false,
+   height: "700px",
+   apikey: "puk7gawlgq9hjqtznhwcaed6kxviwu5lg09o2v0vbofxarpo",
+   plugins:"image",
+  
+ }}>
+
+
+</Editor>
+</div>
+
+
+
+
+
+<div class="column_items_center block">
+<button class="bouton" onClick={() => updatearticle()}>Update article</button>
+
+                    
+
+   </div>
+   
+
+
     <div class="block window line_between">
 
-    <div class="swipe_buton" onClick={edit_mode}><i class="fa-solid fa-eye edit"></i></div>
     
-    <div class="article">
-
-    <h2title>{title}<input type="text" class="textarea" placeholder = "Titre de l'article" onChange={(e) => setTitle(e.target.value)} ></input></h2title>
-    <h2under2></h2under2>
-
-    <div class="article_content column_start">
-
-    <h3title><blue>{Soustitre}<input type="text" class="textarea" placeholder = "Sous-titre" onChange={(e) => setSoustitre(e.target.value)} ></input></blue><br/><br/></h3title>
-
-    <div class="article_paragraph">
-    <content>{description}<br/><br/><input type="text" class="textarea" placeholder = "Paragraphe" onChange={(e) => setDescription(e.target.value)} ></input></content>
     
 
     
-    
-    </div>
 
-    <div class="article_note">
-    <h3title><strong><blue>{notetitle}<input type="text" class="textarea" placeholder = "note" onChange={(e) => setNotetitle(e.target.value)} ></input><br/></blue></strong></h3title>
+    <div class="column_items_center">
+
     
-    <content1>{notetext}<input type="text" class="textarea" placeholder = "note text" onChange={(e) => setNotetext(e.target.value)} ></input> </content1>
-    </div>
+    
 
     
 
-    <div class="article_reco">
-    <h3title>liens utiles</h3title><br/><br/>
-    <content>{links}<input type="text" class="textarea" placeholder = "liens utiles" onChange={(e) => setLinks(e.target.value)} ></input> </content>
+    
 
-    </div>
+    
 
 
     </div>
 
-    </div>
+   
     
 
-    <div class="autre_contenu autre_contenu_box column_items_center">
-    <h3title>Outils :</h3title>
-    <br /> <br/><br /> <br/>
-    <h3title class="buton"><a id='bouton' >Ajouter un paragraphe</a></h3title>
-    <br /> <br/><br /> <br/>
-
-    <h2title class="buton"><a id='bouton' >Ajouter une note</a></h2title>
-    <br /> <br/><br /> <br/>
-    <div class="swipe_buton" onClick={edit_mode}><i class="fa-solid fa-eye edit"></i></div>
     
-    
-    
-    
-    </div>
 
 
     </div>

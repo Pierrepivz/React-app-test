@@ -1,18 +1,33 @@
 import { useState, useEffect } from "react";
 import React from "react";
 import axios from "axios";
+import Other_blogs from "./other_blogs.js";
 
-function Blog(props) {
+const Blog = (props) => {
 
-  
-    const [description,setDescription] = useState('');
-    const [soustitre,setSoustitre] = useState('');
+  const html = "<h1>ok ok</h1>";
+   
     const [title,setTitle] = useState('');
-    const [notetitle,setNotetitle] = useState('');
-    const [notetext,setNotetext] = useState('');
-    const [links,setLinks] = useState('');
-    
+    const queryParameters = new URLSearchParams(window.location.search);
+  const id = queryParameters.get("id");
+  const [Article,setArticle] = useState([]);
   
+  
+  useEffect (() => {
+
+    axios.get(`http://localhost:3001/api/getblogs/${id}`)
+    .then((response) =>  { 
+      
+      setArticle(response.data);}
+    );
+      
+    
+    }, []); 
+    /* 
+    
+    const queryParameters = new URLSearchParams(window.location.search);
+    const article_name = queryParameters.get("article");
+     
   
   
   const [Article,setArticle] = useState([]);
@@ -20,46 +35,19 @@ function Blog(props) {
   
   useEffect (() => {
 
-    axios.get('http://localhost:3001/api/getarticle')
-      .then((response) =>  { 
-        setArticle(response.data);}
-      );
+    axios.get(`http://localhost:3001/api/getarticle/${article_name}`)
+    .then((response) =>  { 
+      setTitle(article_name);
+      setArticle(response.data);}
+    );
       
     
     }, []);
 
+  */
   
   
   
-  
-  var textareas = document.querySelectorAll(".textarea");
-  var edit = document.querySelector(".edit");
-
-  function edit_mode(){
-    
-    for (var i = 0; i < textareas.length; i++){
-       
-      if(textareas[i].classList.contains("none")){
-
-        textareas[i].classList.remove("none");
-
-
-        edit.classList.remove("fa-eye-slash");
-        edit.classList.add("fa-eye");
-
-        
-      }else{
-      
-      textareas[i].classList.add("none");
-      
-      edit.classList.remove("fa-eye");
-      edit.classList.add("fa-eye-slash");
-      
-           
-           }
-    }
-    
-  }
 
 
   return (
@@ -67,57 +55,41 @@ function Blog(props) {
 
 <div class='column_items_center'>
                               
-
-                              <h1title>{title}</h1title>
+   {Article.map (value => value.article_name)}
+  <h1title>{title}</h1title>
+  <h2under></h2under>
                               <h2under2></h2under2>
-                              
-                              <div class="line_between">
-                              
-                              
-                              
-                              <div class="note column_items_center">
-                              
-                              <content>  Créer et visualisez votre article ici </content>
-                              
-                             </div>
-                    
-
-                    
-                    
-                    </div>
+                                
+                                                
                               
                         </div>
 
     <div class="block window line_between">
 
-    <div class="swipe_buton" onClick={edit_mode}><i class="fa-solid fa-eye edit"></i></div>
+   
     
     <div class="article">
     
-    <h2title>{props.article_name}</h2title>
+    <div dangerouslySetinnerHtml={{__html: html}}/>
     <h2under2></h2under2>
 
     
     <div class="article_content column_start">
 
-    {props.map(value => 
+    {Article.map(value => 
 
 <div class="column_start">
 
-<h3title><blue>{value.sous_titre}</blue><br/><br/></h3title>
+<h3title><blue>{value.article_name}</blue><br/><br/></h3title>
 
-<div class="article_paragraph column_start">
-<content>{value.content}<br/><br/></content>
+<div class="column_start">
+<content dangerouslySetInnerHTML={{__html: value.content}}></content>
 
 
 
 </div>
 
-<div class="article_note">
-    <h3title><strong><blue>{value.note_title}<br/></blue></strong></h3title>
-    
-    <content1>{value.note_text}</content1>
-    </div>
+
     </div>
     
 )}
@@ -127,32 +99,27 @@ function Blog(props) {
     
 
     
+    
 
-    <div class="article_reco">
-    <h3title>liens utiles</h3title><br/><br/>
-    <content>{links}<input type="text" class="textarea" placeholder = "liens utiles" onChange={(e) => setLinks(e.target.value)} ></input> </content>
+<div class="article_reco">
+  {Article.map( value =>
+<content>{value.links} </content>
+)}
+</div>
+
+
+    
+    
+    
 
     </div>
-    
 
     </div>
 
-    </div>
+    <Other_blogs/>
     
 
-    <div class="autre_contenu autre_contenu_box column_items_center">
-    <h3title>Plus de contenu : </h3title>
-    <br /> <br/><br /> <br/>
     
-    
-    <br /> <br/><br /> <br/>
-
-    
-    <br /> <br/><br /> <br/>
-    
-    
-    
-    </div>
 
 
     </div>

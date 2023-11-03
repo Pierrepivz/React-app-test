@@ -4,6 +4,13 @@
 
    /*Nav bar 2*/
 
+.Test{
+  background-color: rgb(253, 253, 253);
+  
+}
+
+
+
 #wrap {
   width: 100%;
   height: 50px;
@@ -58,8 +65,8 @@
     padding: 15px;
     background: linear-gradient(to bottom,#fffefe 88%,#ffffff00);
     font-family: 'Montserrat Alternates', serif;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 500;
     position: fixed;
     z-index: 100;
     top: 0;
@@ -70,7 +77,22 @@
     
     
   }
-  
+  .title_logo{
+    margin-left: 9px;
+    margin-top: 3px;
+    opacity: 0.7;
+  }
+  .title_logo content{
+   
+    font-size: 14px;
+    
+
+
+  }
+  .title_logo content2{
+    font-size: 8px;
+    font-style: italic;
+  }
   a{
     transition-duration: 3s;
     text-decoration: none;
@@ -118,6 +140,7 @@
     align-self: center;
     width: 180px;
     
+    
 
   }
   
@@ -125,7 +148,7 @@
   .sub-nav{
     
     font-size: 13px;
-    margin-top: 2px;
+    margin-top: 0px;
     background: white;
     padding: 20px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
@@ -138,6 +161,7 @@
     display: none;
     padding-top: 20px;
     margin-left: -45px;
+    transition-duration: 2s;
 
   }
 
@@ -150,7 +174,7 @@
   display:flex;
   justify-content: space-around;
   align-items: flex-start;
-  padding-top: 70px;
+  padding-top: 100px;
   padding-bottom: 60px;
   background: linear-gradient(to right,#c1eaf8 40%,#3e8ce6);
   
@@ -179,17 +203,17 @@
   }
   
   .box_content{
-    border-top-style: solid;
-    border-top-width: 3px;
-    border-left-style: solid;
-    border-left-width: 3px;
-    border-color: #2873C9;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #E5F8FF;
+    
+    width: 340px;
     height: auto;
-    width: 500px;
-    height: 180px;
     padding-left: 20px;
     padding-top: 10px;
-    line-height: 23px;
+    padding-bottom: 20px;
+    line-height: 25px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
     
   
     }
@@ -396,19 +420,16 @@
         #objectif_persona {
           
          display: flex;
+         flex-direction: column;
          align-items: flex-start;
          justify-content: center;
-         width: 700px;
+         width: 500px;
          margin-bottom: 80px;
          
 
       }
 
-        #objectif_persona *{
-          
-           width: 500px;
-
-        }
+        
 
 
   /* bandeau de section */
@@ -540,12 +561,7 @@
     
   
   }
-  .Page_container{
-
-    padding-top: 8%;
-    padding-bottom: 10%;
-
-  }
+  
   
   
   .Offre .note{
@@ -707,6 +723,8 @@
     font-size: 14px;
   }
 
+  
+
 
 
 
@@ -718,6 +736,9 @@
   padding-top: 50px;
   padding-bottom: 2%;
   color: white;
+  
+  
+ 
   }
   .Footer .nav-logo{ 
     margin-left: 5%;
@@ -758,11 +779,18 @@
   .Page{
 
     padding-top: 7%;
-    padding-bottom: 7%;
+    padding-bottom: 3%;
   
   }
+  .blog_editor{
 
-
+    height: 1000px;
+  
+  }
+  .editor_container{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
   .title_1{
     font-size: 70;
     display: flex;
@@ -857,7 +885,7 @@
       background-color: rgb(255, 255, 255);
       border-radius: 8px;
       border-style: solid;
-      border-width: 0px;
+      border-width: 1px;
       margin-top: 20px;
       height: 30px;
       width: 220px;
@@ -888,13 +916,13 @@
 
   #objectif_jules{
     
-    padding-top: 75px;
+    padding-top: 110px;
     padding-right: 200px;
     
   }
   #objectif_quentin{
     
-    padding-top: 150px;
+    padding-top: 110px;
     padding-right: 40px;
     
   }
@@ -910,7 +938,8 @@
     padding: 4px;
     margin-top: 15px;
     border-style: solid;
-    border-color: white;
+    border-width: 1px;
+    border-color: rgb(22, 22, 22);
     text-align: center;
 
   }
@@ -928,7 +957,7 @@
     border-style: none;
     font-size: 13px;
     font-weight: 500;
-    width: 430px;
+    width: 530px;
 
   }
   #coach :last-child{
@@ -951,25 +980,23 @@
     width: 100%;
   }
   #contact #blue_content{
-    height: 300px;
-    width: 300px;
+    height: 440px;
+    width: 400px;
     padding: 10px;
     padding-left: 10%;
-    background: #3e8ce6;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.267);
+    
     
     
   }
   #photo{
   width: 80%;
   height: 100%;
-  background: url("./carole.jpg");
-  background-size: unset cover;
+  background: url("./photo_carole.jpg");
+  background-size: cover;
   background-position-x: 0;
   background-repeat: no-repeat;
   border-radius: 5px;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #2873c9;
   z-index: 20;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
 
@@ -981,18 +1008,28 @@
   height: 173px;
   width: 173px;
   background: url("./images/coach_solo.svg");
-  
-  
   border-radius: 9px;
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: -23%;
-  margin-left: 80%;
+  margin-left: 75%;
   z-index: 10;
 
 
 }
 
+strong_content{
+
+  font-size: 15px;
+  font-family: "montserrat";
+  background: #2873C9;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  padding: 5px;
+  border-radius: 3px;
+  
+}
 
 
   content2{
@@ -1109,8 +1146,8 @@
     background-color:#2873c9;
     color:rgb(255, 255, 255);
     font-weight: 700;
-    font-size: 14px;
-    width: 43%;
+    font-size: 16px;
+    width: 60%;
     border-color: #c1eaf8;
     border-style: solid;
     border-width: 5px;

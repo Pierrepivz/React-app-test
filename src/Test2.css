@@ -42,6 +42,18 @@ width: 48%;}
   
   width: 800px;
   height: 350px;
+  
+  
+  
+}
+.img_temoignage content{
+  
+  width: 650px;
+  min-height: 130px;
+  padding: 10px;
+  box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.062);
+  background:#f5fdff;
+  
 
   
 }
@@ -82,6 +94,7 @@ width: 48%;}
 .temoignage_etudiant img{
 
   position: absolute;
+  margin-right: 20px;
   
   
 }
@@ -93,6 +106,14 @@ width: 48%;}
   
   
 }
+.temoignage_etudiant content1{
+
+  margin-left: 130px;
+  margin-bottom: 10px;
+  
+  
+}
+
 
 .back_white{
 
@@ -109,10 +130,10 @@ width: 48%;}
 } 
 .offre_icon_small{
 
-  height: 20px;
-  width: 20px;
-  margin-left: 620px;
+  height: 5px;
   z-index:1;
+  margin-top: -30px;
+  margin-left: 600px;
   
 }
 .offre_note{
@@ -291,7 +312,7 @@ text-align: center;
 height: 250px;
 width: 82%;
 border-width: 4px;
-justify-content: space-around;
+justify-content: flex-start;
 align-items: center;
 border-radius: 9px;
 margin-bottom: 10%;
@@ -361,9 +382,9 @@ justify-content: center;
   height: 33px;
   border-style: solid;
   border-color: #3e8ce6;
-  
   border-radius: 100px;
   margin-bottom: 40px;
+  margin-top: 8px;
   font-style: "montserrat";
   font-weight: 500;
   padding-left: 10px;
@@ -382,15 +403,15 @@ justify-content: center;
   width: 380px;
   height: 160px;
   font-weight: 500;
-  padding-left: 10px;
+  padding: 7px;
 
 
 }
 iframe{
   
   border-style: solid;
-  border-color: #3e8ce6;
-  border-width: 4px;
+  border-color: #E5F8FF;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
   border-radius: 3px;
 
 }
@@ -401,15 +422,19 @@ iframe{
   border-top-color: #2873C9;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  margin-top: 10px;
+  margin-top: 20px;
   background: #E5F8FF;
   width: auto;
+  text-align: center;
   height: 120px;
   font-style: "montserrat";
+  font-weight: 500;
+  font-size: 14px;
   border-color: #3e8ce6;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
   padding: 10px;
   border-radius: 3px;
+  
   
 
 }
@@ -437,7 +462,7 @@ textarea{
   font-style: "montserrat";
   font-weight: 500;
   background: none;
-  margin-left: 100px;
+  
   
 }
 .article_paragraph .textarea{
@@ -520,14 +545,21 @@ tr{
 }
 
 .tab_title{
-  height: 60px;
-  width: 140px;
+  height: 30px;
+  width: 150px;
+  padding: 10px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
+  background: #3e8ce6;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 10px;
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.308);
 }
 
-.tab_col{
 
+.tab_col{
+  margin-top: 60px;
   margin-right: 40px;
   height: 300px;
   width: 150px;
@@ -536,22 +568,37 @@ tr{
   background:#3e8ce6;
   justify-content: space-evenly;
   align-items: flex-start;
-  padding-left: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.308);
+  
   
   
 }
 .tab_col content1{
+  font-size: 17px;
+  font-weight: bold;
   width: 90%;
-  border-bottom-style: solid;
-  border-bottom-width: 7px;
+  z-index: 10;
   
    
    
  }
- .tab_col content1 .avatars{
-   height: 80px;
+ .tab_col .avatars{
    position: absolute;
-   margin-left: 110px;
+   height: 100px;
+   margin-top: -20px;
+   margin-left: 50px;
+   z-index: 0;
+   
+   
+ }
+ .tab_col .underline{
+   width: 100%;
+   margin: 0px;
+   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+   border-radius: 100px;
+
  }
 
 .underline{
@@ -565,8 +612,7 @@ tr{
   margin-right: 20px;
    height: 300px;
    width: 170px;
-   
-   
+   box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.308);
    justify-content: space-around;
    border-width: 6px;
    background: #d1f3ff;
@@ -613,28 +659,34 @@ tr{
 .research{
   border-style: solid;
   border-color:  #3e8ce6;
-  border-radius: 3px;
-  border-width: 4px;
+  border-radius: 100px;
+  border-width: 3px;
   font-style: "montserrat";
-  width: 200px;
-  padding: 5px;
+  width: 240px;
+  padding: 7px;
+}
+.filtres{
+  width: 160px;
 }
 
 .search_bar{
 
     background: #E5F8FF;
-    border-style: solid;
-    border-color: #3e8ce6;
-    border-width: 3px;
-  padding: 1%;
-  padding-bottom: 3%;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+  line-height: 15px;
+  width: 100%;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-radius: 9px;
+  margin-bottom: 35px;
 
 
 }
 .blog_list{
+  
 
-  background-color:  #3e8ce6;
+  
   border-radius: 10px;
   min-height: 350px;
   padding: 10px;
@@ -644,26 +696,19 @@ tr{
   
 
   }
+
+  
  
-.article{
-  width: 65%;
-  
 
-}
-.autre_contenu{
-  width: 30%;
 
-  
-}
-
-.article_content{
+.article_parameters{
   
 
     border-style: solid;
     border-color:  #E5F8FF;
     border-width: 8px;
   padding: 2%;
-  height: 620px;
+  min-height: 1500px;
 border-radius: 9px;
 font-weight: 500;
 font-size: 14px;
@@ -688,7 +733,7 @@ font-size: 14px;
   border-left-color: #3e8ce6;
   border-left-width: 6px;
   padding-left: 2%;
-  width: 90%;
+  width: 100%;
   margin-bottom: 3%;
   line-height: 22px;
 }
@@ -736,29 +781,54 @@ font-size: 14px;
 
   
 }
-.home_article{
+.last_blogs{
+  border-radius: 15px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+  margin-top: -40px;
+  width: 80%;
+  padding: 13px;
+  background-color: #3e8ce6;
   
-  width: 300px;
-  margin-left: 20px;
+}
+
+
+.home_article .article_photo{
+  
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+  width: 100px;
   margin-right: 20px;
-  height: 240px;
+  height: 260px;
   margin-top: 20px;
-  margin-bottom: 20px;
-  border-style: solid;
-  border-color: white;
+  margin-bottom: 7px;
   border-radius: 10px;
   border-width: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #E5F8FF;
- 
-
+  transition-duration: 1s;
+  
   
 }
 .home_article content1{
-  padding: 10px;
+
+  width: 300px;
+
 }
+.article_photo .img{
+  background-image: contain; 
+}
+
+
+.home_article content1{
+  padding: 10px;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+
+.home_article:hover{
+  
+  border-width: 3px;
+  transition-duration: 1s;
+
+  }
 
 #articles_select{
   display: flex;
@@ -770,6 +840,9 @@ font-size: 14px;
   height: 63%;
   width: 100%;
   background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.021);
   
   
 }

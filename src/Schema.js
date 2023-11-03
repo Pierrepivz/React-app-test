@@ -28,9 +28,11 @@ function Schema() {
     return (
       <div className="schema column_items_center reveal">
 
-      
-
-          
+      <div class="background_decoration decoration3" id="decoration_schema_2_1"></div>
+      <div class="background_decoration decoration5" id="decoration_schema_5_1"></div>
+      <div class="background_decoration decoration5" id="decoration_schema_4_1"></div>
+      <div class="background_decoration decoration5" id="decoration_schema_4_2"></div>
+      <div class="background_decoration decoration4" id="decoration_schema_4_3"></div>
 <div class="flex block">
       
 
@@ -179,12 +181,15 @@ objectif par séance, et selon un calendrier conforme à vos contraintes.</conte
                 <div id="underline2"></div>
 
                 <div class="content_blue width">
-                <content><blue>Les séances ont lieu en présentiel – à Paris – ou en distanciel. </blue><br />Vous savez à l’avance l’objectif de chaque séance et vous <blue>validez ainsi notre progression.</blue><br /><br />
-A l’issue du travail réalisé, vous disposez d’<blue>outils personnalisés</blue> selon l’offre choisie et qui
-reflètent le travail réalisé ensemble.</content>
+                <content><blue>Les séances ont lieu en présentiel – Yvelines ou Paris – ou en distanciel. </blue><br /><br />Lors de la 1ère séance nous fixons un calendrier
+prévisionnel ainsi que <blue>5 indicateurs de succès de
+notre travail en commun.</blue><br/><br/>Lors de la dernière séance, ces indicateurs sont
+évalués et nous prenons le temps d’un <blue>retour
+d’expérience.</blue></content>
                 </div>
+                <Link to="/Methode">
                 <a id='bouton' >Prendre rendez-vous</a>
-
+                </Link>
 
                 </div>
       

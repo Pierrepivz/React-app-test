@@ -1,0 +1,34 @@
+.hourlistselection{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    background: rgb(255, 245, 245);
+    justify-content: center;
+    
+}
+.rdvlist{
+    
+    width: 800px;
+    height: 800px;
+    justify-content: space-around;
+    
+    
+}
+.rdvlist content{
+    
+    font-size: 15px;
+    
+    
+    
+}
+.booked_rdv{
+    padding: 30px;
+    background: #d1f1fd;
+}
+
+.manage_dispo{
+    height: 20px;
+    
+    background: white;
+}

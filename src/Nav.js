@@ -1,5 +1,5 @@
 
-import logo from './images/logow2n.svg';
+import logo from './images/firstlogo.svg';
 import { Link } from "react-router-dom";
 
 function Nav() {
@@ -33,18 +33,33 @@ function Nav() {
 
       
       
-      <Link to='./home'>
+      <Link to='./'>
+        <a onClick={() => window.scrollTo(0,10)}>
+        <div class="row">
         <div class="nav-logo">
         <img src={logo} className="nav-logo" alt="logo" />
             </div>
+            <div class="column_start title_logo">
+            <content>win<blue>entretien</blue></content>
+            <content2>préparez vous à réussir</content2>
+
+            </div>
+            
+            
+            </div>
+            </a>
         </Link>
 
         <div class="nav-links">
 
         
         <ul>
+        <Link to="Methode_page">
         
         <a>La méthode</a>
+
+        </Link>
+        
 
 
         </ul>
@@ -52,24 +67,21 @@ function Nav() {
         <ul>
         <Link to='./offre' >
 
-        <a onClick={() => window.scrollTo(0,0)}>L'offre</a>
+        <a onClick={() => window.scrollTo(0,10)}>L'offre</a>
 
         <div class="sub-nav">
         
         
-        <a onClick={() => window.scrollTo(0,850)}>Réussir ses entretiens</a>
+        
+        <a onClick={() => window.scrollTo(0,3020)}>Convaincre à l'oral</a>
         <br/>
-        <a onClick={() => window.scrollTo(0,1800)}>Construire sa visibilité</a>
-        <br/>
-        <a onClick={() => window.scrollTo(0,1800)}>Évaluer une opportunité</a>
-        <br/>
-        <a onClick={() => window.scrollTo(0,1800)}>S'adapter au changement</a>
+        <a onClick={() => window.scrollTo(0,3770)}>Être bien dans son poste</a>
         <br/>
         
         
         <Link to='./Methode'>
 
-        <a><italic><blue>Prendre rdv</blue></italic></a>
+        <a onClick={() => window.scrollTo(0,10)}><italic><blue>Prendre rdv</blue></italic></a>
         </Link>
         </div>
 
@@ -77,8 +89,9 @@ function Nav() {
         </ul>
         
         <ul>
+        <Link to='./coach'>
         <a>La coach</a>
-        
+        </Link>
         </ul>
 
         <ul>

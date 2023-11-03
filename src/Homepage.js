@@ -4,11 +4,13 @@ import Schema from './Schema';
 import { Link } from 'react-router-dom';
 import offre_c1 from './images/offre_c1.svg';
 import offre_c2 from './images/offre_c2.svg';
-import offre_c3 from './images/offre_c3.svg';
-import offre_c4 from './images/offre_c4.svg';
+import offre_c3 from './images/faire_un_choix.svg';
+import offre_c4 from './images/prise_de_poste.svg';
 import img_mathilde from './images/photo_mathilde.png';
-import img_milena from './images/photo_milena.png';
+import img_milena from './images/milena.jpg';
 import img_jade from './images/photo_jade.jpg';
+import "./globals.css";
+import "./homepage.css";
 
 
 
@@ -34,7 +36,13 @@ function Homepage() {
 
       return (
             <div className="Homepage">
-
+           
+                  <div class="background_decoration decoration" id="decoration_home_1_1"></div>
+                  <div class="background_decoration decoration" id="decoration_home_1_2"></div>
+                  <div class="background_decoration decoration" id="decoration_home_1_3"></div>
+                  <div class="background_decoration decoration4" id="decoration_home_4_1"></div>
+                  <div class="background_decoration decoration5" id="decoration_home_5_1"></div>
+            
 
                   <div class="Homemain">
                   
@@ -49,38 +57,31 @@ function Homepage() {
                               <div id='underline2'></div>
                               
                               <hcontent>
-                              Depuis 15 ans <strong>win</strong><blue>entretien</blue> entraîne les étudiants et les
-professionnels à adopter les bons réflexes dans tous les
-moments clés de leur parcours : <br />
+                              Depuis 15 ans winentretien accompagne étudiants et
+professionnels et les aide à réussir les entretiens de
+motivation : <br/><blue>concours d’entrée dans une école, entretien
+d’embauche.</blue><br/><br/>
+Pour cela, nous proposons une méthode éprouvée qui leur
+permet de bien définir leur projet, de mettre des mots
+précis sur leur motivation et de s’entraîner.<br/><br/>
+Désormais, nous proposons également de vous
+accompagner une fois que vous êtes en poste, pour
+l’acquisition ou le renforcement de compétences essentielles
+comme : être efficace, savoir gérer sa charge de travail, ou
+encore bien communiquer.<br/><br/>
+Si votre objectif est de développer ces compétences ou
+d’autres ‘soft-skills’, <strong>
+                                    <orange>nous pouvons vous y aider.</orange>
+</strong> <br />
                                 <br />
                                     
-                              <blue><h3title>
                               
-                                  Concours d’entrée dans les grandes écoles <br /><br /> 
-                                    
-                                    
-                                     Entretiens d'embauche <br /><br />
-                                    
                                    
-                                     Prise de fonctions <br /><br />
-                                    
-                                    
-                                     Changement d'orientation <br />
-                                    
-                                    </h3title></blue>
-                                    <br />
-                                    Nous vous apprenons à clarifier votre objectif 
-                                    et à <br />mettre des mots précis sur votre motivation à l’atteindre.
                                     
                                     
                                     
                                     <br /><br />
-                                    <strong>
-                              <content>
                                     
-                             Apprenez à atteindre votre objectif en le rendant <br /><orange>précis, concret, et convaincant.</orange>
-                              </content>
-</strong>
                                     
 
       </hcontent>
@@ -97,18 +98,15 @@ moments clés de leur parcours : <br />
                         
                         <div class="column_items_center">
 
-                        <div class="cta-actual">
-                              <div class="">
-                                    <content>  ACTUALITÉ : ce qui a changé dans les 
-                                    <Link to='/offre'>
-                                    <t_orange> concours postbac  </t_orange>
-                                    </Link>
-                                    
-                                    
-                                    </content></div>
-                                    </div>
+                        
 
                         <div id="home_graph">
+                        <div class="name_boxes" id="quentin_name">
+                              <content>Bruno,<br/></content><content2>Directeur des ventes</content2>
+                              </div>
+                              <div class="name_boxes" id="jules_name">
+                              <content>Jules,<br/></content><content2>Terminale S</content2>
+                              </div>
 
                         
 
@@ -117,27 +115,24 @@ moments clés de leur parcours : <br />
 
 
 <div id="objectif_box" class="column_items_center">
-      <content1>Créer mon CV </content1>
+      <content1>CV </content1>
       
       
-      <blue><content2>' Un CV qui me ressemble <br/> et qui retient l'attention '</content2></blue>
+      <blue><content2>' Avoir
+un CV qui retient l’attention '</content2></blue>
 </div>
 <div id="objectif_box" class="column_items_center">
-      <content1>Intégrer une école postbac</content1>
+      <content1>Concours</content1>
       
-      <blue><content2>' J'ai besoin de préparer l'entretien d'admission '</content2></blue>
+      <blue><content2>' Réussir les concours<br/> postbac '</content2></blue>
       
 </div>
 <div id="objectif_box" class="column_items_center">
-      <content1>Obtenir un job</content1>
+      <content1>1er job</content1>
       
-      <blue><content2>' Je veux décrocher un contrat d'alternance '</content2></blue>
+      <blue><content2>' Réussir l’entretien de motivation '</content2></blue>
 </div>
-<div id="objectif_box" class="column_items_center">
-      <content1>Être présent sur le Net</content1>
-      
-      <blue><content2>' J'aimerais avoir ma page LinkedIn '</content2></blue>
-</div>
+
 
 
 
@@ -146,27 +141,23 @@ moments clés de leur parcours : <br />
 <div id="objectif_quentin" class="column_items_center">
 
 <div id="objectif_box" class="column_items_center">
-      <content1>Décrocher un poste</content1>
+      <content1>Efficacité</content1>
       
       
       
-      <blue><content2>' Je veux réussir les entretiens d'embauche '</content2></blue>
+      <blue><content2>' Atteindre mes objectifs '</content2></blue>
 </div>
 <div id="objectif_box" class="column_items_center">
-<content1>Refaire mon CV</content1>
+<content1>Leadership</content1>
 
-      <blue><content2>' Mon CV n'est pas à jour '</content2></blue>
+      <blue><content2>' Générer l'adhésion '</content2></blue>
 </div>
 <div id="objectif_box" class="column_items_center">
-      <content1>Evaluer une opportunité</content1>
+      <content1>Réorientation</content1>
       
-      <blue><content2>' Je ne sais pas si je dois accepter ce poste '</content2></blue>
+      <blue><content2>' Changer de métier '</content2></blue>
 </div>
-<div id="objectif_box" class="column_items_center">
-      <content1>Réussir un changement professionnel</content1>
-      
-      <blue><content2>' J'ai du mal à gérer ma nouvelle charge de travail '</content2></blue>
-</div>
+
 
 
 </div>
@@ -185,16 +176,17 @@ moments clés de leur parcours : <br />
                   <div class="block column_start margin_left margin_right">
 
                   <div id="titre_second"class='column_items_center'>
-                              <h1title>Taux de réussite 2022 : 98%</h1title>
-                              <h2under></h2under>
+                              <h1title>Taux de réussite 2022 : 95%</h1title>
+                              
                               <h2under2></h2under2>
                               
                         </div> 
                         <div class="note">
                               
                               
-                              <content> Coach professionnelle au sein de <strong>win</strong><blue>entretien</blue>, j'accompagne <strong>professionnels et étudiants</strong> dans les étapes clé
-de leur parcours. Quelques exemples : </content></div>                      
+                              <content> Ce taux est calculé sur l’ensemble des accompagnements réalisés en 2022 pour préparer le concours d’entrée à une école –<blue> postbac,
+Bac +2 et au-delà.</blue><br/><br/>
+Nous personnalisons la méthode à votre situation personnelle et nous commençons par vous poser <strong>3 questions importantes :</strong> </content></div>                      
                   
                         
 <div class='line'>
@@ -241,7 +233,9 @@ souvent de les résoudre</content500> <br />
 
                                     
                                     
-      <div class="carole_coach"></div>
+      <div class="name_boxes" id="carole_name">
+                              <content>Carole,<br/></content><content2>Coach</content2>
+                              </div>
 
       <div class="cible_graph"></div>
      
@@ -264,9 +258,9 @@ souvent de les résoudre</content500> <br />
 
                         <div class='column_items_center'>
 
-                              <h1title>À qui cela s'adresse ?</h1title>
+                              <h1title> Nos axes d'intervention</h1title>
                               
-                              <h2under></h2under>
+                              
                               <h2under2></h2under2>
                               
                               <div class="note">
@@ -280,8 +274,8 @@ souvent de les résoudre</content500> <br />
       
                         </div>
 
-                        <div class="line margin_left margin_right">
-                        <div class="column_start">
+                        <div class="window">
+                        <div class="row">
                          
                         
                         <div id="objectif_persona">
@@ -292,10 +286,19 @@ souvent de les résoudre</content500> <br />
                               <div class="box_content">
                               <content>
                               <strong>Professionnels : <br /></strong>
+                              
                               Entretien de <blue>recrutement</blue><br />
-                              Changement de <blue>poste</blue><br />
-                              Bilan de <blue>compétences</blue><br />
-                              <blue>Réorientation </blue>
+                              Prise de <blue>poste</blue><br />
+
+                              <blue>Efficacité</blue><br/>
+                              Atteinte des objectifs<br/>
+                              Gestion des priorités<br/>
+                             <blue>Leadership</blue><br />
+                             Engagement <br/>
+                             Management d'équipe<br/>
+                              <blue>Gestion du stress </blue><br/>
+                              <blue>Communication </blue><br/>
+                              Prise de parole <br/> Reporting
                               </content>
                               </div>
                         </div>
@@ -317,56 +320,37 @@ souvent de les résoudre</content500> <br />
                               </content>
 </div>
                         </div>
-                        
-                        </div>
 
-
-<div class="column_items_center">
+                        <div class="column_items_center" id="preparation">
 
 
                         <div class='content_blue'>
-                              <content500><strong>win</strong><blue>entretien</blue> s’adresse à toutes celles et ceux qui,
-confrontés à un moment clé de leur parcours, veulent se
-donner les moyens de transformer ce moment en
-opportunité.
-Pour cela, commençons par comprendre pourquoi ce
-moment se présente à ce moment précis de votre
-parcours : </content500>
-<content>
+                              
 
-
-<div class="head_text">
-<blue>
-Pourquoi postuler dans cette école/entreprise ? </blue><br/><br/>
-
-
-<blue>
-Pourquoi ai-je envie de changer de poste ?</blue><br/> <br/>
-
-<blue>De quoi ai-je envie exactement ?</blue>
-</div>
-
-
-
-
-</content>
 
 <content500>
-Qu’il s’agisse de l’entrée dans une école, d’un premier
-emploi, d’un concours ou d’une réorientation, les
-personnes que vous aurez à convaincre se poseront ces questions.</content500>
+La préparation aux entretiens est notre cœur de métier : elle concerne à la fois les étudiants (concours,
+1
+er job) et les professionnels (entretien d’embauche, d’évaluation).<br/><br/>
+Nous avons renforcé cette offre avec des services de coaching centrés sur <orange>les problématiques les plus
+fréquemment rencontrées</orange> une fois en poste – <blue><br/>indiqués en bleu</blue> </content500>
 <br /><br />
 
-<orange><h3title>Alors, qu’allez-vous leur répondre ?</h3title></orange>
+
                         </div>
 
                         <div class="line">
-<a id='bouton' >Ma méthode</a>
+<a id='bouton' >En savoir +</a>
 
 </div>
 
                         
 </div>
+                        
+                        </div>
+
+
+
 
 
                         </div>
@@ -394,180 +378,73 @@ personnes que vous aurez à convaincre se poseront ces questions.</content500>
 
 
 
-                  <div class='block margin'>
+                  <div class='block window'>
 
-                        <div class='column_items_center'>
-                        <h2title>4 offres pour les moments clé de votre parcours</h2title>
-                              <h2under></h2under>
-                              <h2under2></h2under2>
-                              <br />
-                              
+                  <div class="column_items_center">
 
-
-
-
-                        </div>
+                  <div class="note"><content>" Conçue par expérience, <strong>adaptée au besoin de chacun,</strong> <br/>elle répond à l’un de ces deux
+objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice de <strong>toute activité professionnelle</strong> " </content><br />
+</div></div>
                         
 
 
 
-                        <div class='line block'>
-
-                              <div class='home_offres column_start'>
-
-                              <div class="offre_icon" ><img src={offre_c1}  /></div>
-                                   
-                                    <h3title>
-                                    <blue>Atelier : </blue>Réussir en entretien
-                                    </h3title>
-                                    <h2under></h2under>
-                                    <div id="blue_content">
-                                    <div class='head_title'>
-                                    <content>« Prêt pour votre prochain
-entretien de recrutement ? »</content>
-                                    </div>
-                                    
-                                    <div class='head_text'>
-                                    <content>Concours postbac, entretien d’embauche: pour les
-réussir, il faut savoir répondre à une question simple.
-
-<strong> Pourquoi vous ?</strong><br /> <br />
-
-Mettons ensemble des mots sur votre
-parcours, votre motivation, votre projet
-professionnel. Les mots justes pour convaincre de la pertinence de
-votre candidature. <br />
-
-<blue>Parler de soi s’apprend.</blue></content>
-                                    </div>
-
-                                    </div>
-                                    <Link to='/offre'>
-                                    <a id='bouton' >En savoir +</a>
-                                    </Link>
-                              </div>
-                                    
-
-                              <div class='home_offres column_start'>
-
-                                    <div class="offre_icon"><img src={offre_c2}  /></div>
-
-                                    <h3title>
-                                    <blue>Atelier : </blue>CV et profil
-                                    </h3title>
-                                    <h2under></h2under>
-                                    <div id="blue_content">
-                                    <div class='head_title'>
-                                    <content>« Avez-vous un CV qui donne envie
-de vous rencontrer ? »</content>
-                                    </div>
-
-                                    <div class='head_text'>
-                                    <content>Vous cherchez un stage ou un 1er emploi mais vous n’
-êtes pas <strong>sûr de votre CV ?</strong>
- <br />
-
- Vous êtes en activité et vous n’avez pas revu votre CV
-ou votre profil LinkedIn depuis… longtemps ? <br /><br />
-
-Apprenez à réaliser plusieurs versions de votre CV qui
-parlent de l’essentiel : votre valeur-ajoutée – oui, vous
-en avez. <br />
-<blue>
-Enfin, un CV qui se fait remarquer !</blue></content>
-                                    </div>
-
-                                    </div>
-
-                                    <Link to='/offre'>
-                                    <a id='bouton' >En savoir +</a>
-                                    </Link>     
-
-                              </div>
-                              
-                                    
-                              
-
-                              
-
-
-                        </div>
-
                         <div class='line'>
 
-                              <div class='home_offres column_start'>
+                              <div class="column_start">
 
-                                    <div class="offre_icon"><img src={offre_c3}  /></div>
+                              <offretitle>Convaincre à l'oral</offretitle>
+                              <h2under2></h2under2>
+                              
+                              
 
-                                    <h3title>
-                                    <blue>Coaching : </blue> Faire un choix
-                                    </h3title>
-                                    <h2under></h2under>
-                                    <div id="blue_content">
-                                    <div class='head_title'>
-                                    <content>« 
-                                    Vous hésitez sur une décision à
-prendre rapidement ? »</content>
-                                    </div>
+                              <br/>
+                              
+                              <div class="column_items_center">
+
+                              <div class='home_offre column_items_center'>
+
+                              
+                              <div class="photo"></div>
                                     
-                                    <div class='head_text'>
-                                    <content>Changement de poste,
-d’entreprise, de métier, décision
-de reprendre des études : <br />
-<strong> opportunité ou risque?</strong><br />
-<br />
-Le bon choix, c’est celui qui vous permet d’avancer.
-Pour cela,
-
-Ma méthode <strong><a href="./Methode"><t_orange>'Coaching orienté
-résultats’</t_orange></a></strong> peut vous y aider.
-
-<blue> <br /><br />Faire un choix en accord avec soi-même</blue></content>
-                                    </div>
-
-                                    </div>
-                                    <Link to='/offre'>
-                                    <a id='bouton' >En savoir +</a>
-                                    </Link>
+                                    
+                                    
                               </div>
-                                    
 
-                              <div class='home_offres column_start'>
-
-                              <div class="offre_icon" ><img src={offre_c4}  /></div>
-
-                                    <h3title>
-                                    <blue>Coaching : </blue>Prise de poste
-                                    </h3title>
-                                    <h2under></h2under>
-                                    <div id="blue_content">
-                                    <div class='head_title'>
-                                    <content>« Que de changements dans ce
-nouveau poste… comment faire face ? »</content>
-                                    </div>
-                                    
-                                    <div class='head_text'>
-                                    <content>La prise d’un nouveau poste s’accompagne souvent
-
-d’ un challenge : s’adapter et faire ses
-preuves.<br />
-
-
-
-<strong>Comment gérer ce challenge ?<br /><br /></strong>Construisons des stratégies concrètes pour gérer les
-effets indésirables en s’appuyant sur ma méthode 
-<t_orange> 'Coaching Orienté Résultats.'</t_orange><br /><br />
-
-<blue>Je prends le contrôle de mon nouveau poste</blue></content>
-                                    </div>
-                                    
-                                    </div>
-                                    
                                     <Link to='/offre'>
                                     <a id='bouton' >En savoir +</a>
                                     </Link>
-                                    
 
+                              </div>
+                              </div>
+
+
+
+                              <div class="column_start">
+
+                              <offretitle>Être à l'aise dans son poste</offretitle>
+                              <h2under2></h2under2>
+                              
+                              
+
+                              <br/>
+                              
+                              <div class="column_items_center">
+
+                              <div class='home_offre column_items_center'>
+
+                              
+                              <div class="photo"></div> 
+                                    
+                                    
+                                    
+                              </div>
+
+                                    <Link to='/offre'>
+                                    <a id='bouton' >En savoir +</a>
+                                    </Link>
+
+                              </div>
                               </div>
                               
                                     
@@ -577,6 +454,8 @@ effets indésirables en s’appuyant sur ma méthode
 
 
                         </div>
+
+                        
 
 
 
@@ -617,18 +496,23 @@ Et les mots pour le dire arrivent aisément. " </h3title></italic><br /><br />
 
                   <div class="content_blue">
                   <content>
-                  Après une formation scientifique je me dirige vers les <strong>technologies de l’information</strong>. Mes compétences de base : <strong>la gestion de projets, la conduite du changement,</strong> et aussi : <strong>la formation,</strong> que j’exerce depuis plus de 35 ans, dans des <strong>écoles, universités ou auprès de mes clients Grands Comptes.<br/><br/></strong>
+                  Quelques mots pour parler de mon envie de vous accompagner...<br/>
 
- Former, accompagner : le challenge selon moi est dans les deux cas de <strong>clarifier des concepts,</strong> de les <strong>rendre accessibles</strong>, en choisissant les termes les plus exacts possible, et en s’assurant ensuite de la compréhension.
+Dans les trois professions que j'exerce depuis plus de 25 ans :  <strong>la formation, le conseil et le coaching</strong>, il y a un point de convergence essentiel qui est la relation à l'autre.<br/><br/>
 
-Après une formation en <strong>Pratiques du Coaching</strong> et quelques rencontres, je décide de mettre les <strong>mots et le langage</strong> au cœur de mon activité de Coach.<br/><br/>
+C'est l'unicité de la rencontre, avec une classe, un groupe de dirigeants ou tout simplement une personnalité unique  - car tous mes clients sont de belles personnes - qui permet de développer une relation singulière, où la qualité de l'attention portée à l'autre permet que surviennent des instants de vérité et de possibilités.  <br/>
 
-Par des techniques de questionnement, je vous aide à construire une communication professionnelle efficace, basée sur la recherche des mots justes <strong>(les vôtres)</strong> et en résonance avec votre projet.   <i class="fa-solid fa-arrow-down" id="icon"></i></content>
+La recherche de ces moments suspendus, où la compréhension et l'acceptation surgissent, dans un climat de totale bienveillance : c'est cela que je tente à chaque fois de développer avec vous.<br/><br/>
+
+Par <strong>l'écoute, la reformulation, l'équanimité.</strong><br/><br/>
+
+Par des techniques qui s'appuient sur le pouvoir des mots, des silences et de toutes leurs combinaisons.<br/>  <i class="fa-solid fa-arrow-down" id="icon"></i></content>
 
 
 </div>
+                 <Link to="/coach">
                  <a id='bouton' >En savoir +</a>
-
+                 </Link>
                   </div>
 
                   
@@ -642,33 +526,34 @@ Par des techniques de questionnement, je vous aide à construire une communicati
 
                   </div>
                   
-                  <div class="head_text">
-                  <content><blue><strong>Carole Pivin </strong><br/>
-                  carole@winentretien.com<br/>
-                  téléphone : +33 6 51 43 26 77</blue></content></div>
+                 
+
                   </div>
                   
 
                   </div>
 
-                  <div class="line">
-                  
-                  
-                  
-
-
-                  </div>
+                 
 
                   </div>
 
 
                   <div class="column_items_center">
 
-                  <div class="temoignage_etudiant">
+                  <div class='column_items_center'>
                               
+                              <h2title>Témoignages<blue> <i class="fa-solid fa-users" id="icon"></i></blue></h2title>
+                              <h2under></h2under>
+                              <h2under2></h2under2>
+                              
+                              
+                        </div>
+
+                  <div class="temoignage_etudiant block">
+                   <content1><italic><blue>Jules, Terminale S, Admis VATEL en 2022</blue></italic> </content1>          
                   <img src={avatar_etudiant} className="avatars" alt="logo" />
                   
-                              <div class="note"><italic><h3title>" Avec la préparation individuelle  j'ai pu mettre des mots sur mon envie de travailler dans l'hôtellerie de luxe. J'ai été admis à VATEL Paris. " </h3title></italic><br /><br />
+                              <div class="note"><italic><h3title>"Grâce aux 4 heures de préparation à l'entretien, j'ai pu mettre des mots sur ma motivation et j'ai été admis à VATEL Paris." </h3title></italic><br /><br />
 <strong><content></content></strong></div></div>
                               
 
@@ -677,14 +562,7 @@ Par des techniques de questionnement, je vous aide à construire une communicati
 
                         
 
-    <div class='column_items_center'>
-                              
-                              <h2title>Témoignages<blue> <i class="fa-solid fa-users" id="icon"></i></blue></h2title>
-                              <h2under></h2under>
-                              <h2under2></h2under2>
-                              
-                              
-                        </div>
+   
     
     <div class="line_around" id="temoignage">
     
@@ -698,10 +576,10 @@ Par des techniques de questionnement, je vous aide à construire une communicati
     <div class="column_items_center note img_temoignage" id="img_1" >
     <div class="profils column"><img src={img_mathilde}  /></div><br/>
     <h3title>Caroline</h3title>
-    <content1><blue>Coaching dirigeant dans le cadre d’une reprise d’entreprise familiale</blue></content1>
+    <content1><blue>Dirigeante, 2021</blue></content1>
     <br/>
     <content>" Le coaching avec Carole a été la bouée d’ancrage me permettant
-d’avancer un peu mieux et un peu plus sereinement chaque mois.
+d’avancer un peu mieux et un peu plus sereinement chaque mois.<br/><br/>
 Cette expérience de coaching pousse au-delà même après les séances. Merci."</content>
     
 
@@ -710,25 +588,26 @@ Cette expérience de coaching pousse au-delà même après les séances. Merci."
     <div class="column_items_center note img_temoignage" >
     <div class="profils column"><img src={img_milena}  /></div><br/>
     <h3title>Milena</h3title>
-    <content1><blue>Chargée de projets, chargée de partenariats dans le milieu associatif</blue></content1>
+    <content1><blue>Chargée de partenariats dans le milieu associatif, 2021</blue></content1>
     <br/>
-    <content>" Carole Pivin m'a accompagnée en 2021 pendant quelques mois. <br/>
-    Le coaching avec carole à été une merveilleuse expèrience dont j'ai tiré beaucoup d'enseignements. <br/> Elle m'a aidé a prendre confiance en moi au niveau professionnel et à définir davantage mon projet ainsi que la stratégie à adopter pour y arriver. <br/>
-    <br/>Je recommande chaleureusement le coaching avec elle, car il s'agit d'une expèrience qui sera forcément enrichissante, prodiguée en plus par une belle personne qui est capable de comprendre rapidement ce qui vous bloque et quelles sont les méthodes à adopter pour vous aider à progresser et à construire la carrière dont vous rêvez. "</content>
+    <content>" Carole m'a accompagnée en 2021. <br/>
+    Ce coaching a été une merveilleuse expèrience dont j'ai tiré beaucoup d'enseignements. <br/> Elle m'a aidé a prendre confiance en moi au niveau professionnel et à définir davantage mon projet.<br/>
+    <br/>Je recommande chaleureusement le coaching avec elle, car c'est une expèrience forcément enrichissante, prodiguée en plus par une belle personne qui comprend ce qui vous bloque et vous aide à construire la carrière dont vous rêvez. "</content>
     
 
     </div>
 
-    <div class="column_items_center note img_temoignage" >
-    <div class="profils column"><img src={img_jade}  /></div><br/>
+    <div class="note img_temoignage column_items_center" >
+    <div class="profils column"><img src={img_jade}  /><br/></div>
     <h3title>Jade</h3title>
-    <content1><blue></blue></content1>
+    <content1><blue>Terminale S, admise BBA EDHEC, 2023</blue></content1>
     <br/>
-    <content>"Le coaching avec Carole à été d’une grande aide pour moi et 
-          s’est révélé très efficace. Carole m’a permis de prendre conscience 
-          de mes points forts et également de mes points d’amélioration. 
+
+    <content>Le coaching avec Carole à été d’une grande aide pour moi et 
+          s’est révélé très efficace. <br/>Carole m’a permis de prendre conscience 
+          de mes points forts et également de mes points d’amélioration. <br/><br/>
           Je suis convaincue que grâce à son coaching,
-           j’ai pu obtenir l’école que je souhaitais rejoindre, l’EDHEC."</content>
+           j’ai pu obtenir l’école que je souhaitais rejoindre.</content>
     
     </div>
    

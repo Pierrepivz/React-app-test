@@ -1,0 +1,138 @@
+#coach_photo{
+  
+width: 450px;
+height: 500px;
+background: white;
+border-radius: 5px;
+box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
+
+}
+
+#coach_description{
+  
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
+    padding-left: 20px;
+    padding-top: 20px;
+    overflow-y: scroll;
+    
+    
+    
+    }
+
+    .coach_description_viewport{
+  
+        height: 500px;
+        
+
+        
+        
+        
+        }
+
+        .coach_description_viewport::-webkit-scrollbar {
+            width: 12px; /* width of the entire scrollbar */
+          }
+          
+          #coach_description::-webkit-scrollbar-track {
+            background: rgb(245, 245, 245); /* color of the tracking area */
+          }
+          
+          #coach_description::-webkit-scrollbar-thumb {
+            background-color:  #2873c95d; /* color of the scroll thumb */
+            border-radius: 20px; /* roundness of the scroll thumb */
+             /* creates padding around scroll thumb */
+             border-width: 2px;
+             border-style: solid;
+             border-color: rgb(245, 245, 245);
+          }
+
+
+    .livre_eyrolles{
+
+        width: 100px;
+        height: 130px;
+        
+        margin-top: 10px;
+    }
+
+    .decoration{
+        position: absolute;
+        z-index: 0;
+        height: 400px;
+        width: 500px;
+        top: 100px;
+        margin-left: -400px;
+        background: linear-gradient(to top,#c1eaf8 40%,#3e8ce696);
+        opacity: 0.4;
+        border-radius: 300px;
+        border-top-right-radius: 200px;
+
+          }
+
+          .decoration2{
+            position: absolute;
+            z-index: 0;
+            height: 400px;
+            width: 500px;
+            top: 500px;
+            
+            margin-left: -400px;
+            background: linear-gradient(to top,#c1eaf8 40%,#3e8ce696);
+            opacity: 0.4;
+            border-bottom-right-radius: 150px;
+            border-top-right-radius: 400px;
+            
+    
+              }
+
+            .decoration3{
+            position: absolute;
+            z-index: 0;
+            height: 400px;
+            width: 100px;
+            top: 200px;
+            right: 0px;
+            margin-left: -400px;
+            background: linear-gradient(to top,#c1eaf8 40%,#3e8ce696);
+            opacity: 0.4;
+            border-bottom-left-radius: 150px;
+            border-top-left-radius: 400px;
+            
+    
+              }
+
+              .decoration4{
+                position: absolute;
+                z-index: 0;
+                height: 100px;
+                width: 100px;
+                top: 100px;
+                right: 150px;
+                
+                background: linear-gradient(to top,#c1eaf8 40%,#3e8ce696);
+                opacity: 0.4;
+                border-radius: 200px;
+                
+        
+                  }
+
+                  .decoration5{
+                    position: absolute;
+                    z-index: 0;
+                    height: 50px;
+                    width: 50px;
+                    top: 150px;
+                    left: 150px;
+                    
+                    background: linear-gradient(to top,#c1eaf8 40%,#3e8ce696);
+                    opacity: 0.4;
+                    border-radius: 200px;
+                    
+            
+                      }
+
+              
+
+    

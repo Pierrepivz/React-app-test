@@ -14,6 +14,13 @@ import Home_Blog from './home_blog.js';
 import Rdvconfirm from './Rdvconfirm.js';
 import Contactconfirm from './Contactconfirm.js';
 import Blog from './view_blog.js';
+import { isValue } from "react-calendar/dist/cjs/shared/propTypes";
+import "./Offre.css";
+import Create_Blog from "./Create_blog.js";
+import Admin_blog from "./admin_blogs.js";
+import Login from "./login.js";
+import Methode_page from "./Methode_page.js";
+import Admin_rdv from "./admin_rdv.js";
 /*
 
 
@@ -21,22 +28,26 @@ import Blog from './view_blog.js';
 
 
 import Rdvconfirm from "./Rdvconfirm";
-import Create_Blog from "./Create_blog.js";*/
+*/
 
 
 function Test() 
 {
   
+  
+
   return (
     
     <Router>
     <div className="Test">
       <script src="https://kit.fontawesome.com/c298d004d1.js" crossorigin="anonymous"></script>
       
+
+
       <Nav />
       
       <Switch>
-      <Route path='/home'>
+      <Route exact path='/'>
       
       <Homepage />
 
@@ -45,6 +56,36 @@ function Test()
       <Route path='/offre'>
       
       <Offre />
+
+      </Route>
+
+      <Route path='/Methode_page'>
+      
+      <Methode_page/>
+
+      </Route>
+
+      <Route path='/admin_rdv'>
+
+      <Admin_rdv/>
+
+      </Route>
+
+      <Route path='/admin_blog'>
+
+      <Admin_blog />
+
+      </Route>
+      
+      <Route path='/login'>
+      
+      <Login />
+
+      </Route>
+
+      <Route path='/create_blog'>
+      
+      <Create_Blog />
 
       </Route>
 
@@ -93,7 +134,7 @@ function Test()
 
       <Route path='/blog'>
       
-      <Blog props="check" />
+      <Blog />
 
       </Route>
 

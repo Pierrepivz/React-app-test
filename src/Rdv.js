@@ -4,6 +4,8 @@ import emailjs from "emailjs-com";
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './calendar.css';
+import './globals.css';
+import { Link } from "react-router-dom";
 
 /*import Axios from "Axios";*/
 
@@ -78,7 +80,7 @@ function Rdv() {
 
       emailjs.sendForm('booking_winent', 'rdv78', e.target, '6nusaoR8fQQLjbcrX')
       .then((result) => {
-          window.location = "./confirmationrdv";
+          window.location = "./confirmationrdv"; 
       }, (error) => {
           
       });
@@ -94,6 +96,14 @@ function Rdv() {
 
 
       <div class="rdv block">
+      <div class="background_decoration decoration4"></div>
+      <div class="background_decoration decoration5" id="decoration_rdv_5_1"></div>
+      <div class="background_decoration decoration4" id="decoration_rdv_5_2"></div>
+      <div class="background_decoration decoration4" id="decoration_rdv_5_3"></div>
+      <div class="background_decoration decoration4" id="decoration_rdv_5_4"></div>
+      <div class="background_decoration decoration5" ></div>
+      <div class="background_decoration decoration3" id="decoration_rdv_3"></div>
+      <div class="background_decoration decoration" id="decoration_rdv_1"></div>
 
   <div class="line_around">
 
