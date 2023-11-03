@@ -10,3 +10,25 @@
     font-weight: 500;
     margin-left: 100px;
 }
+.offre_text{
+    width: 400px;
+}
+.offre_text content1{
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 20px;
+    border-left-style: solid;
+    border-left-color: #2873C9;
+    border-left-width: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 70px;
+
+}
+.offre_content{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
