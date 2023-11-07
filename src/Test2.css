@@ -48,14 +48,27 @@ width: 48%;}
 }
 .img_temoignage content{
   
-  width: 650px;
-  min-height: 130px;
-  padding: 10px;
+  width: 380px;
+  min-height: 180px;
+  padding-left: 50px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+
   box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.062);
-  background:#f5fdff;
+  line-height: 20px;
+  text-align: start;
   
 
   
+}
+.img_temoignage .row content{
+
+  margin-left: 40px;
+
+}
+.img_temoignage .row {
+  margin-top: 40px;
+  align-items: center;
 }
 
 

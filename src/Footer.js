@@ -23,9 +23,9 @@ function Footer() {
         <div class="column_start" id="foot_content">
         <ftitle><content>Winentretien</content></ftitle>
 
-        <f1>15 rue du Bourg Tibourg 75004 <strong>Paris</strong></f1>
         
-        <f2>01 42 72 34 35</f2>
+        
+        <f2>06 51 43 26 77</f2>
         <f3>contact@winentretien.com</f3>
 
         </div>

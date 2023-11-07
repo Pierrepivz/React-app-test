@@ -22,7 +22,7 @@ function Offre() {
 
 <div class="decoration"></div>
 
-<div class="decoration3"></div>
+
 
 <div class="decoration5"></div>
 
