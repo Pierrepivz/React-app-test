@@ -5,6 +5,8 @@ import offre_c4 from './images/faire_un_choix.svg';
 import avatar_pro from './images/avatar_pro_v1.svg';
 import avatar_etudiant from './images/avatar_etudiant.svg';
 import { Link } from 'react-router-dom';
+import offre1 from './images/posteforet.jpg';
+import offre2 from './images/eloquence.jpg';
 import "./Coach.css";
 
 
@@ -30,17 +32,17 @@ function Offre() {
 <div id="titre_second"class='column_items_center'>
                               
                               
-                              <h1title>Mon offre</h1title>
+                              <h1title>L'offre</h1title>
                               
                               <h2under2></h2under2>
                               <div class="note column_items_center">
                               
        
                               
-                              <content> La méthode de préparation à l’entretien de winentretien a été renforcée pour vous<br/>
+                              <content> La méthode de préparation à l’entretien de <blue>win</blue><strong>entretien</strong> a été renforcée pour vous<br/>
 transmettre une compétence essentielle : <strong>Convaincre à l’oral.</strong><br/><br/>
 
-En complément, des services de coaching ont été conçus avec un objectif précis :<br/>
+En complément, des <blue>services de coaching</blue> ont été conçus avec un objectif précis :<br/>
 résoudre les difficultés fréquemment rencontrées et vous permettre <strong>d’être bien dans
 votre poste.</strong></content></div>
                               
@@ -78,7 +80,7 @@ pitch, prise de parole devant 100 personnes : apprenez à <strong>communiquer po
   <div class='home_offre column_items_center'>
 
                               
-<div class="photo"></div>
+<div class="photo"><img src={offre2}/></div>
       
       
       
@@ -88,13 +90,13 @@ pitch, prise de parole devant 100 personnes : apprenez à <strong>communiquer po
   <h2title>Concours d’entrée aux grandes écoles :</h2title>
 <h2under2></h2under2>
 <content1>
-En 2 à 4 séances individuelles, nous allons passer en revue
+En <strong>2 à 4 séances individuelles,</strong> nous allons passer en revue
 le déroulement de l’entretien avec le jury de l’école de
 votre choix.<br/><br/>
 
 Nous allons préparer vos réponses, identifier vos points
-forts, mais aussi, simuler l’entretien pour vous mettre en
-confiance et vous entraîner.
+forts, mais aussi, simuler l’entretien pour  <strong>vous mettre en
+confiance</strong> et vous entraîner.
 </content1>
 
 <Link to="/Methode">
@@ -116,9 +118,9 @@ confiance et vous entraîner.
 <content1>
 Que ce soit pour un stage, un 1er job ou un changement de
 carrière, l’entretien de motivation est un exercice qui
-demande de la préparation et de l’entrainement.<br/><br/>
+demande de la <strong>préparation et de l’entrainement.</strong><br/><br/>
 
-Mettons ensemble des mots précis et exacts sur votre
+Mettons ensemble <strong>des mots précis</strong> et <blue>convaincaints</blue> sur votre
 parcours, votre projet professionnel et votre envie d’être
 sélectionné(e).
 </content1>
@@ -136,10 +138,10 @@ réussi, voire agréable, il s’avère efficace de se concentrer
 sur le message que vous allez porter.<br/><br/>
 
 SI le contenu de votre
-communication est en résonance avec les attentes du
+communication est <strong>en résonance avec les attentes</strong> du
 public, il y a de fortes chances que tout se passe bien.
 Apprenez les règles de base qui permettent de favoriser
-l’adhésion de votre audience.
+<strong>l’adhésion de votre audience.</strong>
 </content1>
 
 
@@ -211,7 +213,7 @@ moment d’une prise de poste, d’une évolution personnelle ou d’un <strong>
 <div class='home_offre column_items_center'>
 
                         
-<div class="photo"></div>
+<div class="photo"><img src={offre1}/></div>
 
 
 
@@ -225,8 +227,8 @@ Quand on parle d’efficacité au travail, de quoi parle-t-on
 exactement ? Des heures de travail accumulées, du temps passé
 sur ce qui était planifié, ou du temps passé sur l’imprévu ?<br/><br/>
 
-La matrice d’Eisenhower est un bon début, à condition de définir
-ce que ‘urgent’ et ‘important’ signifient pour vous
+La <strong>matrice d’Eisenhower</strong> est un bon début, à condition de définir
+ce que ‘urgent’ et ‘important’ signifient <blue>pour vous</blue>
 
 </content1>
 
@@ -248,11 +250,11 @@ ce que ‘urgent’ et ‘important’ signifient pour vous
 <h2under2></h2under2>
 <content1>
 Développer son leadership, accroître sa visibilité : parlons de ce
-que ses termes regroupent dans la situation qui est la vôtre.<br/><br/>
+que ses termes regroupent dans la situation qui est <blue>la vôtre.</blue><br/><br/>
 
 Il y a autant de styles de management que de managers,
-trouvons ensemble celui qui convient le mieux à vos équipes, et
-à vous-même.
+trouvons ensemble <strong>celui qui convient le mieux à vos équipes, et
+à vous-même.</strong>
 </content1>
 
 
@@ -266,7 +268,7 @@ trouvons ensemble celui qui convient le mieux à vos équipes, et
 Dans le domaine de la gestion du stress, le temps est précieux.<br/><br/> Evoquer
 ensemble vos sources de tensions avant qu’elles ne deviennent récurrentes,
 tenter quelques actions pour les résoudre, vous initier à la pleine conscience,
-je vous invite à partager votre stress afin de vous alléger.
+je vous invite à <strong>partager votre stress afin de vous alléger.</strong>
 
 
 </content1>
@@ -283,7 +285,7 @@ Une opportunité de changement professionnel se présente, et vous hésitez.
 La liste Avantages / Inconvénients ne vous permet pas d’y voir plus clair ?<br/><br/> 
 C’est peut-être parce qu’une telle décision n’est pas réductible à un choix
 rationnel. <br/>Imaginons ensemble les conséquences de chacune de vos options,
-et essayons de trouver celle que vous avez envie d’explorer
+et essayons de trouver <strong>celle que vous avez envie d’explorer</strong>
 
 
 </content1>

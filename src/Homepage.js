@@ -212,7 +212,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
 
                               
                               <div class="photo" >
-                              <img src={offre2}/>
+                              <img src={offre1}/>
                               </div>
                                     
                                     
@@ -244,7 +244,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
                               
                               <div class="photo">
 
-                                <img src={offre1}/> 
+                                <img src={offre2}/> 
 
                                     </div> 
                                     
