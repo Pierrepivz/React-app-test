@@ -31,18 +31,18 @@ function Offre() {
                               
                               
                               <h1title>Mon offre</h1title>
-                              <h2under></h2under>
+                              
                               <h2under2></h2under2>
                               <div class="note column_items_center">
                               
        
                               
                               <content> La méthode de préparation à l’entretien de winentretien a été renforcée pour vous<br/>
-transmettre une compétence essentielle : Convaincre à l’oral.<br/><br/>
+transmettre une compétence essentielle : <strong>Convaincre à l’oral.</strong><br/><br/>
 
 En complément, des services de coaching ont été conçus avec un objectif précis :<br/>
-résoudre les difficultés fréquemment rencontrées et vous permettre d’être bien dans
-votre poste.</content></div>
+résoudre les difficultés fréquemment rencontrées et vous permettre <strong>d’être bien dans
+votre poste.</strong></content></div>
                               
                         </div> 
 

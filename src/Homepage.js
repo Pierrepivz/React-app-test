@@ -7,14 +7,14 @@ import offre_c2 from './images/offre_c2.svg';
 import offre_c3 from './images/faire_un_choix.svg';
 import offre_c4 from './images/prise_de_poste.svg';
 import img_mathilde from './images/photo_mathilde.png';
-import img_milena from './images/milena.jpg';
+import img_milena from './images/femme_dos.jpg';
 import img_jade from './images/photo_jade.jpg';
 import "./globals.css";
 import "./homepage.css";
 import Persona from "./Persona.js";
 import Statistics from "./Statistics.js";
-import offre1 from "./images/offre1.jpeg";
-import offre2 from "./images/offre2.jpg";
+import offre1 from "./images/Choralies.jpg";
+import offre2 from "./images/photoposte.jpeg";
 
 
 
@@ -22,7 +22,7 @@ import offre2 from "./images/offre2.jpg";
 
 /*<img src={logo} className="win-logo" alt="logo" />*/
 
-function Homepage() {
+function Homepage(){
 
      
 
@@ -62,14 +62,14 @@ function Homepage() {
                               
                               <hcontent>
                               Depuis 15 ans, winentretien permet à des étudiants et
-des professionnels de réussir leur entretien de
-motivation : <br/><br/><blue><h3title>Concours d’entrée dans une école</h3title><br/><br/>
+des professionnels de réussir leur <strong>entretien de
+motivation :</strong> <br/><br/><blue><h3title>Concours d’entrée dans une école</h3title><br/><br/>
 
 <h3title>Entretien d’embauche</h3title></blue><br/><br/>
 Une fois en poste, nous vous proposons maintenant
-des services de coaching orientés vers les difficultés de
+des <strong>services de coaching</strong> orientés vers les difficultés de
 communication ou de management que vous pouvez
-rencontrer. Avec un objectif précis :
+rencontrer. <br/>Avec un objectif précis :
 <br/><br/>
 <strong>
                               <orange><h3title>Être bien dans son poste</h3title></orange>
@@ -212,7 +212,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
 
                               
                               <div class="photo" >
-                              <img src={offre1}/>
+                              <img src={offre2}/>
                               </div>
                                     
                                     
@@ -244,7 +244,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
                               
                               <div class="photo">
 
-                                <img src={offre2}/> 
+                                <img src={offre1}/> 
 
                                     </div> 
                                     
@@ -363,8 +363,8 @@ Cette expérience de coaching pousse au-delà même après les séances. Merci."
     </div>
     
     <content>" Carole m'a accompagnée en 2021. <br/>
-    Ce coaching a été une merveilleuse expèrience dont j'ai tiré beaucoup d'enseignements. <br/> Elle m'a aidé a prendre confiance en moi au niveau professionnel et à définir davantage mon projet.<br/>
-    <br/>Je recommande chaleureusement le coaching avec elle, car c'est une expèrience forcément enrichissante, prodiguée en plus par une belle personne qui comprend ce qui vous bloque et vous aide à construire la carrière dont vous rêvez. "</content>
+    Ce coaching a été une merveilleuse expèrience dont j'ai tiré beaucoup d'enseignements. <br/><br/> Elle m'a aidé a prendre confiance en moi au niveau professionnel et à définir davantage mon projet.
+    "</content>
     
     </div>
     </div>
@@ -381,9 +381,9 @@ Cette expérience de coaching pousse au-delà même après les séances. Merci."
 
     
 
-    <content>Le coaching avec Carole à été d’une grande aide pour moi et 
+    <content>Le coaching avec Carole a été d’une grande aide pour moi et 
           s’est révélé très efficace. <br/>Carole m’a permis de prendre conscience 
-          de mes points forts et également de mes points d’amélioration. <br/><br/>
+          de mes points forts et de mes points d’amélioration. <br/><br/>
           Je suis convaincue que grâce à son coaching,
            j’ai pu obtenir l’école que je souhaitais rejoindre.</content>
 

@@ -25,33 +25,33 @@ nous commençons par vous poser <strong>3 questions importantes :</strong> </con
 <div class='column_items_center'>
 
 <div class='content_blue width'>
-<orange><h3title>Vous candidatez pour une école hôtelière, une école
-d’ingénieurs, ou une école de commerce :</h3title></orange>
+<h3title><white>Vous candidatez pour une école hôtelière, une école
+d’ingénieurs, ou une école de commerce :</white></h3title>
 <br />
 <br />
 
 
 <content500>Le choix de la filière d’orientation après le Bac est important et
 souvent difficile.</content500>
-<br /><white><content>
-Quelles sont vos raisons personnelles d’avoir choisi cette filière ?</content></white><br /><br />
+<br /><content>
+<orange>Quelles sont vos raisons personnelles d’avoir choisi cette filière ?</orange></content><br /><br />
 
 
-<orange><h3title>Votre 1er choix d’école :</h3title></orange><br /><br />
+<h3title><white>Votre 1er choix d’école :</white></h3title><br /><br />
 <content500>Vous êtes attiré(e) par une école pour certaines raisons évidentes
 mais pour être admis vous devrez aller plus loin : savoir expliquer
 pourquoi cette école plutôt qu’une autre.</content500><br />
-<white><content>
-Comment allez-vous justifier votre candidature ?
-</content></white>
+<content><orange>
+Comment allez-vous justifier votre candidature ?</orange>
+</content>
 <br /><br />
 
-<orange><h3title>Si vous êtes pris :</h3title></orange><br /><br />
+<h3title><white>Si vous êtes pris :</white></h3title><br /><br />
 <content500>Le rôle du jury est aussi d’anticiper de quelle manière vous
 pouvez contribuer à faire de leur école un lieu attractif,
 bienveillant, dynamique.</content500> <br />
 
-<white><content>Pourquoi vous ?</content></white><br/><br/>
+<content><orange>Pourquoi vous ?</orange></content><br/><br/>
 
 <content><strong><blue>Win</blue>entretien</strong> vous accompagne tout au long des étapes de la
 préparation de votre entretien de motivation</content>

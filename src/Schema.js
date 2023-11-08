@@ -182,7 +182,7 @@ objectif par séance, et selon un calendrier conforme à vos contraintes.</conte
 
                 <div class="content_blue width">
                 <content><blue>Les séances ont lieu en présentiel – Yvelines ou Paris – ou en distanciel. </blue><br /><br />Lors de la 1ère séance nous fixons un calendrier
-prévisionnel ainsi que <blue>5 indicateurs de succès de
+prévisionnel ainsi que <blue>3 indicateurs de succès de
 notre travail en commun.</blue><br/><br/>Lors de la dernière séance, ces indicateurs sont
 évalués et nous prenons le temps d’un <blue>retour
 d’expérience.</blue></content>

@@ -106,7 +106,7 @@ fréquemment rencontrées</orange> une fois en poste – <blue><br/>indiqués en
                         </div>
 
                         <div class="line">
-<a id='bouton' >En savoir +</a>
+<a id='bouton' >Mon offre</a>
 
 </div>
 
