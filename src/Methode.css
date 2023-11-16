@@ -7,3 +7,15 @@
     margin-bottom: 20px;
 
 }
+.valeur #box_content {
+   max-width: 300px;
+   margin: 20px;
+}
+
+.methode_text {
+    margin: 100px;
+    margin-top: 30px;
+    max-width: 820px;
+    background: white;
+    padding: 30px;
+}

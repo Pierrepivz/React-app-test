@@ -1,6 +1,7 @@
 /*<img src={logo} className="win-logo" alt="logo" />*/
 import React, { useState } from "react";
 import logo from './images/logo_negatif.svg';
+import { Link } from "react-router-dom";
 
 function Footer() {
 
@@ -45,8 +46,8 @@ function Footer() {
         <ftitle><content>Mentions légales</content></ftitle>
 
         <f1>© WINENTRETIEN 2023 TOUS DROITS RÉSERVÉS</f1>
-        <f2>TOUTS DROITS RESERVES</f2>
-        <f3>CONDITIONS GENERALES DE VENTES</f3>
+        <Link to="/Mentions"><f2>MENTIONS LÉGALES</f2></Link>
+        <Link to="/Cgv"><f3>CONDITIONS GENERALES DE VENTES</f3></Link>
 
         </div>
         

@@ -20,8 +20,10 @@
     border-left-style: solid;
     border-left-color: #2873C9;
     border-left-width: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
+    box-shadow: 2px 5px 0.5px rgba(0, 0, 0, 0.041);
     margin-bottom: 70px;
+    background-color: white;
 
 }
 .offre_content{

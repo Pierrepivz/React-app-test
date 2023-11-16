@@ -57,9 +57,7 @@ function Contact(){
    <div className="Contact Page">
 
            
-           <div class="decoration"></div>
-<div class="decoration2"></div>
-<div class="decoration3"></div>
+           
 <div class="decoration4"></div>
 <div class="decoration5"></div>
            
@@ -72,7 +70,7 @@ function Contact(){
                               <h2under2></h2under2>
                               <content class="note"> Vous souhaitez avoir des informations sur mon offre ou me poser une question  ?
 
-Alors n’hésitez pas, et complétez le formulaire de contact :
+Alors n’hésitez pas, et complétez le formulaire de contact. Je vous réponds sous 24h.
 
 </content>
     
@@ -171,7 +169,12 @@ Alors n’hésitez pas, et complétez le formulaire de contact :
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83997.91599575017!2d2.2775578595247836!3d48.85945224507882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671ef6ff7f46f%3A0x50b82c368941a90!2s5e%20Arrondissement%2C%2075005%20Paris!5e0!3m2!1sfr!2sfr!4v1688041214845!5m2!1sfr!2sfr" width="350" height="240" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div id="mapmessage">
     <i class="fa-solid fa-location-dot" ></i><br/>
-            <content><italic>Vous pouvez nous trouver <br/>à Paris ou au Vésinet.</italic></content> </div>
+            <content><italic> <strong>Les séances ont lieu soit en distanciel, soit
+en présentiel. </strong><br/><br/>
+En présentiel, nous nous retrouvons soit dans ma
+
+cabane à l’Ouest de Paris – à 15 mn de l’Etoile – <br/>soit
+dans un des nombreux bureaux Regus à Paris.</italic></content> </div>
       </div>
 
 

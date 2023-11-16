@@ -23,7 +23,7 @@ function Home_Blog() {
 
   useEffect (() => {
 
-    axios.get('http://localhost:3001/api/getblogs')
+    axios.get('https://server-test-3emq.onrender.com/api/getblogs')
       .then((response) =>  { 
         setDatalist(response.data);}
       );
@@ -204,7 +204,7 @@ console.log(error);
     <div class="line_around last_blogs" id="articles_select">
    
     
-    {lastitems.map(value => 
+    {Listset.map(value => 
     <div class="column_start">
         
         

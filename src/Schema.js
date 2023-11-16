@@ -28,11 +28,12 @@ function Schema() {
     return (
       <div className="schema column_items_center reveal">
 
-      <div class="background_decoration decoration3" id="decoration_schema_2_1"></div>
+      
       <div class="background_decoration decoration5" id="decoration_schema_5_1"></div>
       <div class="background_decoration decoration5" id="decoration_schema_4_1"></div>
       <div class="background_decoration decoration5" id="decoration_schema_4_2"></div>
       <div class="background_decoration decoration4" id="decoration_schema_4_3"></div>
+      
 <div class="flex block">
       
 

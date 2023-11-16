@@ -49,10 +49,11 @@ function Persona(){
 
                               <img src={avatar_pro} className="avatars" alt="logo" />
 
-                              
+                              <h2title>Professionnels : </h2title>
+                              <h2under2></h2under2>
                               <div class="box_content">
                               <content>
-                              <strong>Professionnels : <br /></strong>
+                              
                               
                               Entretien de <blue>recrutement</blue><br />
                               Prise de <blue>poste</blue><br />
@@ -73,11 +74,12 @@ function Persona(){
                         <div id="objectif_persona">
                               
                               <img src={avatar_etudiant} className="avatars" alt="logo" />
-                              
+                              <h2title>Étudiants : </h2title>
+                              <h2under2></h2under2>
                               
                               <div class="box_content">
                               <content>
-                              <strong>Étudiants : <br /></strong>
+                              
                               Concours des écoles Hôtelières : <br /> 
                               <a href="#"><t_orange>VATEL</t_orange></a><strong>, EHL, Glion, Tunon</strong><br />
                               Concours des écoles d'ingénieurs : <br />

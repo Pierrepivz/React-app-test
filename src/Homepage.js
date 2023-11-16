@@ -13,8 +13,8 @@ import "./globals.css";
 import "./homepage.css";
 import Persona from "./Persona.js";
 import Statistics from "./Statistics.js";
-import offre1 from "./images/Choralies.jpg";
-import offre2 from "./images/photoposte.jpeg";
+import offre1 from "./images/mirabeau.jpg";
+import offre2 from "./images/bienposte.jpeg";
 
 
 
@@ -41,9 +41,7 @@ function Homepage(){
       return (
             <div className="Homepage">
            
-                  <div class="background_decoration decoration" id="decoration_home_1_1"></div>
-                  <div class="background_decoration decoration" id="decoration_home_1_2"></div>
-                  <div class="background_decoration decoration" id="decoration_home_1_3"></div>
+                  
                   <div class="background_decoration decoration4" id="decoration_home_4_1"></div>
                   <div class="background_decoration decoration5" id="decoration_home_5_1"></div>
             
@@ -89,12 +87,7 @@ rencontrer. <br/>Avec un objectif précis :
                         
 
                         <div id="home_graph">
-                        <div class="name_boxes" id="quentin_name">
-                              <content>Bruno,<br/></content><content2>Directeur des ventes</content2>
-                              </div>
-                              <div class="name_boxes" id="jules_name">
-                              <content>Jules,<br/></content><content2>Terminale S</content2>
-                              </div>
+                        
 
                         
 
@@ -106,19 +99,19 @@ rencontrer. <br/>Avec un objectif précis :
       <content1>CV </content1>
       
       
-      <blue><content2>' Avoir
-un CV qui retient l’attention '</content2></blue>
+      <blue><content2><italic> Avoir
+un CV qui retient l’attention </italic></content2></blue>
 </div>
 <div id="objectif_box" class="column_items_center">
       <content1>Concours</content1>
       
-      <blue><content2>' Réussir les concours<br/> postbac '</content2></blue>
+      <blue><content2><italic> Réussir les concours<br/> postbac </italic></content2></blue>
       
 </div>
 <div id="objectif_box" class="column_items_center">
       <content1>1er job</content1>
       
-      <blue><content2>' Réussir l’entretien de motivation '</content2></blue>
+      <blue><content2><italic> Réussir l’entretien de motivation </italic></content2></blue>
 </div>
 
 
@@ -133,17 +126,17 @@ un CV qui retient l’attention '</content2></blue>
       
       
       
-      <blue><content2>' Atteindre mes objectifs '</content2></blue>
+      <blue><content2><italic> Devenir plus efficace dans<br/> l'organisation de mon travail </italic></content2></blue>
 </div>
 <div id="objectif_box" class="column_items_center">
 <content1>Leadership</content1>
 
-      <blue><content2>' Générer l'adhésion '</content2></blue>
+      <blue><content2><italic> Générer l'adhésion </italic></content2></blue>
 </div>
 <div id="objectif_box" class="column_items_center">
       <content1>Réorientation</content1>
       
-      <blue><content2>' Changer de métier '</content2></blue>
+      <blue><content2><italic> Réussir mon changement d'organisation ou de métier </italic></content2></blue>
 </div>
 
 
@@ -211,7 +204,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
                               <div class='home_offre column_items_center'>
 
                               
-                              <div class="photo" >
+                              <div class="photo">
                               <img src={offre1}/>
                               </div>
                                     
@@ -294,24 +287,38 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
                         </div>
                   </div>
 
-            <div class="block">
-                  <div class='column_items_center'>
-                  <br />
-                              
-                              
-<br />
-
-
-
-                        </div>
+            <div class="block column_items_center window">
                   
+                  
+                  
+            <div class="column_items_center note first_temoignage">
+  
+  <div class="row">
+    <div class="column_items_center">
+  <div class="profils column"><img src={img_mathilde}  /></div><br/>
 
+  <h3title>Robin</h3title>
+  <content1><blue>Terminale S, admis VATEL Paris 2022 </blue></content1>
+  </div>
+  
+  <br/>
+  <content><blue> Avec les 4 heures de préparation à l’entretien,
+j’ai pu mettre des mots sur les raisons pour
+lesquelles j’ai choisi de travailler dans
+l’hôtellerie.<br/><br/>
+
+La séance d’entraînement m’a permis d’être
+moins stressé et au final j’ai été admis à Vatel
+Paris.</blue></content>
+  
+</div>
+  </div>
                  
 
-                  </div>
+                  
 
 
-                  <div class="column_items_center">
+                  
 
                   
 

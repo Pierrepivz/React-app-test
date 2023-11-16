@@ -8,7 +8,7 @@
 
 }
 .home_offre{
-    width: 410px;
+    width: 400px;
     height: 380px;
     background: linear-gradient(to bottom, #E5F8FF 90%,#ffffff00);
     border-top-left-radius: 4px;
@@ -20,8 +20,8 @@
 
   .home_offre .photo{
    margin-top: 20px;
-   height: 280px;
-   width: 350px;
+   height: 310px;
+   width: 280px;
    background-color: white;
    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
    border-radius: 3px;
@@ -38,9 +38,9 @@
 
 offretitle{
     font-weight: 700;
-    font-size: 23px;
+    font-size: 21px;
     z-index:15;
-    font-family: "montserrat";
+    font-family: "montserrat alternates";
     letter-spacing: 2px;
     
     

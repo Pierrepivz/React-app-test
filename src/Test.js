@@ -21,6 +21,8 @@ import Admin_blog from "./admin_blogs.js";
 import Login from "./login.js";
 import Methode_page from "./Methode_page.js";
 import Admin_rdv from "./admin_rdv.js";
+import Cgv from "./Cgv.js";
+import Mentions_legales from "./Mentions_legales.js";
 /*
 
 
@@ -117,6 +119,18 @@ function Test()
       
       <Contactconfirm/>
       
+      </Route>
+
+      <Route path='/Cgv'>
+      
+      <Cgv />
+
+      </Route>
+
+      <Route path='/Mentions'>
+      
+      <Mentions_legales />
+
       </Route>
 
 

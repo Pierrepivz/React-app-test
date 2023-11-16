@@ -58,13 +58,17 @@
     
     
   }
+  .Nav .title_logo{
+    letter-spacing: 0px;
+  }
 
   .Nav{
 
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
     padding: 15px;
     background: linear-gradient(to bottom,#fffefe 88%,#ffffff00);
-    font-family: 'Montserrat Alternates', serif;
+    font-family: 'Montserrat', serif;
+    letter-spacing: 1.5px;
     font-size: 15px;
     font-weight: 500;
     position: fixed;
@@ -206,7 +210,7 @@
     border-style: solid;
     border-radius: 5px;
     border-color: #E5F8FF;
-    
+    background-color: white;
     width: 340px;
     height: auto;
     padding-left: 20px;
@@ -837,6 +841,17 @@
       
       
         }
+        h4title{
+  
+          font-family: 'montserrat';
+
+          font-weight: 600;
+          font-size: 33px;
+          position:relative;
+            z-index:90;
+        
+        
+          }
   italic{
   font-style: italic;
   margin-left: 10px;
@@ -864,8 +879,8 @@
   #home_graph{
     
     margin-top: 30px;
-    background-image: url('./images/homepage_presentation_QJ.svg') ;
-    background-size: auto;
+    background-image: url('./images/homepage_homegraph.svg') ;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 100px;
     border-radius: 10px;

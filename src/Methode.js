@@ -24,7 +24,7 @@ function Methode() {
                         <div id="titre_second"class='column_items_center'>
                               
                               <h1title>Prendre rendez-vous</h1title>
-                              <h2under></h2under>
+                              
                               <h2under2></h2under2>
                               <div class="note column_items_center">
                               
@@ -73,7 +73,7 @@ C'est <strong>entièrement gratuit et sans aucun engagement</strong> de part et 
             </div>
       
       
-            <div id='underline2'></div>
+            <h2under2></h2under2>
             <div id='box_content'>
             <content>Vous vous inscrivez pour un 1 er entretien <br />sous Teams  de 30 minutes sur le <br /><Link to='./offre'><a href='#'><t_orange>calendrier en ligne </t_orange></a></Link>
       selon vos disponibilités. <br/>

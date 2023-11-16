@@ -12,8 +12,8 @@ function Coach(){
 
    <div className="Contact Page">
 
-<div class="decoration"></div>
-<div class="decoration2"></div>
+
+
 <div class="decoration3"></div>
 <div class="decoration4"></div>
 <div class="decoration5"></div>

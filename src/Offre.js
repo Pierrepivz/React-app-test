@@ -22,7 +22,7 @@ function Offre() {
             <div className="Offre">
               
 
-<div class="decoration"></div>
+
 
 
 
@@ -95,8 +95,8 @@ le déroulement de l’entretien avec le jury de l’école de
 votre choix.<br/><br/>
 
 Nous allons préparer vos réponses, identifier vos points
-forts, mais aussi, simuler l’entretien pour  <strong>vous mettre en
-confiance</strong> et vous entraîner.
+forts, mais aussi, simuler l’entretien pour <blue>vous mettre en
+confiance et vous préparer à réussir.</blue>
 </content1>
 
 <Link to="/Methode">
@@ -120,7 +120,7 @@ Que ce soit pour un stage, un 1er job ou un changement de
 carrière, l’entretien de motivation est un exercice qui
 demande de la <strong>préparation et de l’entrainement.</strong><br/><br/>
 
-Mettons ensemble <strong>des mots précis</strong> et <blue>convaincaints</blue> sur votre
+Mettons ensemble <blue><strong>des mots précis</strong> et convaincaints</blue> sur votre
 parcours, votre projet professionnel et votre envie d’être
 sélectionné(e).
 </content1>
@@ -138,10 +138,10 @@ réussi, voire agréable, il s’avère efficace de se concentrer
 sur le message que vous allez porter.<br/><br/>
 
 SI le contenu de votre
-communication est <strong>en résonance avec les attentes</strong> du
-public, il y a de fortes chances que tout se passe bien.
-Apprenez les règles de base qui permettent de favoriser
-<strong>l’adhésion de votre audience.</strong>
+communication est <blue>en résonance avec les attentes du
+public</blue>, il y a de fortes chances que tout se passe bien.
+Apprenez les règles de base qui permettent de <blue>favoriser
+<strong> l’adhésion de votre audience.</strong></blue>
 </content1>
 
 
@@ -155,20 +155,20 @@ Apprenez les règles de base qui permettent de favoriser
 <div class="line_between">
 
 <div class="column_items_center">
-  <h1title>+ 600</h1title>
+  <h4title><blue>+ 600</blue></h4title>
   <h2under2></h2under2>
   <br/>
   <h2title>Entretiens depuis
 2007</h2title>
 </div>
 <div class="column_items_center">
-  <h1title>98 %</h1title>
+  <h4title><blue>98 %</blue></h4title>
   <h2under2></h2under2>
   <br/>
   <h2title>de taux de réussite moyen</h2title>
 </div>
 <div class="column_items_center">
-  <h1title>100 %</h1title>
+  <h4title><blue>100 %</blue></h4title>
   <h2under2></h2under2>
   <br/>
   <h2title>de taux de satisfaction</h2title>
@@ -206,7 +206,7 @@ Apprenez les règles de base qui permettent de favoriser
                   <div class='column_items_center block'>
                         
                         <div class="note"><content> Nous vous aidons à résoudre les principales difficultés de la vie professionnelle rencontrées en entreprise au<br/>
-moment d’une prise de poste, d’une évolution personnelle ou d’un <strong>changement organisationnel.</strong></content></div>                      
+moment d’une <strong>prise de poste</strong>, d’une <strong>évolution personnelle</strong> ou d’un <strong>changement organisationnel.</strong></content></div>                      
 
 <div class="offre_content line_between">
 
@@ -253,8 +253,8 @@ Développer son leadership, accroître sa visibilité : parlons de ce
 que ses termes regroupent dans la situation qui est <blue>la vôtre.</blue><br/><br/>
 
 Il y a autant de styles de management que de managers,
-trouvons ensemble <strong>celui qui convient le mieux à vos équipes, et
-à vous-même.</strong>
+trouvons ensemble <blue>celui qui convient le mieux à vos équipes, et
+à vous-même.</blue>
 </content1>
 
 
@@ -268,7 +268,7 @@ trouvons ensemble <strong>celui qui convient le mieux à vos équipes, et
 Dans le domaine de la gestion du stress, le temps est précieux.<br/><br/> Evoquer
 ensemble vos sources de tensions avant qu’elles ne deviennent récurrentes,
 tenter quelques actions pour les résoudre, vous initier à la pleine conscience,
-je vous invite à <strong>partager votre stress afin de vous alléger.</strong>
+je vous invite à <blue>partager votre stress afin de vous alléger.</blue>
 
 
 </content1>
@@ -285,7 +285,7 @@ Une opportunité de changement professionnel se présente, et vous hésitez.
 La liste Avantages / Inconvénients ne vous permet pas d’y voir plus clair ?<br/><br/> 
 C’est peut-être parce qu’une telle décision n’est pas réductible à un choix
 rationnel. <br/>Imaginons ensemble les conséquences de chacune de vos options,
-et essayons de trouver <strong>celle que vous avez envie d’explorer</strong>
+et essayons de trouver <blue>celle que vous avez envie d’explorer</blue>
 
 
 </content1>
