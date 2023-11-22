@@ -1,5 +1,9 @@
 import "./Methode.css";
 import { Link } from "react-router-dom";
+import stats from "./images/Stats.jpg";
+import coaching1 from "./images/coaching1.JPG";
+import coaching2 from "./images/coaching2.jpg";
+
 
 function Methode_page(){
 
@@ -196,36 +200,103 @@ pensées innovantes parce que non contrôlées.</blue></content1>
                   </div>
 
 
-<div class="flex block">
-<div class="methode_text ">
+<div class="flex block window">
+<div class="methode_text">
 
 <content1><strong>C’est grâce aux <blue>600 personnes accompagnées depuis 2007</blue> que la méthode winentretien a été mise au point.</strong><br/><br/>
 
-Vous arrivez avec un objectif précis : convaincre une école, ou une entreprise, de vous admettre au sein de leur<br/>
+Vous arrivez avec un objectif précis : convaincre une école, ou une entreprise, de vous admettre au sein de leur
 organisation. Vous avez donc une motivation personnelle et un projet professionnel, très précis ou encore vagues.<br/><br/>
 
-Notre méthode : raconter de manière attractive votre motivation et votre projet, qui sont uniques parce que<br/>
+Notre méthode : raconter de manière attractive votre motivation et votre projet, qui sont uniques parce que
 personnels. Nous allons mettre des mots personnels et précis sur les réponses aux questions qui vous seront posées,
 et créer les conditions d’une résonance avec les attentes de votre jury. <br/>Vous êtes préparé(e) à répondre aux
 questions les plus fréquemment posées.<br/><br/>
 
-Le cas échéant, nous vous proposons également un entraînement au passage de l’entretien, en évaluant votre<br/>
-prestation à l’oral par des critères factuels tels que : posture, élocution, pertinence des réponses, ….<br/><br/>
+Le cas échéant, nous vous proposons également un entraînement au passage de l’entretien, en évaluant votre
+prestation à l’oral par des critères factuels tels que : posture, élocution, pertinence des réponses, ….<br/>
 
-Au cours de ces séances, nous appliquons une règle essentielle : respecter votre zone de confort.</content1>
+Au cours de ces séances, nous appliquons une règle essentielle : <br/><br/><strong><orange><h3title>respecter votre zone de confort.</h3title></orange></strong></content1>
 
 
       
 </div>
 <div class="column">
-<div class="image_methode"></div>
+<img class="image_methode_2" src={stats}/>
 <br/>
 <Link to='/offre'>
                                     <a id='bouton'>Prendre rendez-vous</a>
                                     </Link></div>
 
-  </div>    
+  </div>  
 
+
+
+  
+<div class="section block">
+                        <div class="margin_left">
+                        <h1title>Les services de coaching</h1title>
+                        <div id="underline"></div>
+                        </div>
+                  </div>
+
+
+<div class="flex block window">
+<div class="methode_text ">
+
+<content1>Pour les <strong>services de coaching</strong>, l’objectif qui est le vôtre part souvent d’un constat négatif : stress, difficultés
+d’organisation ou de communication, perception négative de ses résultats.
+
+Parce que la perception que l’on a d’un problème contient en partie sa résolution, nous allons travailler sur sa 
+<blue> formulation</blue>, sur sa <blue> réalité objective</blue>, sur la <blue> manière dont vous le ressentez.</blue><br/><br/>
+
+<blue>L’écoute active</blue>, avec ses corollaires que sont la reformulation et le questionnement, sera le socle de tous nos
+échanges.<br/><br/>
+
+Elle permet d’instaurer la confiance et la compréhension, et pour peu qu’on se laisse entraîner par sa simplicité
+apparente, elle permet au pouvoir des mots de faire son œuvre. 
+
+</content1>
+      
+</div>
+<div class="column">
+<img class="image_methode_2" src={coaching1} id="image_coaching"/>
+<br/>
+</div>
+
+  </div> 
+
+
+  <div class="flex block window">
+
+<div class="column">
+<img class="image_methode_2" src={coaching2} id="image_coaching_2"/>
+<br/>
+</div>
+
+
+<div class="column_items_center">
+<div class="methode_text">
+
+
+<content1>
+Au fil de nos séances, c’est avant tout notre mutuelle disposition à l’instant présent qui va me guider pour vous
+proposer : des techniques de pleine conscience, des exercices de CNV, une projection avec narration positive, ou
+même des jeux.<br/><br/>
+
+Au cours de ces séances, j’applique avec vigilance une règle essentielle : <br/><br/><strong><orange><h3title>respecter votre zone de confort.</h3title></orange></strong></content1>
+
+
+      
+</div>
+<Link to='/offre' class="column_items_center">
+                                    <a id='bouton'>Prendre rendez-vous</a>
+                                    </Link></div>
+
+
+  </div>       
+  <br/><br/>
+  
 
 
 

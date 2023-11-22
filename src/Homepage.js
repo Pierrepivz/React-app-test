@@ -15,6 +15,7 @@ import Persona from "./Persona.js";
 import Statistics from "./Statistics.js";
 import offre1 from "./images/mirabeau.jpg";
 import offre2 from "./images/bienposte.jpeg";
+import Robin from "./images/robin.jpg";
 
 
 
@@ -295,7 +296,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
   
   <div class="row">
     <div class="column_items_center">
-  <div class="profils column"><img src={img_mathilde}  /></div><br/>
+  <div class="profils column"><img src={Robin}  /></div><br/>
 
   <h3title>Robin</h3title>
   <content1><blue>Terminale S, admis VATEL Paris 2022 </blue></content1>
