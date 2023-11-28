@@ -21,12 +21,9 @@ export default function Admin_rdv(){
   const [nom, setNom] = useState('');
   const [date, setDate] = useState(new Date());
   const [hour, setHour] = useState('');
-  const current = `${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`;
   const sqldate = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`;
   const [Listset, setDatalist] = useState([]);
-  const [rdvlist, setrdvlist] = useState([]);
-  const [rdvdaylist, setdayrdvlist] = useState([{ date: '2023' , data: 'yo'}]);
-  const [rdvhourlist, setrdvhourlist] = useState([]);
+  
   
 
   
@@ -40,7 +37,7 @@ export default function Admin_rdv(){
         }
           );
 
-        setrdvlist(Listset.map(value => value.date));
+        
  
         /*for(var i = 0; i < 3; i++){*/
             
@@ -55,7 +52,7 @@ export default function Admin_rdv(){
     
     
     const datelist = Listset.map( value => value.date )
-    const hourlist = Listset.map( value => value.hour )
+    
     const datatab = Listset.map( value => [{data: value.date , hour: value.heure}] );
     const tabvaleurs = datatab.flat();
 
@@ -109,46 +106,110 @@ export default function Admin_rdv(){
   const [rdvdujour, setRdv] = useState(tabfinal);
 
   const onChange = date => {
-   
-    const testtab = [];
 
-    setDate(date);
-    const sqldate = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`;
     
 
+    /* init */
+    const tabdispo = ["10","12","16","18"];
+    const tableau_complet = [];
+    const reserved_tab = [];
+    const clienttab = [];
+    const offtab = [];
+    setDate(date);
+    
 
+    if(date.getDay() == 0){
+
+      setRdv([]);
+      return 0;
+
+    }
+    
+
+    /* tableau des créneaux réservés  */
     
     for(var i = 0; i < tabvaleurs.length ; i++){
 
         
-        
+      
         const d1 = new Date(tabvaleurs[i]["data"]);
         const d2 = `${d1.getFullYear()}-${d1.getMonth()+1}-${d1.getDate()}`;
 
 
         if(d2 == sqldate){
 
-            
-            testtab.push(tabvaleurs[i]["hour"]);
+            if(tabvaleurs[i]["dispo"] == 3){
+
+              offtab = tabdispo;
+
+
+            }else{
+
+            reserved_tab.push(tabvaleurs[i]["hour"]);
+
+            if(tabvaleurs[i]["dispo"] == 1){
+
+              offtab.push(tabvaleurs[i]["hour"]);
+
+            }
+            if(tabvaleurs[i]["dispo"] == 2){
+
+              clienttab.push(tabvaleurs[i]["hour"]);
+              
+            }
+
+            }
+
 
         }
         
-
+    
     }
     
-    
-    const tabdispo = ["9 : 30","10 : 00","11 : 00","11 : 30","12 : 00","12 : 30","13 : 00","13 : 30","14 : 00"];
-    const tabfinal = tabdispo.filter(value => !testtab.includes(value));
-    setRdv(tabfinal);
-    
-   
-    
+    /* création du tableau final comprenant les créneaux réservés et disponibles */
 
+    
+    
+    for(var e = 0; e < tabdispo.length ; e++){
+    
+    if(reserved_tab.includes(tabdispo[e])){
+
+
+      if(clienttab.includes(tabdispo[e])){
+
+        tableau_complet.push([{status: "date" , hour: tabdispo[e]}]);
+
+      }
+      if(offtab.includes(tabdispo[e])){
+      
+        tableau_complet.push([{status: "date offhour" , hour: tabdispo[e]}]);
+
+      }
     
       
     
+    }else{
+    
+      tableau_complet.push([{status: "date colored" , hour: tabdispo[e]}]);
+    
+    }
+    }
+    
+    const tableau_des_rendez_vous = tableau_complet.flat();
+    setRdv(tableau_des_rendez_vous);  
+
+    /* check journée non disponibles */
+
+    if(datelist.includes(sqldate)){
+    
+     /* setDispoJ(["bouton_on","bouton_off","indisponible"])}else{
+      
+      setDispoJ(["bouton_off","bouton_on","disponible"]);*/
+  
+      };
           
   };
+
   function hourselect(value){
 
     

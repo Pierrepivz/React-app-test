@@ -26,7 +26,7 @@ export default function Cgv(){
             <content1>
             <blue>Article 1 :</blue> Dispositions générales et Objet<br/><br/>
 Les présentes conditions générales de vente ont pour objet les ventes de produits et de prestations
-de service par la SAS Jungo dont le siège social est situé au 10 Allée Desaix 78110 Le Vésinet. Elles
+de service par la SAS Jungo dont le siège social est situé dans les Yvelines. Elles
 s&#39;appliquent aux prestations d&#39;accompagnement que la SAS Jungo délivre dans le cadre de services
 de préparation d’entretiens et de coaching.<br/><br/><br/>
 <blue>Article 2 :</blue> Conditions d&#39;inscription et prix<br/><br/>

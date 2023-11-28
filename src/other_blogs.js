@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, Link } from "react";
 import React from "react";
 import axios from "axios";
 
@@ -8,7 +8,7 @@ function Other_blogs(){
 
     useEffect (() => {
 
-      axios.get(`http://localhost:3001/api/getblogs`)
+      axios.get(`https://server-test-3emq.onrender.com/api/getblogs`)
       .then((response) =>  { 
         
         setDatalist(response.data);}
@@ -22,11 +22,11 @@ function Other_blogs(){
     return(
 
         <div class="autre_contenu autre_contenu_box column_items_center">
-        <h3title>Plus de contenu : </h3title>
+        <h2title><blue>Plus de contenu :</blue></h2title>
         {Listset.map(value => 
-            <div class="home_article"> <div class="article_photo" ><img src={value.image}></img></div> 
+            <div class="other_blogs_article"> <Link to={`/blog?id=${value.id}`} onClick={() => window.scrollTo(0,10)}></Link><a></a><div class="article_photo" ><img src={value.image}></img></div> 
             <content1><blue>{value.article_name}</blue><br/></content1>
-            <content2>{value.description}</content2>
+            
             
            
             

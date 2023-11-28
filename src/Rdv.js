@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
-
+import axios from 'axios';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './calendar.css';
@@ -18,9 +18,22 @@ function Rdv() {
   const [date, setDate] = useState(new Date());
   const [hour, setHour] = useState('');
   const current = `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
-  
+  const tabfinal = ["9 : 30","10 : 00","10 : 00","11 : 00","11 : 30","12 : 00","12 : 30","13 : 00","13 : 00","13 : 30","14 : 00"];
   var text = document.getElementById('text_recap');
   var btnoff = document.querySelector('.btn');
+  const [Listset, setDatalist] = useState([]);
+
+
+  useEffect (() => {
+
+    axios.get('https://server-test-3emq.onrender.com/api/getrdv')
+      .then((response) =>  { 
+        setDatalist(response.data);
+    }
+      );
+    
+    
+    }, []); 
   
   function selectcheck(){
     
@@ -89,6 +102,23 @@ function Rdv() {
       
   }
 
+  function hourselect(value,dispo,index){
+
+    setHour(value);
+     /*
+    if(dispo == "date offhour"){
+   
+    setDispoH(["bouton_on","bouton_off","indisponible"])}else{
+    
+    setDispoH(["bouton_off","bouton_on","disponible"]);
+
+    };*/
+    
+    
+    
+    
+  };
+
 
 
     return (
@@ -128,24 +158,13 @@ function Rdv() {
 
 <div class='select column' value="yooooooo" onClick={(e) => {btncheck(e)}}>
 
-<div class="row">
-<buton  class="date colored" onClick={(e) => {dateselect("9:30")}} ><content>9 h 30</content></buton>
-<buton  class="date colored" onClick={(e) => {dateselect("10:00")}}><content>10 h 00</content></buton>
-<buton  class="date colored" onClick={(e) => setHour('10:30')}><content>10 h 30</content></buton>
-<buton  class="date colored" onClick={(e) => setHour('11:00')}><content>11 h 00</content></buton>
-</div>
-<div class="row">
-<buton  class="date colored" onClick={(e) => setHour('11:30')}><content>11 h 30</content></buton>
-<buton  class="date colored" onClick={(e) => setHour('12:00')}><content>9 h 30</content></buton>
-<buton  class="date colored" onClick={(e) => setHour('13:30')}><content>9 h 30</content></buton>
-<buton  class="date colored" onClick={(e) => setHour('13:00')}><content>9 h 30</content></buton>
-</div>
-<div class="row">
-<buton  class="date colored" onClick={(e) => setHour('14:00')}><content>9 h 30</content></buton>
-<buton  class="date colored" onClick={(e) => setHour('14:30')}><content>9 h 30</content></buton>
-<buton  class="date colored" onClick={(e) => setHour('15:00')}><content>15 h 00</content></buton>
-<buton  class="date colored" onClick={(e) => setHour('15:30')}><content>15 h 30</content></buton>
-</div>
+{Listset.map((data,index) => 
+    
+    <div class={data.status} key={index}  onClick={(e) => {hourselect(e.target.innerHTML,data.status,index)}}>
+        <content>{data.hour}</content>
+        </div>
+        
+        )}
 
 
 

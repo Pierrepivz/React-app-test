@@ -120,7 +120,7 @@ Que ce soit pour un stage, un 1er job ou un changement de
 carrière, l’entretien de motivation est un exercice qui
 demande de la <strong>préparation et de l’entrainement.</strong><br/><br/>
 
-Mettons ensemble <blue><strong>des mots précis</strong> et convaincaints</blue> sur votre
+Mettons ensemble <blue><strong>des mots précis</strong> et convaincaint</blue> sur votre
 parcours, votre projet professionnel et votre envie d’être
 sélectionné(e).
 </content1>

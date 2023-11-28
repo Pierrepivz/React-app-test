@@ -72,7 +72,7 @@ function Contact(){
                               <h2under2></h2under2>
                               <content class="note"> Vous souhaitez avoir des informations sur mon offre ou me poser une question  ?
 
-Alors n’hésitez pas, et complétez le formulaire de contact. Je vous réponds sous 24h.
+Alors n’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous réponds sous 24h.</strong>
 
 </content>
     
@@ -116,9 +116,7 @@ Alors n’hésitez pas, et complétez le formulaire de contact. Je vous réponds
         <content>* Email : <br/></content>
                 <input type="email" className="form-control" placeholder="Email" name="email" id="input" value={email} required
                 onChange={(e) => setEmail(e.target.value)}/>
-        <content>Téléphone : <br/></content>
-                <input type="tel" className="form-control" placeholder="Téléphone" name="tel" id="input" value={tel} required
-                onChange={(e) => setTel(e.target.value)}/>
+        
         </div>
 
         <Recaptach />
@@ -173,7 +171,7 @@ Alors n’hésitez pas, et complétez le formulaire de contact. Je vous réponds
             <content><blue> email :</blue> carole@winentretien.com</content> 
             <br/>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83997.91599575017!2d2.2775578595247836!3d48.85945224507882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671ef6ff7f46f%3A0x50b82c368941a90!2s5e%20Arrondissement%2C%2075005%20Paris!5e0!3m2!1sfr!2sfr!4v1688041214845!5m2!1sfr!2sfr" width="350" height="240" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
     <div id="mapmessage">
              
     <i class="fa-solid fa-location-dot" ></i><br/>
@@ -187,7 +185,7 @@ Opéra, Gare de Lyon, les Halles ...<br/><br/>
 Pour un coaching, il est conseillé d'effectuer<br/>
 la 1ère séance en présentiel.</content> </div>
 
-        <img class="contact_photo" src={cabane} />
+       
 
       </div>
 

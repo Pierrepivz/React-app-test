@@ -513,6 +513,24 @@ textarea{
   
 }
 
+.article_content{
+  
+  max-width: 800px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+  border-style: solid;
+  border-color:  #E5F8FF;
+  border-width: 8px;
+padding: 30px;
+min-height: 620px;
+border-radius: 9px;
+font-weight: 500;
+font-size: 14px;
+margin-right: 20px;
+
+
+
+}
+
 
 #formulaire {
 
@@ -752,13 +770,15 @@ font-size: 14px;
 
 .autre_contenu_box{
 
-  background-color:  #3e8ce6;
+  background-color:  #eaf2fd;
   border-radius: 10px;
-  height: 700px;
+  height: 870px;
   padding: 10px;
   color: white;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+  min-width: 300px;
+  overflow: hidden;
   
-
   }
 
 .article_paragraph{
@@ -827,10 +847,10 @@ font-size: 14px;
 
 .home_article .article_photo{
   
-  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
-  width: 100px;
+  
+  width: 300px;
   margin-right: 20px;
-  height: 260px;
+  
   margin-top: 20px;
   margin-bottom: 7px;
   border-radius: 10px;

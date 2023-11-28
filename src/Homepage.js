@@ -15,7 +15,7 @@ import Persona from "./Persona.js";
 import Statistics from "./Statistics.js";
 import offre1 from "./images/mirabeau.jpg";
 import offre2 from "./images/bienposte.jpeg";
-import Robin from "./images/robin.jpg";
+import Robin from "./images/arthur_robin.jpg";
 
 
 
@@ -60,7 +60,7 @@ function Homepage(){
                               <div id='underline2'></div>
                               
                               <hcontent>
-                              Depuis 15 ans, winentretien permet à des étudiants et
+                              Depuis 15 ans, <blue>win</blue><strong>entretien</strong> permet à des étudiants et
 des professionnels de réussir leur <strong>entretien de
 motivation :</strong> <br/><br/><blue><h3title>Concours d’entrée dans une école</h3title><br/><br/>
 
@@ -76,7 +76,7 @@ rencontrer. <br/>Avec un objectif précis :
 
       </hcontent>
                                     
-                                    <Link to='/offre'>
+                                    <Link to='/offre' onClick={() => window.scrollTo(0,10)}>
                                     <a id='bouton' >Mon offre</a>
                                     </Link>
                                     
@@ -112,7 +112,8 @@ un CV qui retient l’attention </italic></content2></blue>
 <div id="objectif_box" class="column_items_center">
       <content1>1er job</content1>
       
-      <blue><content2><italic> Réussir l’entretien de motivation </italic></content2></blue>
+      <blue><content2><italic> Réussir mes
+entretiens <br/>et décrocher un 1er job </italic></content2></blue>
 </div>
 
 
@@ -132,12 +133,13 @@ un CV qui retient l’attention </italic></content2></blue>
 <div id="objectif_box" class="column_items_center">
 <content1>Leadership</content1>
 
-      <blue><content2><italic> Générer l'adhésion </italic></content2></blue>
+      <blue><content2><italic> Générer l’adhésion et<br/> la cohésion au
+sein de mon équipe </italic></content2></blue>
 </div>
 <div id="objectif_box" class="column_items_center">
       <content1>Réorientation</content1>
       
-      <blue><content2><italic> Réussir mon changement d'organisation ou de métier </italic></content2></blue>
+      <blue><content2><italic> Réussir mon changement <br/>d'organisation ou de métier </italic></content2></blue>
 </div>
 
 
@@ -213,7 +215,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
                                     
                               </div>
 
-                                    <Link to='/offre'>
+                                    <Link to='/offre' onClick={() => window.scrollTo(0,10)}>
                                     <a id='bouton' >En savoir +</a>
                                     </Link>
 
@@ -246,7 +248,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
                                     
                               </div>
 
-                                    <Link to='/offre'>
+                                    <Link to='/offre' onClick={() => window.scrollTo(0,10)}>
                                     <a id='bouton' >En savoir +</a>
                                     </Link>
 

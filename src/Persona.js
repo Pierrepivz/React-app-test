@@ -81,9 +81,9 @@ function Persona(){
                               <content>
                               
                               Concours des écoles Hôtelières : <br /> 
-                              <a href="#"><t_orange>VATEL</t_orange></a><strong>, EHL, Glion, Tunon</strong><br />
+                              <Link to={`/blog?id=43`} onClick={() => window.scrollTo(0,10)}><t_orange>VATEL</t_orange></Link><strong>, EHL, Glion, Tunon</strong><br />
                               Concours des écoles d'ingénieurs : <br />
-                              <a href="#"><t_orange>Groupe UT </t_orange> - </a><a href="#"><t_orange>Groupe Insa </t_orange></a><br />
+                              <Link to={`/blog?id=47`} onClick={() => window.scrollTo(0,10)}><t_orange>Groupe UT </t_orange></Link> - <Link to={`/blog?id=50`} onClick={() => window.scrollTo(0,10)}><t_orange>Groupe Insa </t_orange></Link><br />
                               Concours des écoles de commerce : <br />
                               <strong><a href="#">EDHEC</a> - Sesame - Access</strong>
                               </content>
@@ -106,13 +106,13 @@ fréquemment rencontrées</orange> une fois en poste – <blue><br/>indiqués en
 
 
                         </div>
-
+                  
                         <div class="line">
-<a id='bouton' >Mon offre</a>
+<Link to="/offre" onClick={() => window.scrollTo(0,10)}>
+<a id='bouton' >Mon offre</a></Link>
 
 </div>
-
-                        
+                    
 </div>
                         
                         </div>

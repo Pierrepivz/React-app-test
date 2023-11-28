@@ -5,17 +5,17 @@ import Other_blogs from "./other_blogs.js";
 
 const Blog = (props) => {
 
-  const html = "<h1>ok ok</h1>";
+  
    
-    const [title,setTitle] = useState('');
-    const queryParameters = new URLSearchParams(window.location.search);
+  const [title,setTitle] = useState('');
+  const queryParameters = new URLSearchParams(window.location.search);
   const id = queryParameters.get("id");
   const [Article,setArticle] = useState([]);
   
   
   useEffect (() => {
 
-    axios.get(`http://localhost:3001/api/getblogs/${id}`)
+    axios.get(`https://server-test-3emq.onrender.com/api/getblogs/${id}`)
     .then((response) =>  { 
       
       setArticle(response.data);}
@@ -51,30 +51,30 @@ const Blog = (props) => {
 
 
   return (
-    <div className="Page Blog">
+    <div className="Page Blog window">
 
 <div class='column_items_center'>
                               
-   {Article.map (value => value.article_name)}
-  <h1title>{title}</h1title>
-  <h2under></h2under>
+   <h1title>{Article.map (value => value.article_name)}</h1title>
+   
+  
                               <h2under2></h2under2>
                                 
                                                 
                               
                         </div>
 
-    <div class="block window line_between">
+    <div class="block"/>
 
    
     
-    <div class="article">
     
-    <div dangerouslySetinnerHtml={{__html: html}}/>
-    <h2under2></h2under2>
+    
+    <div class="row">
+   
 
     
-    <div class="article_content column_start">
+    <div class="article_content">
 
     {Article.map(value => 
 
@@ -96,36 +96,23 @@ const Blog = (props) => {
     
     
 
-    
-
-    
-    
-
-<div class="article_reco">
-  {Article.map( value =>
-<content>{value.links} </content>
-)}
-</div>
-
-
-    
-    
-    
-
-    </div>
-
     </div>
 
     <Other_blogs/>
-    
-
-    
-
 
     </div>
+
+   
+    
+
+    
+
+
+    
       
     </div>
   );
 }
 
 export default Blog;
+/* ligne 101*/

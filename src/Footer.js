@@ -1,6 +1,6 @@
 /*<img src={logo} className="win-logo" alt="logo" />*/
 import React, { useState } from "react";
-import logo from './images/logo_negatif.svg';
+import logo from './images/firstlogo.svg';
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -16,13 +16,15 @@ function Footer() {
       <div class='line_between'>
 
 
-      <img src={logo} className="nav-logo" alt="logo" />
+      <div class="nav-logo">
+        <img src={logo} className="nav-logo" alt="logo" />
+            </div>
 
 
         <div class="line_around">
 
         <div class="column_start" id="foot_content">
-        <ftitle><content>Winentretien</content></ftitle>
+        <ftitle><content>winentretien</content></ftitle>
 
         
         

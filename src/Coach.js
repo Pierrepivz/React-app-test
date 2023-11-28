@@ -59,9 +59,7 @@ Par des techniques qui s'appuient sur le pouvoir des mots, des silences et de to
 
 
 </div>
-                 <Link to="/coach">
-                 <a id='bouton' >En savoir +</a>
-                 </Link>
+                
                   </div>
 
                   

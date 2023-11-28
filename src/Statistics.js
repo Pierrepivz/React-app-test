@@ -1,3 +1,6 @@
+
+import { Link } from "react-router-dom";
+
 function Statistics() {
 
 
@@ -62,8 +65,9 @@ préparation de votre entretien de motivation</content>
 
 </div>
 <div class="line">
+<Link to="/Methode_page" onClick={() => window.scrollTo(0,10)}>
 <a id='bouton' >Ma méthode</a>
-
+</Link>
 </div>     
       </div>                                  
 

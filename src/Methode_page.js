@@ -209,12 +209,11 @@ Vous arrivez avec un objectif précis : convaincre une école, ou une entreprise
 organisation. Vous avez donc une motivation personnelle et un projet professionnel, très précis ou encore vagues.<br/><br/>
 
 Notre méthode : raconter de manière attractive votre motivation et votre projet, qui sont uniques parce que
-personnels. Nous allons mettre des mots personnels et précis sur les réponses aux questions qui vous seront posées,
-et créer les conditions d’une résonance avec les attentes de votre jury. <br/>Vous êtes préparé(e) à répondre aux
-questions les plus fréquemment posées.<br/><br/>
+personnels. Nous allons mettre des mots personnels et précis sur les réponses aux questions qui vous seront posées.<br/><br/>
 
-Le cas échéant, nous vous proposons également un entraînement au passage de l’entretien, en évaluant votre
-prestation à l’oral par des critères factuels tels que : posture, élocution, pertinence des réponses, ….<br/>
+Le cas échéant, nous vous proposons un entraînement au passage de l’entretien, en
+évaluant des points d’attention tels que : posture,
+élocution, pertinence des réponses..<br/>
 
 Au cours de ces séances, nous appliquons une règle essentielle : <br/><br/><strong><orange><h3title>respecter votre zone de confort.</h3title></orange></strong></content1>
 
@@ -224,7 +223,7 @@ Au cours de ces séances, nous appliquons une règle essentielle : <br/><br/><st
 <div class="column">
 <img class="image_methode_2" src={stats}/>
 <br/>
-<Link to='/offre'>
+<Link to='/Methode' onClick={window.scrollTo(0,10)}>
                                     <a id='bouton'>Prendre rendez-vous</a>
                                     </Link></div>
 
@@ -260,7 +259,7 @@ apparente, elle permet au pouvoir des mots de faire son œuvre.
       
 </div>
 <div class="column">
-<img class="image_methode_2" src={coaching1} id="image_coaching"/>
+<img class="image_methode_2" src={coaching2} id="image_coaching"/>
 <br/>
 </div>
 
@@ -270,7 +269,7 @@ apparente, elle permet au pouvoir des mots de faire son œuvre.
   <div class="flex block window">
 
 <div class="column">
-<img class="image_methode_2" src={coaching2} id="image_coaching_2"/>
+<img class="image_methode_2" src={coaching1} id="image_coaching_2"/>
 <br/>
 </div>
 
@@ -280,8 +279,8 @@ apparente, elle permet au pouvoir des mots de faire son œuvre.
 
 
 <content1>
-Au fil de nos séances, c’est avant tout notre mutuelle disposition à l’instant présent qui va me guider pour vous
-proposer : des techniques de pleine conscience, des exercices de CNV, une projection avec narration positive, ou
+A chaque séance je <blue>pars de votre demande et je me laisse
+guider par votre réceptivité</blue> pour vous proposer : des techniques de pleine conscience, des exercices de CNV, une projection avec narration positive, ou
 même des jeux.<br/><br/>
 
 Au cours de ces séances, j’applique avec vigilance une règle essentielle : <br/><br/><strong><orange><h3title>respecter votre zone de confort.</h3title></orange></strong></content1>
@@ -289,7 +288,7 @@ Au cours de ces séances, j’applique avec vigilance une règle essentielle : <
 
       
 </div>
-<Link to='/offre' class="column_items_center">
+<Link to='/offre' class="column_items_center" onClick={() => window.scrollTo(0,10)}>
                                     <a id='bouton'>Prendre rendez-vous</a>
                                     </Link></div>
 

@@ -93,7 +93,7 @@ function Test()
 
       <Route path='/rdv'>
       
-      <Rdv />
+      <Admin_rdv />
 
       </Route>
 
