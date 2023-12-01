@@ -44,7 +44,7 @@ function Test()
     <div className="Test">
       <script src="https://kit.fontawesome.com/c298d004d1.js" crossorigin="anonymous"></script>
       
-
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
       <Nav />
       

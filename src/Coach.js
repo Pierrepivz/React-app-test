@@ -12,7 +12,7 @@ function Coach(){
 
    <div className="Contact Page">
 
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 <div class="decoration3"></div>
 <div class="decoration4"></div>
