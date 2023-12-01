@@ -42,7 +42,7 @@ function Homepage(){
       return (
             <div className="Homepage">
            
-                  
+           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                   <div class="background_decoration decoration4" id="decoration_home_4_1"></div>
                   <div class="background_decoration decoration5" id="decoration_home_5_1"></div>
             

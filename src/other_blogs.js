@@ -38,13 +38,7 @@ function Other_blogs(){
             )
             }
 
-        <br /> <br/><br /> <br/>
         
-        
-        <br /> <br/><br /> <br/>
-    
-        
-        <br /> <br/><br /> <br/>
         
         
         

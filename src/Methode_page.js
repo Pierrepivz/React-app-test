@@ -80,8 +80,7 @@ qui vise le bien d’autrui.
 <br/><blue>
 Cette attitude prend son origine dans une disposition du
 cœur, qui vise à favoriser le bien-être de l’autre – dans
-l’accomplissement d’un objectif, ce qui n’exclut pas des
-moments de confrontation bienveillante.</blue></content1>
+l’accomplissement d’un objectif.</blue></content1>
       </div>
 
 
@@ -223,7 +222,7 @@ Au cours de ces séances, nous appliquons une règle essentielle : <br/><br/><st
 <div class="column">
 <img class="image_methode_2" src={stats}/>
 <br/>
-<Link to='/Methode' onClick={window.scrollTo(0,10)}>
+<Link to='/Methode' onClick={() => window.scrollTo(0,10)}>
                                     <a id='bouton'>Prendre rendez-vous</a>
                                     </Link></div>
 
@@ -288,7 +287,7 @@ Au cours de ces séances, j’applique avec vigilance une règle essentielle : <
 
       
 </div>
-<Link to='/offre' class="column_items_center" onClick={() => window.scrollTo(0,10)}>
+<Link to='/Methode' onClick={() => window.scrollTo(0,10)}>
                                     <a id='bouton'>Prendre rendez-vous</a>
                                     </Link></div>
 

@@ -4,9 +4,18 @@
 
    /*Nav bar 2*/
 
+
+
 .Test{
   background-color: rgb(255, 252, 247);
   
+}
+
+@media screen and (max-width:640px){
+  .Test{
+   /* réglage à partir de 640px et + : corps un peu plus grand et même typo */
+    max-width: 1168px;
+  }
 }
 
 
@@ -879,7 +888,7 @@
   #home_graph{
     
     margin-top: 30px;
-    background-image: url('./images/homepage_homegraph.svg') ;
+    background-image: url('./images/homepage_firstgraph.svg') ;
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 100px;
@@ -903,7 +912,7 @@
       border-width: 1px;
       margin-top: 20px;
       height: 30px;
-      width: 220px;
+      width: 225px;
       padding: 7px;
       transition-duration: 0.5s;
       position: relative;
@@ -915,7 +924,7 @@
       #objectif_box:hover {
        
         transition-duration: 1s;
-        height: 90px;
+        height: 95px;
         
       
         

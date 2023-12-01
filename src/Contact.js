@@ -6,6 +6,7 @@ import img_map from "./images/img_map.png";
 import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
 import "./globals.css";
 import cabane from "./images/cabane.jpg";
+import "./contact.css";
 
 
 function Contact(){
@@ -119,21 +120,23 @@ Alors n’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je 
         
         </div>
 
-        <Recaptach />
+       
         
 
         <div class="column_items_center">
 
         <content><italic>Votre message : </italic><br/><br/></content>
                 <textarea  id="message" placeholder="" name="message" value={message} required
-                onChange={(e) => setMessage(e.target.value)}/>  <br/>
+                onChange={(e) => setMessage(e.target.value)}/>  
+        
+        
+
+        <Recaptach />
         
         <input type="submit" class="disabled btn" onClick={(e) => e.target.reset()} value="Envoyer"></input>
-
-        
         
         </div>
-
+ 
        
 
 </div>
@@ -167,23 +170,31 @@ Alors n’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je 
                   <h2under2></h2under2>
                   
              <br/>
-            <content1> Carole PIVIN</content1><br></br>
-            <content><blue> email :</blue> carole@winentretien.com</content> 
+            <content1 class="contact_info"> 
+            Carole PIVIN<br></br><br></br>
+            <blue><i class="fa-solid fa-phone" ></i></blue> 06. 51. 43. 26. 77<br></br><br></br>
+            <blue><i class="fa-solid fa-envelope" ></i></blue>  carole@winentretien.com
+            
+            
+            </content1>
+            
             <br/>
 
-    
+            <h2title>Où me trouver ?</h2title> 
+             
+             <h2under2></h2under2>
     <div id="mapmessage">
              
     <i class="fa-solid fa-location-dot" ></i><br/>
-            <content><italic> <strong>Les séances ont lieu soit en distanciel, soit
-en présentiel. </strong><br/><br/>
-En présentiel, nous nous retrouvons soit dans ma
+            <content><italic>A Paris, dans un des nombreux
+bureaux <blue>REGUS</blue>, <br/>ou à 15mn de
+l’Etoile, dans les Yvelines.<br/><br/>
 
-cabane à l’Ouest de Paris – à 15 mn de l’Etoile – <br/>soit
-dans un des nombreux bureaux Regus à Paris.<br/><br/></italic>
-Opéra, Gare de Lyon, les Halles ...<br/><br/>
-Pour un coaching, il est conseillé d'effectuer<br/>
-la 1ère séance en présentiel.</content> </div>
+Les séances peuvent également avoir
+lieu <blue>en distanciel.</blue><br/>
+Pour un coaching, une 1ère séance en
+présentiel est recommandée. </italic>
+</content> </div>
 
        
 
