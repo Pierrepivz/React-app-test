@@ -11,12 +11,7 @@
   
 }
 
-@media screen and (max-width:640px){
-  .Test{
-   /* réglage à partir de 640px et + : corps un peu plus grand et même typo */
-    max-width: 1168px;
-  }
-}
+
 
 
 
