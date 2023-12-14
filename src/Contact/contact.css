@@ -1,0 +1,29 @@
+.contact_info{
+
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
+    border-radius: 3px;
+
+}
+.fa-solid{
+
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width:640px) and (min-width:200px){
+
+    #contact_telephone{
+
+        flex-flow: column-reverse;
+        margin-left: 10%;
+        
+    }
+    #contact_telephone form{
+    
+        margin-top: 50px;
+    }
+
+
+}

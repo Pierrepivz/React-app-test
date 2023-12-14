@@ -1,28 +1,27 @@
 import React from "react";
 import './Test.css';
 import './Test2.css';
-import Nav from './Nav.js';
+import Nav from './Nav/Nav.js';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Contact from './Contact.js';
-import Homepage from './Homepage.js';
-import Footer from './Footer.js';
-import Offre from './Offre.js';
-import Rdv from './Rdv.js';
-import Methode from './Methode.js';
-import Coach from './Coach.js';
-import Home_Blog from './home_blog.js';
+import Contact from './Contact/Contact.js';
+import Homepage from './Homepage/Homepage.js';
+import Footer from './Footer/Footer.js';
+import Offre from './Offre/Offre.js';
+import Rdv from './Rdv/Rdv.js';
+import Methode from './Rdv/Methode.js';
+import Coach from './Coach/Coach.js';
+import Home_Blog from './Blog/home_blog.js';
 import Rdvconfirm from './Rdvconfirm.js';
 import Contactconfirm from './Contactconfirm.js';
-import Blog from './view_blog.js';
+import Blog from './Blog/view_blog.js';
 import { isValue } from "react-calendar/dist/cjs/shared/propTypes";
-import "./Offre.css";
-import Create_Blog from "./Create_blog.js";
+import "./Offre/Offre.css";
 import Admin_blog from "./admin_blogs.js";
 import Login from "./login.js";
-import Methode_page from "./Methode_page.js";
+import Methode_page from "./Methode/Methode_page.js";
 import Admin_rdv from "./admin_rdv.js";
-import Cgv from "./Cgv.js";
-import Mentions_legales from "./Mentions_legales.js";
+import Cgv from "./Mentions/Cgv.js";
+import Mentions_legales from "./Mentions/Mentions_legales.js";
 /*
 
 
@@ -85,11 +84,7 @@ function Test()
 
       </Route>
 
-      <Route path='/create_blog'>
       
-      <Create_Blog />
-
-      </Route>
 
       <Route path='/rdv'>
       

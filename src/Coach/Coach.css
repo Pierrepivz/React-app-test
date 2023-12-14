@@ -1,0 +1,214 @@
+#coach_photo{
+  
+
+height: 43vmax;
+
+border-radius: 5px;
+box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
+
+}
+
+#coach_description{
+  
+    width: 36vmax;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
+    padding-left: 20px;
+    padding-top: 20px;
+    overflow-y: scroll;
+    
+    
+    
+    }
+    #coach_message1{
+      z-index: 1;
+    }
+    
+    #coach_message1 .content_blue{
+    
+      margin-top: -8px;
+      border-style: none;
+      font-weight: 500;
+      font-size: 1vmax;
+    width: 60vmin;
+    
+    }
+    #coach_message1 :last-child{
+      align-self: center;
+     
+    }
+    #coach_message1 #icon{
+      margin-left: 35px;
+      margin-top: 17px;
+      font-size: 28px;
+    }
+
+  
+  #coach_message2 .content_blue {
+    width: 60%;
+    font-size: 1vmax;
+    font-weight: 500;
+    z-index: 0;
+    margin-top: -10%;
+    background: white;
+    box-shadow: none;
+  }
+  #coach_message2{
+
+    background: white;
+    margin-left: -3%;
+    padding: 1%;
+    padding-left: 5%;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+    z-index: 0;
+    
+    
+  }
+  #coach_message3{
+    background: white;
+    padding: 4%;
+    margin-top: 3%;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+  }
+
+    .photo_box{
+
+      
+      width: 66%;
+      box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+      border-radius: 5px;
+
+    }
+
+    
+    .photo_avatar{
+
+      
+      height: 20vmin;
+      width: 20vmin;
+      background: url("../images/coach_solo.svg");
+      border-radius: 9px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-top: -15%;
+      margin-left: 60%;
+      z-index: 10;
+      
+    
+    }
+
+    .coach_description_viewport{
+  
+        height: 43vmax;
+        
+
+        
+        
+        
+        }
+
+        .coach_description_viewport::-webkit-scrollbar {
+            width: 12px; /* width of the entire scrollbar */
+          }
+          
+          #coach_description::-webkit-scrollbar-track {
+            background: rgb(245, 245, 245); /* color of the tracking area */
+          }
+          
+          #coach_description::-webkit-scrollbar-thumb {
+            background-color:  #2873c95d; /* color of the scroll thumb */
+            border-radius: 20px; /* roundness of the scroll thumb */
+             /* creates padding around scroll thumb */
+             border-width: 2px;
+             border-style: solid;
+             border-color: rgb(245, 245, 245);
+          }
+
+
+    .livre_eyrolles{
+
+        width: 100px;
+        height: 130px;
+        
+        margin-top: 10px;
+    }
+
+    .decoration{
+        position: absolute;
+        z-index: 0;
+        height: 400px;
+        width: 500px;
+        top: 100px;
+        margin-left: -400px;
+        background: linear-gradient(to top,#c1eaf8 40%,#3e8ce696);
+        opacity: 0.4;
+        border-radius: 300px;
+        border-top-right-radius: 200px;
+
+          }
+
+          .decoration2{
+            position: absolute;
+            z-index: 0;
+            height: 400px;
+            width: 500px;
+            top: 500px;
+            
+            margin-left: -400px;
+            background: linear-gradient(to top,#c1eaf8 40%,#3e8ce696);
+            opacity: 0.4;
+            border-bottom-right-radius: 150px;
+            border-top-right-radius: 400px;
+            
+    
+              }
+
+            .decoration3{
+            position: absolute;
+            z-index: 0;
+            height: 400px;
+            width: 100px;
+            top: 200px;
+            right: 0px;
+            margin-left: -400px;
+            background: linear-gradient(to top,#c1eaf8 40%,#3e8ce696);
+            opacity: 0.4;
+            border-bottom-left-radius: 150px;
+            border-top-left-radius: 400px;
+            
+    
+              }
+
+              .decoration4{
+                position: absolute;
+                z-index: 0;
+                height: 100px;
+                width: 100px;
+                top: 100px;
+                right: 150px;
+                
+                background: linear-gradient(to top,#c1eaf8 40%,#3e8ce696);
+                opacity: 0.4;
+                border-radius: 200px;
+                
+        
+                  }
+
+                  .decoration5{
+                    position: absolute;
+                    z-index: 0;
+                    height: 50px;
+                    width: 50px;
+                    top: 150px;
+                    left: 150px;
+                    
+                    background: linear-gradient(to top,#c1eaf8 40%,#3e8ce696);
+                    opacity: 0.4;
+                    border-radius: 200px;
+                    
+            
+                      }
+
+              
+
+    

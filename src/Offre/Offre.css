@@ -1,0 +1,115 @@
+.offre_note_content{
+
+    line-height: 18px;
+    text-align: left;
+    margin-left: 30px;
+}
+.tab_offre_text{
+    width: 60%;
+    padding-bottom: 30px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+.offre_text{
+    width: 400px;
+}
+.offre_text content1{
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 20px;
+    border-left-style: solid;
+    border-left-color: #2873C9;
+    border-left-width: 10px;
+    padding-bottom: 15px;
+    box-shadow: 2px 5px 0.5px rgba(0, 0, 0, 0.041);
+    margin-bottom: 70px;
+    background-color: white;
+
+}
+.offre_content{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+.Offre{
+    
+    
+    padding-top: 15vh;
+    padding-bottom: 10%;
+    
+  
+  }
+  
+  
+  
+  .Offre .note{
+    width: 70%;
+    line-height: 2.8vh;
+    font-size: 2vh;
+    padding: 2vh;
+   
+
+  }
+  #offre_box #dropbar{
+
+   height: 140px;
+   width: 5%;
+   background:linear-gradient(to bottom,#c1eaf8 90%,#ffffff00);
+   border-color: #2873C9;
+   margin-top: -10%;
+   z-index: 0;
+   align-self: center;
+
+ 
+
+  }
+  .detail_offre{
+
+   width: 80%;
+   align-self: center;
+   padding-top: 7%;
+
+  }
+  .detail_offre .note{
+
+    background: white;
+    margin-top: -200px;
+ 
+   }
+
+  
+  .detail_offre .content_blue{
+
+    padding-bottom: 180px;
+    width: 100%;
+    background: linear-gradient(to bottom,#E5F8FF 70%,#ffffff00);
+    
+ 
+   }
+
+   @media screen and (max-width:640px) and (min-width:200px){
+
+       .offre_text{
+           width: 70vmin;
+       }
+
+       .offre_text h2under2{
+        width: 50vmin;
+        height: 5vmin;
+    }
+       .home_offre {
+           margin-right: 8vmin;
+       }
+       
+
+       #offre_content_telephone{
+
+        flex-flow: column;
+        align-items: center;
+
+       }
+   }

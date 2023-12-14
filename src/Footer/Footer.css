@@ -1,0 +1,39 @@
+.Footer{
+    background: linear-gradient(to right,#c1eaf8 1%,#3e8ce6);;
+    padding-top: 50px;
+    padding-bottom: 2%;
+  
+    
+    
+   
+    }
+  .Footer * {
+
+    color: white;
+
+  }
+    .Footer .nav-logo{ 
+      margin-left: 5%;
+      }
+    
+    .foot-links{
+    
+    margin-right: 30px;
+    
+    }
+    #foot_content{
+    
+    margin-right: 50px;
+    
+    }
+    #foot_content *{
+  
+    padding-bottom: 14px;
+  
+    }
+    ftitle{
+      font-size: 22px;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+  

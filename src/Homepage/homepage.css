@@ -1,0 +1,325 @@
+
+
+
+.avatars{
+
+  height: 22vmin;
+  padding-bottom: 40px;
+}
+.win-logo {
+  height: 40vmin;
+  pointer-events: none;  
+}
+.win_graph {
+  
+  height: 60vmin;
+  position:relative;
+  z-index: 4;
+  
+  
+}
+
+.Homemain{
+
+display:flex;
+justify-content: space-around;
+align-items: flex-start;
+padding-top: 9%;
+padding-bottom: 60px;
+background: linear-gradient(to right,#c1eaf8 40%,#3e8ce6);
+
+
+
+
+}
+
+hcontent{
+
+  
+  width: 64vmin;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 3vmin;
+  padding-right: 3vmin;
+  padding-bottom: 10vmin;
+  background-color: white;
+  border-radius: 9px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 3vmin;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+
+  }
+
+
+#main{
+  width: 72vmin;
+}
+
+
+#main a{
+  
+  align-self: center;
+}
+
+.box_content{
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #E5F8FF;
+  background-color: white;
+  width: 19em;
+  height: auto;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  line-height: 25px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+  
+
+  }
+
+
+
+
+
+#preparation{
+
+ 
+ margin-left: -30px;
+ margin-top: 50px;
+
+
+
+}
+
+.home_offre{
+    width: 400px;
+    height: 380px;
+    background: linear-gradient(to bottom, #E5F8FF 90%,#ffffff00);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+   
+    
+    
+  }
+
+  .home_offre .photo{
+   margin-top: 20px;
+   height: 310px;
+   width: 310px;
+   background-color: white;
+   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
+   border-radius: 3px;
+
+
+
+
+  }
+  .photo img{
+    height: inherit;
+    width: inherit;
+    border-radius: 3px;
+  }
+  .home_offres :last-child{
+    align-self: center;
+  }
+  .home_offres #blue_content{
+  
+    height: 380px;
+    width: 390px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+  }
+  .home_offres h2under{
+    width: 270px;
+  }
+  .home_offres content{
+    font-size: 14px;
+  }
+
+  /*statistics*/
+
+  .cible_graph{
+
+    width: 40vmax;
+    height: 27vmax;
+    margin-left: -25vmax;
+    border-radius: 10px;
+    border-width: 3px;
+    background-image: url("../images/Hgraph_objectif.svg");
+    background-size: cover;
+    
+  }
+
+
+  #home_graph{
+    
+    margin-top: 2vmin;
+    background-image: url('../images/homepage_firstgraph.svg');
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    border-radius: 10px;
+    height: 34vmax;
+    max-width: 50%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+  
+    }
+
+
+    #objectif_box{
+
+      background-color: rgb(255, 255, 255);
+      border-radius: 8px;
+      border-style: solid;
+      border-width: 1px;
+      margin-top: 20px;
+      height: 30px;
+      width: 225px;
+      padding: 7px;
+      transition-duration: 0.5s;
+      position: relative;
+      text-align: center;
+      
+      
+      
+      }
+      #objectif_box:hover {
+       
+        transition-duration: 1s;
+        height: 95px;
+        
+      
+        
+        
+        }
+        #objectif_box :last-child{
+        margin-top: 4%;
+        display: flex;
+        overflow: hidden;
+        
+      }
+
+
+  #objectif_jules{
+    
+    padding-top: 110px;
+    padding-right: 200px;
+    
+  }
+  #objectif_quentin{
+    
+    padding-top: 110px;
+    padding-right: 40px;
+    
+  }
+  #name{
+    width: 220px;
+    height: 20px;
+    font-weight: 600;
+    font-family: "montserrat";
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    align-self: center;
+    padding: 4px;
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(22, 22, 22);
+    text-align: center;
+
+  }
+
+  @media screen and (max-width:640px) and (min-width:200px){
+
+    #temoignage{
+      display: none;
+    }
+    #statistics_methode{
+
+      
+      
+      flex-flow: column-reverse;
+      align-items: center;
+      
+
+
+    }
+    #statistics_methode :first-child{
+
+     margin-top: 2%;
+      
+
+
+    }
+
+    .avatars{
+      height: 22vmax;
+    }
+
+  
+    #objectif_box{
+  
+      opacity: 0;
+  
+    }
+    htitle{
+      font-size: 3px;
+    }
+    .persona .window {
+  
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    #main{
+  
+      width: 100%;
+      margin-left: 6%;
+  
+    }
+    hcontent{
+  
+      font-size: 11px;
+      line-height: 19px;
+      
+    }
+    #home_graph{
+     
+     height: 40%;
+     background-position-x: 0px;
+    }
+
+    .home_offre .photo{
+      
+      height: 150px;
+      width: 160px;
+      background-color: white;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
+      border-radius: 3px;
+   
+   
+   
+   
+     }
+     .home_offre{
+      width: 300px;
+      height: 280px;
+      background: linear-gradient(to bottom, #E5F8FF 90%,#ffffff00);
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+     
+      
+      
+    }
+     
+    
+    
+  
+  }
+  
