@@ -56,10 +56,11 @@ function Nav() {
        <div class="sub-nav">
         
         
-        
-        <a onClick={() => window.scrollTo(0,3020)}>Convaincre à l'oral</a>
-        <br/>
-        <a onClick={() => window.scrollTo(0,3770)}>Être bien dans son poste</a>
+       <Link to='./offre' >
+        <a onClick={() => window.scrollTo(0,310)}>Convaincre à l'oral</a>
+        <br/><br/>
+        <a onClick={() => window.scrollTo(0,1720)}>Être bien dans son poste</a>
+        </Link>
         <br/>
         
         

@@ -77,8 +77,7 @@ elle est toujours adaptée à la personnalité et à la demande de chacun. </con
       <div id='box_content' >
       <content1>
       Créé à partir de ‘bien’ et ‘veuillant’, du verbe vouloir, la
-bienveillance désigne pour moi une attitude particulière
-qui vise le bien d’autrui. 
+bienveillance désigne pour moi une intention de recherche du bien d’autrui. 
 <br/><blue>
 Cette attitude prend son origine dans une disposition du
 cœur, qui vise à favoriser le bien-être de l’autre – dans
@@ -205,10 +204,11 @@ pensées innovantes parce que non contrôlées.</blue></content1>
 <div class="flex block window methode_part2">
 <div class="methode_text">
 
-<content1><strong>C’est grâce aux <blue>600 personnes accompagnées depuis 2007</blue> que la méthode winentretien a été mise au point.</strong><br/><br/>
+<content1><strong>C’est grâce aux <blue>600 personnes accompagnées depuis 2007</blue> que la méthode <blue>win</blue>entretien a été mise au point.</strong><br/><br/>
 
-Vous arrivez avec un objectif précis : convaincre une école, ou une entreprise, de vous admettre au sein de leur
-organisation. Vous avez donc une motivation personnelle et un projet professionnel, très précis ou encore vagues.<br/><br/>
+Vous arrivez avec un objectif précis : rédiger une lettre de
+motivation convaincante (Parcoursup), convaincre une
+structure (école, entreprise) de vous prendre <strong>vous.</strong><br/><br/>
 
 Notre méthode : raconter de manière attractive votre motivation et votre projet, qui sont uniques parce que
 personnels. Nous allons mettre des mots personnels et précis sur les réponses aux questions qui vous seront posées.<br/><br/>

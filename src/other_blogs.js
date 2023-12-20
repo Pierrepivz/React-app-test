@@ -21,7 +21,7 @@ function Other_blogs(){
 
     return(
 
-        <div class="autre_contenu autre_contenu_box column_items_center">
+        <div class="autre_contenu autre_contenu_box column">
         <h2title><blue>Plus de contenu :</blue></h2title>
         {Listset.map(value => 
             <div class="other_blogs_article"> <Link to={`/blog?id=${value.id}`} onClick={() => window.scrollTo(0,10)}></Link><a></a><div class="article_photo" ><img src={value.image}></img></div> 

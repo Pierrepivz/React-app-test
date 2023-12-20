@@ -56,7 +56,7 @@ bienveillant, dynamique.</content500> <br />
 
 <content><orange>Pourquoi vous ?</orange></content><br/><br/>
 
-<content><strong><blue>Win</blue>entretien</strong> vous accompagne tout au long des étapes de la
+<content><strong><blue>win</blue>entretien</strong> vous accompagne tout au long des étapes de la
 préparation de votre entretien de motivation</content>
 
 

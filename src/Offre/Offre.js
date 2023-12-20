@@ -34,8 +34,10 @@ function Offre() {
                               
        
                               
-                              <content> La méthode de préparation à l’entretien de <blue>win</blue><strong>entretien</strong> a été renforcée pour vous<br/>
-transmettre une compétence essentielle : <strong>Convaincre à l’oral.</strong><br/><br/>
+                              <content> La préparation des entretiens de motivation est
+le cœur de métier de <blue>win</blue>entretien. Elle vous permet
+d’acquérir une compétence essentielle : <strong>Convaincre à
+l’oral.</strong><br/><br/>
 
 En complément, des <blue>services de coaching</blue> ont été conçus avec un objectif précis :<br/>
 résoudre les difficultés fréquemment rencontrées et vous permettre <strong>d’être bien dans

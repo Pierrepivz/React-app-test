@@ -49,8 +49,8 @@ function Footer() {
         <ftitle><content>Mentions légales</content></ftitle>
 
         <f1>© WINENTRETIEN 2023 TOUS DROITS RÉSERVÉS</f1>
-        <Link to="/Mentions"><f2>MENTIONS LÉGALES</f2></Link>
-        <Link to="/Cgv"><f3>CONDITIONS GENERALES DE VENTES</f3></Link>
+        <Link to="/Mentions" onClick={() => window.scrollTo(0,10)}><f2>MENTIONS LÉGALES</f2></Link>
+        <Link to="/Cgv" onClick={() => window.scrollTo(0,10)}><f3>CONDITIONS GENERALES DE VENTES</f3></Link>
 
         </div>
         

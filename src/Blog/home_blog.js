@@ -32,7 +32,7 @@ function Home_Blog() {
     }, []); 
     
     window.addEventListener("input", search);
-
+    
     function search(){
         
         const cards = document.querySelectorAll(".home_article");
@@ -94,12 +94,12 @@ function Home_Blog() {
                             
                             <div class='column_items_center'>
 
-<h1title>Actualité</h1title>
-
-<h2under></h2under>
+<h1title>Le Blog</h1title>
 <h2under2></h2under2>
 
-<content class="note"> Des conseils, des informations utiles, et mon point de vue sur tous les sujets en lien avec les événements de votre parcours professionnel</content>
+<content class="note">Informations pratiques sur les
+concours, présentation de concepts ou mon point de vue sur des
+sujets du moment : c’est par ici</content>
     
 
                               
@@ -108,12 +108,7 @@ function Home_Blog() {
 
     </div>
 
-    <div class="section block">
-                        <div class="margin_left">
-                        <h1title>Parcourir</h1title>
-                        <div id="underline"></div>
-                        </div>
-                  </div>                        
+                            
                              
                               
                   
@@ -129,21 +124,31 @@ function Home_Blog() {
                     
                     
 
-<div class="window column block">
+<div class="window column">
 
+<div class="column">
+  <div class="row">
 
+                        <h1title>Parcourir</h1title>
+                        
+                        <i class="fa-solid fa-book fa-2xl" id="icon"></i>
+                        </div>
+                        <h2under2></h2under2>
+                        <br/>
+                        
+                  </div>
                     <div class="search_bar line_between">
                     <div class="column_start">
                     <h2title>Cherchez un article </h2title><br/>
                     <input type="text" id="search_bar" class="research" placeholder = ".." onChange={(e) => setInput(e.target.value)} ></input>
                     </div>
                     <div class="column_start">
-                    <content2><strong>Filtres</strong></content2><br/>
+                    <h2title><strong>Filtres</strong></h2title><br/>
                     <select class="filtres research"   onChange={e => setFilter(e.target.value)}>
                     <option></option>
-                    <option value="écoles">Concours</option>
-                    <option value="emplois" >Entretiens</option>
-                    <option value="concours">Coaching</option>
+                    <option value="écoles">Coaching</option>
+                    <option value="emplois" >Entretien</option>
+                    <option value="concours">Divers</option>
 
                     </select>
                     </div>
@@ -167,7 +172,7 @@ function Home_Blog() {
         
   
         
-        <div class="home_article column_start"> <div class="article_photo" ><img src={value.image}></img></div> 
+        <div class="home_article column_start"> <div class="blog_select" ><img src={value.image} width="300px" height="200px"></img></div> 
         <content1>{value.article_name}<br/></content1>
         
         

@@ -45,7 +45,7 @@ box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
 
   
   #coach_message2 .content_blue {
-    width: 60%;
+    margin-left: -4%;
     font-size: 1vmax;
     font-weight: 500;
     z-index: 0;
@@ -72,9 +72,7 @@ box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
   }
 
     .photo_box{
-
-      
-      width: 66%;
+      width: 77%;
       box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
       border-radius: 5px;
 
@@ -84,8 +82,8 @@ box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
     .photo_avatar{
 
       
-      height: 20vmin;
-      width: 20vmin;
+      height: 18vmin;
+      width: 18vmin;
       background: url("../images/coach_solo.svg");
       border-radius: 9px;
       background-size: contain;

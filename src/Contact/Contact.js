@@ -65,7 +65,7 @@ function Contact(){
                               <h2under2></h2under2>
                               <content class="note"> Vous souhaitez avoir des informations sur mon offre ou me poser une question  ?
 
-Alors n’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous réponds sous 24h.</strong>
+N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous réponds sous 24h.</strong>
 
 </content>
     
@@ -170,7 +170,7 @@ Alors n’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je 
             <content1 class="contact_info"> 
             Carole PIVIN<br></br><br></br>
             <blue><i class="fa-solid fa-phone" ></i></blue> 06. 51. 43. 26. 77<br></br><br></br>
-            <blue><i class="fa-solid fa-envelope" ></i></blue>  carole@winentretien.com
+            <blue><i class="fa-solid fa-envelope" ></i></blue>  contact@winentretien.com
             
             
             </content1>
@@ -183,14 +183,14 @@ Alors n’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je 
     <div id="mapmessage">
              
     <i class="fa-solid fa-location-dot" ></i><br/>
-            <content><italic>A Paris, dans un des nombreux
+            <content>A Paris, dans un des nombreux
 bureaux <blue>REGUS</blue>, <br/>ou à 15mn de
 l’Etoile, dans les Yvelines.<br/><br/>
 
 Les séances peuvent également avoir
 lieu <blue>en distanciel.</blue><br/>
 Pour un coaching, une 1ère séance en
-présentiel est recommandée. </italic>
+présentiel est recommandée. 
 </content> </div>
 
        

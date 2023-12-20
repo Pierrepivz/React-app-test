@@ -51,8 +51,9 @@ function Coach(){
 Dans les trois professions que j'exerce depuis plus de 25 ans :  <strong>la formation, le conseil et le coaching</strong>, il y a un point de convergence essentiel qui est la relation à l'autre.<br/><br/>
 
 C'est l'unicité de la rencontre, avec une classe, un groupe de dirigeants ou tout simplement une personnalité unique  - car tous mes clients sont de belles personnes - qui permet de développer une relation singulière, où la qualité de l'attention portée à l'autre permet que surviennent des instants de vérité et de possibilités.  <br/>
+La recherche de ces moments suspendus, où la compréhension et l'acceptation surgissent, dans un climat de totale bienveillance : c'est cela que je tente à chaque fois de développer avec vous.<br/><br/>
 
-<br/>  <i class="fa-solid fa-arrow-right" id="icon"></i></content>
+<br/>  <i class="fa-solid fa-person 2xl" id="icon"></i></content>
 
 
 </div>
@@ -74,7 +75,7 @@ C'est l'unicité de la rencontre, avec une classe, un groupe de dirigeants ou to
                   <content>
                   
 
-La recherche de ces moments suspendus, où la compréhension et l'acceptation surgissent, dans un climat de totale bienveillance : c'est cela que je tente à chaque fois de développer avec vous.<br/><br/>
+
 
 Par <strong>l'écoute, la reformulation, l'équanimité.</strong><br/><br/>
 

@@ -29,14 +29,17 @@ width: 48%;}
 #retours_client_viewport{
   width: 900px;
   overflow: hidden;
+  
 }
 
 #retours_client{
   
   display: grid;
   grid-auto-flow: column;
-  -webkit-transition: 1s all;
-  transition-duration: 5s;
+  -webkit-transform: translateX(-820px);
+          transform: translateX(-820px);
+  transition-duration: 2s;
+
 }
 #retours_client .note{
   
@@ -710,11 +713,11 @@ tr{
 .research{
   border-style: solid;
   border-color:  #3e8ce6;
-  border-radius: 100px;
+  border-radius: 5px;
   border-width: 3px;
   font-style: "montserrat";
-  width: 240px;
-  padding: 7px;
+  width: 200%;
+  padding: 6%;
 }
 .filtres{
   width: 160px;
@@ -725,12 +728,11 @@ tr{
     background: #E5F8FF;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
   line-height: 15px;
-  width: 100%;
-  padding: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  width: 95%;
+  padding: 5%;
+  padding-right: 0px;
   border-radius: 9px;
-  margin-bottom: 35px;
+  
 
 
 }
@@ -740,10 +742,13 @@ tr{
   
   border-radius: 10px;
   min-height: 350px;
-  padding: 10px;
+  padding: 5%;
   color: white;
-  width: 100%;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
+  width: 90%;
   margin-top: 20px;
+  background: white;
+  margin-top: 3%;
   
 
   }
@@ -824,55 +829,36 @@ font-size: 14px;
   align-items: center;
   
 }
-.news{
-  height: 30%;
-  width: 90%;
-
-  background: white;
-  border-radius: 10px;
 
 
-  
-}
-.last_blogs{
-  border-radius: 15px;
-  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
-  margin-top: -40px;
-  width: 80%;
-  padding: 13px;
-  background-color: #3e8ce6;
-  
-}
 
+.blog_select img{
 
-.home_article .article_photo{
-  
-  
   width: 300px;
-  margin-right: 20px;
-  
+  height: 200px;
+  background: brown;
+  overflow: hidden;
+  background-size: 100px 100px;
+
+}
+
+.home_article{
+  height: 300px;
+}
+
+.other_blogs_article *{
   margin-top: 20px;
-  margin-bottom: 7px;
-  border-radius: 10px;
-  border-width: 5px;
-  transition-duration: 1s;
-  
-  
-}
-.home_article content1{
-
-  width: 300px;
 
 }
-.article_photo .img{
-  background-image: contain; 
-}
+
+
 
 
 .home_article content1{
   padding: 10px;
   font-weight: 600;
   font-size: 18px;
+  width: 300px;
 
 }
 
@@ -888,17 +874,7 @@ font-size: 14px;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.article_photo{
-  
-  height: 63%;
-  width: 100%;
-  background: white;
-  overflow: hidden;
-  border-radius: 4px;
-  box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.021);
-  
-  
-}
+
   
 
 

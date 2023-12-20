@@ -71,11 +71,12 @@ function Persona(){
                               
                               <div class="box_content">
                               <content>
-                              
+                              Préparation de dossier
+Parcoursup<br/>
                               Concours des écoles Hôtelières : <br /> 
                               <Link to={`/blog?id=43`} onClick={() => window.scrollTo(0,10)}><t_orange>VATEL</t_orange></Link><strong>, EHL, Glion, Tunon</strong><br />
                               Concours des écoles d'ingénieurs : <br />
-                              <Link to={`/blog?id=47`} onClick={() => window.scrollTo(0,10)}><t_orange>Groupe UT </t_orange></Link> - <Link to={`/blog?id=50`} onClick={() => window.scrollTo(0,10)}><t_orange>Groupe Insa </t_orange></Link><br />
+                              <Link to={`/blog?id=49`} onClick={() => window.scrollTo(0,10)}><t_orange>Groupe UT </t_orange></Link> - <Link to={`/blog?id=50`} onClick={() => window.scrollTo(0,10)}><t_orange>Groupe Insa </t_orange></Link><br />
                               Concours des écoles de commerce : <br />
                               <strong><a href="#">EDHEC</a> - Sesame - Access</strong>
                               </content>
