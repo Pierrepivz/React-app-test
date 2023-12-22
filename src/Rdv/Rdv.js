@@ -17,8 +17,9 @@ function Rdv() {
   const [nom, setNom] = useState('');
   const [date, setDate] = useState(new Date());
   const [hour, setHour] = useState('');
-  const current = `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
+  const sqldate = `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
   const tabfinal = ["9 : 30","10 : 00","10 : 00","11 : 00","11 : 30","12 : 00","12 : 30","13 : 00","13 : 00","13 : 30","14 : 00"];
+  
   var text = document.getElementById('text_recap');
   var btnoff = document.querySelector('.btn');
   const [Listset, setDatalist] = useState([]);
@@ -34,14 +35,36 @@ function Rdv() {
     
     
     }, []); 
+
+    const datelist = Listset.map( value => value.date);
+    const idlist = Listset.map(value => value.id);
+    const datatab = Listset.map( value => [{data: value.date , hour: value.heure , dispo: 1}] );
+    const tabvaleurs = datatab.flat();
+    
+    
+
+    for(var i = 0 ; i < datelist.length ; i++){
+    
+        if(datelist[i] == datelist[i+1]){
+             
+            datelist.splice(i,1);
+           
+        
+        }
+        
+
+
+    }
   
   function selectcheck(){
     
     if(email  !== '' && prenom  !== '' && nom  !== '' && hour !== ''){
-    if(text.classList.contains("none"))
-          text.classList.add("display");
+    if(text.classList.contains("none")){
+          text.classList.remove("none");
+          
+        }
     }
-  
+    
   }
   function dateselect(e){
     setHour(e);
@@ -78,10 +101,109 @@ function Rdv() {
   
   
 
-  const onChange = date => {
+  
 
-    setDate(date);   
-  };
+    const [rdvdujour, setRdv] = useState(tabfinal);
+
+    const onChange = date => {
+  
+      
+  
+      /* init */
+      const tabdispo = ["10","12","16","18"];
+      const tableau_complet = [];
+      const reserved_tab = [];
+      const clienttab = [];
+      const offtab = [];
+      setDate(date);
+      
+  
+      if(date.getDay() == 0){
+  
+        setRdv([]);
+        return 0;
+  
+      }
+      
+  
+      /* tableau des créneaux réservés  */
+      
+      for(var i = 0; i < tabvaleurs.length ; i++){
+  
+          
+        
+          const d1 = new Date(tabvaleurs[i]["data"]);
+          const d2 = `${d1.getFullYear()}-${d1.getMonth()+1}-${d1.getDate()}`;
+  
+  
+          if(d2 == sqldate){
+  
+              if(tabvaleurs[i]["dispo"] == 3){
+  
+                offtab = tabdispo;
+  
+  
+              }else{
+  
+              reserved_tab.push(tabvaleurs[i]["hour"]);
+  
+              if(tabvaleurs[i]["dispo"] == 1){
+  
+                offtab.push(tabvaleurs[i]["hour"]);
+  
+              }
+              if(tabvaleurs[i]["dispo"] == 2){
+  
+                clienttab.push(tabvaleurs[i]["hour"]);
+                
+              }
+  
+              }
+  
+  
+          }
+          
+      
+      }
+      
+      /* création du tableau final comprenant les créneaux réservés et disponibles */
+  
+      
+      
+      for(var e = 0; e < tabdispo.length ; e++){
+      
+      if(reserved_tab.includes(tabdispo[e])){
+  
+  
+        if(clienttab.includes(tabdispo[e])){
+  
+          tableau_complet.push([{status: "date" , hour: tabdispo[e]}]);
+  
+        }
+        if(offtab.includes(tabdispo[e])){
+        
+          tableau_complet.push([{status: "date offhour" , hour: tabdispo[e]}]);
+  
+        }
+      
+        
+      
+      }else{
+      
+        tableau_complet.push([{status: "date colored" , hour: tabdispo[e]}]);
+      
+      }
+      }
+      
+      const tableau_des_rendez_vous = tableau_complet.flat();
+      setRdv(tableau_des_rendez_vous);  
+  
+      
+  
+      
+            
+    };   
+  
   
   
   
@@ -127,9 +249,7 @@ function Rdv() {
 
       <div class="rdv block">
       
-      <div class="background_decoration decoration4" id="decoration_rdv_5_3"></div>
-      <div class="background_decoration decoration4" id="decoration_rdv_5_4"></div>
-      <div class="background_decoration decoration5" ></div>
+      
       
 
   <div class="line_around">
@@ -147,25 +267,27 @@ function Rdv() {
     
 
 <div class="column_start">
-<h2title>Date et Heure</h2title><i class="fa-solid fa-calendar" id="icon"></i>
+  <div class="row">
+<h2title>Date et Heure</h2title><i class="fa-solid fa-calendar" id="icon"></i></div>
 
      <h2under2></h2under2></div>
 <div class="datetime column_items_center">
 
-<content><Calendar class="calendar" onChange={onChange} value={date} view="week"/></content>
+<content><Calendar class="calendar" onChange={onChange} value={date} view="month"/></content>
 
 
 
-<div class='select column' value="yooooooo" onClick={(e) => {btncheck(e)}}>
+<div class='select column' onClick={(e) => {btncheck(e)}}>
 
-{Listset.map((data,index) => 
+<div class="row">
+{rdvdujour.map((data,index) => 
     
     <div class={data.status} key={index}  onClick={(e) => {hourselect(e.target.innerHTML,data.status,index)}}>
         <content>{data.hour}</content>
         </div>
         
         )}
-
+</div>
 
 
 </div>
@@ -177,10 +299,11 @@ function Rdv() {
 <form onSubmit={sendEmail} class="form_rdv"> 
 
                  
-<div class="column_start">
+<div class="column">
 
-<div class="column_start">
-             <h2title>Vos coordonnées</h2title><i class="fa-solid fa-file" id="icon"></i>
+<div class="column">
+<div class="row">
+             <h2title>Vos coordonnées</h2title><i class="fa-solid fa-file" id="icon"></i></div>
              
                   <h2under2></h2under2></div>
         
@@ -204,7 +327,7 @@ function Rdv() {
         <div class="column_start">
                 <input type="hidden" className="form-control" placeholder="hour" name="hour" id="input"  value={hour} required
                 />
-                <input type="hidden" className="form-control" placeholder="date" name="current" id="input"  value={current} required
+                <input type="hidden" className="form-control" placeholder="date" name="current" id="input"  value={sqldate} required
                 />
         </div>
 
@@ -228,7 +351,7 @@ function Rdv() {
     <br/> 
     
     <content id="text_recap" class="none"><content1><orange>Date du rendez-vous : </orange></content1><br/><br/> 
-    Vous avez un rdv de 30mn gratuit et sans obligation le : <blue>{current}</blue> à <blue>{hour}</blue>. <br /> <br />Vous allez recevoir un email de <t_orange>carole@winentretien.com</t_orange><br/> avec le lien Teams pour notre rdv.
+    Vous avez un rdv de 30mn gratuit et sans obligation le : <blue>{sqldate}</blue> à <blue>{hour}</blue>. <br /> <br />Vous allez recevoir un email de <t_orange>carole@winentretien.com</t_orange><br/> avec le lien Teams pour notre rdv.
 <br/><content1>A très vite !</content1></content>
     
     <br/><br/><br/>

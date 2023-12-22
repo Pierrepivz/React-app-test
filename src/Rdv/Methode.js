@@ -39,7 +39,7 @@ C'est <strong>entièrement gratuit et sans aucun engagement</strong> de part et 
 
 
 
-                        <div class="row margin_left" >
+                        <div class="row window" >
       
 
 
@@ -91,9 +91,9 @@ C'est <strong>entièrement gratuit et sans aucun engagement</strong> de part et 
               <div class='column'>
 <div class="row">
 <h2title>
-Description de votre projet
+Description de votre projet</h2title>
 <i class="fa-solid fa-mug-hot" id="icon"></i>
-</h2title>
+
 </div>
 <div id='underline2'></div>
 <div id='box_content'>

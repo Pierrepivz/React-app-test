@@ -3,7 +3,7 @@ import livre_eyrolles from "../images/photo_eyrolles.jpeg";
 import { Link } from "react-router-dom";
 import photo_carole from "../images/photo_carole_face.JPG";
 import carole_pied from "../images/photo_carole_pied.JPG";
-
+import winentretien from "../images/winentretien_team.jpg";
 
 function Coach(){
 
@@ -53,7 +53,7 @@ Dans les trois professions que j'exerce depuis plus de 25 ans :  <strong>la form
 C'est l'unicité de la rencontre, avec une classe, un groupe de dirigeants ou tout simplement une personnalité unique  - car tous mes clients sont de belles personnes - qui permet de développer une relation singulière, où la qualité de l'attention portée à l'autre permet que surviennent des instants de vérité et de possibilités.  <br/>
 La recherche de ces moments suspendus, où la compréhension et l'acceptation surgissent, dans un climat de totale bienveillance : c'est cela que je tente à chaque fois de développer avec vous.<br/><br/>
 
-<br/>  <i class="fa-solid fa-person 2xl" id="icon"></i></content>
+  <i class="fa-solid fa-angle-right 2xl" id="icon"></i></content>
 
 
 </div>
@@ -549,6 +549,93 @@ changement</blue> qui oriente mes interventions.</content>
 
 
 </div>
+
+<div class="row space_between block" >
+
+                  
+
+                  
+
+                  <div class="column_start" id="coach_message1">
+
+                  <h2title>Au sujet de winentretien</h2title>
+                  <div class="underline2"></div>
+
+                  
+
+                  <div class="content_blue">
+                  <content>
+                  <blue>win</blue><strong>entretien</strong> a été créée en 2007 par Cécile Mellac, sur la base d’un
+constat simple : de bons candidats échouent aux concours d'entrée aux
+grandes écoles parce qu'ils ont une note éliminatoire à leurs entretiens
+de motivation. Le système éducatif français ne prépare pas les
+étudiants à réussir les épreuves orales des concours aux grandes
+écoles.<br/><br/>
+
+Acquérir une aisance à l’oral, savoir pitcher, décrypter les attentes d’un
+jury, seront à la base de la création de winentretien, avec un succès
+croissant au fil des ans. Plus de 600 étudiants ont été préparés à
+réussir leur entretien de motivation afin d’intégrer de
+nombreuses Écoles et formations sélectives - Écoles de
+Commerce, Écoles d'Ingénieurs, Sciences Po, Écoles hôtelières,
+Mastères spécialisés.<br/><br/>
+
+16 ans plus tard, qu’est-ce qui a changé ?<br/>
+
+Les écoles, les universités, les recruteurs font aujourd'hui une place
+importante dans leur processus d'intégration au potentiel relationnel,
+émotionnel et créatif des candidats, et à leur aptitude à réussir dans ce
+qu'ils entreprennent. Charge à ceux-ci d'argumenter et de légitimer
+leurs réponses à des questions cherchant à discerner ce potentiel en
+eux, en proposant une candidature authentique, originale et
+attractive.<br/><br/>
+
+</content>
+
+
+</div>
+                
+                  </div>
+
+                  
+                  
+
+                  <div class="column_items_center" id="coach_message2">
+
+                        
+                        
+                              <img class="photo_box" src={winentretien}/>
+                        
+                        
+
+                        <div class="content_blue">
+                  <content>
+                  
+
+
+
+Savoir communiquer sa singularité et sa valeur ajoutée de manière
+authentique, se positionner de façon juste, comprendre les attentes de
+son interlocuteur, sont encore plus nécessaires aujourd'hui dans des
+parcours professionnels très concurrentiels.<br/><br/>
+
+Vous aider à acquérir ces compétences reste le <strong>cœur de métier </strong>
+de <blue>win</blue><strong>entretien</strong>.<br/><br/><br/>  </content>
+
+<Link to='./offre'><a id="bouton"><content>Mon offre</content></a></Link>
+
+
+</div>
+
+                  
+                  
+                 
+
+                  </div>
+                  
+
+                  </div>
+
 </div>
 
 

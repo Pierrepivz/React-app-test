@@ -47,13 +47,22 @@ votre poste.</strong></content></div>
 
                         <br/><br/>
 
-
-                        <div class="section block">
-                        <div class="margin_left">
+                        <div class="window column">
+                        <div class="section_title">
+                        <i class="fa-solid fa-angle-right"></i>
                         <h2title>Convaincre à l'oral</h2title>
-                        <div id="underline"></div>
-                        </div>
+                        
+                        
                   </div>
+                  <div class="section_background"></div>
+
+                  <div class="note_2"><content> Préparation aux épreuves orales des concours des grandes écoles, entretien de motivation ou d’embauche,
+pitch, prise de parole devant 100 personnes : apprenez à <strong>communiquer pour convaincre </strong></content></div>
+
+                  </div>
+
+                  
+
 
                         <div class="window column_start">
                         
@@ -69,8 +78,7 @@ votre poste.</strong></content></div>
 
                         <div class='column_items_center block'>
                         
-                              <div class="note"><content> Préparation aux épreuves orales des concours des grandes écoles, entretien de motivation ou d’embauche,
-pitch, prise de parole devant 100 personnes : apprenez à <strong>communiquer pour convaincre </strong></content></div>                      
+                                                    
 
   <div class="offre_content line_between">
 
@@ -109,6 +117,23 @@ confiance et vous préparer à réussir.</blue>
     </div> 
 
     <div class="offre_content line_between">
+
+    <div class="offre_text column_start">
+  <h2title>Dossier parcoursup :</h2title>
+<h2under2></h2under2>
+<content1>
+Il n’est pas toujours facile de mener en parallèle
+une année de Terminale et la réalisation de son
+dossier Parcousup.<br/><br/>
+Compréhension des étapes, choix des vœux, aide à
+la rédaction de votre CV ou des lettres de
+motivation : <br/>nous pouvons vous aider sur <br/><strong>chacune
+de ses étapes.</strong>
+</content1>
+
+
+
+</div>
 
 
     <div class="offre_text column_start">
@@ -204,7 +229,7 @@ Apprenez les règles de base qui permettent de <blue>favoriser
                   <div class="window">
                   <div class='column_items_center block'>
                         
-                        <div class="note"><content> Nous vous aidons à résoudre les principales difficultés de la vie professionnelle rencontrées en entreprise au<br/>
+                        <div class="note"><content> Nous vous aidons à résoudre les principales difficultés de la vie professionnelle rencontrées en entreprise au
 moment d’une <strong>prise de poste</strong>, d’une <strong>évolution personnelle</strong> ou d’un <strong>changement organisationnel.</strong></content></div>                      
 
 <div class="offre_content line_between">

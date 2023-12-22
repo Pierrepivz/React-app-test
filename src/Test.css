@@ -499,6 +499,26 @@ background: white;
 
 
 }
+.note_2{ 
+  z-index: 100;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-color:  #2873C9;
+  border-width: 8px;
+padding: 3vh;
+width: 50%;
+
+font-weight: 500;
+font-size: 1em;
+align-self: center;
+width: 40%;
+background: white;
+line-height: 1.5em;
+margin-left: 40%;
+margin-top: -9%;
+
+
+}
 
 
 @media screen and (max-width:640px) and (min-width:200px){

@@ -76,7 +76,7 @@ elle est toujours adaptée à la personnalité et à la demande de chacun. </con
       
       <div id='box_content' >
       <content1>
-      Créé à partir de ‘bien’ et ‘veuillant’, du verbe vouloir, la
+      Créée à partir de ‘bien’ et ‘veuillant’, du verbe vouloir, la
 bienveillance désigne pour moi une intention de recherche du bien d’autrui. 
 <br/><blue>
 Cette attitude prend son origine dans une disposition du
