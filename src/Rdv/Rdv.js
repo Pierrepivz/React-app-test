@@ -18,7 +18,6 @@ function Rdv() {
   const [date, setDate] = useState(new Date());
   const [hour, setHour] = useState('');
   const sqldate = `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
-  const tabfinal = ["9 : 30","10 : 00","10 : 00","11 : 00","11 : 30","12 : 00","12 : 30","13 : 00","13 : 00","13 : 30","14 : 00"];
   
   var text = document.getElementById('text_recap');
   var btnoff = document.querySelector('.btn');
@@ -38,7 +37,7 @@ function Rdv() {
 
     const datelist = Listset.map( value => value.date);
     const idlist = Listset.map(value => value.id);
-    const datatab = Listset.map( value => [{data: value.date , hour: value.heure , dispo: 1}] );
+    const datatab = Listset.map( value => [{data: value.date , hour: value.heure , dispo: value.dispo}] );
     const tabvaleurs = datatab.flat();
     
     
@@ -103,14 +102,14 @@ function Rdv() {
 
   
 
-    const [rdvdujour, setRdv] = useState(tabfinal);
+    const [rdvdujour, setRdv] = useState([]);
 
     const onChange = date => {
   
       
   
       /* init */
-      const tabdispo = ["10","12","16","18"];
+      const tabdispo = ["10 h","12 h","16 h","18 h"];
       const tableau_complet = [];
       const reserved_tab = [];
       const clienttab = [];
@@ -210,7 +209,20 @@ function Rdv() {
   function sendEmail(e) {
 
       e.preventDefault();
+      
+      /* enregistrement base de donnée */
 
+      axios.post('https://server-test-3emq.onrender.com/api/insertrdv',{
+
+        prenom: prenom,
+        nom: nom,
+        email: email,
+        date: sqldate,
+        hour: hour,
+        dispo: 2,
+         
+      
+      });
       
 
       emailjs.sendForm('booking_winent', 'rdv78', e.target, '6nusaoR8fQQLjbcrX')
@@ -247,12 +259,12 @@ function Rdv() {
 
 
 
-      <div class="rdv block">
+      <div class="rdv block ">
       
       
       
 
-  <div class="line_around">
+  
 
   
 
@@ -366,7 +378,7 @@ function Rdv() {
 </form>  
     
     
-    </div> 
+     
         
         
 
