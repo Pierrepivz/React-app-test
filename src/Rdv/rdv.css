@@ -18,6 +18,8 @@
 .rdv{
     display: flex;
     justify-content: space-around;
+    margin-left: 10%;
+    width: 80%;
 }
 .rdvlist content{
     
@@ -30,12 +32,47 @@
     padding: 30px;
     background: #d1f1fd;
 }
+.selected{
+    border-style: solid;
+    
+    border-color: rgb(0, 110, 255);
+    border-width: 4px;
+}
+
 
 .manage_dispo{
     height: 20px;
     
     background: white;
 }
+#confirm{
+    padding-bottom: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color:  #E5F8FF;
+    border-width: 8px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 9px;
+  font-weight: 500;
+  font-size: 13px;
+  background: white;
+  align-self: center;
+  text-align: center;
+  
+  
+  
+  }
+  .rdv .content_blue{
+
+    padding-bottom: 0%;
+    align-items: center;
+    box-shadow: none;
+    width: 100%;
+    align-self: center;
+  
+  }
 
 @media screen and (max-width:640px) and (min-width:200px){
 

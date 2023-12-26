@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
 import axios from 'axios';
 import Calendar from 'react-calendar';
@@ -227,7 +228,7 @@ function Rdv() {
 
       emailjs.sendForm('booking_winent', 'rdv78', e.target, '6nusaoR8fQQLjbcrX')
       .then((result) => {
-          window.location = "./confirmationrdv"; 
+           
       }, (error) => {
           
       });
@@ -239,6 +240,21 @@ function Rdv() {
   function hourselect(value,dispo,index){
 
     setHour(value);
+    /* remove selected */
+    var remove = document.querySelector(".selected");
+    remove.classList.remove("selected");
+    
+    var test = document.querySelector(".date");
+    if(test.classList.contains("selected")){
+
+     return 0;
+
+    }else{
+
+    test.classList.add("selected");
+
+    }
+    
      /*
     if(dispo == "date offhour"){
    
@@ -367,8 +383,8 @@ function Rdv() {
 <br/><content1>A très vite !</content1></content>
     
     <br/><br/><br/>
-    
-    <input type="submit" class="disabled btn" onClick={(e) => e.target.reset()} value="Prendre rendez vous"></input>
+    <Link to="/confirmationrdv" onClick={() => window.scrollTo(0,10)}>
+    <input type="submit" class="disabled btn" onClick={(e) => e.target.reset()} value="Prendre rendez vous"></input></Link>
     <br/>
     </div>
     </div>

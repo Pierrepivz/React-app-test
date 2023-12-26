@@ -228,41 +228,9 @@ width: 48%;}
 
 }
 
-#confirm{
-  padding-bottom: 80px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  border-style: solid;
-  border-color:  #E5F8FF;
-  border-width: 8px;
-padding: 10px;
-width: 100%;
-border-radius: 9px;
-font-weight: 500;
-font-size: 13px;
-align-self: center;
-text-align: center;
 
 
 
-}
-
-.rdv{
-  margin-left: 10%;
-  width: 80%;
-  
-  
-  }
-
-
-.rdv .content_blue{
-  padding-bottom: 0%;
-  align-items: center;
-  box-shadow: none;
-  width: 100%;
-  align-self: center;
-
-}
 
 
 .contact{
