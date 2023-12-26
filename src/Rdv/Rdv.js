@@ -218,7 +218,7 @@ function Rdv() {
         prenom: prenom,
         nom: nom,
         email: email,
-        date: sqldate,
+        date: date,
         hour: hour,
         dispo: 2,
          
