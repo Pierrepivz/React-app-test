@@ -12,7 +12,7 @@ export default function Rdvconfirm() {
              <div class="content_blue"><content>Votre rendez-vous a bien été pris en compte ! <br />Vous allez recevoir sous 24h le lien pour notre rendez-vous. <br/>À bientôt ☕️</content>
              
              </div>
-             <Link to="./home">
+             <Link to="./">
              <button id="bouton">retour</button>
              </Link>
              </div>

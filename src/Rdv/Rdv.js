@@ -9,7 +9,7 @@ import '../globals.css';
 
 
 /*import Axios from "Axios";*/
-
+/*<Link to="/confirmationrdv" onClick={() => window.scrollTo(0,10)}></Link>*/
 
 function Rdv() {
 
@@ -244,7 +244,7 @@ function Rdv() {
     var remove = document.querySelector(".selected");
     remove.classList.remove("selected");
     
-    var test = document.querySelector(".date");
+    var test = document.querySelector('.date');
     if(test.classList.contains("selected")){
 
      return 0;
@@ -383,8 +383,9 @@ function Rdv() {
 <br/><content1>A très vite !</content1></content>
     
     <br/><br/><br/>
-    <Link to="/confirmationrdv" onClick={() => window.scrollTo(0,10)}>
-    <input type="submit" class="disabled btn" onClick={(e) => e.target.reset()} value="Prendre rendez vous"></input></Link>
+    
+    <input type="submit" class="disabled btn" onClick={(e) => e.target.reset()} value="Prendre rendez vous">
+      </input>
     <br/>
     </div>
     </div>
