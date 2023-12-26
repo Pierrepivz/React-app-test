@@ -6,7 +6,7 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import '../calendar.css';
 import '../globals.css';
-
+import moment  from 'moment';
 
 /*import Axios from "Axios";*/
 /*<Link to="/confirmationrdv" onClick={() => window.scrollTo(0,10)}></Link>*/
@@ -19,7 +19,7 @@ function Rdv() {
   const [date, setDate] = useState(new Date());
   const [hour, setHour] = useState('');
   const sqldate = `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
-  const insertdate = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`;
+  const insertdate = moment(date);
   var text = document.getElementById('text_recap');
   var btnoff = document.querySelector('.btn');
   const [Listset, setDatalist] = useState([]);
@@ -218,7 +218,7 @@ function Rdv() {
         prenom: prenom,
         nom: nom,
         email: email,
-        date: insertdate,
+        date: insertdate.format("YYYY-MM-DD"),
         hour: hour,
         dispo: 2,
          
@@ -241,19 +241,13 @@ function Rdv() {
 
     setHour(value);
     /* remove selected */
-    var remove = document.querySelector(".selected");
-    remove.classList.remove("selected");
+    /*var remove = document.querySelector(".selected");
+    remove.classList.remove("selected");*/
     
-    var test = document.querySelector('.date');
-    if(test.classList.contains("selected")){
-
-     return 0;
-
-    }else{
-
+    var test = document.getElementById("hour_id");
     test.classList.add("selected");
 
-    }
+    
     
      /*
     if(dispo == "date offhour"){
@@ -310,7 +304,7 @@ function Rdv() {
 <div class="row">
 {rdvdujour.map((data,index) => 
     
-    <div class={data.status} key={index}  onClick={(e) => {hourselect(e.target.innerHTML,data.status,index)}}>
+    <div class={data.status} key={index} id="selected"  onClick={(e) => {hourselect(e.target.innerHTML,data.status,index)}}>
         <content>{data.hour}</content>
         </div>
         

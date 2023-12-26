@@ -34,10 +34,10 @@
 }
 .selected{
     border-style: solid;
-    
     border-color: rgb(0, 110, 255);
     border-width: 4px;
 }
+
 
 
 .manage_dispo{
