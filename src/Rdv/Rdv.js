@@ -19,7 +19,7 @@ function Rdv() {
   const [date, setDate] = useState(new Date());
   const [hour, setHour] = useState('');
   const sqldate = `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
-  
+  const insertdate = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`;
   var text = document.getElementById('text_recap');
   var btnoff = document.querySelector('.btn');
   const [Listset, setDatalist] = useState([]);
@@ -218,7 +218,7 @@ function Rdv() {
         prenom: prenom,
         nom: nom,
         email: email,
-        date: date,
+        date: insertdate,
         hour: hour,
         dispo: 2,
          
