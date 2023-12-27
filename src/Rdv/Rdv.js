@@ -18,6 +18,8 @@ function Rdv() {
   const [nom, setNom] = useState('');
   const [date, setDate] = useState(new Date());
   const [hour, setHour] = useState('');
+  const today = new moment().add(3,"month").format('MM/DD/YYYY');
+  const maxDate = new Date(today);
   const sqldate = `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
   const insertdate = moment(date);
   var text = document.getElementById('text_recap');
@@ -58,7 +60,7 @@ function Rdv() {
   
   function selectcheck(){
     
-    if(email  !== '' && prenom  !== '' && nom  !== '' && hour !== ''){
+    if(email  !== '' || prenom  !== '' || nom  !== '' || hour !== ''){
     if(text.classList.contains("none")){
           text.classList.remove("none");
           
@@ -133,21 +135,23 @@ function Rdv() {
           
         
           const d1 = new Date(tabvaleurs[i]["data"]);
-          const d2 = `${d1.getFullYear()}-${d1.getMonth()+1}-${d1.getDate()}`;
+          const d2 = moment(d1).format("YYYY-MM-DD");
+          const offdate = insertdate.format("YYYY-MM-DD");
+          
   
-  
-          if(d2 == sqldate){
-  
+          if(d2 == offdate){
+              
               if(tabvaleurs[i]["dispo"] == 3){
   
-                offtab = tabdispo;
+              /*reserved_tab = tabdispo;*/
+              reserved_tab.push("10 h","12 h","16 h","18 h");
   
   
               }else{
   
               reserved_tab.push(tabvaleurs[i]["hour"]);
   
-              if(tabvaleurs[i]["dispo"] == 1){
+              /*if(tabvaleurs[i]["dispo"] == 1){
   
                 offtab.push(tabvaleurs[i]["hour"]);
   
@@ -156,7 +160,8 @@ function Rdv() {
   
                 clienttab.push(tabvaleurs[i]["hour"]);
                 
-              }
+              }*/
+              
   
               }
   
@@ -173,8 +178,10 @@ function Rdv() {
       for(var e = 0; e < tabdispo.length ; e++){
       
       if(reserved_tab.includes(tabdispo[e])){
+
+        tableau_complet.push([{status: "date offhour" , hour: tabdispo[e]}]);
   
-  
+  /*
         if(clienttab.includes(tabdispo[e])){
   
           tableau_complet.push([{status: "date" , hour: tabdispo[e]}]);
@@ -184,7 +191,7 @@ function Rdv() {
         
           tableau_complet.push([{status: "date offhour" , hour: tabdispo[e]}]);
   
-        }
+        }*/
       
         
       
@@ -295,7 +302,7 @@ function Rdv() {
      <h2under2></h2under2></div>
 <div class="datetime column_items_center">
 
-<content><Calendar class="calendar" onChange={onChange} value={date} view="month"/></content>
+<content><Calendar class="calendar" onChange={onChange} value={date} view="month" minDate={new Date(Date.now())} maxDate={maxDate} /></content>
 
 
 
@@ -373,13 +380,13 @@ function Rdv() {
     <br/> 
     
     <content id="text_recap" class="none"><content1><orange>Date du rendez-vous : </orange></content1><br/><br/> 
-    Vous avez un rdv de 30mn gratuit et sans obligation le : <blue>{sqldate}</blue> à <blue>{hour}</blue>. <br /> <br />Vous allez recevoir un email de <t_orange>carole@winentretien.com</t_orange><br/> avec le lien Teams pour notre rdv.
+    Vous avez un rdv de 30mn gratuit et sans obligation le : <blue>{insertdate.format("DD-MM-YYYY")}</blue> à <blue>{hour}</blue>. <br /> <br />Vous allez recevoir un email de <t_orange>carole@winentretien.com</t_orange><br/> avec le lien Teams pour notre rdv.
 <br/><content1>A très vite !</content1></content>
     
     <br/><br/><br/>
-    
+    <Link to="/confirmationrdv">
     <input type="submit" class="disabled btn" onClick={(e) => e.target.reset()} value="Prendre rendez vous">
-      </input>
+      </input></Link>
     <br/>
     </div>
     </div>

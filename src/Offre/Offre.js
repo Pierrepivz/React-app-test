@@ -124,7 +124,7 @@ confiance et vous préparer à réussir.</blue>
 <content1>
 Il n’est pas toujours facile de mener en parallèle
 une année de Terminale et la réalisation de son
-dossier Parcousup.<br/><br/>
+dossier Parcoursup.<br/><br/>
 Compréhension des étapes, choix des vœux, aide à
 la rédaction de votre CV ou des lettres de
 motivation : <br/>nous pouvons vous aider sur <br/><strong>chacune

@@ -37,6 +37,14 @@
     border-color: rgb(0, 110, 255);
     border-width: 4px;
 }
+.offhour{
+    color: black;
+    background-color: #d4ddd7;
+    pointer-events: none;
+    
+
+}
+
 
 
 
