@@ -1,6 +1,7 @@
 
 import emailjs from "emailjs-com";
-import { useState } from "react";
+import { Link  } from "react-router-dom";
+import { useState, useCallback } from "react";
 import Recaptach from './Recaptcha.js';
 import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
 import "../globals.css";
@@ -14,6 +15,9 @@ function Contact(){
     const [prenom, setPrenom] = useState('');  
     const [nom, setNom] = useState('');
     const [message, setMessage] = useState('');
+
+    
+    
     
 
   function sendMessage(e) {
@@ -68,6 +72,8 @@ function Contact(){
 N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous réponds sous 24h.</strong>
 
 </content>
+
+
     
 
                               
