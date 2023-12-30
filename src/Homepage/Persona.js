@@ -47,8 +47,8 @@ function Persona(){
                               <content>
                               
                               
-                              Entretien de <blue>recrutement</blue><br />
-                              Prise de <blue>poste</blue><br />
+                              Entretien de recrutement<br />
+                              Prise de poste<br />
 
                               <blue>Efficacité</blue><br/>
                               <italic>- Atteinte des objectifs</italic><br/>
@@ -56,7 +56,7 @@ function Persona(){
                              <blue>Leadership</blue><br />
                              <italic>- Engagement </italic><br/>
                              <italic>- Management d'équipe</italic><br/>
-                              <blue>Gestion du stress </blue><br/>
+                              <br/>
                               <blue>Communication </blue><br/>
                               <italic>- Prise de parole </italic><br/><italic> - Reporting</italic>
                               </content>
@@ -91,11 +91,10 @@ Parcoursup<br/>
 
 
 <content500>
-La préparation aux entretiens est notre <strong>cœur de métier</strong>: elle concerne à la fois les étudiants (concours,
-1er job) et les professionnels (entretien d’embauche, d’évaluation).<br/><br/>
-Nous avons renforcé cette offre avec des services de coaching centrés sur <orange>les problématiques les plus
-fréquemment rencontrées</orange> une fois en poste – <blue><br/>indiqués en bleu</blue> </content500>
-<br /><br />
+<strong>Préparation aux entretiens</strong> et <strong>coaching</strong> sont nos deux domaines d'expertise.
+Le 1er concerne à la fois les étudiants (épreuves orales de concours, 1er job) et les professionnels. Le 2d vous propose de développer trois compétences clés de tout parcours parcours professionnel - <blue>indiqués en bleu</blue> - ci-contre.
+ </content500>
+<br />
 
 
                         </div>

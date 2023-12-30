@@ -102,11 +102,11 @@ const Blog = (props) => {
 
     {Article.map(value => 
 
-<div class="column_start">
+<div class="column">
 
 <h3title><blue>{value.article_name}</blue><br/><br/></h3title>
 
-<div class="column_start">
+<div class="column">
 <content dangerouslySetInnerHTML={{__html: value.content}}></content>
 
 
@@ -122,7 +122,7 @@ const Blog = (props) => {
 
     </div>
 
-    <div class="autre_contenu autre_contenu_box column_items_center">
+    <div class="autre_contenu column_items_center">
         <h2title><blue>Plus de contenu :</blue></h2title>
         {Listset.map(value => 
             <div class="other_blogs_article"> <Link to={`/blog?id=${value.id}`} onClick={() => change_article(value.id)}><div class="article_photo"><img src={value.image} width="200px" height="150px"></img></div> </Link>

@@ -742,11 +742,11 @@ font-size: 14px;
 
 }
 
-.autre_contenu_box{
+.autre_contenu{
 
   background-color:  #eaf2fd;
   border-radius: 10px;
-  height: 870px;
+  max-height: 1200px;
   padding: 10px;
   color: white;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);

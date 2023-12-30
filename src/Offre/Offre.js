@@ -34,14 +34,11 @@ function Offre() {
                               
        
                               
-                              <content> La préparation des entretiens de motivation est
-le cœur de métier de <blue>win</blue>entretien. Elle vous permet
-d’acquérir une compétence essentielle : <strong>Convaincre à
+                              <content> La Méthode de préparation aux entretiens de motivation vous apprend à développer une compétence professionnelle importante : <strong>Convaincre à
 l’oral.</strong><br/><br/>
 
-En complément, des <blue>services de coaching</blue> ont été conçus avec un objectif précis :<br/>
-résoudre les difficultés fréquemment rencontrées et vous permettre <strong>d’être bien dans
-votre poste.</strong></content></div>
+Développement de vos compétences managériales, gestion du stress : <strong>être bien dans son poste</strong> est l'objectif de notre offre de coaching.
+</content></div>
                               
                         </div> 
 

@@ -9,8 +9,7 @@ import '../globals.css';
 import moment  from 'moment';
 
 
-/*import Axios from "Axios";*/
-/*<Link to="/confirmationrdv" onClick={() => window.scrollTo(0,10)}></Link>*/
+
 
 function Rdv() {
 
@@ -25,6 +24,7 @@ function Rdv() {
   const insertdate = moment(date);
   var text = document.getElementById('text_recap');
   var btnoff = document.querySelector('.btn');
+  var hourcolor = document.getElementById("hour_id");
   const [Listset, setDatalist] = useState([]);
 
 
@@ -69,16 +69,18 @@ function Rdv() {
     }
     
   }
-  function dateselect(e){
-    setHour(e);
-    var date = document.querySelector('.date');
-    date.classList.remove("colored");
-    date.classList.add("selectcolor");
-  }
+  
   
   function btncheck(e){
   
     selectcheck();
+
+
+      if(hourcolor.classList.contains("selected") != true ){
+
+        hourcolor.classList.add("selected");
+
+      }
 
       if(email  !== '' && prenom  !== '' && nom  !== '' && hour !== ''){
           
@@ -236,6 +238,8 @@ function Rdv() {
 
       emailjs.sendForm('booking_winent', 'rdv78', e.target, '6nusaoR8fQQLjbcrX')
       .then((result) => {
+
+        window.location = "./confirmationrdv";
            
       }, (error) => {
           
@@ -252,8 +256,8 @@ function Rdv() {
     /*var remove = document.querySelector(".selected");
     remove.classList.remove("selected");*/
     
-    var test = document.getElementById("hour_id");
-    test.classList.add("selected");
+    
+    
 
     
     
@@ -312,7 +316,7 @@ function Rdv() {
 <div class="row">
 {rdvdujour.map((data,index) => 
     
-    <div class={data.status} key={index} id="selected"  onClick={(e) => {hourselect(e.target.innerHTML,data.status,index)}}>
+    <div class={data.status} key={index} id="hour_id"  onClick={(e) => {hourselect(e.target.innerHTML,data.status,index)}}>
         <content>{data.hour}</content>
         </div>
         
@@ -342,7 +346,7 @@ function Rdv() {
 <div class="column_items_center">
 
         <div class="column_items_center">
-                <content>Prenom</content>
+                <content>Prénom</content>
                 <input type="text" className="form-control" placeholder="prenom" name="prenom" id="input" value={prenom} required
                 onChange={(e) => setPrenom(e.target.value)}/>
                 <content>Nom</content>
@@ -381,15 +385,19 @@ function Rdv() {
     <br/> 
     
     <content id="text_recap" class="none"><content1><orange>Date du rendez-vous : </orange></content1><br/><br/> 
-    Vous avez un rdv de 30mn gratuit et sans obligation le : <blue>{insertdate.format("DD-MM-YYYY")}</blue> à <blue>{hour}</blue>. <br /> <br />Vous allez recevoir un email de <t_orange>carole@winentretien.com</t_orange><br/> avec le lien Teams pour notre rdv.
+    Vôtre Rdv est fixé au : <br/><content1><blue>{insertdate.format("DD-MM-YYYY")}</blue> à <blue>{hour}</blue></content1>. <br /> <br />Vous allez recevoir un email de <blue>contact@winentretien.com</blue><br/> avec le lien Teams pour notre rdv.
 <br/><content1>A très vite !</content1></content>
     
     <br/><br/><br/>
-    <Link to="/confirmationrdv">
+    
     <input type="submit" class="disabled btn" onClick={(e) => e.target.reset()} value="Prendre rendez vous">
-      </input></Link>
+      </input>
     <br/>
     </div>
+
+    
+
+
     </div>
 
 

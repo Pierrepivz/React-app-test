@@ -98,7 +98,7 @@ function Home_Blog() {
 <h2under2></h2under2>
 
 <content class="note">Informations pratiques sur les
-concours, présentation de concepts ou mon point de vue sur des
+concours, présentation de concepts de coaching, ou mon point de vue sur des
 sujets du moment : c’est par ici</content>
     
 

@@ -48,11 +48,20 @@ function Coach(){
                   <content>
                   Quelques mots pour parler de mon envie de vous accompagner...<br/><br/>
 
-Dans les trois professions que j'exerce depuis plus de 25 ans :  <strong>la formation, le conseil et le coaching</strong>, il y a un point de convergence essentiel qui est la relation à l'autre.<br/><br/>
-
-C'est l'unicité de la rencontre, avec une classe, un groupe de dirigeants ou tout simplement une personnalité unique  - car tous mes clients sont de belles personnes - qui permet de développer une relation singulière, où la qualité de l'attention portée à l'autre permet que surviennent des instants de vérité et de possibilités.  <br/>
-La recherche de ces moments suspendus, où la compréhension et l'acceptation surgissent, dans un climat de totale bienveillance : c'est cela que je tente à chaque fois de développer avec vous.<br/><br/>
-
+                  Dans les trois professions que j'exerce depuis plus de 25
+ans : <blue>la formation, le conseil et le coaching,</blue> il y a un
+élément de convergence : <strong>la relation à l’autre.</strong><br/>
+Une rencontre, avec une classe, un groupe de
+professionnels ou une personne singulière, est toujours
+unique.<br/><br/>
+Dans l’expression d’une demande, dans la formulation
+des réponses aux questions posées, c’est à chaque fois
+l’unicité d’un vécu personnel qui surgit.<br/><br/>
+De ce fait, chaque accompagnement est unique
+également, mais guidé par quelques constantes, comme
+la recherche de la précision dans les termes de nos
+échanges, ou la projection plutôt que l’introspection.
+Avec un impératif : <br/><strong>le respect de votre zone de confort.<br/></strong>
   <i class="fa-solid fa-angle-right 2xl" id="icon"></i></content>
 
 
@@ -77,9 +86,10 @@ La recherche de ces moments suspendus, où la compréhension et l'acceptation su
 
 
 
-Par <strong>l'écoute, la reformulation, l'équanimité.</strong><br/><br/>
+Mes outils de prédilection : <strong> l'écoute et la reformulation.</strong><br/><br/>
 
-Par des techniques qui s'appuient sur le pouvoir des mots, des silences et de toutes leurs combinaisons.<br/><br/><br/>  </content>
+<strong>Pour le reste :</strong> faisons confiance aux possibilités du moment
+présent.<br/><br/><br/>  </content>
 
 <Link to='./offre'><a id="bouton"><content>Ma méthode</content></a></Link>
 
@@ -142,7 +152,7 @@ Par des techniques qui s'appuient sur le pouvoir des mots, des silences et de to
       <div class='column'>
       <div class="row">
       <h2title>
-      1993
+      Avant 1995
       
       </h2title>
       
@@ -150,8 +160,10 @@ Par des techniques qui s'appuient sur le pouvoir des mots, des silences et de to
       <div id='underline2'></div>
       <div id='box_content'>
       <content>
-      Retour en France après 5 ans passés aux Etats-Unis, en
-tant qu’Ingénieur Réseaux et professeur de français. 
+      Après des études scientifiques, je pratique l’informatique
+à ses débuts. Je travaille pendant 5 ans aux Etats Unis, en
+tant qu’ingénieur réseaux, tout en donnant des cours de
+français à l’université.
 <br/><br/><blue>
 Ingénieur Certifié Novell – MIAGe et DEA à
 Paris-Dauphine</blue></content>
@@ -523,12 +535,14 @@ Formation à la thérapie d’acceptation et d’engagement
       </div>
       <div id='underline2'></div>
       <div id='box_content'>
-      <content>Mon activité actuelle est centrée sur les <blue>coachings et
-les audits qualité en entreprise.</blue><br/><br/>
+      <content>Mon activité actuelle est centrée sur les <blue>préparations aux entretiens, les coachings</blue> et les
+audits qualité.<br/>
+Dans ces 3 activités, c’est la mise en valeur du
+<blue>potentiel de chacun</blue>, <blue>l’intuition</blue> de sa capacité
+naturelle à se dépasser, qui orientent mes
+interventions.<br/><br/>
 
-Dans mes 2 activités, c’est la mise en valeur du
-<blue> potentiel humain</blue> et l’intuition de sa <blue>puissance de
-changement</blue> qui oriente mes interventions.</content>
+</content>
       </div>
 
 
@@ -574,21 +588,24 @@ de motivation. Le système éducatif français ne prépare pas les
 
 Acquérir une aisance à l’oral, savoir pitcher, décrypter les attentes d’un
 jury, seront à la base de la création de winentretien, avec un succès
-croissant au fil des ans. Plus de 600 étudiants ont été préparés à
+croissant au fil des ans. <strong>Plus de 600 étudiants</strong> ont été préparés à
 réussir leur entretien de motivation afin d’intégrer de
 nombreuses Écoles et formations sélectives - Écoles de
 Commerce, Écoles d'Ingénieurs, Sciences Po, Écoles hôtelières,
 Mastères spécialisés.<br/><br/>
 
-16 ans plus tard, qu’est-ce qui a changé ?<br/>
+<strong>16 ans plus tard, qu’est-ce qui a changé ?</strong><br/><br/>
 
 Les écoles, les universités, les recruteurs font aujourd'hui une place
 importante dans leur processus d'intégration au potentiel relationnel,
 émotionnel et créatif des candidats, et à leur aptitude à réussir dans ce
 qu'ils entreprennent. Charge à ceux-ci d'argumenter et de légitimer
 leurs réponses à des questions cherchant à discerner ce potentiel en
-eux, en proposant une candidature authentique, originale et
-attractive.<br/><br/>
+eux, en proposant une candidature authentique, originale et attractive.
+Savoir communiquer sa singularité et sa valeur ajoutée de manière
+authentique, se positionner de façon juste, comprendre les attentes de
+son interlocuteur, sont encore plus nécessaires aujourd'hui dans des
+parcours professionnels très concurrentiels.<br/><br/>
 
 </content>
 

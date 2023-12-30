@@ -25,7 +25,7 @@ export default function Mentions_legales(){
 
             <content1><br/>
             Raison sociale : JUNGO<br/>
-Siège social : 10 allée Desaix – 78110 LE VESINET<br/>
+<br/>
 Forme juridique : SAS<br/>
 RCS : 979 303 948<br/>
 Responsable : Mme PIVIN Carole<br/><br/>
