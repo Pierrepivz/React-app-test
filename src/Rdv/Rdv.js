@@ -18,13 +18,14 @@ function Rdv() {
   const [nom, setNom] = useState('');
   const [date, setDate] = useState(new Date());
   const [hour, setHour] = useState('');
+  const [index, setIndex] = useState(0);
   const today = new moment().add(3,"month").format('MM/DD/YYYY');
   const maxDate = new Date(today);
   const sqldate = `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
   const insertdate = moment(date);
   var text = document.getElementById('text_recap');
   var btnoff = document.querySelector('.btn');
-  var hourcolor = document.getElementById("hour_id");
+  var hourcolor = document.querySelectorAll("#hour_id");
   const [Listset, setDatalist] = useState([]);
 
 
@@ -40,7 +41,6 @@ function Rdv() {
     }, []); 
 
     const datelist = Listset.map( value => value.date);
-    const idlist = Listset.map(value => value.id);
     const datatab = Listset.map( value => [{data: value.date , hour: value.heure , dispo: value.dispo}] );
     const tabvaleurs = datatab.flat();
     
@@ -48,7 +48,7 @@ function Rdv() {
 
     for(var i = 0 ; i < datelist.length ; i++){
     
-        if(datelist[i] == datelist[i+1]){
+        if(datelist[i] === datelist[i+1]){
              
             datelist.splice(i,1);
            
@@ -75,12 +75,14 @@ function Rdv() {
   
     selectcheck();
 
-
-      if(hourcolor.classList.contains("selected") != true ){
-
-        hourcolor.classList.add("selected");
-
+       
+      hourcolor.forEach( (element) => {
+        if(element.classList.contains("selected")){
+        element.classList.remove("selected");
       }
+      });
+
+      hourcolor[index].classList.add("selected");
 
       if(email  !== '' && prenom  !== '' && nom  !== '' && hour !== ''){
           
@@ -118,12 +120,11 @@ function Rdv() {
       const tabdispo = ["10 h","12 h","16 h","18 h"];
       const tableau_complet = [];
       const reserved_tab = [];
-      const clienttab = [];
-      const offtab = [];
+      
       setDate(date);
       
   
-      if(date.getDay() == 0){
+      if(date.getDay() === 0){
   
         setRdv([]);
         return 0;
@@ -142,9 +143,9 @@ function Rdv() {
           const offdate = insertdate.format("YYYY-MM-DD");
           
   
-          if(d2 == offdate){
+          if(d2 === offdate){
               
-              if(tabvaleurs[i]["dispo"] == 3){
+              if(tabvaleurs[i]["dispo"] === 3){
   
               /*reserved_tab = tabdispo;*/
               reserved_tab.push("10 h","12 h","16 h","18 h");
@@ -249,27 +250,12 @@ function Rdv() {
       
   }
 
-  function hourselect(value,dispo,index){
+  function hourselect(index){
 
-    setHour(value);
-    /* remove selected */
-    /*var remove = document.querySelector(".selected");
-    remove.classList.remove("selected");*/
-    
-    
-    
+    var tab = ["10 h","12 h","16 h","18 h"];
 
-    
-    
-     /*
-    if(dispo == "date offhour"){
-   
-    setDispoH(["bouton_on","bouton_off","indisponible"])}else{
-    
-    setDispoH(["bouton_off","bouton_on","disponible"]);
-
-    };*/
-    
+    setHour(tab[index]);
+    setIndex(index);
     
     
     
@@ -282,18 +268,6 @@ function Rdv() {
 
 
       <div class="rdv block ">
-      
-      
-      
-
-  
-
-  
-
-  
-
-
-
 
      
    <div class="column_start">
@@ -316,7 +290,7 @@ function Rdv() {
 <div class="row">
 {rdvdujour.map((data,index) => 
     
-    <div class={data.status} key={index} id="hour_id"  onClick={(e) => {hourselect(e.target.innerHTML,data.status,index)}}>
+    <div class={data.status} key={index} id="hour_id"  onClick={(e) => {hourselect(index)}}>
         <content>{data.hour}</content>
         </div>
         
