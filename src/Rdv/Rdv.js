@@ -211,7 +211,7 @@ function Rdv() {
       
       
     }
-    window.addEventListener("click",available);
+    /*window.addEventListener("click",available);*/
 
     const onChange = date => {
   

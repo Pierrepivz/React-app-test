@@ -91,8 +91,8 @@ Parcoursup<br/>
 
 
 <content500>
-<blue>Préparation aux entretiens</blue> et <blue>coaching</blue> sont nos deux domaines d'expertise.
-Le 1er concerne à la fois <strong>les étudiants :</strong> épreuves orales de concours, entretien pour un 1er job et <strong>les professionnels</strong> : entretien d'embauche ou d'évaluation. Le 2nd vous propose de développer trois compétences clés de tout parcours professionnel - <blue>indiqués en bleu</blue> ci-contre.
+<blue>Préparation aux entretiens</blue> et <blue>coaching</blue> sont nos deux domaines d'expertise.<br/>
+Le 1er concerne à la fois <strong>les étudiants :</strong> épreuves orales de concours, entretien pour un 1er job et <strong>les professionnels</strong> : entretien d'embauche ou d'évaluation. <br/>Le 2nd vous propose de développer trois compétences clés de tout parcours professionnel - <blue>indiqués en bleu</blue> ci-contre.
  </content500>
 <br />
 
