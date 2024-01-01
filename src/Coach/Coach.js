@@ -46,7 +46,7 @@ function Coach(){
 
                   <div class="content_blue">
                   <content>
-                  Quelques mots pour parler de mon envie de vous accompagner...<br/><br/>
+                  <strong>Quelques mots pour parler de mon envie de vous accompagner.</strong><br/><br/>
 
                   Dans les trois professions que j'exerce depuis plus de 25
 ans : <blue>la formation, le conseil et le coaching,</blue> il y a un
@@ -60,8 +60,8 @@ l’unicité d’un vécu personnel qui surgit.<br/><br/>
 De ce fait, chaque accompagnement est unique
 également, mais guidé par quelques constantes, comme
 la recherche de la précision dans les termes de nos
-échanges, ou la projection plutôt que l’introspection.
-Avec un impératif : <br/><strong>le respect de votre zone de confort.<br/></strong>
+échanges, ou la projection plutôt que l’introspection.<br/>
+Avec un impératif : <br/><blue>le respect de votre zone de confort.<br/></blue>
   <i class="fa-solid fa-angle-right 2xl" id="icon"></i></content>
 
 
@@ -538,7 +538,7 @@ Formation à la thérapie d’acceptation et d’engagement
       <content>Mon activité actuelle est centrée sur les <blue>préparations aux entretiens, les coachings</blue> et les
 audits qualité.<br/>
 Dans ces 3 activités, c’est la mise en valeur du
-<blue>potentiel de chacun</blue>, <blue>l’intuition</blue> de sa capacité
+<blue> potentiel de chacun</blue>, <blue>l’intuition</blue> de sa capacité
 naturelle à se dépasser, qui orientent mes
 interventions.<br/><br/>
 

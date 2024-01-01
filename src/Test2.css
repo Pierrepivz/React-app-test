@@ -498,7 +498,7 @@ border-radius: 9px;
 font-weight: 500;
 font-size: 14px;
 margin-right: 20px;
-
+background: white;
 
 
 }
@@ -746,8 +746,9 @@ font-size: 14px;
 
   background-color:  #eaf2fd;
   border-radius: 10px;
-  max-height: 1200px;
+  max-height: 120vmin;
   padding: 10px;
+  padding-left: 3%;
   color: white;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
   min-width: 300px;

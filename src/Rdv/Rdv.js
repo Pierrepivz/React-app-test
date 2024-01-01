@@ -81,8 +81,9 @@ function Rdv() {
         element.classList.remove("selected");
       }
       });
-
+      if(hour != ''){
       hourcolor[index].classList.add("selected");
+    }
 
       if(email  !== '' && prenom  !== '' && nom  !== '' && hour !== ''){
           
@@ -103,7 +104,7 @@ function Rdv() {
   }
   window.addEventListener("click", btncheck);
   window.addEventListener("input", btncheck);
-
+ 
   
   
   
@@ -112,16 +113,14 @@ function Rdv() {
 
     const [rdvdujour, setRdv] = useState([]);
 
-    const onChange = date => {
-  
-      
-  
-      /* init */
+    function available(){
+
+
       const tabdispo = ["10 h","12 h","16 h","18 h"];
       const tableau_complet = [];
       const reserved_tab = [];
       
-      setDate(date);
+      
       
   
       if(date.getDay() === 0){
@@ -209,6 +208,17 @@ function Rdv() {
       const tableau_des_rendez_vous = tableau_complet.flat();
       setRdv(tableau_des_rendez_vous);  
   
+      
+      
+    }
+    window.addEventListener("click",available);
+
+    const onChange = date => {
+  
+      
+      setDate(date);
+      available();
+      /* init */
       
   
       
