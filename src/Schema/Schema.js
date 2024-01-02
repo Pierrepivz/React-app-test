@@ -170,9 +170,9 @@ objectif par séance, et selon un calendrier conforme à vos contraintes.</conte
 
                 <div class="content_blue">
                 <content><blue>Les séances ont lieu en présentiel – Yvelines ou Paris – ou en distanciel. </blue><br /><br />Lors de la 1ère séance nous fixons un calendrier
-prévisionnel ainsi que <blue>3 indicateurs de succès de
-notre travail en commun.</blue><br/><br/>Lors de la dernière séance, ces indicateurs sont
-évalués et nous prenons le temps d’un <blue>retour
+prévisionnel ainsi qu'un  indicateur de succès de
+notre travail en commun.<br/><br/>Lors de la dernière séance, <blue>cet indicateur est
+évalué</blue> et nous prenons le temps d’un <blue>retour
 d’expérience.</blue></content>
                 </div>
                 <Link to="/Methode" onClick={() => window.scrollTo(0,10)}>

@@ -1,7 +1,7 @@
 #coach_photo{
   
-
-height: 43vmax;
+margin-top: 4%;
+height: 37vmax;
 
 border-radius: 5px;
 box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
@@ -26,7 +26,7 @@ box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
     
     #coach_message1 .content_blue{
     
-      margin-top: -8px;
+      
       border-style: none;
       font-weight: 500;
       font-size: 1vmax;
@@ -45,14 +45,17 @@ box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
 
   
   #coach_message2 .content_blue {
+    
     margin-left: -4%;
     font-size: 1vmax;
     font-weight: 500;
     z-index: 0;
-    margin-top: -10%;
+    margin-top: 1%;
     background: white;
     box-shadow: none;
+    
   }
+  
   #coach_message2{
 
     background: white;

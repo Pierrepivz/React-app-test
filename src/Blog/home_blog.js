@@ -99,7 +99,7 @@ function Home_Blog() {
 
 <content class="note">Informations pratiques sur les
 concours, présentation de concepts de coaching, ou mon point de vue sur des
-sujets du moment : c’est par ici</content>
+sujets du moment : <br/><strong>c’est par ici</strong></content>
     
 
                               
@@ -146,10 +146,10 @@ sujets du moment : c’est par ici</content>
                     <h2title><strong>Filtres</strong></h2title><br/>
                     <select class="filtres research"   onChange={e => setFilter(e.target.value)}>
                     <option></option>
-                    <option value="écoles">Coaching</option>
-                    <option value="emplois" >Entretien</option>
-                    <option value="concours">Divers</option>
-
+                    <option value="Coaching">Coaching</option>
+                    <option value="Entretien">Entretien</option>
+                    <option value="Divers">Divers</option>
+                    
                     </select>
                     </div>
                     

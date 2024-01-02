@@ -9,14 +9,14 @@ export default function Rdvconfirm() {
 
     return( <div class="Rdvconfirm Offre">
             <div class="column_items_center">
-             <div class="content_blue"><content>Votre rendez-vous a bien été pris en compte ! <br />Vous allez recevoir sous 24h le lien pour notre rendez-vous. <br/>À bientôt ☕️</content>
+             <div class="content_blue"><content>Merci pour votre confiance. Votre rendez-vous est confirmé <br />Vous allez recevoir un lien Teams de <blue>carole@winentretien.com</blue> <br/>À bientôt ☕️</content>
              
              </div>
-             <Link to="./">
+             <Link to="./" onClick={() => window.scrollTo(0,10)}>
              <button id="bouton">retour</button>
              </Link>
              </div>
     </div>
-    )
+    );
                   
 }

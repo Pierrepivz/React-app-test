@@ -59,9 +59,8 @@ des réponses aux questions posées, c’est à chaque fois
 l’unicité d’un vécu personnel qui surgit.<br/><br/>
 De ce fait, chaque accompagnement est unique
 également, mais guidé par quelques constantes, comme
-la recherche de la précision dans les termes de nos
-échanges, ou la projection plutôt que l’introspection.<br/>
-Avec un impératif : <br/><blue>le respect de votre zone de confort.<br/></blue>
+la recherche de l'atteinte d'un objectif précis (projection plutôt qu’introspection)<br/>
+Et la valorisation de vos réalisations <strong>(vos 'pépites').</strong>
   <i class="fa-solid fa-angle-right 2xl" id="icon"></i></content>
 
 
@@ -78,7 +77,7 @@ Avec un impératif : <br/><blue>le respect de votre zone de confort.<br/></blue>
                         
                               <img class="photo_box" src={photo_carole}/>
                         
-                        <div class="photo_avatar"></div>
+                        
 
                         <div class="content_blue">
                   <content>
@@ -129,16 +128,6 @@ présent.<br/><br/><br/>  </content>
 
 
 <div class="flex">
-      
-      
-      
-
-      
-      
-
-      
-
-
       <div id='box_graph' class="column_items_center">
 
       <div id="circle"></div>
@@ -206,7 +195,7 @@ Paris-Dauphine</blue></content>
       </div>
       <div id='underline2'></div>
       <div id='box_content'>
-      <content>J’entre chez CSC Peat Marwick en tant que
+      <content>J’entre dans un cabinet de conseil américain en tant que
 consultante en <blue>Systèmes d’information (SI)</blue><br/><br/>
 
 Spécialisation dans la traduction des besoins des
@@ -299,7 +288,7 @@ aux utilisateurs</blue></content>
       </div>
       <div id='underline2'></div>
       <div id='box_content'>
-      <content>Je quitte CSC et lance une <blue>activité indépendante de conseil
+      <content>Je me lance dans une <blue>activité indépendante de conseil
 en organisation et de formation</blue><br/><br/>
 
 Plusieurs missions de conseil pour les 200 magasins
@@ -536,8 +525,8 @@ Formation à la thérapie d’acceptation et d’engagement
       <div id='underline2'></div>
       <div id='box_content'>
       <content>Mon activité actuelle est centrée sur les <blue>préparations aux entretiens, les coachings</blue> et les
-audits qualité.<br/>
-Dans ces 3 activités, c’est la mise en valeur du
+audits qualité.<br/><br/>
+Dans les 2 premières activités, c’est la mise en valeur du
 <blue> potentiel de chacun</blue>, <blue>l’intuition</blue> de sa capacité
 naturelle à se dépasser, qui orientent mes
 interventions.<br/><br/>
@@ -594,7 +583,7 @@ nombreuses Écoles et formations sélectives - Écoles de
 Commerce, Écoles d'Ingénieurs, Sciences Po, Écoles hôtelières,
 Mastères spécialisés.<br/><br/>
 
-<strong>16 ans plus tard, qu’est-ce qui a changé ?</strong><br/><br/>
+<strong>Aujourd'hui, qu’est-ce qui a changé ?</strong><br/><br/>
 
 Les écoles, les universités, les recruteurs font aujourd'hui une place
 importante dans leur processus d'intégration au potentiel relationnel,

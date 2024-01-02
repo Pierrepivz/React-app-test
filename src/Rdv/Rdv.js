@@ -113,7 +113,7 @@ function Rdv() {
 
     const [rdvdujour, setRdv] = useState([]);
 
-    function available(){
+    const available = () => {
 
 
       const tabdispo = ["10 h","12 h","16 h","18 h"];
@@ -206,18 +206,22 @@ function Rdv() {
       }
       
       const tableau_des_rendez_vous = tableau_complet.flat();
-      setRdv(tableau_des_rendez_vous);  
+      
+        setRdv(tableau_des_rendez_vous);  
   
       
       
     }
-    window.addEventListener("click",available);
+    
+    /*var availability = document.querySelector(".calendar");*/
+    /*document.getElementById("calendar_id").addEventListener("click",available);*/
+    
 
     const onChange = date => {
   
       
       setDate(date);
-      available();
+      /*available();*/
       /* init */
       
   
@@ -270,8 +274,7 @@ function Rdv() {
     
     
   };
-
-
+  document.addEventListener("click",available);
 
     return (
 
@@ -291,7 +294,7 @@ function Rdv() {
      <h2under2></h2under2></div>
 <div class="datetime column_items_center">
 
-<content><Calendar class="calendar" onChange={onChange} value={date} view="month" minDate={new Date(Date.now())} maxDate={maxDate} /></content>
+<content><Calendar class="calendar" onChange={onChange} value={date} view="month" minDate={new Date(Date.now())} maxDate={maxDate} id="calendar_id" /></content>
 
 
 

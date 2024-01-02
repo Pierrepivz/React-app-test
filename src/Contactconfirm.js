@@ -12,7 +12,7 @@ export default function Contactconfirm() {
              <div class="content_blue"><content>Votre message a bien été pris en compte ! <br />À bientôt ☕️</content>
              
              </div>
-             <Link to="./home">
+             <Link to="./" onClick={() => window.scrollTo(0,10)}>
              <button id="bouton">Retour</button>
              </Link>
              </div>

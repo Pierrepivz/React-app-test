@@ -9,7 +9,7 @@ function Statistics() {
         <div class="column_start margin_left margin_right">
 
                   <div id="titre_second"class='column_items_center'>
-                              <h1title>Taux de réussite 2022 : 98%</h1title>
+                              <h1title>Taux de réussite 2023 : 98%</h1title>
                               
                               <h2under2></h2under2>
                               
@@ -17,8 +17,8 @@ function Statistics() {
                         <div class="note">
                               
                               
-                              <content> Ce taux est calculé sur <strong>l’ensemble des accompagnements</strong> réalisés en 2022 pour préparer le concours d’entrée à une école –<blue> postbac,
-Bac +2 et au-delà.</blue><br/>
+                              <content> Ce taux est calculé sur <strong>l’ensemble des accompagnements réalisés en 2023</strong> pour préparer le concours d’entrée à une école –<br/><blue> postbac,
+Bac +1 et au-delà.</blue><br/>
 Nous personnalisons la méthode à votre situation personnelle et 
 nous commençons par vous poser <strong>3 questions importantes :</strong> </content></div>                      
                   

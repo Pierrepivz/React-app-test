@@ -170,8 +170,8 @@ sein de mon équipe </italic></content2></blue>
 
                   <div class="column_items_center">
 
-                  <div class="note"><content>" Conçue par expérience, <strong>adaptée au besoin de chacun,</strong> <br/>elle répond à l’un de ces deux
-objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice de <strong>toute activité professionnelle</strong> " </content><br />
+                  <div class="note"><content> Conçue par expérience, <strong>adaptée au besoin de chacun,</strong> <br/>elle répond à l’un de ces deux
+objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice de <strong>toute activité professionnelle</strong>  </content><br />
 </div></div>
                         
 
@@ -287,7 +287,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
   <div class="profils column"><img src={Robin}  /></div><br/>
 
   <h3title>Robin</h3title>
-  <content1><blue>Terminale S, admis VATEL Paris 2022 </blue></content1>
+  <content1><blue>Terminale S, admis VATEL Paris 2023 </blue></content1>
   </div>
   
   <br/>
@@ -337,7 +337,7 @@ Paris.</blue></content>
     <div class="profils column"><img src={img_mathilde}  /></div><br/>
 
     <h3title>Caroline</h3title>
-    <content1><blue>Dirigeante, 2021</blue></content1>
+    <content1><blue>Dirigeante, 2022</blue></content1>
     </div>
     
     <br/>
@@ -355,7 +355,7 @@ Cette expérience de coaching pousse au-delà même après les séances. Merci."
     <div class="column_items_center">  
     <div class="profils column"><img src={img_milena}  /></div><br/>
     <h3title>Milena</h3title>
-    <content1><blue>Chargée de partenariats dans le <br/> milieu associatif, 2021</blue></content1>
+    <content1><blue>Chargée de partenariats dans le <br/> milieu associatif, 2022</blue></content1>
     </div>
     
     <content>" Carole m'a accompagnée en 2021. <br/>
