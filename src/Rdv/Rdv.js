@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
 import axios from 'axios';
@@ -7,12 +7,15 @@ import 'react-calendar/dist/Calendar.css';
 import '../calendar.css';
 import '../globals.css';
 import moment  from 'moment';
+import {Helmet} from "react-helmet";
+import { LoadCanvasTemplateNoReload } from "react-simple-captcha";
 
 
 
 
 function Rdv() {
 
+  const tabRef = useRef(null);
   const [email, setEmail] = useState('');
   const [prenom, setPrenom] = useState('');  
   const [nom, setNom] = useState('');
@@ -104,16 +107,16 @@ function Rdv() {
   }
   window.addEventListener("click", btncheck);
   window.addEventListener("input", btncheck);
- 
   
   
   
-
   
 
-    const [rdvdujour, setRdv] = useState([]);
+  
 
-    const available = () => {
+    
+
+    function available(){
 
 
       const tabdispo = ["10 h","12 h","16 h","18 h"];
@@ -125,8 +128,8 @@ function Rdv() {
   
       if(date.getDay() === 0){
   
-        setRdv([]);
-        return 0;
+        
+        return [];
   
       }
       
@@ -154,16 +157,7 @@ function Rdv() {
   
               reserved_tab.push(tabvaleurs[i]["hour"]);
   
-              /*if(tabvaleurs[i]["dispo"] == 1){
-  
-                offtab.push(tabvaleurs[i]["hour"]);
-  
-              }
-              if(tabvaleurs[i]["dispo"] == 2){
-  
-                clienttab.push(tabvaleurs[i]["hour"]);
-                
-              }*/
+              
               
   
               }
@@ -184,17 +178,7 @@ function Rdv() {
 
         tableau_complet.push([{status: "date offhour" , hour: tabdispo[e]}]);
   
-  /*
-        if(clienttab.includes(tabdispo[e])){
   
-          tableau_complet.push([{status: "date" , hour: tabdispo[e]}]);
-  
-        }
-        if(offtab.includes(tabdispo[e])){
-        
-          tableau_complet.push([{status: "date offhour" , hour: tabdispo[e]}]);
-  
-        }*/
       
         
       
@@ -207,29 +191,25 @@ function Rdv() {
       
       const tableau_des_rendez_vous = tableau_complet.flat();
       
-        setRdv(tableau_des_rendez_vous);  
+        return tableau_des_rendez_vous;  
   
-      
+       
       
     }
     
-    /*var availability = document.querySelector(".calendar");*/
-    /*document.getElementById("calendar_id").addEventListener("click",available);*/
     
 
     const onChange = date => {
   
       
       setDate(date);
-      /*available();*/
-      /* init */
       
-  
+      
       
             
     };   
   
-  
+  const rdvcheck = available();
   
   
   function sendEmail(e) {
@@ -274,13 +254,21 @@ function Rdv() {
     
     
   };
-  document.addEventListener("click",available);
+  
 
     return (
 
 
 
-      <div class="rdv block ">
+      <div class="rdv block">
+
+
+      <Helmet>
+       
+       <title>Prendre rendez-vous</title>
+       <meta name="description" content="Un Premier rendez-vous (gratuit) pour que l'on puisse parler de votre projet."></meta>
+
+      </Helmet>
 
      
    <div class="column_start">
@@ -301,7 +289,7 @@ function Rdv() {
 <div class='select column' onClick={(e) => {btncheck(e)}}>
 
 <div class="row">
-{rdvdujour.map((data,index) => 
+{rdvcheck.map((data,index) => 
     
     <div class={data.status} key={index} id="hour_id"  onClick={(e) => {hourselect(index)}}>
         <content>{data.hour}</content>

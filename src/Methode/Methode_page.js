@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import stats from "../images/Stats.jpg";
 import coaching1 from "../images/coaching1.JPG";
 import coaching2 from "../images/coaching2.jpg";
-import image_equa from "../images/image_equanimite.jpg";
-
+import {Helmet} from "react-helmet";
 
 function Methode_page(){
 
@@ -17,7 +16,11 @@ function Methode_page(){
    <div className="Contact Page">
 
 
+<Helmet>
+       
+       <title>Méthode de Coaching et de préparation aux entretiens </title>
 
+      </Helmet>
 
 
 

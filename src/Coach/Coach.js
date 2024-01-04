@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import photo_carole from "../images/photo_carole_face.JPG";
 import carole_pied from "../images/photo_carole_pied.JPG";
 import winentretien from "../images/winentretien_team.jpg";
-
+import {Helmet} from "react-helmet";
 function Coach(){
 
    
@@ -16,7 +16,12 @@ function Coach(){
    <div className="Contact Page">
 
 
+<Helmet>
+       
+       <title>Coach pour étudiants et professionnels</title>
+       <meta name="description" content="Carole, coach pour étudiants et professionnels, vous accompagne dans la réussite de vos projets professionnels. "></meta>
 
+      </Helmet>
 
 
 

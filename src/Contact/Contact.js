@@ -6,6 +6,7 @@ import Recaptach from './Recaptcha.js';
 import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
 import "../globals.css";
 import "./contact.css";
+import {Helmet} from "react-helmet";
 
 
 function Contact(){
@@ -60,6 +61,13 @@ function Contact(){
   return(
 
    <div className="Contact Page">
+
+<Helmet>
+       
+       <title>Page Contact</title>
+       <meta name="robots" content="noindex,nofollow"></meta>
+
+      </Helmet>
 
 <div class='column_items_center'>
         

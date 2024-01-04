@@ -12,7 +12,7 @@ import offre1 from "../images/mirabeau.jpg";
 import offre2 from "../images/bienposte.jpeg";
 import Robin from "../images/arthur_robin.jpg";
 import "../Text.css";
-
+import {Helmet} from "react-helmet";
 
 
 
@@ -30,7 +30,13 @@ function Homepage(){
       return (
             <div className="Homepage">
            
-            
+           <Helmet>
+       
+       <title>Winentretien : La préparation sur mesure</title>
+       <meta name="description" content="Winentretien Paris vous forme à la réussite de votre projet professionnel, pour toutes les étapes de votre carrière, des études jusqu'a la reconversion professionnelle."></meta>
+       
+
+      </Helmet>
           
 
                   <div class="Homemain">

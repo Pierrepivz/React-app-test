@@ -3,13 +3,13 @@ import React from "react";
 import axios from 'axios';
 
 import { Link } from "react-router-dom";
-
+import {Helmet} from "react-helmet";
 
 
 
 function Home_Blog() {
 
-  
+    
     const [article_name,setArticlename] = useState('');
     const [filter,setFilter] = useState('');
     const [input,setInput] = useState('');
@@ -48,7 +48,7 @@ function Home_Blog() {
             
             
             if(!select){
-            return elements.filter( card => card.article_name.includes(query) );
+            return elements.filter( card => card.article_name.includes(query.toUpperCase()));
         }else{
             return elements.filter( card => card.article_name.includes(query) ).filter( card => card.filters.includes(select));
             
@@ -69,25 +69,15 @@ function Home_Blog() {
 
   
 
-    /*const [filter,Setfilter] = useState('');
-
-      function article_select(e){
-
-
-      
-
-      }*/
-     /* function filter_select(e){
-
-      Setfilter(e.value);
-
-
-    }*/
+    
     return (
       <div className="Page Blog">
 
       
-      
+      <Helmet>
+        <title>L'actualité sur les concours, les entretiens et les méthodes de coaching</title>
+        <meta name="description" content="J'aborde dans ce blog les points importants à mes yeux pour mener à bien son projet professionnel"></meta>
+      </Helmet>
       
                               
                               

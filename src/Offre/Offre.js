@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import offre1 from '../images/posteforet.jpg';
 import offre2 from '../images/eloquence.jpg';
 import "../Coach/Coach.css";
-
+import {Helmet} from "react-helmet";
 
 /*<img src={logo} className="win-logo" alt="logo" />*/
 
@@ -17,7 +17,13 @@ function Offre() {
             <div className="Offre">
               
 
+              <Helmet>
+       
+       <title>Offre de coaching, préparation aux entretiens pour étudiants et professionnels</title>
+       <meta name="description" content="Coaching et préparation aux entretiens (VATEL, INSA, concours post-bac, entretiens d'embauche)"></meta>
+       
 
+      </Helmet>
 
 
 
