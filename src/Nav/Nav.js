@@ -72,13 +72,13 @@ function Nav() {
         </ul>
         
         <ul>
-        <Link to='./coach'>
+        <Link to='./coach' onClick={() => window.scrollTo(0,10)}>
         <a>La coach</a>
         </Link>
         </ul>
 
         <ul>
-          <Link to='./Actual'>
+          <Link to='./Actual' onClick={() => window.scrollTo(0,10)}>
         <a >Le Blog</a>
           </Link>
 
@@ -87,7 +87,7 @@ function Nav() {
         </ul>
 
         <ul>
-          <Link to="./contact">
+          <Link to="./contact" onClick={() => window.scrollTo(0,10)}>
         <a>Contact</a>
         </Link>
         </ul>

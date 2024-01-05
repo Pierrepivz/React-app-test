@@ -95,7 +95,7 @@ Mes outils de prédilection : <strong> l'écoute et la reformulation.</strong><b
 <strong>Pour le reste :</strong> faisons confiance aux possibilités du moment
 présent.<br/><br/><br/>  </content>
 
-<Link to='./offre'><a id="bouton"><content>Ma méthode</content></a></Link>
+<Link to='./Methode_Page' onClick={() => window.scrollTo(0,10)}><a id="bouton"><content>Ma méthode</content></a></Link>
 
 
 </div>
@@ -633,7 +633,7 @@ parcours professionnels très concurrentiels.<br/><br/>
 Vous aider à acquérir ces compétences reste le <strong>cœur de métier </strong>
 de <blue>win</blue><strong>entretien</strong>.<br/><br/><br/>  </content>
 
-<Link to='./offre'><a id="bouton"><content>Mon offre</content></a></Link>
+<Link to='./offre' onClick={() => window.scrollTo(0,10)}><a id="bouton"><content>Mon offre</content></a></Link>
 
 
 </div>

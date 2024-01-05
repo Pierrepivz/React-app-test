@@ -11,7 +11,9 @@
    z-index: 0;
    
  }
- #schema_step{opacity: 0.80;}
+ #schema_step{
+   opacity: 0.80;
+  }
  
 .main_title{
 
@@ -567,116 +569,6 @@ tr{
   margin-bottom: 2%;
 }
 
-.tab_title{
-  height: 30px;
-  width: 150px;
-  padding: 10px;
-  font-weight: bold;
-  font-size: 13px;
-  background: #3e8ce6;
-  border-radius: 5px;
-  color: white;
-  margin-bottom: 10px;
-  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.308);
-}
-
-
-.tab_col{
-  margin-top: 60px;
-  margin-right: 40px;
-  height: 300px;
-  width: 150px;
-  border-radius: 9px;
-  color: white;
-  background:#3e8ce6;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.308);
-  
-  
-  
-}
-.tab_col content1{
-  font-size: 17px;
-  font-weight: bold;
-  width: 90%;
-  z-index: 10;
-  
-   
-   
- }
- .tab_col .avatars{
-   position: absolute;
-   height: 100px;
-   margin-top: -20px;
-   margin-left: 50px;
-   z-index: 0;
-   
-   
- }
- .tab_col .underline{
-   width: 100%;
-   margin: 0px;
-   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
-   border-radius: 100px;
-
- }
-
-.underline{
-  width: auto;
-  height: 5px;
-  background: white;
-  margin-top: 10px;
-}
-
-.tab_col2{
-  margin-right: 20px;
-   height: 300px;
-   width: 170px;
-   box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.308);
-   justify-content: space-around;
-   border-width: 6px;
-   background: #d1f3ff;
-   border-radius: 5px;
-   
- }
- .tab_col2 .column{
-   height: 27%;
-   
-  
- }
- .tab_offre{
-   text-align: center;
-   padding: 5%;
-   width: 90%;
-   
-   font-weight: 600;
-   font-size: 11px;
-   
-   transition-duration: 1s;
-   border-top-style: solid;
-   border-bottom-style: solid;
-   border-width: 2px;
-   border-color: #3e8ce6;
-   align-self: center;
-
-   background: white;
-   color: #3e8ce6;
-
-   
- }
- .tab_offre:hover{
-  
-  background: #3e8ce6;
-  color: white;
-   border-radius: 6px;
-   transition-duration: 1s;
-  
- 
-  
-}
 
 /*blog actualités ***/ 
 .research{

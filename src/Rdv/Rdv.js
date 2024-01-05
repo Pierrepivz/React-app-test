@@ -15,7 +15,7 @@ import { LoadCanvasTemplateNoReload } from "react-simple-captcha";
 
 function Rdv() {
 
-  const tabRef = useRef(null);
+  
   const [email, setEmail] = useState('');
   const [prenom, setPrenom] = useState('');  
   const [nom, setNom] = useState('');

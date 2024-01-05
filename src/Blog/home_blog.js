@@ -31,15 +31,7 @@ function Home_Blog() {
     
     }, []); 
     
-    window.addEventListener("input", search);
     
-    function search(){
-        
-        const cards = document.querySelectorAll(".home_article");
-        
-       
-
-    }
      const getfiltereditems = (query,elements,select) => {
             
         if(!query && !select){
@@ -50,7 +42,7 @@ function Home_Blog() {
             if(!select){
             return elements.filter( card => card.article_name.includes(query.toUpperCase()));
         }else{
-            return elements.filter( card => card.article_name.includes(query) ).filter( card => card.filters.includes(select));
+            return elements.filter( card => card.article_name.includes(query.toUpperCase()) ).filter( card => card.filters.includes(select));
             
         }
 
