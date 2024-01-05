@@ -64,8 +64,10 @@ des réponses aux questions posées, c’est à chaque fois
 l’unicité d’un vécu personnel qui surgit.<br/><br/>
 De ce fait, chaque accompagnement est unique
 également, mais guidé par quelques constantes, comme
-la recherche de l'atteinte d'un objectif précis (projection plutôt qu’introspection)<br/>
-Et la valorisation de vos réalisations <strong>(vos 'pépites').</strong>
+la recherche de la précision dans les termes de nos échanges,<br/>
+Avec un impératif : <strong><blue>le respect de votre zone de confort.</blue></strong>
+
+
   <i class="fa-solid fa-angle-right 2xl" id="icon"></i></content>
 
 
