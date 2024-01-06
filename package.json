@@ -2,6 +2,7 @@
   "name": "winent",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@natscale/react-calendar": "^0.0.0-beta.26",
     "@testing-library/jest-dom": "^5.16.5",
