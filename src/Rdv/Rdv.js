@@ -233,8 +233,8 @@ function Rdv() {
 
       emailjs.sendForm('booking_winent', 'rdv78', e.target, '6nusaoR8fQQLjbcrX')
       .then((result) => {
-
-        window.location = "./confirmationrdv";
+     alert("Votre rdv a bien été pris en compte."); 
+        window.location = "./#/confirmationrdv";
            
       }, (error) => {
           

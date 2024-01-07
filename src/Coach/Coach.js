@@ -63,8 +63,8 @@ Dans l’expression d’une demande, dans la formulation
 des réponses aux questions posées, c’est à chaque fois
 l’unicité d’un vécu personnel qui surgit.<br/><br/>
 De ce fait, chaque accompagnement est unique
-également, mais guidé par quelques constantes, comme
-la recherche de la précision dans les termes de nos échanges,<br/>
+également, mais guidé par quelques constantes, comme la recherche de la précision dans les termes de nos échanges, 
+ou la projection plutôt que l’introspection.<br/>
 Avec un impératif : <strong><blue>le respect de votre zone de confort.</blue></strong>
 
 
