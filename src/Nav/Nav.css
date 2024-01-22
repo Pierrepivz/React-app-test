@@ -94,3 +94,22 @@
     font-size: 8px;
     font-style: italic;
   }
+
+  @media screen and (max-width:640px) and (min-width:200px){
+    .Nav{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+
+    }
+    .nav-logo{
+      display: none;
+    }
+    .title_logo{
+      display: none;
+    }
+    .nav-links{
+      margin-left: none;
+      font-size: 1px;
+    }
+  }

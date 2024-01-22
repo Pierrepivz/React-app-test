@@ -235,9 +235,22 @@ hcontent{
 
   }
 
-  /*
+  
 
   @media screen and (max-width:640px) and (min-width:200px){
+    #main{
+    display: none;
+    }
+
+    #offre_mobile{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .sub-offre-mobile{
+      margin-bottom: 40px;
+      
+    }
 
     #temoignage{
       display: none;
@@ -324,4 +337,4 @@ hcontent{
     
   
   }
-  */
+  

@@ -183,9 +183,9 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
 
 
 
-                        <div class='line'>
+                        <div class='line' id="offre_mobile">
 
-                              <div class="column_start">
+                              <div class="column_start sub-offre-mobile">
 
                               <offretitle>Convaincre à l'oral</offretitle>
                               <h2under2></h2under2>

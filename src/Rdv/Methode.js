@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Rdvcontact from '../Rdvcontact.js';
 import Schema from '../Schema/Schema.js';
 import Rdv from './Rdv.js';
-
+import "./rdv.css";
 
 
 function Methode() {

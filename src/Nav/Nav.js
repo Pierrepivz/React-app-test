@@ -2,6 +2,7 @@
 import logo from '../images/firstlogo.svg';
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import {Helmet} from "react-helmet";
 
 function Nav() {
   
@@ -11,7 +12,11 @@ function Nav() {
     return (
       <div className="Nav">
         
-        
+        <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+       
+
+      </Helmet>
       
       
       <Link to='./'>

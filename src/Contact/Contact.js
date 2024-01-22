@@ -26,8 +26,8 @@ function Contact(){
 
     emailjs.sendForm('booking_winent', 'contact_template', e.target, '6nusaoR8fQQLjbcrX')
     .then((result) => {
-      alert("Votre formulaire a bien été pris en compte.");
-        window.location = "./#/confirmationcontact";
+    
+        window.location = "./confirmationcontact";
     }, (error) => {
         
     });

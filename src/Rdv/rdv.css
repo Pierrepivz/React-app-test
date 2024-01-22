@@ -91,6 +91,13 @@
   }
 
 @media screen and (max-width:640px) and (min-width:200px){
+    #schema_step{
+        display: none;
+    }
+    #schema_rdv{
+        display: none;
+    }
+    .note{display: none;}
 
 .rdv{
     display: flex;
