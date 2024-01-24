@@ -201,7 +201,7 @@ content500{
     
        
         htitle{
-          font-size: 2.1em;
+          font-size: 1.7em;
         }
     
         h3title{
@@ -209,7 +209,7 @@ content500{
     
         }
         h2title{
-          font-size: 1em;
+          font-size: 0.9em;
         }
         h4title{
           font-size: 2em;
@@ -220,6 +220,10 @@ content500{
         }
         h2under2{
           width: 30vmin;
+          max-width: 130px;
+        }
+        content{
+          font-size: 0.7em;
         }
       
       }

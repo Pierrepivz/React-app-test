@@ -97,9 +97,10 @@
 
   @media screen and (max-width:640px) and (min-width:200px){
     .Nav{
-      width: 100%;
+      max-width: 100%;
       display: flex;
       justify-content: flex-start;
+      
 
     }
     .nav-logo{

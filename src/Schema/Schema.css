@@ -79,6 +79,10 @@
 
   @media screen and (max-width:640px) and (min-width:200px){
 
+    .box_last{
+      max-width: 70%;
+    }
+
 
    #box_content {
      
@@ -95,6 +99,13 @@
 
     width: 200px;
 
+   }
+   #box-graph{
+     margin-left: -10%;
+   }
+   #icon{
+     display: none;
+     
    }
 
 
