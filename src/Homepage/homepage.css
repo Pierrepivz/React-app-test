@@ -238,9 +238,23 @@ hcontent{
   
 
   @media screen and (max-width:640px) and (min-width:200px){
-    #main{
-    display: none;
+    .Homepage{
+      max-width: 100%;
+
     }
+    
+    .Homemain{
+
+      flex-flow: column;
+      max-width: 100%;
+      padding-top: 70px;
+      align-items: center;
+      padding-bottom: 30px;
+      
+
+    }
+    
+    
 
     #offre_mobile{
       display: flex;
@@ -290,14 +304,15 @@ hcontent{
   
       flex-direction: column;
       align-items: center;
+      margin-right: 0px;
       
     }
-    #main{
-  
-      width: 100%;
-      margin-left: 6%;
-  
+    #objectif_persona{
+      align-items: center;
+      
+      
     }
+    
     hcontent{
   
       font-size: 11px;
@@ -306,7 +321,7 @@ hcontent{
     }
     #home_graph{
      
-     height: 40%;
+     display: none;
      background-position-x: 0px;
     }
 
@@ -333,8 +348,18 @@ hcontent{
       
     }
      
+  .first_temoignage{
+    display: none;
+  }  
+    .section{
+      margin: 0;
+      height: 20px;
+    }
     
     
-  
+    #preparation{
+      margin: 0px;
+    }
+    
   }
   

@@ -10,7 +10,7 @@ function Nav() {
     
       
     return (
-      <div className="Nav">
+      <div className="Nav" >
         
         <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />

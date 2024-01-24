@@ -737,7 +737,16 @@ font-size: 14px;
   flex-wrap: wrap;
 }
 
-  
+@media screen and (max-width:640px) and (min-width:200px){
+  .search_bar{
+    display: flex;
+    flex-direction: column;
+  }
+  #search_bar{
+    margin-bottom: 30px;
+    max-width: 200px;
+  }
+}
 
 
 

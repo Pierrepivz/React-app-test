@@ -275,14 +275,14 @@ function Rdv() {
 
     
 
-<div class="column_start">
+<div class="column_start" id="mobile_rdv">
   <div class="row">
 <h2title>Date et Heure</h2title><i class="fa-solid fa-calendar" id="icon"></i></div>
 
      <h2under2></h2under2></div>
 <div class="datetime column_items_center">
 
-<content><Calendar class="calendar" onChange={onChange} value={date} view="month" minDate={new Date(Date.now())} maxDate={maxDate} id="calendar_id" /></content>
+<content><Calendar class="calendar" onChange={onChange} value={date} view="month" minDate={new Date(Date.now())} maxDate={maxDate} width="100px" id="calendar_id" /></content>
 
 
 
@@ -316,7 +316,7 @@ function Rdv() {
              
                   <h2under2></h2under2></div>
         
-        <div class="content_blue">   
+        <div class="content_blue" id="mobile_coord">   
 
 <div class="column_items_center">
 

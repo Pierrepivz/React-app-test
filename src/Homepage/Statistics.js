@@ -6,7 +6,7 @@ function Statistics() {
 
 
     return(
-        <div class="column_start margin_left margin_right">
+        <div class="column_start statistics">
 
                   <div id="titre_second"class='column_items_center'>
                               <h1title>Taux de réussite 2023 : 98%</h1title>

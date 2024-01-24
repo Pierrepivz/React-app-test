@@ -195,13 +195,13 @@ content500{
         
     }
 
-        content{
-          font-size: 3vmin;
-        }
+        
     
        
         htitle{
           font-size: 1.7em;
+          width: 115%;
+
         }
     
         h3title{
@@ -216,7 +216,7 @@ content500{
         }
         content1{
 
-          font-size: 0.7em;
+          font-size: 1.2em;
         }
         h2under2{
           width: 30vmin;

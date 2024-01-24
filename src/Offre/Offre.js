@@ -111,7 +111,8 @@ confiance et vous préparer à réussir.</blue>
 
 <Link to="/Methode" onClick={() => window.scrollTo(0,10)}>
                 <a id='bouton' >Prendre rendez-vous</a>
-                <br/>
+                
+                
                 </Link>
 
 </div>

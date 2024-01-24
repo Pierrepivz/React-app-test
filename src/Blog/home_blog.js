@@ -119,7 +119,7 @@ sujets du moment : <br/><strong>c’est par ici</strong></content>
                         <br/>
                         
                   </div>
-                    <div class="search_bar line_between">
+                    <div class="line_between search_bar">
                     <div class="column_start">
                     <h2title>Cherchez un article </h2title><br/>
                     <input type="text" id="search_bar" class="research" placeholder = ".." onChange={(e) => setInput(e.target.value)} ></input>

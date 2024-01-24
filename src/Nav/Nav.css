@@ -100,9 +100,12 @@
       max-width: 100%;
       display: flex;
       justify-content: flex-start;
-      
+      top: none;
+      bottom: 0;
+      overflow: hidden;
 
     }
+    
     .nav-logo{
       display: none;
     }
