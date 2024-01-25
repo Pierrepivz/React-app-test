@@ -10,7 +10,7 @@ function Nav() {
     
       
     return (
-      <div className="Nav" >
+      <div className="Nav">
         
         <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -38,11 +38,35 @@ function Nav() {
 
         <div class="nav-links">
 
+        <ul class="mobile_on" >
+        <Link to="./offre" >
+        
+        <a >L'offre</a>
+
+        </Link>
+        
+
+
+        </ul>
+
+      
+
         
         <ul>
-        <Link to="Methode_page">
+        <Link to="Methode_page" >
         
-        <a>La méthode</a>
+        <a >La méthode</a>
+
+        </Link>
+        
+
+
+        </ul>
+
+        <ul class="mobile_on" >
+        <Link to="./" >
+        
+        <a ><blue>Home</blue></a>
 
         </Link>
         
@@ -50,7 +74,7 @@ function Nav() {
 
         </ul>
         
-        <ul id="nav_offre" >
+        <ul id="nav_offre" class="mobile_off" >
         <Link to='./offre' >
 
         <a  onClick={() => window.scrollTo(0,10)}>L'offre</a>
@@ -78,7 +102,7 @@ function Nav() {
         
         <ul>
         <Link to='./coach' onClick={() => window.scrollTo(0,10)}>
-        <a>La coach</a>
+        <a class="mobile_off">La coach</a>
         </Link>
         </ul>
 
@@ -91,9 +115,18 @@ function Nav() {
         
         </ul>
 
+        <ul class="mobile_on">
+          <Link to='./Methode' onClick={() => window.scrollTo(0,10)}>
+        <a ><strong><italic>Rdv</italic></strong></a>
+          </Link>
+
+         
+        
+        </ul>
+
         <ul>
           <Link to="./contact" onClick={() => window.scrollTo(0,10)}>
-        <a>Contact</a>
+        <a class="mobile_off">Contact</a>
         </Link>
         </ul>
         </div>

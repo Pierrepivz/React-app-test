@@ -94,6 +94,9 @@
     font-size: 8px;
     font-style: italic;
   }
+  .mobile_on{
+    display: none;
+  }
 
   @media screen and (max-width:640px) and (min-width:200px){
     .Nav{
@@ -115,5 +118,19 @@
     .nav-links{
       margin-left: none;
       font-size: 1px;
+    }
+    
+    .mobile_on{
+      display: flex;
+    }
+    .mobile_off{
+      display: none;
+    }
+    a{
+      font-size: 1em;
+    }
+    body{
+      max-width: 100%;
+      overflow-x: hidden;
     }
   }

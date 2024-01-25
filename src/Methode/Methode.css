@@ -80,6 +80,12 @@
  .image_methode_2{
      display: none;
  }
-  
+  #box_content content1{
+      font-size: 0.7em;
+  }
+  .methode_text content1{
+
+    font-size: 0.7em;
+  }
 
 }

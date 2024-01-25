@@ -96,6 +96,9 @@
        .offre_text{
            width: 70vmin;
        }
+       .offre_text content1{
+           font-size: 0.7em;
+       }
 
        .offre_text h2under2{
         width: 50vmin;

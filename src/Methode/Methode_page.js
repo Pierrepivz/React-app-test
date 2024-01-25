@@ -229,7 +229,7 @@ Au cours de ces séances, nous appliquons une règle essentielle : <br/><br/><st
 <img class="image_methode_2" src={stats}/>
 <br/>
 <Link to='/Methode' onClick={() => window.scrollTo(0,10)}>
-                                    <a id='bouton'>Prendre rendez-vous</a>
+                                    <a id='bouton' class="mobile_off">Prendre rendez-vous</a>
                                     </Link></div>
 
   </div>  

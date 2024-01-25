@@ -275,7 +275,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
 
 
 
-                  <div class="section">
+                  <div class="section mobile_off">
                         <div class="margin_left">
                         <h1title>Témoignages</h1title>
                         <div id="underline"></div>

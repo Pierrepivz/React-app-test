@@ -30,7 +30,7 @@ function Offre() {
 
 
 
-<div id="titre_second"class='column_items_center'>
+<div id="titre_second" class='column_items_center'>
                               
                               
                               <h1title>L'offre</h1title>
@@ -50,7 +50,7 @@ Développement de vos compétences managériales, gestion du stress : <strong>ê
 
                         <br/><br/>
 
-                        <div class="window column">
+                        <div class="window column mobile_off">
                         <div class="section_title">
                         <i class="fa-solid fa-angle-right"></i>
                         <h2title>Convaincre à l'oral</h2title>
@@ -64,6 +64,12 @@ pitch, prise de parole devant 100 personnes : apprenez à <strong>communiquer po
 
                   </div>
 
+                  <div class="section block mobile_on">
+                        <div class="margin_left">
+                        <h2title>Convaincre à l'oral</h2title>
+                        <div id="underline"></div>
+                        </div>
+                  </div>
                   
 
 
@@ -83,7 +89,7 @@ pitch, prise de parole devant 100 personnes : apprenez à <strong>communiquer po
                         
                                                     
 
-  <div class="offre_content line_between">
+  <div class="offre_content line_between" id="offre_content_telephone">
 
   <div class='home_offre column_items_center'>
 
@@ -121,7 +127,7 @@ confiance et vous préparer à réussir.</blue>
     
     </div> 
 
-    <div class="offre_content line_between">
+    <div class="offre_content line_between" id="offre_content_telephone">
 
     <div class="offre_text column_start">
   <h2title>Dossier parcoursup :</h2title>
@@ -181,7 +187,7 @@ Apprenez les règles de base qui permettent de <blue>favoriser
 </div>                        
                             
                             
-<div class="line_between">
+<div class="line_between" id="offre_content_telephone">
 
 <div class="column_items_center">
   <h4title><blue>+ 600</blue></h4title>
@@ -238,7 +244,7 @@ Apprenez les règles de base qui permettent de <blue>favoriser
                         <div class="note"><content> Nous vous aidons à résoudre les principales difficultés de la vie professionnelle rencontrées en entreprise au
 moment d’une <strong>prise de poste</strong>, d’une <strong>évolution personnelle</strong> ou d’un <strong>changement organisationnel.</strong></content></div>                      
 
-<div class="offre_content line_between">
+<div class="offre_content line_between" id="offre_content_telephone">
 
 <div class='home_offre column_items_center'>
 
@@ -249,7 +255,7 @@ moment d’une <strong>prise de poste</strong>, d’une <strong>évolution perso
 
 </div>
 
-<div class="column_items_center">
+<div class="column_items_center" >
 
 <div class="offre_text column_start">
 <h2title>Gérer ses priorités :</h2title>
