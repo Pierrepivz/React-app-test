@@ -73,6 +73,24 @@ function Nav() {
 
 
         </ul>
+
+        <ul class="mobile_on">
+          <Link to='./Methode' onClick={() => window.scrollTo(0,10)}>
+        <a >Prendre Rdv</a>
+          </Link>
+
+         
+        
+        </ul>
+
+        <ul class="mobile_off">
+          <Link to='./Actual' onClick={() => window.scrollTo(0,10)}>
+        <a >Le Blog</a>
+          </Link>
+
+         
+        
+        </ul>
         
         <ul id="nav_offre" class="mobile_off" >
         <Link to='./offre' >
@@ -106,23 +124,9 @@ function Nav() {
         </Link>
         </ul>
 
-        <ul>
-          <Link to='./Actual' onClick={() => window.scrollTo(0,10)}>
-        <a >Le Blog</a>
-          </Link>
-
-         
         
-        </ul>
 
-        <ul class="mobile_on">
-          <Link to='./Methode' onClick={() => window.scrollTo(0,10)}>
-        <a ><strong><italic>Rdv</italic></strong></a>
-          </Link>
-
-         
-        
-        </ul>
+       
 
         <ul>
           <Link to="./contact" onClick={() => window.scrollTo(0,10)}>
