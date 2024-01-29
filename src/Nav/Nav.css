@@ -116,7 +116,7 @@
       display: none;
     }
     .nav-links{
-      margin-left: none;
+      margin-left: -20px;
       font-size: 1px;
     }
     

@@ -40,10 +40,10 @@ function Offre() {
                               
        
                               
-                              <content> La Méthode de préparation aux entretiens de motivation vous apprend à développer une compétence professionnelle importante : <strong>Convaincre à
-l’oral.</strong><br/><br/>
-
-Développement de vos compétences managériales, gestion du stress : <strong>être bien dans son poste</strong> est l'objectif de notre offre de coaching.
+                              <content> L'offre est destinée à tous les publics. Elle se présente sous la forme d'un accompagnement individuel, clé en main, selon vos objectifs personnels.
+Mes domaines de compétences : vous aider à <strong>"Convaincre à l'oral"</strong> et à <strong>"Etre bien dans votre poste"</strong>.<br/><br/>
+C'est sur l'un de ces deux objectifs que je vous propose de vous accompagner.
+Pendant l'accompagnement, <strong>vous apprenez de nouvelles compétences</strong>, que vous pourrez ensuite appliquer de manière autonome dans des situations similaires à celles que nous aurons abordées ensemble. 
 </content></div>
                               
                         </div> 
@@ -231,9 +231,23 @@ Apprenez les règles de base qui permettent de <blue>favoriser
     
     </div>
     </div>
-                        <div class="section block">
+    <div class="window column mobile_off">
+                        <div class="section_title">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <h2title>Être à l'aise dans son poste</h2title>
+                        
+                        
+                  </div>
+                  <div class="section_background"></div>
+
+                  <div class="note_2"><content> Nous vous aidons à résoudre les principales difficultés de la vie professionnelle rencontrées en entreprise au
+moment d’une <strong>prise de poste</strong>, d’une <strong>évolution personnelle</strong> ou d’un <strong>changement organisationnel.</strong></content></div>
+
+                  </div>
+
+                  <div class="section block mobile_on">
                         <div class="margin_left">
-                        <h2title>Être bien dans son poste</h2title>
+                        <h2title>Être à l'aise dans son poste</h2title>
                         <div id="underline"></div>
                         </div>
                   </div>
@@ -241,9 +255,7 @@ Apprenez les règles de base qui permettent de <blue>favoriser
                   <div class="window">
                   <div class='column_items_center block'>
                         
-                        <div class="note"><content> Nous vous aidons à résoudre les principales difficultés de la vie professionnelle rencontrées en entreprise au
-moment d’une <strong>prise de poste</strong>, d’une <strong>évolution personnelle</strong> ou d’un <strong>changement organisationnel.</strong></content></div>                      
-
+                        
 <div class="offre_content line_between" id="offre_content_telephone">
 
 <div class='home_offre column_items_center'>

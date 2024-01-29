@@ -273,7 +273,12 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
 
                   <Schema />
 
+                  <div class="mobile_on column_items_center block">
+                        <content1><strong>La Coach :</strong></content1>
+                        <br/>
+                        <content1><blue>Carole</blue> au 06.51.43.26.77</content1>
 
+                  </div>
 
                   <div class="section mobile_off">
                         <div class="margin_left">

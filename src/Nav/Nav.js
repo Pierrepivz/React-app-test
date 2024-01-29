@@ -83,7 +83,7 @@ function Nav() {
         
         </ul>
 
-        <ul class="mobile_off">
+        <ul >
           <Link to='./Actual' onClick={() => window.scrollTo(0,10)}>
         <a >Le Blog</a>
           </Link>

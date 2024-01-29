@@ -205,7 +205,16 @@ body{
        }
 
        @media screen and (max-width:640px) and (min-width:200px){
-        
+
+        .article_content {
+            max-width: 280px;
+            margin-left: -25px;
+            font-size: 1em;
+        }
+        .article_content img{
+            width: 300px;
+
+        }
 
         #bouton{
           

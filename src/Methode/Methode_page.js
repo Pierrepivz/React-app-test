@@ -1,6 +1,6 @@
 import "./Methode.css";
 import { Link } from "react-router-dom";
-import stats from "../images/Stats.jpg";
+import stats from "../images/entretienpourmethode.jpg";
 import coaching1 from "../images/coaching1.JPG";
 import coaching2 from "../images/coaching2.jpg";
 import {Helmet} from "react-helmet";

@@ -185,7 +185,7 @@ N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous r
             <content1 class="contact_info"> 
             Carole PIVIN<br></br><br></br>
             <blue><i class="fa-solid fa-phone" ></i></blue> 06. 51. 43. 26. 77<br></br><br></br>
-            <blue><i class="fa-solid fa-envelope" ></i></blue>  contact@winentretien.com
+            <blue><i class="fa-solid fa-envelope" ></i></blue>  carole@winentretien.com
             
             
             </content1>
