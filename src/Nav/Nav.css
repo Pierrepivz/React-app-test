@@ -97,6 +97,7 @@
   .mobile_on{
     display: none;
   }
+  
 
   @media screen and (max-width:640px) and (min-width:200px){
     .Nav{
@@ -108,10 +109,10 @@
       overflow: hidden;
 
     }
-    
     .nav-logo{
-      display: none;
+      margin-left: -5px;
     }
+    
     .title_logo{
       display: none;
     }

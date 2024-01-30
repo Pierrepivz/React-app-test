@@ -276,7 +276,8 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
                   <div class="mobile_on column_items_center block">
                         <content1><strong>La Coach :</strong></content1>
                         <br/>
-                        <content1><blue>Carole</blue> au 06.51.43.26.77</content1>
+                        <content1><blue>Carole PIVIN</blue><br/>06.51.43.26.77<br/>
+                        carole@winentretien.com</content1>
 
                   </div>
 

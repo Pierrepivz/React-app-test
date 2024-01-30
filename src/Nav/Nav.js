@@ -22,8 +22,8 @@ function Nav() {
       <Link to='./'>
         <a onClick={() => window.scrollTo(0,10)}>
         <div class="row">
-        <div class="nav-logo">
-        <img src={logo} className="nav-logo" alt="logo" />
+        <div class="nav-logo mobile_off">
+        <img src={logo} className="nav-logo mobile_off" alt="logo" />
             </div>
             <div class="column_start title_logo">
             <content>win<blue>entretien</blue></content>
@@ -66,7 +66,7 @@ function Nav() {
         <ul class="mobile_on" >
         <Link to="./" >
         
-        <a ><blue>Home</blue></a>
+        <img src={logo} class="nav-logo" alt="logo" />
 
         </Link>
         

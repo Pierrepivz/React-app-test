@@ -143,7 +143,9 @@ N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous r
         
         
 
-        <Recaptach />
+        <Recaptach
+        siteKey="6Ldh9GApAAAAAMKbWX5KEpluaGwTvmRk3E-Lx8lU"
+         />
         
         <input type="submit" class="disabled btn" onClick={(e) => e.target.reset()} value="Envoyer"></input>
         
