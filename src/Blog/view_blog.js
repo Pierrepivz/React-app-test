@@ -2,7 +2,9 @@ import { useState, useEffect } from "react";
 import React from "react";
 import axios from "axios";
 import { Link } from 'react-router-dom';
-import Other_blogs from "../other_blogs.js";
+
+import { Helmet } from "react-helmet";
+
 
 const Blog = (props) => {
 
@@ -76,6 +78,14 @@ const Blog = (props) => {
 
   return (
     <div className="Page Blog window">
+
+<Helmet>
+       
+       <title>{Article.map(value => value.meta_title)}</title>
+       <meta name="description" content={Article.map (value => value.meta_description)}></meta>
+       
+
+      </Helmet>
 
 <div class='column_items_center'>
                               

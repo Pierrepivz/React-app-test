@@ -30,7 +30,7 @@ function Footer() {
         
         
         <f2>06 51 43 26 77</f2>
-        <f3>contact@winentretien.com</f3>
+        <f3>carole@winentretien.com</f3>
 
         </div>
 
