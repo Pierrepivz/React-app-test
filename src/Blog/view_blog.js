@@ -89,7 +89,7 @@ const Blog = (props) => {
 
 <div class='column_items_center'>
                               
-   <h1title>{Article.map (value => value.article_name)}</h1title>
+   <h1><h1title>{Article.map (value => value.article_name)}</h1title></h1>
    
   
                               <h2under2></h2under2>
@@ -114,7 +114,7 @@ const Blog = (props) => {
 
 <div class="column">
 
-<h3title><blue>{value.article_name}</blue><br/><br/></h3title>
+<h2><h3title><blue>{value.article_name}</blue><br/><br/></h3title></h2>
 
 <div class="column">
 <content dangerouslySetInnerHTML={{__html: value.content}}></content>
