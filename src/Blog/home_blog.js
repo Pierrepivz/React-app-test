@@ -20,6 +20,9 @@ function Home_Blog() {
     const [image,setImage] = useState('');
 
     
+    
+
+    
 
   useEffect (() => {
 
@@ -148,7 +151,7 @@ sujets du moment : <br/><strong>c’est par ici</strong></content>
     <div class="column_start">
         
         
-        <Link to={`/blog?id=${value.id}`} onClick={() => window.scrollTo(0,10)}>
+        <Link to={`/blog?id=${value.id}&${value.article_name}`} onClick={() => window.scrollTo(0,10)}>
         
         
         
