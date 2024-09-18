@@ -143,9 +143,7 @@ N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous r
         
         
 
-        <Recaptach
-        siteKey="6Ldh9GApAAAAAMKbWX5KEpluaGwTvmRk3E-Lx8lU"
-         />
+        
         
         <input type="submit" class="disabled btn" onClick={(e) => e.target.reset()} value="Envoyer"></input>
         
@@ -179,6 +177,9 @@ N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous r
     
 
     <div class="column">
+
+             
+
              <h2title>Mes coordonnées</h2title> 
              
                   <h2under2></h2under2>
@@ -209,6 +210,20 @@ lieu <blue>en distanciel.</blue><br/>
 Pour un coaching, une 1ère séance en
 présentiel est recommandée. 
 </content> </div>
+
+<br/>
+
+<h2title>Mes prix</h2title> 
+             
+                  <h2under2></h2under2>
+
+<div class="contact_info">
+  <content>
+<blue>Tarif horaire : </blue> 100 € TTC <br/><br/>
+<blue>Forfait 4 heures :</blue> 350 € TTC<br/><br/>
+
+Conditions préférentielles selon situation</content>
+             </div>
 
        
 

@@ -12,12 +12,7 @@
   overflow-x: hidden;
 }
 
-@media screen and (max-width:640px) and (min-width:200px){
 
-  
-  
-
-}
 
 
 
@@ -49,7 +44,7 @@
 
 
 
-  /* images / logos */
+  
 
   
   
@@ -241,7 +236,8 @@
   .Page{
 
     padding-top: 6em;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
+    
   
   }
   .blog_editor{

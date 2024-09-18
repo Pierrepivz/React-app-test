@@ -7,7 +7,6 @@ import Contact from './Contact/Contact.js';
 import Homepage from './Homepage/Homepage.js';
 import Footer from './Footer/Footer.js';
 import Offre from './Offre/Offre.js';
-import Rdv from './Rdv/Rdv.js';
 import Methode from './Rdv/Methode.js';
 import Coach from './Coach/Coach.js';
 import Home_Blog from './Blog/home_blog.js';
@@ -16,20 +15,10 @@ import Contactconfirm from './Contactconfirm.js';
 import Blog from './Blog/view_blog.js';
 import { isValue } from "react-calendar/dist/cjs/shared/propTypes";
 import "./Offre/Offre.css";
-import Admin_blog from "./admin_blogs.js";
-import Login from "./login.js";
 import Methode_page from "./Methode/Methode_page.js";
-import Admin_rdv from "./admin_rdv.js";
 import Cgv from "./Mentions/Cgv.js";
 import Mentions_legales from "./Mentions/Mentions_legales.js";
-/*
 
-
-
-
-
-import Rdvconfirm from "./Rdvconfirm";
-*/
 
 
 function Test() 
@@ -66,31 +55,10 @@ function Test()
 
       </Route>
 
-      <Route path='/admin_rdv'>
-
-      <Admin_rdv/>
-
-      </Route>
-
-      <Route path='/admin_blog'>
-
-      <Admin_blog />
-
-      </Route>
-      
-      <Route path='/login'>
-      
-      <Login />
-
-      </Route>
 
       
 
-      <Route path='/rdv'>
       
-      <Admin_rdv />
-
-      </Route>
 
       <Route path='/Methode'>
       

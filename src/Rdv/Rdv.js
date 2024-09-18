@@ -147,21 +147,15 @@ function Rdv() {
   
           if(d2 === offdate){
               
-              if(tabvaleurs[i]["dispo"] === 3){
+              /*if(tabvaleurs[i]["dispo"] === 3){
   
-              /*reserved_tab = tabdispo;*/
+              
               reserved_tab.push("10 h","12 h","16 h","18 h");
   
   
-              }else{
+              }else{}*/
   
               reserved_tab.push(tabvaleurs[i]["hour"]);
-  
-              
-              
-  
-              }
-  
   
           }
           
