@@ -3,13 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
   
-
+body{
+  font-weight: 500;
+}
 
 
 .Test{
   background-color: rgb(255, 251, 242);
   width: 100%;
   overflow-x: hidden;
+ 
+
+
+
 }
 
 

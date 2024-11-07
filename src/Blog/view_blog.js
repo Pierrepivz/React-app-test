@@ -134,7 +134,7 @@ const Blog = (props) => {
 
     <div class="autre_contenu column mobile_off" >
         <h2title><blue>Plus de contenu :</blue></h2title>
-        {Listset.map(value => 
+        {Listset.slice(0,4).map(value => 
             <div class="other_blogs_article"> <Link to={`/blog?id=${value.id}`} onClick={() => change_article(value.id)}><div class="article_photo"><img src={value.image} width="200px" height="150px"></img></div> </Link>
             <content1><blue>{value.article_name}</blue><br/></content1>
             

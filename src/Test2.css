@@ -685,10 +685,12 @@ font-size: 14px;
   border-width: 3px;
   height: 60px;
   width: 60px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 1%;
   
 }
 
