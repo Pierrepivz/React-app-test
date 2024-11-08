@@ -19,6 +19,15 @@ function Home_Blog() {
     const [articlefilter,setArticleFilter] = useState('');
     const [image,setImage] = useState('');
 
+    const linkurl = (url,article_name) => {
+
+      if(url != null){
+        return url;
+      }else{
+        return article_name;
+      }
+
+    }
     
     
 
@@ -151,7 +160,7 @@ sujets du moment : <br/><strong>c’est par ici</strong></content>
     <div class="column_start">
         
         
-        <Link to={`/blog?id=${value.id}&${value.article_name}`} onClick={() => window.scrollTo(0,10)}>
+        <Link to={`/blog?id=${value.id}&${linkurl(value.url,value.article_name)}`} onClick={() => window.scrollTo(0,10)}>
         
         
         
