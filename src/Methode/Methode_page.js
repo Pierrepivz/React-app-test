@@ -228,7 +228,7 @@ Au cours de ces séances, nous appliquons une règle essentielle : <br/><br/><st
 <div class="column">
 <img class="image_methode_2" src={stats}/>
 <br/>
-<Link to='/Methode' onClick={() => window.scrollTo(0,10)}>
+<Link to='/rendez-vous' onClick={() => window.scrollTo(0,10)}>
                                     <a id='bouton' class="mobile_off">Prendre rendez-vous</a>
                                     </Link></div>
 
@@ -293,7 +293,7 @@ Au cours de ces séances, j’applique avec vigilance une règle essentielle : <
 
       
 </div>
-<Link to='/Methode' onClick={() => window.scrollTo(0,10)}>
+<Link to='/rendez-vous' onClick={() => window.scrollTo(0,10)}>
                                     <a id='bouton'>Prendre rendez-vous</a>
                                     </Link></div>
 

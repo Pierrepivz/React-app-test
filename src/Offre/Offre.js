@@ -115,7 +115,7 @@ forts, mais aussi, simuler l’entretien pour <blue>vous mettre en
 confiance et vous préparer à réussir.</blue>
 </content1>
 
-<Link to="/Methode" onClick={() => window.scrollTo(0,10)}>
+<Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
                 <a id='bouton' >Prendre rendez-vous</a>
                 
                 
@@ -212,7 +212,7 @@ Apprenez les règles de base qui permettent de <blue>favoriser
 
 </div>
 <br/><br/><br/>
-<Link to="/Methode" onClick={() => window.scrollTo(0,10)}>
+<Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
                 <a id='bouton'  >Prendre rendez-vous</a>
                 <br/>
                 </Link>
@@ -282,7 +282,7 @@ ce que ‘urgent’ et ‘important’ signifient <blue>pour vous</blue>
 
 </content1>
 
-<Link to="/Methode" onClick={() => window.scrollTo(0,10)}>
+<Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
           <a id='bouton' >Prendre rendez-vous</a>
           <br/>
           </Link>

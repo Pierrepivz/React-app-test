@@ -12,11 +12,7 @@ function Create_Blog(props) {
   const [content,setContent] = useState('');
   const [value,setValue] = useState('');
   const editorRef = useRef();
-  
 
-  /*initialisation  Axios useEffect : Article.map ( articles title, content ... )
-  on récupère l'article visée pour modifier son contenu via les paramètres url  */ 
-  
   const queryParameters = new URLSearchParams(window.location.search);
   const id = queryParameters.get("id");
   const [Article,setArticle] = useState([]);

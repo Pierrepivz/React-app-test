@@ -75,7 +75,7 @@ function Nav() {
         </ul>
 
         <ul class="mobile_on">
-          <Link to='./Methode' onClick={() => window.scrollTo(0,10)}>
+          <Link to='./rendez-vous' onClick={() => window.scrollTo(0,10)}>
         <a >Prendre Rdv</a>
           </Link>
 
@@ -111,7 +111,7 @@ function Nav() {
         <br/>
         
         
-        <Link to='./Methode'>
+        <Link to='./rendez-vous'>
 
         <a onClick={() => window.scrollTo(0,10)}><italic><blue>Prendre rdv</blue></italic></a>
         </Link>

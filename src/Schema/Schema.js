@@ -67,7 +67,7 @@ function Schema() {
 
       <div class='underline2'></div>
       <div id='box_content'>
-      <content>Vous vous inscrivez pour un 1 er entretien sous Teams de 30 minutes sur le <Link to='./Methode' onClick={() => window.scrollTo(0,10)}><a href='#'><t_orange>calendrier en ligne </t_orange></a></Link>
+      <content>Vous vous inscrivez pour un 1 er entretien sous Teams de 30 minutes sur le <Link to='./rendez-vous' onClick={() => window.scrollTo(0,10)}><a href='#'><t_orange>calendrier en ligne </t_orange></a></Link>
 selon vos disponibilités. <br/>
 C’est <blue>sans engagement</blue> de part et d’autre et <blue>entièrement gratuit</blue>.</content>
       </div>
@@ -175,7 +175,7 @@ notre travail en commun.<br/><br/>Lors de la dernière séance, <blue>cet indica
 évalué</blue> et nous prenons le temps d’un <blue>retour
 d’expérience.</blue></content>
                 </div>
-                <Link to="/Methode" onClick={() => window.scrollTo(0,10)}>
+                <Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
                 <a id='bouton' >Prendre rendez-vous</a>
                 </Link>
 
