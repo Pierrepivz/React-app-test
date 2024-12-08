@@ -43,13 +43,13 @@ function Test()
 
       </Route>
 
-      <Route path='/offre'>
+      <Route exact path='/offre'>
       
       <Offre />
 
       </Route>
 
-      <Route path='/Methode_page'>
+      <Route exact path='/Methode_page'>
       
       <Methode_page/>
 
@@ -60,7 +60,7 @@ function Test()
 
       
 
-      <Route path='/rendez-vous'>
+      <Route exact path='/rendez-vous'>
       
       <br /><br /><br /><br /><br />
 
@@ -68,7 +68,7 @@ function Test()
 
       </Route>
 
-      <Route path='/confirmationrdv'>
+      <Route exact path='/confirmationrdv'>
 
         <br /> <br /><br /><br /><br /><br /><br />
       
@@ -76,7 +76,7 @@ function Test()
       
       </Route>
 
-      <Route path='/confirmationcontact'>
+      <Route exact path='/confirmationcontact'>
 
         <br /> <br /><br /><br /><br /><br /><br />
       
@@ -84,32 +84,32 @@ function Test()
       
       </Route>
 
-      <Route path='/Cgv'>
+      <Route exact path='/Cgv'>
       
       <Cgv />
 
       </Route>
 
-      <Route path='/Mentions'>
+      <Route exact path='/Mentions'>
       
       <Mentions_legales />
 
       </Route>
 
 
-      <Route path='/contact'>
+      <Route exact path='/contact'>
       
       <Contact />
 
       </Route>
 
-      <Route path='/coach'>
+      <Route exact path='/coach'>
       
       <Coach />
 
       </Route>
 
-      <Route path='/blog'>
+      <Route path='/blog/*'>
       
       <Blog />
 
@@ -117,7 +117,7 @@ function Test()
 
       
 
-      <Route path='/Actual'>
+      <Route exact path='/blog'>
       
       <Home_Blog />
 

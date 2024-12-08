@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import React from "react";
 import axios from "axios";
 import { Link } from 'react-router-dom';
-
 import { Helmet } from "react-helmet";
 
 
@@ -10,28 +9,41 @@ const Blog = (props) => {
 
   
   
-  const [title,setTitle] = useState('');
+  
   const [Article,setArticle] = useState([]);
   const [Listset,setList] = useState([]);
-  const linkurl = (url,article_name) => {
+
+
+
+  const linkurl = (url) => {
+
+    var url_seo = url.split(" ").join("-");
 
     if(url != null){
-      return url;
+      
+      
+       
+      return url_seo;
+
+
     }else{
-      return article_name;
+      return "";
     }
 
   }
   
   
   useEffect (() => {
+   
+
+  const URLtest = window.location.href;
+    var article_url = URLtest.split("/blog/")[1].split("-");
+    var url = article_url.join(" ");
     
-  const queryParameters = new URLSearchParams(window.location.search);
-  const id = queryParameters.get("id");
-  
+    console.log(url);
 
 
-    axios.get(`https://server-test-3emq.onrender.com/api/getblogs/${id}`)
+    axios.get(`https://server-test-3emq.onrender.com/api/getblogsbyurl/${url}`)
     .then((response) =>  { 
       
       setArticle(response.data);}
@@ -46,19 +58,18 @@ const Blog = (props) => {
       
     
     }, []); 
+ 
+function article_redirect(url){
 
-    function change_article(id){
-      axios.get(`https://server-test-3emq.onrender.com/api/getblogs/${id}`)
-    .then((response) =>  { 
-      
-      setArticle(response.data);}
-    );
     
-    window.scrollTo(0,10);
-      
-    }
+
+  window.location.href = `/blog/${linkurl(url)}`;
+
+}
+
     
-  
+    
+    
   
 
 
@@ -67,13 +78,14 @@ const Blog = (props) => {
 
 <Helmet>
        
-       <title>{Article.map(value => value.meta_title)}</title>
+       <title>{Article.map(value => value.meta_title).toString()}</title>
        <meta name="description" content={Article.map (value => value.meta_description)}></meta>
        
 
       </Helmet>
 
 <div class='column_items_center'>
+  
                               
    <h1><h1title>{Article.map (value => value.article_name)}</h1title></h1>
    
@@ -121,7 +133,8 @@ const Blog = (props) => {
     <div class="autre_contenu column mobile_off" >
         <h2title><blue>Plus de contenu :</blue></h2title>
         {Listset.slice(0,4).map(value => 
-            <div class="other_blogs_article"> <Link to={`/blog?id=${value.id}&${linkurl(value.url,value.article_name)}`} onClick={() => change_article(value.id)}><div class="article_photo"><img src={value.image} width="200px" height="150px"></img></div> </Link>
+        
+            <div class="other_blogs_article"> <div class="article_photo"><img src={value.image} alt={value.alt} width="200px" height="150px" onClick={() => article_redirect(value.url)}></img></div> 
             <content1><blue>{value.article_name}</blue><br/></content1>
             
             

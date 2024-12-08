@@ -10,26 +10,35 @@ import {Helmet} from "react-helmet";
 function Home_Blog() {
 
     
-    const [article_name,setArticlename] = useState('');
+    
     const [filter,setFilter] = useState('');
     const [input,setInput] = useState('');
     const [Listset, setDatalist] = useState([]);
-    const [description,setDescription] = useState('');
-    const [title,setTitle] = useState('');
-    const [articlefilter,setArticleFilter] = useState('');
-    const [image,setImage] = useState('');
+    
 
-    const linkurl = (url,article_name) => {
+    const linkurl = (url) => {
 
-      if(url != null){
-        return url;
+      
+
+      if(url!=null){
+        
+        var url_seo = url.split(" ").join("-");
+         
+        return url_seo;
+
+
       }else{
-        return article_name;
+        return "";
       }
 
     }
     
-    
+   
+  function article_url(url){
+
+    window.location.replace(`./blog/${linkurl(url)}`);
+
+  }
 
     
 
@@ -157,21 +166,17 @@ sujets du moment : <br/><strong>c’est par ici</strong></content>
    
     
     {filtereditems.map(value => 
-    <div class="column_start">
+    
         
         
-        <Link to={`/blog?id=${value.id}&${linkurl(value.url,value.article_name)}`} onClick={() => window.scrollTo(0,10)}>
+        <Link to={`/blog/${linkurl(value.url)}`} >
         
+        <div class="home_article column_start" > <div class="blog_select column" ><img src={value.image} width="300px" height="200px" ></img><content1>{value.article_name}</content1></div> 
         
-        
-  
-        
-        <div class="home_article column_start"> <div class="blog_select" ><img src={value.image} width="300px" height="200px"></img></div> 
-        <content1>{value.article_name}<br/></content1>
         
         
        
-        
+    
        
         
         
@@ -179,7 +184,7 @@ sujets du moment : <br/><strong>c’est par ici</strong></content>
         </div>
         
         </Link>
-        </div>
+       
         
     )}
 
