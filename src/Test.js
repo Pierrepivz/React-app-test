@@ -28,7 +28,7 @@ function Test()
 
   return (
     
-    <Router>
+    <Router >
     <div className="Test">
       <script src="https://kit.fontawesome.com/c298d004d1.js" crossorigin="anonymous"></script>
       
