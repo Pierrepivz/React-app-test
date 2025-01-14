@@ -40,7 +40,7 @@ const Blog = (props) => {
     var article_url = URLtest.split("/blog/")[1].split("-");
     var url = article_url.join(" ");
     
-    console.log(url);
+    
 
 
     axios.get(`https://server-test-3emq.onrender.com/api/getblogsbyurl/${url}`)
@@ -79,7 +79,7 @@ function article_redirect(url){
 <Helmet>
        
        <title>{Article.map(value => value.meta_title).toString()}</title>
-       <meta name="description" content={Article.map (value => value.meta_description)}></meta>
+       <meta name="description" content={Article.map(value => value.meta_description).toString()}></meta>
        
 
       </Helmet>
@@ -110,9 +110,9 @@ function article_redirect(url){
 
     {Article.map(value => 
 
-<div class="column">
 
-<h2><h3title><blue>{value.article_name}</blue><br/><br/></h3title></h2>
+
+
 
 <div class="column">
 <content dangerouslySetInnerHTML={{__html: value.content}}></content>
@@ -122,7 +122,7 @@ function article_redirect(url){
 </div>
 
 
-    </div>
+    
     
 )}
     
