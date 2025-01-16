@@ -67,7 +67,7 @@ function Contact(){
        
        <title>Page Contact</title>
        <meta name="robots" content="noindex,nofollow"></meta>
-
+       <link rel="canonical" href="https://www.winentretien.com/contact" />
       </Helmet>
 
 <div class='column_items_center'>

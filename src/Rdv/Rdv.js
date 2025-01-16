@@ -261,7 +261,7 @@ function Rdv() {
        
        <title>Prendre rendez-vous</title>
        <meta name="description" content="Un Premier rendez-vous (gratuit) pour que l'on puisse parler de votre projet."></meta>
-
+       <link rel="canonical" href="https://www.winentretien.com/rendez-vous" />
       </Helmet>
 
      

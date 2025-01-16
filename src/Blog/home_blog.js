@@ -85,11 +85,12 @@ function Home_Blog() {
     
     return (
       <div className="Page Blog">
-
+      
       
       <Helmet>
         <title>L'actualité sur les concours, les entretiens et les méthodes de coaching</title>
         <meta name="description" content="J'aborde dans ce blog les points importants à mes yeux pour mener à bien son projet professionnel"></meta>
+        <link rel="canonical" href="https://www.winentretien.com/blog" />
       </Helmet>
       
                               

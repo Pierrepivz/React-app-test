@@ -12,7 +12,8 @@ const Blog = (props) => {
   
   const [Article,setArticle] = useState([]);
   const [Listset,setList] = useState([]);
-
+  const [canocical_url,setCanonical] = useState("");
+  
 
 
   const linkurl = (url) => {
@@ -39,7 +40,7 @@ const Blog = (props) => {
   const URLtest = window.location.href;
     var article_url = URLtest.split("/blog/")[1].split("-");
     var url = article_url.join(" ");
-    
+    setCanonical(`https://www.winentretien.com/blog/${URLtest.split("/blog/")[1]}`);
     
 
 
@@ -80,6 +81,7 @@ function article_redirect(url){
        
        <title>{Article.map(value => value.meta_title).toString()}</title>
        <meta name="description" content={Article.map(value => value.meta_description).toString()}></meta>
+       <link rel="canonical" href={canocical_url} />
        
 
       </Helmet>

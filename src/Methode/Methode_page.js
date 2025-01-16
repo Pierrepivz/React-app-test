@@ -20,6 +20,8 @@ function Methode_page(){
        
        <title>Méthode de Coaching et de préparation aux entretiens </title>
 
+       <link rel="canonical" href="https://www.winentretien.com/Methode_page" />
+
       </Helmet>
 
 

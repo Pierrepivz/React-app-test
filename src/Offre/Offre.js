@@ -21,7 +21,7 @@ function Offre() {
        
        <title>Offre de coaching, préparation aux entretiens pour étudiants et professionnels</title>
        <meta name="description" content="Coaching et préparation aux entretiens (VATEL, INSA, concours post-bac, entretiens d'embauche)"></meta>
-       
+       <link rel="canonical" href="https://www.winentretien.com/offre" />
 
       </Helmet>
 
