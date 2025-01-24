@@ -130,5 +130,10 @@
 #calendar_id{
     height: 20vmin;
 }
+#bouton{
+    padding:1.2vmax;
+    width: auto;
+    margin: 0px;
+}
 
 }

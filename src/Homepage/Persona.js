@@ -78,7 +78,7 @@ Parcoursup<br/>
                               Concours des écoles d'ingénieurs : <br />
                               <Link to={`/blog?article-49-ENTRETIEN-UT`} onClick={() => window.scrollTo(0,10)}><t_orange>Groupe UT </t_orange></Link> - <Link to={`/blog?article-50-ENTRETIEN-INSA`} onClick={() => window.scrollTo(0,10)}><t_orange>Groupe Insa </t_orange></Link><br />
                               Concours des écoles de commerce : <br />
-                              <strong><a href="#">EDHEC</a> - Sesame - Access</strong>
+                              <strong>EDHEC - Sesame - Access</strong>
                               </content>
 </div>
                         </div>
@@ -101,7 +101,7 @@ Le 1er concerne à la fois <strong>les étudiants :</strong> épreuves orales de
                   
                         <div class="line">
 <Link to="/offre" onClick={() => window.scrollTo(0,10)}>
-<a id='bouton' >Mon offre</a></Link>
+<button id='bouton' >Mon offre</button></Link>
 
 </div>
                     

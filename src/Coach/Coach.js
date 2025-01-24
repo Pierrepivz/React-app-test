@@ -20,7 +20,7 @@ function Coach(){
        
        <title>Coach pour étudiants et professionnels</title>
        <meta name="description" content="Carole, coach pour étudiants et professionnels, vous accompagne dans la réussite de vos projets professionnels. "></meta>
-
+       <link rel="canonical" href="https://www.winentretien.com/Coach" alt=""/>
       </Helmet>
 
 
@@ -37,7 +37,7 @@ function Coach(){
 
 <div class="window column block">
 
-<div class="row space_between" >
+<div class="row space_between" id="coach_block_1" >
 
                   
 
@@ -82,11 +82,11 @@ Avec un impératif : <strong><blue>le respect de votre zone de confort.</blue></
 
                         
                         
-                              <img class="photo_box" src={photo_carole}/>
+                              <img class="photo_box" src={photo_carole} alt=""/>
                         
                         
 
-                        <div class="content_blue">
+                        <div class="content_blue mobile_off">
                   <content>
                   
 
@@ -97,7 +97,7 @@ Mes outils de prédilection : <strong> l'écoute et la reformulation.</strong><b
 <strong>Pour le reste :</strong> faisons confiance aux possibilités du moment
 présent.<br/><br/><br/>  </content>
 
-<Link to='./Methode_Page' onClick={() => window.scrollTo(0,10)}><a id="bouton"><content>Ma méthode</content></a></Link>
+<Link to='./Methode_Page' onClick={() => window.scrollTo(0,10)}><button id="bouton"><content>Ma méthode</content></button></Link>
 
 
 </div>
@@ -112,7 +112,7 @@ présent.<br/><br/><br/>  </content>
                   </div>
 
 
-<div class="line_between block" id="coach_message3">
+<div class="line_between block mobile_off" id="coach_message3">
 
 
 
@@ -120,7 +120,7 @@ présent.<br/><br/><br/>  </content>
 <div class="column">
 <div class="row"><h1title>Mon parcours</h1title><i id="icon" class="fa-solid fa-book-open"></i></div>
 <h2under2></h2under2>
-<img src={carole_pied} id="coach_photo"/>
+<img src={carole_pied} id="coach_photo" alt=""/>
 
 </div>
 
@@ -402,7 +402,7 @@ Eyrolles</content>
       </div>
       
       
-      <img src={livre_eyrolles} className="livre_eyrolles"  />
+      <img src={livre_eyrolles} className="livre_eyrolles" alt="" />
 
       </div>
 
@@ -560,7 +560,7 @@ interventions.<br/><br/>
 
 </div>
 
-<div class="row space_between block" >
+<div class="row space_between block" id="coach_block_2" >
 
                   
 
@@ -617,7 +617,7 @@ parcours professionnels très concurrentiels.<br/><br/>
 
                         
                         
-                              <img class="photo_box" src={winentretien}/>
+                              <img class="photo_box mobile_off" src={winentretien} alt=""/>
                         
                         
 
@@ -635,7 +635,7 @@ parcours professionnels très concurrentiels.<br/><br/>
 Vous aider à acquérir ces compétences reste le <strong>cœur de métier </strong>
 de <blue>win</blue><strong>entretien</strong>.<br/><br/><br/>  </content>
 
-<Link to='./offre' onClick={() => window.scrollTo(0,10)}><a id="bouton"><content>Mon offre</content></a></Link>
+<Link to='./offre' onClick={() => window.scrollTo(0,10)}><button id="bouton"><content>Mon offre</content></button></Link>
 
 
 </div>

@@ -5,7 +5,7 @@ import coaching1 from "../images/coaching1.JPG";
 import coaching2 from "../images/coaching2.jpg";
 import {Helmet} from "react-helmet";
 
-function Methode_page(){
+function MethodePage(){
 
    
 
@@ -228,10 +228,10 @@ Au cours de ces séances, nous appliquons une règle essentielle : <br/><br/><st
       
 </div>
 <div class="column">
-<img class="image_methode_2" src={stats}/>
+<img class="image_methode_2" src={stats} alt=""/>
 <br/>
 <Link to='/rendez-vous' onClick={() => window.scrollTo(0,10)}>
-                                    <a id='bouton' class="mobile_off">Prendre rendez-vous</a>
+                                    <button id='bouton' class="mobile_off">Prendre rendez-vous</button>
                                     </Link></div>
 
   </div>  
@@ -266,7 +266,7 @@ apparente, elle permet au pouvoir des mots de faire son œuvre.
       
 </div>
 <div class="column">
-<img class="image_methode_2" src={coaching2} id="image_coaching"/>
+<img class="image_methode_2" src={coaching2} id="image_coaching" alt=""/>
 <br/>
 </div>
 
@@ -276,7 +276,7 @@ apparente, elle permet au pouvoir des mots de faire son œuvre.
   <div class="flex block window methode_part2">
 
 <div class="column">
-<img class="image_methode_2" src={coaching1} id="image_coaching_2"/>
+<img class="image_methode_2" src={coaching1} id="image_coaching_2" alt=""/>
 <br/>
 </div>
 
@@ -296,7 +296,7 @@ Au cours de ces séances, j’applique avec vigilance une règle essentielle : <
       
 </div>
 <Link to='/rendez-vous' onClick={() => window.scrollTo(0,10)}>
-                                    <a id='bouton'>Prendre rendez-vous</a>
+                                    <button id='bouton'>Prendre rendez-vous</button>
                                     </Link></div>
 
 
@@ -319,4 +319,4 @@ Au cours de ces séances, j’applique avec vigilance une règle essentielle : <
     
   }
   
-  export default Methode_page;
+  export default MethodePage;

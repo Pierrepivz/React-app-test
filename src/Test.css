@@ -368,14 +368,7 @@ body{
   
   
    
-   .cta-actual :first-child{
-    
-                    /* placement à droite du conteneur */
-    /*white-space: nowrap;     */             /* pas de passage à la ligne */
-    /*animation: defilement-rtl 10s infinite linear;*/
-    
-    
-   }
+   
    @keyframes defilement-rtl{
     0% {
       transform: translate3d(150%,0,0);      /* position initiale à droite */

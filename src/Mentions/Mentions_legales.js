@@ -1,9 +1,6 @@
 
 
-
-
-
-export default function Mentions_legales(){
+export default function MentionsLegales(){
 
 
 

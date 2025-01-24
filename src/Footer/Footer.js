@@ -1,5 +1,5 @@
-/*<img src={logo} className="win-logo" alt="logo" />*/
-import React, { useState } from "react";
+
+import React from "react";
 import logo from '../images/firstlogo.svg';
 import { Link } from "react-router-dom";
 import "./Footer.css";

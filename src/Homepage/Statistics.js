@@ -66,7 +66,7 @@ préparation de votre entretien de motivation</content>
 </div>
 <div class="line">
 <Link to="/Methode_page" onClick={() => window.scrollTo(0,10)}>
-<a id='bouton' >Ma méthode</a>
+<button id='bouton' >Ma méthode</button>
 </Link>
 </div>     
       </div>                                  

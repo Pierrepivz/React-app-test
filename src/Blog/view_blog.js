@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import React from "react";
 import axios from "axios";
-import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 
@@ -136,7 +135,7 @@ function article_redirect(url){
         <h2title><blue>Plus de contenu :</blue></h2title>
         {Listset.slice(0,4).map(value => 
         
-            <div class="other_blogs_article"> <div class="article_photo"><img src={value.image} alt={value.alt} width="200px" height="150px" onClick={() => article_redirect(value.url)}></img></div> 
+            <div class="other_blogs_article"> <div class="article_photo"><img src={value.image} alt={value.alt} description={value.alt_description} title={value.alt_titre} width="200px" height="150px" onClick={() => article_redirect(value.url)}></img></div> 
             <content1><blue>{value.article_name}</blue><br/></content1>
             
             

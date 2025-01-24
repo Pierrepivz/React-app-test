@@ -1,5 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
 import axios from 'axios';
 import Calendar from 'react-calendar';
@@ -8,7 +7,7 @@ import '../calendar.css';
 import '../globals.css';
 import moment  from 'moment';
 import {Helmet} from "react-helmet";
-import { LoadCanvasTemplateNoReload } from "react-simple-captcha";
+
 
 
 
@@ -84,7 +83,7 @@ function Rdv() {
         element.classList.remove("selected");
       }
       });
-      if(hour != ''){
+      if(hour !== ''){
       hourcolor[index].classList.add("selected");
     }
 
@@ -359,7 +358,7 @@ function Rdv() {
     
     <br/><br/><br/>
     
-    <input type="submit" class="disabled btn" onClick={(e) => e.target.reset()} value="Prendre rendez vous">
+    <input type="submit" class="disabled btn" id="bouton" onClick={(e) => e.target.reset()} value="Prendre rendez vous">
       </input>
     <br/>
     </div>

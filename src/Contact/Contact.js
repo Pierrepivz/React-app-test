@@ -1,9 +1,6 @@
 
 import emailjs from "emailjs-com";
-import { Link  } from "react-router-dom";
-import { useState, useCallback } from "react";
-import Recaptach from './Recaptcha.js';
-import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
+import { useState } from "react";
 import "../globals.css";
 import "./contact.css";
 import {Helmet} from "react-helmet";
@@ -12,7 +9,6 @@ import {Helmet} from "react-helmet";
 function Contact(){
 
     const [email, setEmail] = useState('');
-    const [tel, setTel] = useState('');
     const [prenom, setPrenom] = useState('');  
     const [nom, setNom] = useState('');
     const [message, setMessage] = useState('');
@@ -66,11 +62,10 @@ function Contact(){
 <Helmet>
        
        <title>Page Contact</title>
-       <meta name="robots" content="noindex,nofollow"></meta>
        <link rel="canonical" href="https://www.winentretien.com/contact" />
       </Helmet>
 
-<div class='column_items_center'>
+<div class='column_items_center' id="title">
         
                               
                               <h1title>Contact</h1title>
@@ -99,7 +94,7 @@ N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous r
 
 
 <div class="column_start">
-             <h2title>Formulaire de contact</h2title> 
+             <h2title>Me contacter</h2title> 
              
                   <h2under2></h2under2></div>
         

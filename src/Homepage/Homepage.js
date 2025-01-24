@@ -1,18 +1,22 @@
 
-import Schema from '../Schema/Schema.js';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import img_mathilde from '../images/photo_mathilde.png';
 import img_milena from '../images/femme_dos.jpg';
 import img_jade from '../images/photo_jade.jpg';
 import "../globals.css";
 import "./homepage.css";
+
+
 import Persona from "./Persona.js";
 import Statistics from "./Statistics.js";
+
 import offre1 from "../images/mirabeau.jpg";
 import offre2 from "../images/bienposte.jpeg";
 import Robin from "../images/arthur_robin.jpg";
 import "../Text.css";
 import {Helmet} from "react-helmet";
+import Schema from '../Schema/Schema.js';
 
 
 
@@ -69,7 +73,7 @@ rencontrer. <br/>Avec un objectif précis :
       </hcontent>
                                     
                                     <Link to='/offre' onClick={() => window.scrollTo(0,10)}>
-                                    <a id='bouton' >Mon offre</a>
+                                    <button id='bouton' >Mon offre</button>
                                     </Link>
                                     
                         </div>
@@ -200,7 +204,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
 
                               
                               <div class="photo">
-                              <img src={offre1}/>
+                              <img src={offre1} alt=""/>
                               </div>
                                     
                                     
@@ -208,7 +212,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
                               </div>
 
                                     <Link to='/offre' onClick={() => window.scrollTo(0,10)}>
-                                    <a id='bouton' >En savoir +</a>
+                                    <button id='bouton' >En savoir +</button>
                                     </Link>
 
                               </div>
@@ -232,7 +236,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
                               
                               <div class="photo">
 
-                                <img src={offre2}/> 
+                                <img src={offre2} alt=""/> 
 
                                     </div> 
                                     
@@ -241,7 +245,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
                               </div>
 
                                     <Link to='/offre' onClick={() => window.scrollTo(0,10)}>
-                                    <a id='bouton' >En savoir +</a>
+                                    <button id='bouton' >En savoir +</button>
                                     </Link>
 
                               </div>
@@ -273,13 +277,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
 
                   <Schema />
 
-                  <div class="mobile_on column_items_center block">
-                        <content1><strong>La Coach :</strong></content1>
-                        <br/>
-                        <content1><blue>Carole PIVIN</blue><br/>06.51.43.26.77<br/>
-                        carole@winentretien.com</content1>
-
-                  </div>
+                  
 
                   <div class="section mobile_off">
                         <div class="margin_left">
@@ -296,7 +294,7 @@ objectifs – parce qu’ils sont <strong>importants</strong> dans l’exercice 
   
   <div class="row">
     <div class="column_items_center">
-  <div class="profils column"><img src={Robin}  /></div><br/>
+  <div class="profils column"><img src={Robin} alt="" /></div><br/>
 
   <h3title>Robin</h3title>
   <content1><blue>Terminale S, admis VATEL Paris 2023 </blue></content1>
@@ -346,7 +344,7 @@ Paris.</blue></content>
   
     <div class="row">
       <div class="column_items_center">
-    <div class="profils column"><img src={img_mathilde}  /></div><br/>
+    <div class="profils column"><img src={img_mathilde}  alt=""/></div><br/>
 
     <h3title>Caroline</h3title>
     <content1><blue>Dirigeante, 2022</blue></content1>
@@ -365,7 +363,7 @@ Cette expérience de coaching pousse au-delà même après les séances. Merci."
     <div class="row"> 
 
     <div class="column_items_center">  
-    <div class="profils column"><img src={img_milena}  /></div><br/>
+    <div class="profils column"><img src={img_milena}  alt=""/></div><br/>
     <h3title>Milena</h3title>
     <content1><blue>Chargée de partenariats dans le <br/> milieu associatif, 2022</blue></content1>
     </div>
@@ -382,7 +380,7 @@ Cette expérience de coaching pousse au-delà même après les séances. Merci."
     <div class="row">
 
     <div class="column_items_center">
-    <div class="profils column"><img src={img_jade}  /></div>
+    <div class="profils column"><img src={img_jade}  alt=""/></div>
     <br/>
     <h3title>Jade</h3title>
     <content1><blue>Terminale S, admise BBA EDHEC,<br/> 2023</blue></content1></div>

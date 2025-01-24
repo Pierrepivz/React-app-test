@@ -5,7 +5,7 @@ import offre2 from '../images/eloquence.jpg';
 import "../Coach/Coach.css";
 import {Helmet} from "react-helmet";
 
-/*<img src={logo} className="win-logo" alt="logo" />*/
+
 
 function Offre() {
 
@@ -64,7 +64,7 @@ pitch, prise de parole devant 100 personnes : apprenez à <strong>communiquer po
 
                   </div>
 
-                  <div class="section block mobile_on">
+                  <div class="section block mobile_off">
                         <div class="margin_left">
                         <h2title>Convaincre à l'oral</h2title>
                         <div id="underline"></div>
@@ -94,7 +94,7 @@ pitch, prise de parole devant 100 personnes : apprenez à <strong>communiquer po
   <div class='home_offre column_items_center'>
 
                               
-<div class="photo"><img src={offre2}/></div>
+<div class="photo"><img src={offre2} alt=""/></div>
       
       
       
@@ -116,7 +116,7 @@ confiance et vous préparer à réussir.</blue>
 </content1>
 
 <Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-                <a id='bouton' >Prendre rendez-vous</a>
+                <button id='bouton' >Prendre rendez-vous</button>
                 
                 
                 </Link>
@@ -213,7 +213,7 @@ Apprenez les règles de base qui permettent de <blue>favoriser
 </div>
 <br/><br/><br/>
 <Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-                <a id='bouton'  >Prendre rendez-vous</a>
+                <button id='bouton'  >Prendre rendez-vous</button>
                 <br/>
                 </Link>
 
@@ -261,7 +261,7 @@ moment d’une <strong>prise de poste</strong>, d’une <strong>évolution perso
 <div class='home_offre column_items_center'>
 
                         
-<div class="photo"><img src={offre1}/></div>
+<div class="photo"><img src={offre1} alt=""/></div>
 
 
 
@@ -283,7 +283,7 @@ ce que ‘urgent’ et ‘important’ signifient <blue>pour vous</blue>
 </content1>
 
 <Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-          <a id='bouton' >Prendre rendez-vous</a>
+          <button id='bouton' >Prendre rendez-vous</button>
           <br/>
           </Link>
           </div>

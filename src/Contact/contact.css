@@ -16,15 +16,66 @@
 
 @media screen and (max-width:640px) and (min-width:200px){
 
+    .Contact h1title{
+        font-size: 20px;
+    }
+    #title{
+        margin-top: -10px;
+        margin-bottom: 20px
+    }
+
+    .contact_info{
+        font-size: 14px;
+        
+    }
+
+    
+
+    .formulaire_contact{
+        width: 75vw;
+        margin-left: 0;
+       
+        
+
+    }
+    .formulaire_contact content{
+        font-size: 11px;
+    }
+    #input{
+
+        height: 5vw;
+        width: 25vw;
+        font-size: 11px;
+        
+
+    }
+    .btn{
+        margin-top: 10px;
+        padding: 9px;
+        width: 120px;
+        font-size: 14px;
+    }
+    #message{
+        width: 60vw;
+        height: 14vw;
+
+    }
+    #mapmessage{
+        width: 70vw;
+    }
+
     #contact_telephone{
 
         flex-flow: column-reverse;
-        margin-left: 10%;
+        align-items: center;
+        
         
     }
+
     #contact_telephone form{
     
         margin-top: 50px;
+        margin-left: -200px;
     }
 
 

@@ -9,15 +9,14 @@ import Footer from './Footer/Footer.js';
 import Offre from './Offre/Offre.js';
 import Methode from './Rdv/Methode.js';
 import Coach from './Coach/Coach.js';
-import Home_Blog from './Blog/home_blog.js';
+import HomeBlog from './Blog/home_blog.js';
 import Rdvconfirm from './Rdvconfirm.js';
 import Contactconfirm from './Contactconfirm.js';
 import Blog from './Blog/view_blog.js';
-import { isValue } from "react-calendar/dist/cjs/shared/propTypes";
 import "./Offre/Offre.css";
-import Methode_page from "./Methode/Methode_page.js";
+import MethodePage from "./Methode/Methode_page.js";
 import Cgv from "./Mentions/Cgv.js";
-import Mentions_legales from "./Mentions/Mentions_legales.js";
+import MentionsLegales from "./Mentions/Mentions_legales.js";
 
 
 
@@ -51,7 +50,7 @@ function Test()
 
       <Route exact path='/Methode_page'>
       
-      <Methode_page/>
+      <MethodePage/>
 
       </Route>
 
@@ -92,7 +91,7 @@ function Test()
 
       <Route exact path='/Mentions'>
       
-      <Mentions_legales />
+      <MentionsLegales />
 
       </Route>
 
@@ -119,7 +118,7 @@ function Test()
 
       <Route exact path='/blog'>
       
-      <Home_Blog />
+      <HomeBlog />
 
       </Route>
 

@@ -1,8 +1,5 @@
 import React from "react";
-import { useState } from "react";
 import { Link } from 'react-router-dom';
-import Rdvcontact from '../Rdvcontact.js';
-import Schema from '../Schema/Schema.js';
 import Rdv from './Rdv.js';
 import "./rdv.css";
 
@@ -75,7 +72,7 @@ C'est <strong>entièrement gratuit et sans aucun engagement</strong> de part et 
       
             <h2under2></h2under2>
             <div id='box_content'>
-            <content>Vous vous inscrivez pour un 1 er entretien <br />sous Teams  de 30 minutes sur le <br /><Link to='./offre'><a href='#'><t_orange>calendrier en ligne </t_orange></a></Link>
+            <content>Vous vous inscrivez pour un 1 er entretien <br />sous Teams  de 30 minutes sur le <br /><Link to='./offre'><button href='#'><t_orange>calendrier en ligne </t_orange></button></Link>
       selon vos disponibilités. <br/>
       C’est sans engagement de part et d’autre et entièrement gratuit.</content>
             </div>

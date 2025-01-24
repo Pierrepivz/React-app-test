@@ -7,7 +7,7 @@ import {Helmet} from "react-helmet";
 
 
 
-function Home_Blog() {
+function HomeBlog() {
 
     
     
@@ -34,11 +34,7 @@ function Home_Blog() {
     }
     
    
-  function article_url(url){
-
-    window.location.replace(`./blog/${linkurl(url)}`);
-
-  }
+  
 
     
 
@@ -172,7 +168,7 @@ sujets du moment : <br/><strong>c’est par ici</strong></content>
         
         <Link to={`/blog/${linkurl(value.url)}`} >
         
-        <div class="home_article column_start" > <div class="blog_select column" ><img src={value.image} width="300px" height="200px" ></img><content1>{value.article_name}</content1></div> 
+        <div class="home_article column_start" > <div class="blog_select column" ><img src={value.image} alt={value.alt} description={value.alt_description} title={value.alt_titre} width="300px" height="200px" ></img><content1>{value.article_name}</content1></div> 
         
         
         
@@ -212,4 +208,4 @@ sujets du moment : <br/><strong>c’est par ici</strong></content>
     );
   }
   
-  export default Home_Blog;
+  export default HomeBlog;
