@@ -1,11 +1,7 @@
 
 
 
-.avatars{
 
-  height: 22vmin;
-  padding-bottom: 40px;
-}
 .win-logo {
   height: 40vmin;
   pointer-events: none;  
@@ -19,19 +15,19 @@
   
 }
 
+
+
 .Homemain{
 
-display:flex;
-justify-content: space-around;
-align-items: flex-start;
-padding-top: 9%;
-padding-bottom: 60px;
-background: linear-gradient(to right,#c1eaf8 40%,#3e8ce6);
+      flex-flow: column;
+      max-width: 100%;
+      
+      align-items: center;
+      padding-bottom: 30px;
+      background: linear-gradient(to right,#c1eaf8 40%,#3e8ce6);
+      padding-top: 9%;
 
-
-
-
-}
+    }
 
 hcontent{
 
@@ -45,11 +41,13 @@ hcontent{
   background-color: white;
   border-radius: 9px;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 3vmin;
+  font-size: 11px;
+  line-height: 19px;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
 
   }
+
+  
 
 
 #main{
@@ -82,19 +80,17 @@ hcontent{
 
 
 
+
 #preparation{
-
- 
- margin-left: -30px;
- margin-top: 50px;
-
-
-
+  margin: 0px;
 }
 
-.home_offre{
-    width: 400px;
-    height: 380px;
+
+
+  
+  .home_offre{
+    width: 300px;
+    height: 280px;
     background: linear-gradient(to bottom, #E5F8FF 90%,#ffffff00);
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -102,42 +98,8 @@ hcontent{
     
     
   }
-
-  .home_offre .photo{
-   margin-top: 20px;
-   height: 310px;
-   width: 310px;
-   background-color: white;
-   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
-   border-radius: 3px;
-
-
-
-
-  }
-  .photo img{
-    height: inherit;
-    width: inherit;
-    border-radius: 3px;
-  }
-  .home_offres :last-child{
-    align-self: center;
-  }
-  .home_offres #blue_content{
   
-    height: 380px;
-    width: 390px;
-    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.308);
-  }
-  .home_offres h2under{
-    width: 270px;
-  }
-  .home_offres content{
-    font-size: 14px;
-  }
-
-  /*statistics*/
-
+  
   .cible_graph{
 
     width: 40vmax;
@@ -169,7 +131,8 @@ hcontent{
     
   
     }
-
+    
+    
 
     #objectif_box{
 
@@ -237,129 +200,165 @@ hcontent{
 
   
 
-  @media screen and (max-width:640px) and (min-width:200px){
-    .Homepage{
-      max-width: 100%;
+  @media screen and (min-width:640px){
 
-    }
+    .home_offre {
+      
+      width: 400px;
+      height: 380px;
+      
     
-    .Homemain{
-
-      flex-flow: column;
-      max-width: 100%;
-      padding-top: 70px;
-      align-items: center;
-      padding-bottom: 30px;
+  }
+  
+   .home_offre img{
       
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+ 
+ 
+ 
+ 
+   }
 
-    }
+  .Homemain{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 60px;
     
     
-
-    #offre_mobile{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
     }
-    .sub-offre-mobile{
-      margin-bottom: 40px;
-      
-    }
-
-    #temoignage{
-      display: none;
-    }
-    #statistics_methode{
-
-      
-      
-      flex-flow: column-reverse;
-      align-items: center;
-      
-
-
-    }
-    #statistics_methode :first-child{
-
-     margin-top: 2%;
-      
-
-
-    }
-
     .avatars{
       height: 22vmax;
     }
 
-  
-    #objectif_box{
-  
-      opacity: 0;
-  
-    }
-    htitle{
-      font-size: 3px;
-    }
-    .persona .window {
-  
-      flex-direction: column;
-      align-items: center;
-      margin-right: 0px;
-      
-    }
-    #objectif_persona{
-      align-items: center;
-      
-      
-    }
-    
-    hcontent{
-  
-      font-size: 11px;
-      line-height: 19px;
-      
-    }
-    #home_graph{
-     
-     display: none;
-     background-position-x: 0px;
-    }
-
-    .home_offre .photo{
-      
-      height: 150px;
-      width: 160px;
-      background-color: white;
-      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
-      border-radius: 3px;
-   
-   
-   
-   
-     }
-     .home_offre{
-      width: 300px;
-      height: 280px;
-      background: linear-gradient(to bottom, #E5F8FF 90%,#ffffff00);
-      border-top-left-radius: 4px;
-      border-top-right-radius: 4px;
-     
-      
-      
-    }
-     
-  .first_temoignage{
-    display: none;
-  }  
-    .section{
-      margin: 0;
-      height: 20px;
-    }
-    
-    
     #preparation{
-      margin: 0px;
-    }
+
+ 
+      margin-left: -30px;
+      margin-top: 50px;
+     
+     
+     
+     }
+
+     hcontent{
+  
+     
+      font-size: 15px;
+      line-height: 3vmin;
+        
+      }
+  /*done*/
+      
+    
     
   }
   
+  /*mobile */ 
+  
+
+
+  @media screen and (max-width:640px){
+    .avatars{
+      height: 35vmin;
+      padding-bottom: 10px;
+    }
+
+    .Homemain{
+      padding-top: 12%;
+      padding-left: 6%;
+    }
+
+    hcontent{
+      width: 100%;
+    }
+
+
+  .home_offre .photo{
+      
+    height: 150px;
+    width: 160px;
+    background-color: white;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
+    border-radius: 3px;
+ 
+ 
+ 
+ 
+   }
+   .home_offre .photo img{
+     width: 110%;
+   }
+
+   #offre_mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-offre-mobile{
+    margin-bottom: 40px;
+    
+  }
+  #temoignage{
+    display: none;
+  }
+  .first_temoignage{
+    display: none;
+  }
+  #home_graph{
+      
+     
+    display: none;
+    background-position-x: 0px;
+   }
+
+   #statistics_methode{
+
+      
+      
+    flex-flow: column-reverse;
+    align-items: center;
+    
+
+
+  }
+  #statistics_methode :first-child{
+
+   margin-top: 2%;
+    
+
+
+  }
+  #objectif_box{
+  
+    opacity: 0;
+
+  }
+  htitle{
+    font-size: 3px;
+  }
+  .persona .window {
+  
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0px;
+    
+  }
+  #objectif_persona{
+    align-items: center;
+    
+    
+  }
+  .section{
+    margin: 0;
+    height: 20px;
+  }
+
+}

@@ -15,6 +15,7 @@
   margin-top: -100px;
   padding-bottom: 200px;
   
+  
   } 
   
 
@@ -107,6 +108,28 @@
      display: none;
      
    }
-  
+   .box_last .content_blue{
+    width: 80%;
+    height: auto;
+    padding-bottom: 40px;
+    font-size: 15px;
+    line-height: 1em;
+    
+    
+ 
+   }
+   #bouton{
+     
+
+     font-size: 13px;
+     
+     
+
+     
+     
+     
+   }
+   
+   
 
   }

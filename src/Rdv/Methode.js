@@ -72,7 +72,7 @@ C'est <strong>entièrement gratuit et sans aucun engagement</strong> de part et 
       
             <h2under2></h2under2>
             <div id='box_content'>
-            <content>Vous vous inscrivez pour un 1 er entretien <br />sous Teams  de 30 minutes sur le <br /><Link to='./offre'><button href='#'><t_orange>calendrier en ligne </t_orange></button></Link>
+            <content>Vous vous inscrivez pour un 1 er entretien <br />sous Teams  de 30 minutes sur le <br /><Link to='./offre'><a href='https://www.winentretien.com/rendez-vous'><t_orange>calendrier en ligne </t_orange></a></Link>
       selon vos disponibilités. <br/>
       C’est sans engagement de part et d’autre et entièrement gratuit.</content>
             </div>
