@@ -1,11 +1,14 @@
 
-import React from 'react';
+
+ 
+import { lazy } from 'react';
+
 import { Link } from 'react-router-dom';
 import img_mathilde from '../images/photo_mathilde.png';
 import img_milena from '../images/femme_dos.jpg';
 import img_jade from '../images/photo_jade.jpg';
-import "../globals.css";
-import "./homepage.css";
+
+
 
 
 import Persona from "./Persona.js";
@@ -18,8 +21,9 @@ import "../Text.css";
 import {Helmet} from "react-helmet";
 import Schema from '../Schema/Schema.js';
 
-
-
+lazy(() => import("../globals.css"));
+lazy(() => import("./homepage.css"));
+/*import "./homepage.css";*/
 
 
 

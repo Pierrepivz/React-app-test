@@ -1,6 +1,8 @@
-import React from "react";
-import './Test.css';
-import './Test2.css';
+
+
+import { lazy } from "react";
+
+
 import Nav from './Nav/Nav.js';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Contact from './Contact/Contact.js';
@@ -17,6 +19,10 @@ import "./Offre/Offre.css";
 import MethodePage from "./Methode/Methode_page.js";
 import Cgv from "./Mentions/Cgv.js";
 import MentionsLegales from "./Mentions/Mentions_legales.js";
+/*const Test1 = lazy( () => import("./Test.css"));
+lazy( () => import("./Test2.css"));*/
+import "./Test.css";
+import "./Test2.css";
 
 
 
