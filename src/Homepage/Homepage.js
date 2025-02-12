@@ -11,8 +11,8 @@ import img_jade from '../images/photo_jade.jpg';
 
 
 
-import Persona from "./Persona.js";
-import Statistics from "./Statistics.js";
+
+
 
 import offre1 from "../images/mirabeau.jpg";
 import offre2 from "../images/bienposte.jpeg";
@@ -21,9 +21,11 @@ import "../Text.css";
 import {Helmet} from "react-helmet";
 import Schema from '../Schema/Schema.js';
 
+const Persona = lazy(() => import('./Persona.js')) ;
+const Statistics = lazy(() => import('./Statistics.js'));
 lazy(() => import("../globals.css"));
 lazy(() => import("./homepage.css"));
-/*import "./homepage.css";*/
+
 
 
 
