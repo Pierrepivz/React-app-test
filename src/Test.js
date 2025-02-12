@@ -2,7 +2,8 @@
 
 import { lazy } from 'react';
 
-
+import Nav from './Nav/Nav.js';
+import Footer from './Footer/Footer.js';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Contact from './Contact/Contact.js';
@@ -23,8 +24,8 @@ import MentionsLegales from "./Mentions/Mentions_legales.js";
 import "./Test.css";
 import "./Test2.css";
 const Homepage = lazy(() => import('./Homepage/Homepage.js'));
-const Footer = lazy( () => import('./Footer/Footer.js'));
-const Nav = lazy( () => import('./Nav/Nav.js'));
+
+
 
 function Test() 
 {
