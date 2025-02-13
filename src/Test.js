@@ -6,26 +6,27 @@ import Nav from './Nav/Nav.js';
 import Footer from './Footer/Footer.js';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Contact from './Contact/Contact.js';
 
 
-import Offre from './Offre/Offre.js';
-import Methode from './Rdv/Methode.js';
-import Coach from './Coach/Coach.js';
-import HomeBlog from './Blog/home_blog.js';
-import Rdvconfirm from './Rdvconfirm.js';
-import Contactconfirm from './Contactconfirm.js';
-import Blog from './Blog/view_blog.js';
+
 import "./Offre/Offre.css";
-import MethodePage from "./Methode/Methode_page.js";
-import Cgv from "./Mentions/Cgv.js";
-import MentionsLegales from "./Mentions/Mentions_legales.js";
-
 import "./Test.css";
 import "./Test2.css";
+import "./globals.css";
+import "./text.css";
+import Offre from './Offre/Offre.js';
+const Contact = lazy(() => import('./Contact/Contact.js'));
+
 const Homepage = lazy(() => import('./Homepage/Homepage.js'));
-
-
+const Methode = lazy(() => import('./Rdv/Methode.js'));
+const Coach = lazy(() => import('./Coach/Coach.js'));
+const HomeBlog = lazy(() => import('./Blog/home_blog.js'));
+const Contactconfirm = lazy(() => import('./Contactconfirm.js'));
+const Blog = lazy(() => import('./Blog/view_blog.js'));
+const MethodePage = lazy(() => import("./Methode/Methode_page.js"));
+const Rdvconfirm = lazy(() => import('./Rdvconfirm.js'));
+const MentionsLegales = lazy(() => import("./Mentions/Mentions_legales.js"));
+const Cgv = lazy(() => import("./Mentions/Cgv.js"));
 
 function Test() 
 {

@@ -45,7 +45,10 @@
   }
   
   
-  
+  .photo img{
+    width: 50%;
+    
+  }
   
   #offre_box #dropbar{
 

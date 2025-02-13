@@ -4,9 +4,9 @@
 import { lazy } from 'react';
 
 import { Link } from 'react-router-dom';
-import img_mathilde from '../images/photo_mathilde.png';
-import img_milena from '../images/femme_dos.jpg';
-import img_jade from '../images/photo_jade.jpg';
+
+
+
 
 
 
@@ -17,12 +17,18 @@ import img_jade from '../images/photo_jade.jpg';
 import offre1 from "../images/mirabeau.jpg";
 import offre2 from "../images/bienposte.jpeg";
 import Robin from "../images/arthur_robin.jpg";
-import "../Text.css";
-import {Helmet} from "react-helmet";
-import Schema from '../Schema/Schema.js';
 
-const Persona = lazy(() => import('./Persona.js')) ;
+
+import { Helmet } from "react-helmet";
+import img_jade from '../images/photo_jade.jpg';
+import img_milena from '../images/femme_dos.jpg';
+import img_mathilde from '../images/photo_mathilde.png';
+const Schema = lazy(() => import('../Schema/Schema.js'));
+const Persona = lazy(() => import('./Persona.js'));
 const Statistics = lazy(() => import('./Statistics.js'));
+
+
+
 lazy(() => import("../globals.css"));
 lazy(() => import("./homepage.css"));
 

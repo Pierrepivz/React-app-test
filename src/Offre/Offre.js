@@ -2,7 +2,9 @@
 import { Link } from 'react-router-dom';
 import offre1 from '../images/posteforet.jpg';
 import offre2 from '../images/eloquence.jpg';
-import "../Coach/Coach.css";
+
+
+
 import {Helmet} from "react-helmet";
 
 
