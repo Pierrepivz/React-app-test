@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 
-import "./Offre/Offre.css";
+
 
 
 import Offre from './Offre/Offre.js';
@@ -22,6 +22,7 @@ import Blog from './Blog/view_blog.js';
 import MethodePage from "./Methode/Methode_page.js";
 import Rdvconfirm from './Rdvconfirm.js';
 
+import "./Offre/Offre.css";
 const MentionsLegales = lazy(() => import("./Mentions/Mentions_legales.js"));
 const Cgv = lazy(() => import("./Mentions/Cgv.js"));
 const Homepage = lazy(() => import("./Homepage/Homepage.js"));
@@ -46,6 +47,7 @@ function Test()
       <Route exact path='/'>
       
       <Homepage />
+      
 
       </Route>
 

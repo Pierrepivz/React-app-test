@@ -1,17 +1,13 @@
 
 
  
-import { lazy } from 'react';
-
+import { lazy, React } from 'react';
 import { Link } from 'react-router-dom';
 
-
-
-import '../Test.css';
 import '../globals.css';
 import '../Test2.css';
 import '../Text.css';
-
+import '../Test.css';
 
 
 
@@ -31,11 +27,6 @@ const Persona = lazy(() => import('./Persona.js'));
 const Statistics = lazy(() => import('./Statistics.js'));
 
 
-
-
-
-
-const component_css = () => import('./homepage.css');
 
 
 
