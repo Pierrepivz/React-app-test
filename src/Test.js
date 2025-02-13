@@ -13,10 +13,9 @@ import "./Offre/Offre.css";
 import "./Test.css";
 import "./Test2.css";
 import "./globals.css";
-import "./text.css";
+import "./Text.css";
 import Offre from './Offre/Offre.js';
 const Contact = lazy(() => import('./Contact/Contact.js'));
-
 const Homepage = lazy(() => import('./Homepage/Homepage.js'));
 const Methode = lazy(() => import('./Rdv/Methode.js'));
 const Coach = lazy(() => import('./Coach/Coach.js'));
