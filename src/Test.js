@@ -7,11 +7,6 @@ import Footer from './Footer/Footer.js';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-
-
-
-
-
 import Offre from './Offre/Offre.js';
 import Contact from './Contact/Contact.js';
 import Methode from './Rdv/Methode.js';
@@ -21,8 +16,8 @@ import Contactconfirm from './Contactconfirm.js';
 import Blog from './Blog/view_blog.js';
 import MethodePage from "./Methode/Methode_page.js";
 import Rdvconfirm from './Rdvconfirm.js';
-
 import "./Offre/Offre.css";
+
 const MentionsLegales = lazy(() => import("./Mentions/Mentions_legales.js"));
 const Cgv = lazy(() => import("./Mentions/Cgv.js"));
 const Homepage = lazy(() => import("./Homepage/Homepage.js"));
