@@ -7,7 +7,10 @@ import { Link } from 'react-router-dom';
 
 
 
-
+import '../Test.css';
+import '../globals.css';
+import '../Test2.css';
+import '../Text.css';
 
 
 
@@ -29,9 +32,10 @@ const Statistics = lazy(() => import('./Statistics.js'));
 
 
 
-lazy(() => import("../globals.css"));
-lazy(() => import("./homepage.css"));
 
+
+
+const component_css = () => import('./homepage.css');
 
 
 

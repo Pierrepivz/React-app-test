@@ -1,5 +1,6 @@
-
-
+import "../Test.css";
+import "../Test2.css";
+import "../globals.css";
 
 
 
