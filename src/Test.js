@@ -2,6 +2,11 @@
 
 import { lazy } from 'react';
 
+import './globals.css';
+import './Test2.css';
+import './Text.css';
+import './Test.css';
+
 import Nav from './Nav/Nav.js';
 import Footer from './Footer/Footer.js';
 
