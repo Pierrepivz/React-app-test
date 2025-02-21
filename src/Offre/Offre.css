@@ -89,6 +89,12 @@
 
    @media screen and (max-width:640px) and (min-width:200px){
 
+    .photo img{
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 3px;
+    }
+
        .offre_text{
            width: 70vmin;
        }

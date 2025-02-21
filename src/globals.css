@@ -168,7 +168,7 @@ body{
       #bouton{
 
         background-color: #2873C9;
-        box-sizing: border-box;
+        
         color: white;
         margin-top: -2vmax;
         border-style: solid;
@@ -220,10 +220,10 @@ body{
           
           font-size: 2vmax;
           background-color: #2873C9;
-        padding: 5vmax 5vmax;
-       
+        padding: 5vmax;
+       min-width: 200px;
         font-weight: 600;
-        
+        margin-left: 0px;
         border-radius: 9px;
         border-width: 5px;
        

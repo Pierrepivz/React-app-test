@@ -272,12 +272,13 @@ hcontent{
     }
 
     .Homemain{
-      padding-top: 12%;
+      padding-top: 14%;
       padding-left: 6%;
     }
 
     hcontent{
       width: 100%;
+
     }
 
 
@@ -342,7 +343,7 @@ hcontent{
 
   }
   htitle{
-    font-size: 3px;
+    font-size: 21px;
   }
   .persona .window {
   
