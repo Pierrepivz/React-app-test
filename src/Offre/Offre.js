@@ -35,7 +35,7 @@ function Offre() {
 <div id="titre_second" class='column_items_center'>
                               
                               
-                              <h1title>L'offre</h1title>
+                              <h1>L'offre</h1>
                               
                               <h2under2></h2under2>
                               <div class="note column_items_center">

@@ -94,7 +94,7 @@ function HomeBlog() {
                             
                             <div class='column_items_center'>
 
-<h1title>Le Blog</h1title>
+<h1>Le Blog</h1>
 <h2under2></h2under2>
 
 <content class="note">Informations pratiques sur les
@@ -129,11 +129,11 @@ sujets du moment : <br/><strong>c’est par ici</strong></content>
 <div class="column">
   <div class="row">
 
-                        <h1title>Parcourir</h1title>
+                        <h1title class="mobile_off">Parcourir</h1title>
                         
                         <i class="fa-solid fa-book fa-2xl" id="icon"></i>
                         </div>
-                        <h2under2></h2under2>
+                        <h2under2 class="mobile_off"></h2under2>
                         <br/>
                         
                   </div>

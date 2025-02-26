@@ -28,7 +28,11 @@ function Schema() {
     return (
       <div className="schema column_items_center reveal">
 
-      
+      <div class="column_items_center">
+        <h1title>Comment ça marche ?</h1title>
+        <h2under></h2under>
+        <br/>
+      </div>
       
       
 <div class="flex block">

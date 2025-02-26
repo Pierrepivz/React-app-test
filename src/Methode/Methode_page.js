@@ -28,7 +28,7 @@ function MethodePage(){
 
 <div id="titre_second"class='column_items_center'>
                               
-                              <h1title>La méthode</h1title>
+                              <h1>La méthode</h1>
                               <h2under2></h2under2>
                               
 

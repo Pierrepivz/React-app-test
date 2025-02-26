@@ -80,6 +80,10 @@
 
   @media screen and (max-width:640px) and (min-width:200px){
 
+    .schema{
+      margin-top: -50px;
+    }
+
     .box_last{
       max-width: 80%;
     }

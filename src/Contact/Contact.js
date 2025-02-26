@@ -68,7 +68,7 @@ function Contact(){
 <div class='column_items_center' id="title">
         
                               
-                              <h1title>Contact</h1title>
+                              <h1>Contact</h1>
                               
                               <h2under2></h2under2>
                               <content class="note"> Vous souhaitez avoir des informations sur mon offre ou me poser une question  ?

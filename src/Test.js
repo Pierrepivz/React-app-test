@@ -22,10 +22,17 @@ import Blog from './Blog/view_blog.js';
 import MethodePage from "./Methode/Methode_page.js";
 import Rdvconfirm from './Rdvconfirm.js';
 import "./Offre/Offre.css";
+import "./Homepage/homepage.css";
+import Home from "./Homepage/Home.js";
+import Home2 from "./Homepage/Home2.js";
+import Home3 from "./Homepage/Home3.js";
+import Schema from "./Schema/Schema.js";
+import Temoignages from "./Homepage/Temoignages.js";
+
 
 const MentionsLegales = lazy(() => import("./Mentions/Mentions_legales.js"));
 const Cgv = lazy(() => import("./Mentions/Cgv.js"));
-const Homepage = lazy(() => import("./Homepage/Homepage.js"));
+/*const Homepage = lazy(() => import("./Homepage/Homepage.js"));*/
 
 
 function Test() 
@@ -46,7 +53,11 @@ function Test()
       <Switch>
       <Route exact path='/'>
       
-      <Homepage />
+      <Home />
+      <Home2 />
+      <Home3 />
+      <Schema />
+      <Temoignages />
       
 
       </Route>

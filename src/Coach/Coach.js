@@ -27,7 +27,7 @@ function Coach(){
 
 <div id="titre_second"class='column_items_center'>
                               
-                              <h1title>La Coach</h1title>
+                              <h1>La Coach</h1>
                               
                               <h2under2></h2under2>
 

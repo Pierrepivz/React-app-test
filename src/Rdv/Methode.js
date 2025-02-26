@@ -20,7 +20,7 @@ function Methode() {
 
                         <div id="titre_second"class='column_items_center'>
                               
-                              <h1title>Prendre rendez-vous</h1title>
+                              <h1>Prendre rendez-vous</h1>
                               
                               <h2under2></h2under2>
                               <div class="note column_items_center">

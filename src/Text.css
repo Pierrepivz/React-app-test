@@ -1,4 +1,4 @@
-htitle{
+.Home h1{
     font-family: 'Montserrat' ;
     font-size: 3em;
     font-weight: bold;
@@ -7,6 +7,18 @@ htitle{
       
       width: 110%;
 
+    }
+
+    .Contact h1{
+      font-family: 'montserrat';
+        font-weight: 600;
+        font-size: 25px;
+        position:relative;
+          z-index:90;
+    }
+    #titre_second h1{
+      font-size:25px;
+      font-weight: 600;
     }
 
     h2title{
@@ -29,6 +41,8 @@ htitle{
       
       
         }
+        
+
         h3title{
     
           font-family: 'montserrat';
@@ -199,7 +213,7 @@ content500{
         
     
        
-        htitle{
+        .Home h1{
           font-size: 1.7em;
           width: 115%;
 

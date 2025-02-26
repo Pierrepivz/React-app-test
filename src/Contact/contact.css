@@ -12,11 +12,17 @@
 
     margin-right: 10px;
 }
+.Contact h1{
+    
+    padding: 0px;
+    
+    text-align: center;
+}
 
 
 @media screen and (max-width:640px) and (min-width:200px){
 
-    .Contact h1title{
+    .Contact h1{
         font-size: 20px;
     }
     #title{

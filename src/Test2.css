@@ -740,13 +740,43 @@ font-size: 14px;
 }
 
 @media screen and (max-width:640px) and (min-width:200px){
+  .Page{
+    padding: 0px;
+  }
   .search_bar{
     display: flex;
     flex-direction: column;
   }
+  .search_bar{
+
+    
+  line-height: 13px;
+  width: 95%;
+  padding: 3%;
+  padding-right: 0px;
+  border-radius: 9px;
+  
+
+
+}
+
   #search_bar{
     margin-bottom: 30px;
     max-width: 200px;
+  }
+  .blog_select img{
+
+    width: 280px;
+    height: 180px;
+    
+  
+  }
+  .blog_select content1{
+    font-size: 15px;
+    font-weight: 600;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: -5%;
   }
 }
 
