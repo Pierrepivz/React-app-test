@@ -84,8 +84,9 @@ function HomeBlog() {
       
       
       <Helmet>
-        <title>L'actualité sur les concours, les entretiens et les méthodes de coaching</title>
-        <meta name="description" content="J'aborde dans ce blog les points importants à mes yeux pour mener à bien son projet professionnel"></meta>
+        <title>L'actualité sur les concours et les entretiens des écoles</title>
+        <meta name="description" content="actualité des concours détail des épreuves orales et des oraux de motivation des concours
+emlyon advance avenir insa utc utt écoles de commerce et ingénieurs"></meta>
         <link rel="canonical" href="https://www.winentretien.com/blog" />
       </Helmet>
       

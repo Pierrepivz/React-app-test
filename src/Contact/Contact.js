@@ -61,7 +61,11 @@ function Contact(){
 
 <Helmet>
        
-       <title>Page Contact</title>
+       <title>Les coordonnées et la messagerie de la coach Carole Pivin</title>
+       <meta name="description" content="Contact par téléphone par mail ou en laissant un message sur le site; les services de préparation
+sont délivrés en présentiel en région parisienne ou en visio"></meta>
+       
+
        <link rel="canonical" href="https://www.winentretien.com/contact" />
       </Helmet>
 

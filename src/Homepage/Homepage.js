@@ -40,8 +40,9 @@ function Homepage(){
            
            <Helmet>
        
-       <title>Winentretien : La préparation sur mesure</title>
-       <meta name="description" content="Winentretien Paris vous forme à la réussite de votre projet professionnel, pour toutes les étapes de votre carrière, des études jusqu'a la reconversion professionnelle."></meta>
+       <title>winentretien la préparation sur mesure à tous les entretiens</title>
+       <meta name="description" content="préparation tous entretiens de motivation concours terminale écoles ingénieurs commerce
+projets de formation motivés parcoursup entretiens de stage d’embauche"></meta>
        <link rel="canonical" href="https://www.winentretien.com/" />
 
       </Helmet>

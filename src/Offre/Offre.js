@@ -21,8 +21,9 @@ function Offre() {
 
               <Helmet>
        
-       <title>Offre de coaching, préparation aux entretiens pour étudiants et professionnels</title>
-       <meta name="description" content="Coaching et préparation aux entretiens (VATEL, INSA, concours post-bac, entretiens d'embauche)"></meta>
+       <title>Offre détaillée entretiens lettres de motivation et coaching</title>
+       <meta name="description" content="Offre de préparation aux entretiens de motivation Insa UTC Advance Avenir emlyon Hec Edhec
+Essec Escp acces sesame vatel lyfe écriture des lettres de motivation"></meta>
        <link rel="canonical" href="https://www.winentretien.com/offre" />
 
       </Helmet>

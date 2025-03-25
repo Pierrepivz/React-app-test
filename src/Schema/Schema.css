@@ -116,12 +116,16 @@
     width: 80%;
     height: auto;
     padding-bottom: 40px;
-    font-size: 15px;
-    line-height: 1em;
+    
+    line-height: 20px;
     
     
  
    }
+   .box_last .content_blue *{
+     font-size: 11px;
+   }
+   
    #bouton{
      
 

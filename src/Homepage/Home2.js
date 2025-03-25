@@ -14,16 +14,32 @@ export default function Home2(){
 
 
             <div class="block">
-  <h2title>Coaching :</h2title>
+  <h2title>Entretiens étudiants:</h2title>
 <br/>
 <content1>
-<strong>Identifiez vos points forts</strong> et sachez les mettre en valeurs dans vos lettres de motivation<br/><br/>
+<blue><h3>Intégrez l'école de votre choix</h3></blue> préparez les oraux de tous les entretiens de motivation des concours postbac et au-delà <br/><br/>
 
 
 </content1><br/><br/>
 
 <Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-                <button id='bouton' >Découvrir</button>
+                <button id='bouton' >Prendre rdv</button>
+                
+                
+                </Link>
+
+</div>
+
+<div class="block">
+  <h2title>Coaching étudiants :</h2title>
+<br/>
+<content1>
+<blue><h3>Soyez convaincants à l'écrit</h3></blue>
+Rédigeons ensemble vos lettres de motivation et projets de formation motivés
+</content1><br/><br/>
+
+<Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Prendre rdv</button>
                 
                 
                 </Link>
@@ -34,26 +50,13 @@ export default function Home2(){
   <h2title>Entretiens professionnels :</h2title>
 <br/>
 <content1>
-Entrainez-vous pour passer vos entretiens d'embauche
+<blue><h3>Analysez les enjeux</h3></blue>
+Sachez adapter votre discours aux différents interlocuteurs en charge de vos entretiens
+
 </content1><br/><br/>
 
 <Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-                <button id='bouton' >Découvrir</button>
-                
-                
-                </Link>
-
-</div>
-
-<div class="block">
-  <h2title>Entretiens étudiants :</h2title>
-<br/>
-<content1>
-Préparez les oraux des Entretiens des écoles post bac et au-delà
-</content1><br/><br/>
-
-<Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-                <button id='bouton' >Découvrir</button>
+                <button id='bouton' >Prendre rdv</button>
                 
                 
                 </Link>

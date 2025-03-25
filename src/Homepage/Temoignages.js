@@ -5,15 +5,7 @@ import img_mathilde from '../images/photo_mathilde.png';
 import Robin from "../images/arthur_robin.jpg";
 
 export default function Temoignages(){
-
-    return(
-        <div class="block column_items_center window">
-                  
-                  
-                  
-            <div class="column_items_center first_temoignage">
-  
-  <div class="row">
+  /** in class "first_temoignage" <div class="row">
     <div class="column_items_center">
   <div class="profils column"><img src={Robin} alt="" /></div><br/>
 
@@ -31,7 +23,19 @@ La séance d’entraînement m’a permis d’être
 moins stressé et au final j’ai été admis à Vatel
 Paris.</blue></content>
   
-</div>
+</div> */
+
+    return(
+        <div class="block column_items_center window mobile_off">
+                  
+                  
+                  
+            <div class="column_items_center">
+
+            <h2>Témoignages</h2>
+    <h2under></h2under>
+  
+  
   </div>
                  
 <br/><br/>

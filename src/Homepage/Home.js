@@ -10,17 +10,23 @@ return(
       Atteindre son objectif, <br/>ça s'apprend
 </h1>
 
+
+
 <div class='underline2'></div>
 <br/>
 <hcontent>
-Depuis plus de 15 ans, winentretien prépare les étudiants et les professionnels à réussir les
-entretiens de motivation qui leur permettent de réaliser leur projet professionnel :<br/><br/>
-<blue> entretien des
-concours d’entrée dans une école pour les étudiants,</blue><br/><blue> entretien d’embauche pour les professionnels.</blue><br/><br/>
-Notre mission est de leur donner les bons réflexes pour être prêt à saisir les opportunités et à
-convertir les moments importants de leur parcours en réussite.
+<h2>Depuis 2007 nous vous apprenons à <blue>convaincre</blue> lors des moments importants de votre <blue>parcours
+professionnel.</blue></h2>
+<h3><blue>Projets de formation motivés, lettres de motivation, entretien de valorisation, entretien d’embauche :</blue></h3>
+nous vous aidons à mettre des mots précis et personnels sur votre parcours, vos compétences, votre
+motivation, votre projet professionnel.
+<br/>
+<h3><blue>Que vous soyez lycéen, étudiant ou déjà en poste,</blue></h3> adoptez les bons réflexes qui vont vous permettre
+de convertir les moments importants de votre parcours en réussite.
+Concrètement, notre cœur de métier est de préparer les étudiants et les professionnels à la réussite
+de tous les moments clés de leur parcours professionnel.
 <br/><br/>
-<br/>                        
+                       
 
 </hcontent>
       
@@ -29,6 +35,7 @@ convertir les moments importants de leur parcours en réussite.
       </Link>
       
 </div>
+
         
     </div>
 );

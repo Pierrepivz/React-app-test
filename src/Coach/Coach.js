@@ -18,8 +18,9 @@ function Coach(){
 
 <Helmet>
        
-       <title>Coach pour étudiants et professionnels</title>
-       <meta name="description" content="Carole, coach pour étudiants et professionnels, vous accompagne dans la réussite de vos projets professionnels. "></meta>
+       <title>Présentation et parcours coach de winentretien carole pivin</title>
+       <meta name="description" content="Mon parcours ingénieur en informatique consultante en systèmes d'informations enseignante
+cnam et cesi coach professionnelle pour étudiants et adultes"></meta>
        <link rel="canonical" href="https://www.winentretien.com/Coach" alt=""/>
       </Helmet>
 

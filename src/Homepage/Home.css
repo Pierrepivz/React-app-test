@@ -1,18 +1,23 @@
 .Home{
-    box-sizing: border-box;
+    
     
     width: 100vw;
+    height: 100vh;
+    background: url("../images/background_home1.png");
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 8vw;
-    padding-top: 12vw;
+    
+    padding:3vw;
+    padding-top:50px;
+    padding-bottom: 0px;
     background-size: cover;
     margin-bottom: 50px;
-}
 
+}
 hcontent{
-    line-height: 29px;
+    margin-top: 0px;
+    line-height: 25px;
     background: none;
     box-shadow: none;
     width: 100%;
@@ -20,6 +25,12 @@ hcontent{
     font-family: "montserrat";
     
 }
+hcontent *,hcontent h2, hcontent blue{
+    font-size: 16px;
+      
+}
+
+
 .Home2{
     display: flex;
     flex-direction: column;
@@ -81,6 +92,10 @@ hcontent{
     
 }
 @media screen and (max-width:650px){
+    .Home{
+        background: url("../images/background_home1.png");
+        background-size: 200vw 250vw;
+    }
 .Home3 #offre_content_telephone h2title{
     font-size: 12px;
 }
@@ -98,13 +113,25 @@ hcontent{
 .Home #bouton{
     margin-top: -80px;
 }
+hcontent{
+    line-height: 25px;
+    margin-top: -30px;
+   
+    
 }
+hcontent h2, hcontent blue{
+    font-size: 14px;
+
+}
+}
+
+
 
 @media screen and (min-width:650px){
 
     .Home{
-        margin-top: 3vh;
-        padding-top: 5vw;
+        margin-top: 5vh;
+        padding-top: 5vh;
         height: 90vh;
     }
     
@@ -114,6 +141,8 @@ hcontent{
         top: 35vh;
         width: 350px;
         height: 15px;
+        margin-bottom: -30px;
+        z-index: 99;
 
         
     }
@@ -132,13 +161,7 @@ hcontent{
         
     
     }
-    hcontent{
-        font-size: 16px;
-        width: 690px;
-        
-        
-        
-    }
+    
     .Home2_offres{
        
         flex-direction: row;

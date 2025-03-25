@@ -18,8 +18,9 @@ function MethodePage(){
 
 <Helmet>
        
-       <title>Méthode de Coaching et de préparation aux entretiens </title>
-
+       <title>Notre méthode pour préparation sur mesure à vos entretiens</title>
+       <meta name="description" content="La méthode winentretien basée sur la recherche des faits personnels de votre parcours, vos
+points forts et la projection sur un projet professionnel précis"></meta>
        <link rel="canonical" href="https://www.winentretien.com/Methode_page" />
 
       </Helmet>

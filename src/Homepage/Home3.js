@@ -6,7 +6,7 @@ export default function Home3(){
     return(
 <div class="Home3 column_items_center">
     <div class="column_items_center">
-    <h1title>Nos points forts</h1title>
+    <h2>Nos points forts</h2>
     <h2under></h2under></div>
 
     <div class="block">
