@@ -1,9 +1,19 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 export default function Home(){
 
 return(
     <div class="Home">
+
+<Helmet>
+       
+       <title>winentretien la préparation sur mesure à tous les entretiens</title>
+       <meta name="description" content="préparation tous entretiens de motivation concours terminale écoles ingénieurs commerce
+projets de formation motivés parcoursup entretiens de stage d’embauche"></meta>
+       <link rel="canonical" href="https://www.winentretien.com/" />
+
+      </Helmet>
         <div class="column" id="main">
 <h1>
 

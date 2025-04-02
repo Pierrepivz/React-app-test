@@ -15,6 +15,12 @@
     margin-bottom: 50px;
 
 }
+#main{
+    width: 600px;
+
+    
+  }
+  
 hcontent{
     margin-top: 0px;
     line-height: 25px;
@@ -43,6 +49,7 @@ hcontent *,hcontent h2, hcontent blue{
 .Home3{
     
     height: 100vh;
+    min-height: 500px;
     padding-top: 70px;
     margin-bottom: 50px;
 
@@ -96,6 +103,26 @@ hcontent *,hcontent h2, hcontent blue{
         background: url("../images/background_home1.png");
         background-size: 200vw 250vw;
     }
+    #main{
+        width:90vw;
+        
+        
+    }
+    #main h1{
+        width:80vw;
+        font-size:25px;
+        
+
+    }
+    #main hcontent{
+        margin-top: -1vh;
+        line-height: 19px;
+        font-size:12px;
+        
+    }
+    .Home{
+        height:90vh;
+    }
 .Home3 #offre_content_telephone h2title{
     font-size: 12px;
 }
@@ -133,6 +160,7 @@ hcontent h2, hcontent blue{
         margin-top: 5vh;
         padding-top: 5vh;
         height: 90vh;
+        min-height:700px;
     }
     
     .Home .underline2{
@@ -148,6 +176,8 @@ hcontent h2, hcontent blue{
     }
     .Home2{
         height: 80vh;
+        min-height: 500px;
+        margin-top: 5vmax;
     }
     .Home3{
         padding-top: none;

@@ -15,9 +15,9 @@ function HomeBlog() {
     const [input,setInput] = useState('');
     const [Listset, setDatalist] = useState([]);
     
-
+    
     const linkurl = (url) => {
-
+    
       
 
       if(url!=null){
