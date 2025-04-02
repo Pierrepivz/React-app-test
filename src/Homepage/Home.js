@@ -9,8 +9,7 @@ return(
 <Helmet>
        
        <title>winentretien la préparation sur mesure à tous les entretiens</title>
-       <meta name="description" content="préparation tous entretiens de motivation concours terminale écoles ingénieurs commerce
-projets de formation motivés parcoursup entretiens de stage d’embauche"></meta>
+       <meta name="description" content="Découvrez la méthode winentretien et nos conseils pour réussir tous les entretiens de motivation à l'entrée des grandes écoles et les entretiens d'embauche"></meta>
        <link rel="canonical" href="https://www.winentretien.com/" />
 
       </Helmet>

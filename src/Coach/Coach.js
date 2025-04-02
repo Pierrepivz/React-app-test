@@ -19,8 +19,7 @@ function Coach(){
 <Helmet>
        
        <title>Présentation et parcours coach de winentretien carole pivin</title>
-       <meta name="description" content="Mon parcours ingénieur en informatique consultante en systèmes d'informations enseignante
-cnam et cesi coach professionnelle pour étudiants et adultes"></meta>
+       <meta name="description" content="Le parcours de la coach de winentretien : une formation scientifique, 25 années de conseil et formation, 7 années de coaching aux étudiants et professionnels"></meta>
        <link rel="canonical" href="https://www.winentretien.com/Coach" alt=""/>
       </Helmet>
 

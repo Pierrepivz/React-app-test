@@ -85,8 +85,7 @@ function HomeBlog() {
       
       <Helmet>
         <title>L'actualité sur les concours et les entretiens des écoles</title>
-        <meta name="description" content="actualité des concours détail des épreuves orales et des oraux de motivation des concours
-emlyon advance avenir insa utc utt écoles de commerce et ingénieurs"></meta>
+        <meta name="description" content="Retrouvez ici toute l'actualité des concours d'entrée aux écoles postbac, les questions posées aux oraux de motivation, et nos astuces pour ne pas stresser"></meta>
         <link rel="canonical" href="https://www.winentretien.com/blog" />
       </Helmet>
       
