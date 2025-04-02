@@ -22,8 +22,7 @@ function Offre() {
               <Helmet>
        
        <title>Offre détaillée entretiens lettres de motivation et coaching</title>
-       <meta name="description" content="Offre de préparation aux entretiens de motivation Insa UTC Advance Avenir emlyon Hec Edhec
-Essec Escp acces sesame vatel lyfe écriture des lettres de motivation"></meta>
+       <meta name="description" content="Une offre sur-mesure pour répondre avec des mots précis, personnels et convaincants aux questions décisives du jury dans tous vos entretiens de motivation"></meta>
        <link rel="canonical" href="https://www.winentretien.com/offre" />
 
       </Helmet>

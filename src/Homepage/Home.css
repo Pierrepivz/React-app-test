@@ -165,12 +165,12 @@ hcontent h2, hcontent blue{
     
     .Home .underline2{
         
-        position: absolute;
-        top: 35vh;
+        
+        margin-top: -30px;
         width: 350px;
         height: 15px;
-        margin-bottom: -30px;
-        z-index: 99;
+        
+       
 
         
     }
