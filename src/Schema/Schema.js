@@ -60,10 +60,11 @@ function Schema() {
       
       <div class='row'>
       
-
+<h3>
       <h2title>
+        
       Prise de rendez-vous
-      </h2title>
+      </h2title></h3>
       <i class="fa-solid fa-calendar" id="icon"></i>
 
       </div>
@@ -89,8 +90,9 @@ C’est <blue>sans engagement</blue> de part et d’autre et <blue>entièrement 
 
               <div class='column'>
 <div class="row">
-<h2title>
-Description de votre projet</h2title>
+<h3><h2title>
+  
+Description de votre projet</h2title></h3>
 <i class="fa-solid fa-comment-dots" id="icon"></i>
 
 </div>
@@ -142,10 +144,11 @@ connaissance </blue><h2title> ☕️</h2title></content>
       
       <div class='column'>
       <div class="row">
-      <h2title>
+      <h3><h2title>
+        
       Proposition d’une offre
       
-      </h2title>
+      </h2title></h3>
       <i class="fa-solid fa-file" id="icon"></i>
       </div>
       <div class='underline2'></div>
@@ -168,7 +171,7 @@ objectif par séance, et selon un calendrier conforme à vos contraintes.</conte
                 
 
                 <div class="row">
-                <h1title>En route vers la réussite !</h1title>
+                <h3><h1title>En route vers la réussite !</h1title></h3>
                 <i class="fa-solid fa-check-to-slot" id="icon"></i></div>
                 <div class="underline2"></div>
 

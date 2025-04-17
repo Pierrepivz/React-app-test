@@ -17,7 +17,7 @@ export default function Home2(){
   <h2title>Entretiens étudiants:</h2title>
 <br/>
 <content1>
-<blue><h3>Intégrez l'école de votre choix</h3></blue> préparez les oraux de tous les entretiens de motivation des concours postbac et au-delà <br/><br/>
+<blue>Intégrez l'école de votre choix </blue><br/> préparez les oraux de tous les entretiens de motivation des concours postbac et au-delà <br/><br/>
 
 
 </content1><br/><br/>
@@ -34,7 +34,7 @@ export default function Home2(){
   <h2title>Coaching étudiants :</h2title>
 <br/>
 <content1>
-<blue><h3>Soyez convaincants à l'écrit</h3></blue>
+<blue>Soyez convaincants à l'écrit</blue><br/>
 Rédigeons ensemble vos lettres de motivation et projets de formation motivés
 </content1><br/><br/>
 
@@ -50,7 +50,7 @@ Rédigeons ensemble vos lettres de motivation et projets de formation motivés
   <h2title>Entretiens professionnels :</h2title>
 <br/>
 <content1>
-<blue><h3>Analysez les enjeux</h3></blue>
+<blue>Analysez les enjeux</blue><br/>
 Sachez adapter votre discours aux différents interlocuteurs en charge de vos entretiens
 
 </content1><br/><br/>

@@ -74,9 +74,11 @@ function Contact(){
                               <h1>Contact</h1>
                               
                               <h2under2></h2under2>
-                              <content class="note"> Vous souhaitez avoir des informations sur mon offre ou me poser une question  ?
+                              <content class="note"> 
+                              <blue>Je vous réponds sous 24h.</blue><br/>
+                              Vous souhaitez avoir des informations sur mon offre ou me poser une question  ?<br/>
 
-N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous réponds sous 24h.</strong>
+N’hésitez pas, et complétez le formulaire de contact. <br/>
 
 </content>
 
@@ -97,7 +99,7 @@ N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous r
 
 
 <div class="column_start">
-             <h2title>Me contacter</h2title> 
+<h2><h2title>Me contacter</h2title> </h2>
              
                   <h2under2></h2under2></div>
         
@@ -178,7 +180,7 @@ N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous r
 
              
 
-             <h2title>Mes coordonnées</h2title> 
+             <h2><h2title>Mes coordonnées</h2title></h2> 
              
                   <h2under2></h2under2>
                   
@@ -193,7 +195,7 @@ N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous r
             
             <br/>
 
-            <h2title>Où me trouver ?</h2title> 
+            <h2><h2title>Où me trouver ?</h2title></h2> 
              
              <h2under2></h2under2>
     <div id="mapmessage">
@@ -203,24 +205,21 @@ N’hésitez pas, et complétez le formulaire de contact. <br/><strong>Je vous r
 bureaux <blue>REGUS</blue>, <br/>ou à 15mn de
 l’Etoile, dans les Yvelines.<br/><br/>
 
-Les séances peuvent également avoir
-lieu <blue>en distanciel.</blue><br/>
-Pour un coaching, une 1ère séance en
-présentiel est recommandée. 
+Les séances ont lieu en distanciel ou en présentiel. 
 </content> </div>
 
 <br/>
 
-<h2title>Mes prix</h2title> 
+<h2><h2title>Mes prix</h2title> </h2>
              
                   <h2under2></h2under2>
 
 <div class="contact_info">
   <content>
-<blue>Tarif horaire : </blue> 100 € TTC <br/><br/>
-<blue>Forfait 4 heures :</blue> 350 € TTC<br/><br/>
+<blue>Tarif horaire : </blue> 95 € <br/><br/>
+<blue>Forfait 4 heures :</blue> 350 € <br/><br/>
 
-Conditions préférentielles selon situation</content>
+</content>
              </div>
 
        

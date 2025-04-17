@@ -97,9 +97,7 @@ function HomeBlog() {
 <h1>Le Blog</h1>
 <h2under2></h2under2>
 
-<content class="note">Informations pratiques sur les
-concours, présentation de concepts de coaching, ou mon point de vue sur des
-sujets du moment : <br/><strong>c’est par ici</strong></content>
+<content class="note">Notre actualité sur les <blue>concours d'entrée aux grandes écoles</blue>, les questions posées en entretiens, nos conseils et <blue>astuces pour réussir. </blue><br/></content>
     
 
                               
@@ -129,7 +127,7 @@ sujets du moment : <br/><strong>c’est par ici</strong></content>
 <div class="column">
   <div class="row">
 
-                        <h1title class="mobile_off">Parcourir</h1title>
+                        <h2><h1title class="mobile_off">Parcourir</h1title></h2>
                         
                         <i class="fa-solid fa-book fa-2xl" id="icon"></i>
                         </div>

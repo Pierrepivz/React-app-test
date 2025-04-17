@@ -28,12 +28,12 @@ function MethodePage(){
 
 <div id="titre_second"class='column_items_center'>
                               
-                              <h1>La méthode</h1>
+                              <h1>Méthode de préparation aux entretiens de motivation</h1>
                               <h2under2></h2under2>
                               
 
-                  <div class="note"><content>Basée sur des <blue>valeurs personnelles</blue> et des <blue>outils de communication et de coaching</blue> issus de mon expérience,<br/>
-elle est toujours adaptée à la personnalité et à la demande de chacun. </content><br />
+                  <div class="note"><content> <blue>Mettre des mots sur ce qui vous définit, vous donner confiance en vos possibilités</blue><br/>
+                  C'est en partant de ce qui fait l'unicité de votre candidature que vous pourrez le mieux convaincre votre interlocuteur </content><br />
 </div>
                               
                               
@@ -81,12 +81,11 @@ elle est toujours adaptée à la personnalité et à la demande de chacun. </con
       
       <div id='box_content' >
       <content1>
-      Créée à partir de ‘bien’ et ‘veuillant’, du verbe vouloir, la
-bienveillance désigne pour moi une intention de recherche du bien d’autrui. 
-<br/><blue>
-Cette attitude prend son origine dans une disposition du
-cœur, qui vise à favoriser le bien-être de l’autre – dans
-l’accomplissement d’un objectif.</blue></content1>
+      La bienveillance désigne pour moi une intention de compréhension et d’indulgence vers autrui.
+Cette attitude vise à favoriser le bien-être de <blue>l’autre.</blue>
+Dans un contexte professionnel, elle se traduit par une <blue>attitude d’écoute et de soutien.</blue>
+<br/>
+</content1>
       </div>
 
 
@@ -123,15 +122,11 @@ l’accomplissement d’un objectif.</blue></content1>
       
       <div id='box_content' >
       <content1>
-      La bienveillance nécessite de suspendre son jugement.
-
-L’équanimité, c’est cette capacité à entendre sans évaluer.
-Elle consiste à ne pas émettre de jugement personnel, même
-intérieur, sur ce que l’autre exprime comme croyances,
-préférences ou attitudes.
-<br/><blue>
-Seule l’utilité de ses croyances et pensées pourra faire
-l’objet d’un questionnement.</blue></content1>
+      L’équanimité, c’est la capacité à entendre l’autre sans porter de jugement ni faire d’évaluation.
+Elle consiste à ne pas émettre de jugement personnel sur les croyances et modes de fonctionnement
+de son interlocuteur afin de mieux pouvoir <blue>l’orienter et le conseiller.</blue>
+<br/>
+</content1>
 
 
 
@@ -174,12 +169,11 @@ Plaisir
 
 <div id='box_content'>
 <content1>
-Les pauses, les sourires et les moments de légèreté pendant
-nos entretiens sont des instants de partage et d’ancrage
-bénéfiques à chacun, coach et client.
-<br/><blue>
-Ils permettent le lâcher-prise, et favorisent l’irruption de
-pensées innovantes parce que non contrôlées.</blue></content1>
+Les pauses et les moments de légèreté pendant nos entretiens sont des instants de partage et
+d’ancrage bénéfiques à chacun, coach et client.<br/>
+Ils permettent le <blue>lâcher-prise</blue> et favorisent l’irruption d’idées souvent <blue>innovantes</blue> parce que non
+contrôlées.
+</content1>
 
 
 
