@@ -19,6 +19,13 @@
     
     
 }
+.methode_step{
+    font-family: "montserrat alternates";
+    font-size:15px;
+    margin-left:5vw;
+    font-weight:500;
+    margin-bottom:0px;
+}
 #method_background{
     background: white;
     padding: 1%;

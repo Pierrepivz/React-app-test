@@ -44,28 +44,28 @@ function Coach(){
                   
 
                   <div class="column_start" id="coach_message1">
-                  <h2title>La Coach : Carole Pivin</h2title>
+                  <h2><h2title>La Coach : Carole Pivin</h2title></h2>
                   <div class="underline2"></div>
 
                   
 
                   <div class="content_blue">
                   <content>
-                  <strong>Quelques mots pour parler de mon envie de vous accompagner.</strong><br/><br/>
+                  <strong>Mon activité de coach en préparation aux entretiens de motivation est née de mon expérience
+de consultante et d’enseignante en universités.</strong><br/><br/>
 
-                  Dans les trois professions que j'exerce depuis plus de 25
-ans : <blue>la formation, le conseil et le coaching,</blue> il y a un
-élément de convergence : <strong>la relation à l’autre.</strong><br/>
-Une rencontre, avec une classe, un groupe de
-professionnels ou une personne singulière, est toujours
-unique.<br/><br/>
-Dans l’expression d’une demande, dans la formulation
-des réponses aux questions posées, c’est à chaque fois
-l’unicité d’un vécu personnel qui surgit.<br/><br/>
-De ce fait, chaque accompagnement est unique
-également, mais guidé par quelques constantes, comme la recherche de la précision dans les termes de nos échanges, 
-ou la projection plutôt que l’introspection.<br/>
-Avec un impératif : <strong><blue>le respect de votre zone de confort.</blue></strong>
+                   
+J’ai constaté la difficulté de la plupart des lycéens et jeunes étudiants à parler d’eux-mêmes, à mettre
+des mots sur leur parcours et les raisons de leur orientation.
+Pour certains même, leur difficulté à choisir une orientation et à aborder sereinement l’entrée dans
+les études supérieures.<br/>
+Ma formation de coach professionnelle, et mon expérience sur l’accompagnement de mes clients,
+m’ont donné des outils qui sont à l’origine d’une méthode qui a de multiples applications : validation
+d’une orientation, rédaction d’un argumentaire pour une lettre ou un oral de motivation, coaching
+professionnel.<br/><br/>
+Chaque accompagnement est unique mais guidé par quelques constantes, comme l’écoute, la
+recherche de vos qualités et compétences, et le désir de vous faire réussir.<br/>
+Avec un impératif : <strong>le respect de votre zone de confort.</strong> 
 
 
   <i class="fa-solid fa-angle-right 2xl" id="icon"></i></content>
@@ -86,17 +86,9 @@ Avec un impératif : <strong><blue>le respect de votre zone de confort.</blue></
                         
                         
 
-                        <div class="content_blue mobile_off">
-                  <content>
+                        <div class="mobile_off">
                   
-
-
-
-Mes outils de prédilection : <strong> l'écoute et la reformulation.</strong><br/><br/>
-
-<strong>Pour le reste :</strong> faisons confiance aux possibilités du moment
-présent.<br/><br/><br/>  </content>
-
+<br/><br/>
 <Link to='./Methode_Page' onClick={() => window.scrollTo(0,10)}><button id="bouton"><content>Ma méthode</content></button></Link>
 
 
@@ -118,7 +110,7 @@ présent.<br/><br/><br/>  </content>
 
 
 <div class="column">
-<div class="row"><h1title>Mon parcours</h1title><i id="icon" class="fa-solid fa-book-open"></i></div>
+<div class="row"><h2><h1title>Mon parcours</h1title></h2><i id="icon" class="fa-solid fa-book-open"></i></div>
 <h2under2></h2under2>
 <img src={carole_pied} id="coach_photo" alt=""/>
 
@@ -568,40 +560,33 @@ interventions.<br/><br/>
 
                   <div class="column_start" id="coach_message1">
 
-                  <h2title>Au sujet de winentretien</h2title>
+                  <h2><h2title>Au sujet de winentretien</h2title></h2>
                   <div class="underline2"></div>
 
                   
 
                   <div class="content_blue">
                   <content>
-                  <blue>win</blue><strong>entretien</strong> a été créée en 2007 par Cécile Mellac, sur la base d’un
-constat simple : de bons candidats échouent aux concours d'entrée aux
-grandes écoles parce qu'ils ont une note éliminatoire à leurs entretiens
-de motivation. Le système éducatif français ne prépare pas les
-étudiants à réussir les épreuves orales des concours aux grandes
-écoles.<br/><br/>
+                  winentretien a été créée en 2007 par Cécile Mellac, sur la base du constat que de bons candidats
+échouent aux concours d'entrée aux grandes écoles parce qu'ils ont une note éliminatoire à leurs
+entretiens de motivation.<br/><br/>
+<strong>Acquérir une aisance à l’oral, savoir pitcher, décrypter les attentes d’un jury, seront à la base de la
+création de winentretien.</strong><br/><br/>
+Plus de 600 étudiants ont été préparés à réussir leur entretien de motivation afin d’intégrer de
+nombreuses Écoles et formations sélectives - Écoles de Commerce, Écoles d'Ingénieurs, Sciences Po,
+Écoles hôtelières, Mastères spécialisés.<br/>
 
-Acquérir une aisance à l’oral, savoir pitcher, décrypter les attentes d’un
-jury, seront à la base de la création de winentretien, avec un succès
-croissant au fil des ans. <strong>Plus de 600 étudiants</strong> ont été préparés à
-réussir leur entretien de motivation afin d’intégrer de
-nombreuses Écoles et formations sélectives - Écoles de
-Commerce, Écoles d'Ingénieurs, Sciences Po, Écoles hôtelières,
-Mastères spécialisés.<br/><br/>
+<h2><h2title>Aujourd'hui, qu’est-ce qui a changé ?</h2title></h2>
 
-<strong>Aujourd'hui, qu’est-ce qui a changé ?</strong><br/><br/>
-
-Les écoles, les universités, les recruteurs font aujourd'hui une place
-importante dans leur processus d'intégration au potentiel relationnel,
-émotionnel et créatif des candidats, et à leur aptitude à réussir dans ce
-qu'ils entreprennent. Charge à ceux-ci d'argumenter et de légitimer
-leurs réponses à des questions cherchant à discerner ce potentiel en
-eux, en proposant une candidature authentique, originale et attractive.
-Savoir communiquer sa singularité et sa valeur ajoutée de manière
-authentique, se positionner de façon juste, comprendre les attentes de
-son interlocuteur, sont encore plus nécessaires aujourd'hui dans des
-parcours professionnels très concurrentiels.<br/><br/>
+Les écoles, les universités, les recruteurs affectent un rôle essentiel dans leur processus d'intégration
+au potentiel relationnel et créatif des candidats, et à leur aptitude à réussir dans ce qu'ils
+entreprennent.<br/><br/>
+Charge à ceux-ci d'argumenter et de légitimer leurs réponses à des questions cherchant à discerner
+ce potentiel en eux, en proposant une candidature authentique, originale et attractive.<br/><br/>
+Savoir communiquer sa singularité et sa valeur ajoutée de manière authentique, se positionner de
+façon juste, comprendre les attentes de son interlocuteur, sont encore plus nécessaires aujourd'hui
+dans des parcours professionnels très concurrentiels.<br/>
+Vous aider à acquérir ces compétences reste le cœur de métier de winentretien
 
 </content>
 
@@ -621,20 +606,8 @@ parcours professionnels très concurrentiels.<br/><br/>
                         
                         
 
-                        <div class="content_blue">
-                  <content>
-                  
-
-
-
-Savoir communiquer sa singularité et sa valeur ajoutée de manière
-authentique, se positionner de façon juste, comprendre les attentes de
-son interlocuteur, sont encore plus nécessaires aujourd'hui dans des
-parcours professionnels très concurrentiels.<br/><br/>
-
-Vous aider à acquérir ces compétences reste le <strong>cœur de métier </strong>
-de <blue>win</blue><strong>entretien</strong>.<br/><br/><br/>  </content>
-
+                        <div class="column_items_center">
+                  <br/><br/><br/>
 <Link to='./offre' onClick={() => window.scrollTo(0,10)}><button id="bouton"><content>Mon offre</content></button></Link>
 
 

@@ -1,6 +1,8 @@
 import "./Methode.css";
 import { Link } from "react-router-dom";
 import stats from "../images/entretienpourmethode.jpg";
+import methode_etape2 from "../images/Image_methode_étape2.jpg";
+import methode_etape1 from "../images/image_methode_étape1.jpg";
 import coaching1 from "../images/coaching1.JPG";
 import coaching2 from "../images/coaching2.jpg";
 import {Helmet} from "react-helmet";
@@ -39,12 +41,9 @@ function MethodePage(){
                               
                         </div>
 
-                        <div class="section block">
-                        <div class="margin_left">
-                        <h1title>Mes Valeurs</h1title>
-                        <div id="underline"></div>
-                        </div>
-                  </div>
+                        <div class="methode_step column">
+         <h3>Mes valeurs</h3>
+         <h2under2></h2under2> </div> 
 
 <div class="line_between window valeur">
 
@@ -192,12 +191,19 @@ contrôlées.
 </div>
 
 
-<div class="section block">
-                        <div class="margin_left">
-                        <h1title>La préparation aux entretiens</h1title>
-                        <div id="underline"></div>
+
+                        <div class="column_items_center">
+                        <h2><h2title>Ma méthode de préparation aux entretiens en 5 étapes</h2title></h2>
+                        <h2under2></h2under2>
+                        <div class="note column_items_center">
+                        <content1>La méthode qui suit est celle utilisée pour la préparation aux entretiens de motivation : concours
+d’entrée dans les grandes écoles, entretien de stage, entretien d’embauche.</content1>
                         </div>
-                  </div>
+                        </div>
+                        
+   <div class="methode_step column">
+         <h3>Étape 1 : parler de votre projet</h3>
+         <h2under2></h2under2> </div>            
 
 
 <div class="flex block window methode_part2">
@@ -205,43 +211,204 @@ contrôlées.
 
 <content1><strong>C’est grâce aux <blue>600 personnes accompagnées depuis 2007</blue> que la méthode <blue>win</blue>entretien a été mise au point.</strong><br/><br/>
 
-Vous arrivez avec un objectif précis : rédiger une lettre de
-motivation convaincante (Parcoursup), convaincre une
-structure (école, entreprise) de vous prendre <strong>vous.</strong><br/><br/>
-
-Notre méthode : raconter de manière attractive votre motivation et votre projet, qui sont uniques parce que
-personnels. Nous allons mettre des mots personnels et précis sur les réponses aux questions qui vous seront posées.<br/><br/>
-
-Le cas échéant, nous vous proposons un entraînement au passage de l’entretien, en
-évaluant des points d’attention tels que : posture,
-élocution, pertinence des réponses..<br/>
-
-Au cours de ces séances, nous appliquons une règle essentielle : <br/><br/><strong><orange><h3title>respecter votre zone de confort.</h3title></orange></strong></content1>
+Vous arrivez avec un <strong>objectif précis</strong> :<br/>
+● rédiger une lettre de motivation convaincante (Parcoursup),<br/>
+● réussir un entretien de motivation<br/>
+● réussir un entretien d’embauche<br/><br/>
+Pendant une séance gratuite de 30 minutes, je vous interroge sur votre motivation à atteindre cet
+objectif et l’aide que vous recherchez.</content1>
 
 
       
 </div>
 <div class="column">
-<img class="image_methode_2" src={stats} alt=""/>
+<img class="image_methode_2" src={methode_etape1} alt=""/>
 <br/>
-<Link to='/rendez-vous' onClick={() => window.scrollTo(0,10)}>
-                                    <button id='bouton' class="mobile_off">Prendre rendez-vous</button>
-                                    </Link></div>
+</div>
 
-  </div>  
+  </div> 
 
 
-
-  
-<div class="section block">
-                        <div class="margin_left">
-                        <h1title>Les services de coaching</h1title>
-                        <div id="underline"></div>
-                        </div>
-                  </div>
+  <div class="methode_step column">
+         <h3>Étape 2 : répondre à 15 questions</h3>
+         <h2under2></h2under2> </div>            
 
 
 <div class="flex block window methode_part2">
+<div class="methode_text">
+
+<content1>
+
+<strong>Nous avons décidé de travailler ensemble sur votre objectif : c’est votre projet.</strong><br/><br/>
+Un questionnaire winentretien vous est envoyé comportant 15 questions structurantes pour la suite.
+Les questions portent sur votre environnement, vos valeurs, les clés de votre motivation, et vos
+atouts pour réussir.<br/><br/>
+Une fois ce questionnaire retourné, nous pouvons programmer une première séance de travail, en
+présentiel ou en distanciel, à votre convenance.</content1>
+
+
+      
+</div>
+<div class="column">
+<img class="image_methode_2" src={methode_etape2} alt=""/>
+<br/>
+</div>
+
+  </div> 
+
+
+
+
+
+  <div class="methode_step column">
+         <h3>Étape 3 : améliorer vos réponses</h3>
+         <h2under2></h2under2> </div>  
+  
+
+
+
+
+
+
+  <div class="flex block window methode_part2">
+
+<div class="column">
+<img class="image_methode_2" src={stats} id="image_coaching_2" alt=""/>
+<br/>
+</div>
+
+
+
+<div class="column_items_center">
+
+
+<div class="methode_text">
+
+
+<content1>
+      <strong>Nous identifions les preuves de vos réponses et nous mettons des mots précis sur les éléments de
+votre parcours.</strong><br/><br/>
+Pendant la séance, je vais vous demander de compléter vos réponses avec des éléments précis,
+concrets, et personnels sur les : compétences, expériences ou qualités qui sont les vôtres.
+Nous allons nous placer ensemble du point de vue de votre futur interlocuteur, qu’il soit membre
+d’un jury pour un entretien oral, ou lecteur de votre lettre de motivation.<br/><br/>
+Nous allons choisir les mots pour le convaincre en passant en revue les questions susceptibles de
+vous être posées en entretien et en y apportant vos réponses, précises et concrètes.
+
+</content1>
+
+
+      
+</div>
+<Link to='/rendez-vous' onClick={() => window.scrollTo(0,10)}>
+                                    <button id='bouton'>Prendre rendez-vous</button>
+                                    </Link></div>
+
+
+  </div>  
+
+  
+
+  <div class="methode_step column">
+         <h3>Étape 4 : rédiger un document de synthèse de vos réponses</h3>
+         <h2under2></h2under2> </div> 
+
+
+  <div class="flex block window methode_part2">
+
+
+
+
+
+<div class="column_items_center">
+
+
+<div class="methode_text">
+
+
+<content1>
+<strong>Enrichir et documenter le résultat de nos entretiens.</strong><br/><br/>
+Après quelques séances – entre 2 et 4 en général – vous avez un document qui reprend l’ensemble
+des questions passées en revue et vos réponses, personnelles et inspirées de vos expériences
+personnelles et professionnelles.<br/><br/>
+Nous y ajoutons le texte de votre pitch, car c’est souvent ce qui vous sera demandé en ouverture
+d’entretien : « présentez vous en une ou deux minutes ».
+La sélection des questions que nous abordons ensemble est issue de l’expérience de winentretien.
+Une fois que nous avons fait le tour de toutes les questions susceptibles de vous être posées, il ne
+vous reste plus qu’à vous entraîner.
+
+</content1>
+
+
+      
+</div>
+</div>
+
+
+  </div> 
+
+
+  <div class="methode_step column">
+         <h3>Etape 5 : s’entraîner à l’oral</h3>
+         <h2under2></h2under2> </div> 
+
+
+  <div class="flex block window methode_part2">
+
+
+
+
+
+<div class="column_items_center">
+
+
+<div class="methode_text">
+
+
+<content1>
+<strong>S’approprier vos réponses pour gagner en confiance le jour J</strong><br/><br/>
+
+C’est par la simulation de l’entretien que vous vous appropriez vos réponses, et aussi, que vous
+réduisez le niveau de stress qui peut toucher certains candidats.
+Vous prenez confiance en vous, en votre capacité à convaincre, et c’est ce sentiment de contrôle sur
+ce que vous avez à dire qui va vous permettre d’avoir de l’assurance, ce qui sera perceptible par vos
+interlocuteurs et contribuera en retour à emporter leur adhésion.
+
+</content1>
+
+
+      
+</div>
+<Link to='/rendez-vous' onClick={() => window.scrollTo(0,10)}>
+                                    <button id='bouton'>Prendre rendez-vous</button>
+                                    </Link></div>
+
+
+  </div>  
+  
+       
+  <br/><br/>
+  
+
+
+
+
+
+    
+
+    
+    </div>
+
+
+
+  );
+    
+  }
+  
+  export default MethodePage;
+
+
+  /***<div class="flex block window methode_part2">
 <div class="methode_text">
 
 <content1>Pour les <strong>services de coaching</strong>, l’objectif qui est le vôtre part souvent d’un constat négatif : stress, difficultés
@@ -264,53 +431,4 @@ apparente, elle permet au pouvoir des mots de faire son œuvre.
 <br/>
 </div>
 
-  </div> 
-
-
-  <div class="flex block window methode_part2">
-
-<div class="column">
-<img class="image_methode_2" src={coaching1} id="image_coaching_2" alt=""/>
-<br/>
-</div>
-
-
-<div class="column_items_center">
-<div class="methode_text">
-
-
-<content1>
-A chaque séance je <blue>pars de votre demande et je me laisse
-guider par votre réceptivité</blue> pour vous proposer : des techniques de pleine conscience, des exercices de CNV, une projection avec narration positive, ou
-même des jeux.<br/><br/>
-
-Au cours de ces séances, j’applique avec vigilance une règle essentielle : <br/><br/><strong><orange><h3title>respecter votre zone de confort.</h3title></orange></strong></content1>
-
-
-      
-</div>
-<Link to='/rendez-vous' onClick={() => window.scrollTo(0,10)}>
-                                    <button id='bouton'>Prendre rendez-vous</button>
-                                    </Link></div>
-
-
-  </div>       
-  <br/><br/>
-  
-
-
-
-
-
-    
-
-    
-    </div>
-
-
-
-  );
-    
-  }
-  
-  export default MethodePage;
+  </div>  */
