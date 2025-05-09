@@ -91,6 +91,12 @@
   }
 
 @media screen and (max-width:640px) and (min-width:200px){
+    #confirm{
+        background: none;
+        box-shadow:none;
+        font-size:18px;
+        margin-bottom: 0px;
+    }
     #mobile_rdv{
         display: flex;
         align-items: center;
@@ -104,6 +110,16 @@
     #mobile_coord{
         background: none;
         align-items: flex-start;
+        border-style: none;
+        
+    }
+    #mobile_coord content{
+        font-size:12px;
+    }
+    #mobile_coord input{
+        width:70vw;
+        height:30px;
+        font-size:15px;
     }
     #confirm{
         margin-left: 0%;

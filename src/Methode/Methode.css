@@ -71,7 +71,19 @@
 
 @media screen and (max-width:640px) and (min-width:200px){
   
-
+h2title{
+    font-size:18px;
+    padding:10px;
+    
+    
+}
+#titre_second h1{
+    font-size:18px;
+}
+h2{
+    max-width:90vw;
+    text-align:center;
+}
  .valeur{
      flex-flow: column;
      align-items: center;
@@ -87,12 +99,29 @@
  .image_methode_2{
      display: none;
  }
+ #box_content{
+     padding-right:10px;
+ }
   #box_content content1{
       font-size: 0.7em;
   }
   .methode_text content1{
 
     font-size: 0.7em;
+  }
+  .methode_text{
+      width:60vw;
+      margin-left:0vw;
+  }
+  .methode_step h3{
+      font-size: 16px;
+
+  }
+  .methode_part2{
+     
+  }
+  .mobile_off{
+      display:none;
   }
 
 }

@@ -81,7 +81,7 @@ function MethodePage(){
       <div id='box_content' >
       <content1>
       La bienveillance désigne pour moi une intention de compréhension et d’indulgence vers autrui.
-Cette attitude vise à favoriser le bien-être de <blue>l’autre.</blue>
+Cette attitude vise à favoriser le bien-être de <blue>l’autre.</blue><br/><br/>
 Dans un contexte professionnel, elle se traduit par une <blue>attitude d’écoute et de soutien.</blue>
 <br/>
 </content1>
@@ -203,7 +203,7 @@ d’entrée dans les grandes écoles, entretien de stage, entretien d’embauche
                         
    <div class="methode_step column">
          <h3>Étape 1 : parler de votre projet</h3>
-         <h2under2></h2under2> </div>            
+         <h2under></h2under> </div>            
 
 
 <div class="flex block window methode_part2">
@@ -221,7 +221,7 @@ objectif et l’aide que vous recherchez.</content1>
 
       
 </div>
-<div class="column">
+<div class="column mobile_off">
 <img class="image_methode_2" src={methode_etape1} alt=""/>
 <br/>
 </div>
@@ -231,7 +231,7 @@ objectif et l’aide que vous recherchez.</content1>
 
   <div class="methode_step column">
          <h3>Étape 2 : répondre à 15 questions</h3>
-         <h2under2></h2under2> </div>            
+         <h2under></h2under> </div>            
 
 
 <div class="flex block window methode_part2">
@@ -241,15 +241,15 @@ objectif et l’aide que vous recherchez.</content1>
 
 <strong>Nous avons décidé de travailler ensemble sur votre objectif : c’est votre projet.</strong><br/><br/>
 Un questionnaire winentretien vous est envoyé comportant 15 questions structurantes pour la suite.
-Les questions portent sur votre environnement, vos valeurs, les clés de votre motivation, et vos
-atouts pour réussir.<br/><br/>
+Les questions portent sur votre environnement, vos <blue>valeurs,</blue> les clés de votre <blue>motivation</blue>, et vos
+atouts pour <blue>réussir.</blue><br/><br/>
 Une fois ce questionnaire retourné, nous pouvons programmer une première séance de travail, en
 présentiel ou en distanciel, à votre convenance.</content1>
 
 
       
 </div>
-<div class="column">
+<div class="column mobile_off">
 <img class="image_methode_2" src={methode_etape2} alt=""/>
 <br/>
 </div>
@@ -262,7 +262,7 @@ présentiel ou en distanciel, à votre convenance.</content1>
 
   <div class="methode_step column">
          <h3>Étape 3 : améliorer vos réponses</h3>
-         <h2under2></h2under2> </div>  
+         <h2under></h2under> </div>  
   
 
 
@@ -272,7 +272,7 @@ présentiel ou en distanciel, à votre convenance.</content1>
 
   <div class="flex block window methode_part2">
 
-<div class="column">
+<div class="column mobile_off">
 <img class="image_methode_2" src={stats} id="image_coaching_2" alt=""/>
 <br/>
 </div>
@@ -289,7 +289,7 @@ présentiel ou en distanciel, à votre convenance.</content1>
       <strong>Nous identifions les preuves de vos réponses et nous mettons des mots précis sur les éléments de
 votre parcours.</strong><br/><br/>
 Pendant la séance, je vais vous demander de compléter vos réponses avec des éléments précis,
-concrets, et personnels sur les : compétences, expériences ou qualités qui sont les vôtres.
+concrets, et personnels sur les :<br/><br/> <blue>compétences, expériences ou qualités</blue> qui sont les vôtres.
 Nous allons nous placer ensemble du point de vue de votre futur interlocuteur, qu’il soit membre
 d’un jury pour un entretien oral, ou lecteur de votre lettre de motivation.<br/><br/>
 Nous allons choisir les mots pour le convaincre en passant en revue les questions susceptibles de
@@ -311,7 +311,7 @@ vous être posées en entretien et en y apportant vos réponses, précises et co
 
   <div class="methode_step column">
          <h3>Étape 4 : rédiger un document de synthèse de vos réponses</h3>
-         <h2under2></h2under2> </div> 
+         <h2under></h2under> </div> 
 
 
   <div class="flex block window methode_part2">
@@ -332,8 +332,8 @@ Après quelques séances – entre 2 et 4 en général – vous avez un document
 des questions passées en revue et vos réponses, personnelles et inspirées de vos expériences
 personnelles et professionnelles.<br/><br/>
 Nous y ajoutons le texte de votre pitch, car c’est souvent ce qui vous sera demandé en ouverture
-d’entretien : « présentez vous en une ou deux minutes ».
-La sélection des questions que nous abordons ensemble est issue de l’expérience de winentretien.
+d’entretien : « présentez vous en une ou deux minutes ».<br/><br/>
+La sélection des questions que nous abordons ensemble est issue de <blue>l’expérience de winentretien.</blue>
 Une fois que nous avons fait le tour de toutes les questions susceptibles de vous être posées, il ne
 vous reste plus qu’à vous entraîner.
 
@@ -350,7 +350,7 @@ vous reste plus qu’à vous entraîner.
 
   <div class="methode_step column">
          <h3>Etape 5 : s’entraîner à l’oral</h3>
-         <h2under2></h2under2> </div> 
+         <h2under></h2under> </div> 
 
 
   <div class="flex block window methode_part2">
@@ -369,7 +369,7 @@ vous reste plus qu’à vous entraîner.
 <strong>S’approprier vos réponses pour gagner en confiance le jour J</strong><br/><br/>
 
 C’est par la simulation de l’entretien que vous vous appropriez vos réponses, et aussi, que vous
-réduisez le niveau de stress qui peut toucher certains candidats.
+réduisez le niveau de stress qui peut toucher certains candidats.<br/><br/>
 Vous prenez confiance en vous, en votre capacité à convaincre, et c’est ce sentiment de contrôle sur
 ce que vous avez à dire qui va vous permettre d’avoir de l’assurance, ce qui sera perceptible par vos
 interlocuteurs et contribuera en retour à emporter leur adhésion.

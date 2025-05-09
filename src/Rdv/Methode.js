@@ -150,12 +150,7 @@ objectif par séance, et selon un calendrier conforme à vos contraintes.</conte
 
 
 
-                    <div class="section block">
-                        <div class="margin_left">
-                        <h2title>Votre Rdv <i class="fa-solid fa-comment" id="icon"></i></h2title>
-                        <div id="underline"></div>
-                        </div>
-                  </div>
+                    
 
 
 

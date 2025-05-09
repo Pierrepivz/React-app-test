@@ -55,17 +55,17 @@ function Coach(){
 de consultante et d’enseignante en universités.</strong><br/><br/>
 
                    
-J’ai constaté la difficulté de la plupart des lycéens et jeunes étudiants à parler d’eux-mêmes, à mettre
+J’ai constaté la difficulté de la plupart des lycéens et jeunes étudiants <blue>à parler d’eux-mêmes</blue>, à mettre
 des mots sur leur parcours et les raisons de leur orientation.
 Pour certains même, leur difficulté à choisir une orientation et à aborder sereinement l’entrée dans
-les études supérieures.<br/>
+les études supérieures.<br/><br/>
 Ma formation de coach professionnelle, et mon expérience sur l’accompagnement de mes clients,
-m’ont donné des outils qui sont à l’origine d’une méthode qui a de multiples applications : validation
-d’une orientation, rédaction d’un argumentaire pour une lettre ou un oral de motivation, coaching
-professionnel.<br/><br/>
+m’ont donné des outils qui sont à l’origine d’une méthode qui a de multiples applications :<br/><br/><strong> - validation
+d’une orientation,<br/><br/> - rédaction d’un argumentaire pour une lettre <br/>ou un oral de motivation,<br/><br/> - coaching
+professionnel.</strong><br/><br/>
 Chaque accompagnement est unique mais guidé par quelques constantes, comme l’écoute, la
 recherche de vos qualités et compétences, et le désir de vous faire réussir.<br/>
-Avec un impératif : <strong>le respect de votre zone de confort.</strong> 
+<blue>Avec un impératif : <strong>le respect de votre zone de confort.</strong> </blue>
 
 
   <i class="fa-solid fa-angle-right 2xl" id="icon"></i></content>
@@ -586,7 +586,7 @@ ce potentiel en eux, en proposant une candidature authentique, originale et attr
 Savoir communiquer sa singularité et sa valeur ajoutée de manière authentique, se positionner de
 façon juste, comprendre les attentes de son interlocuteur, sont encore plus nécessaires aujourd'hui
 dans des parcours professionnels très concurrentiels.<br/>
-Vous aider à acquérir ces compétences reste le cœur de métier de winentretien
+<blue>Vous aider à acquérir ces compétences reste le cœur de métier de winentretien</blue>
 
 </content>
 
