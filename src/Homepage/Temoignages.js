@@ -91,10 +91,16 @@ Cette expérience de coaching pousse au-delà même après les séances. Merci."
                   
 
                   
-                              
+  <br/><br/>           
+  <content1 class="contact_info mobile_only"> 
+            Carole PIVIN<br></br><br></br>
+            <blue><i class="fa-solid fa-phone" ></i></blue> 06. 51. 43. 26. 77<br></br><br></br>
+            <blue><i class="fa-solid fa-envelope" ></i></blue>  carole@winentretien.com
+            
+            
+            </content1>
 
-
-
+            <br/><br/>
 
                         
 

@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import stats from "../images/entretienpourmethode.jpg";
 import methode_etape2 from "../images/Image_methode_étape2.jpg";
 import methode_etape1 from "../images/image_methode_étape1.jpg";
+import methode_etape4 from "../images/image_methode_etape4.jpg";
+
 import coaching1 from "../images/coaching1.JPG";
 import coaching2 from "../images/coaching2.jpg";
 import {Helmet} from "react-helmet";
@@ -318,7 +320,7 @@ vous être posées en entretien et en y apportant vos réponses, précises et co
 
 
 
-
+  <img class="image_methode_2" src={methode_etape4} id="image_coaching_4" alt=""/>
 
 <div class="column_items_center">
 
@@ -348,12 +350,12 @@ vous reste plus qu’à vous entraîner.
   </div> 
 
 
-  <div class="methode_step column">
+  <div class="methode_step column" id="etape5">
          <h3>Etape 5 : s’entraîner à l’oral</h3>
          <h2under></h2under> </div> 
 
 
-  <div class="flex block window methode_part2">
+  <div class="flex block window methode_part2" id="etape5">
 
 
 

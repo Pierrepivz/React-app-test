@@ -50,9 +50,15 @@ body{
 
 
 
-  
+  .mobile_only{
+    display:none;
+  }
 
-  
+  @media screen and (max-width:650px){
+    .mobile_only{
+      display:block;
+    }
+  }
   
 
 
