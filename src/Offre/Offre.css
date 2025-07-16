@@ -1,3 +1,23 @@
+.offre_content{
+    margin-top:5vh;
+    background:linear-gradient(rgba(255, 255, 255, 0),white);
+    padding-top:5vh;
+    padding-bottom: 5vh;
+    line-height:22px;
+}
+.offre_h3_content{
+    margin-top:5vh;
+    background:linear-gradient(rgba(255, 255, 255, 0),white);
+    padding-top:5vh;
+    padding-bottom: 5vh;
+    padding-left:10vw;
+    padding-right:10vw;
+    line-height:22px;
+
+}
+
+
+
 .offre_note_content{
 
     line-height: 18px;

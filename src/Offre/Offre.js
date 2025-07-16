@@ -40,156 +40,286 @@ function Offre() {
                               <h2under2></h2under2>
                               <div class="note column_items_center">
                               
-       
+      <content> Mon offre de service est destinée aux <blue>étudiants et professionnels.</blue><br/>
+       Concrètement mon expertise est de vous préparer à réussir tout vos entretiens de <blue>motivation</blue> et à améliorer votre <blue>communication professionnelle</blue>, dans toutes les étapes de votre parcours, à l'écrit comme à l'oral.<br/><br/>
+       <blue>Mes domaines d'expertise : <br/></blue>
+       <strong>Projets de formation motivé - Lettre de motivation - Concours d'entrée dans une grande école - Entretien de motivation - Entretien d'embauche - Aide à l'orientation - Gestion du stress </strong><br/><br/>
+
+       <blue>L'écoute, la reformulation, et une méthode constamment améliorée</blue> par 17 années d'expèrience dans la préparation aux entretiens de motivation et de coaching sont quelques uns des outils que je met à votre disposition.
+
                               
-                              <content> L'offre est destinée à tous les publics. Elle se présente sous la forme d'un accompagnement individuel, clé en main, selon vos objectifs personnels.
-Mes domaines de compétences : vous aider à <strong>"Convaincre à l'oral"</strong> et à <strong>"Etre bien dans votre poste"</strong>.<br/><br/>
-C'est sur l'un de ces deux objectifs que je vous propose de vous accompagner.
-Pendant l'accompagnement, <strong>vous apprenez de nouvelles compétences</strong>, que vous pourrez ensuite appliquer de manière autonome dans des situations similaires à celles que nous aurons abordées ensemble. 
-</content></div>
+                               </content></div>
                               
                         </div> 
 
                         <br/><br/>
 
-                        <div class="window column mobile_off">
-                        <div class="section_title">
-                        <i class="fa-solid fa-angle-right"></i>
-                        <h2title>Convaincre à l'oral</h2title>
-                        
-                        
-                  </div>
-                  <div class="section_background"></div>
-
-                  <div class="note_2"><content> Préparation aux épreuves orales des concours des grandes écoles, entretien de motivation ou d’embauche,
-pitch, prise de parole devant 100 personnes : apprenez à <strong>communiquer pour convaincre </strong></content></div>
-
-                  </div>
-
-                  <div class="section block mobile_off">
-                        <div class="margin_left">
-                        <h2title>Convaincre à l'oral</h2title>
-                        <div id="underline"></div>
-                        </div>
-                  </div>
-                  
+                        <div class="Home2_offres window">
 
 
-                        <div class="window column_start">
-                        
-                        
-                        
-                        
+            
 
-                        
-
-                       
-                              
-                              
-
-                        <div class='column_items_center block'>
-                        
-                                                    
-
-  <div class="offre_content line_between" id="offre_content_telephone">
-
-  <div class='home_offre column_items_center'>
-
-                              
-<div class="photo"><img src={offre2} alt=""/></div>
-      
-      
-      
-</div>
-
-<div class="column_items_center">
-
-<div class="offre_text column_start">
-  <h2title>Concours d’entrée aux grandes écoles :</h2title>
-<h2under2></h2under2>
+<div class="block">
+  <h2title>Coaching étudiants :</h2title>
+<br/>
 <content1>
-En <strong>2 à 4 séances individuelles,</strong> nous allons passer en revue
-le déroulement de l’entretien avec le jury de l’école de
-votre choix.<br/><br/>
-
-Nous allons préparer vos réponses, identifier vos points
-forts, mais aussi, simuler l’entretien pour <blue>vous mettre en
-confiance et vous préparer à réussir.</blue>
+<blue>Confiance et efficacité</blue><br/>
+S'appuyer sur l'expérience d'un coach pendant les années de collège, lycée, et dans toutes les étapes de parcoursup.
 </content1>
 
-<Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-                <button id='bouton' >Prendre rendez-vous</button>
+<Link to="/LP?id=39" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Découvrir</button>
                 
                 
                 </Link>
 
 </div>
-                </div>
 
-    
-    </div> 
-
-    <div class="offre_content line_between" id="offre_content_telephone">
-
-    <div class="offre_text column_start">
-  <h2title>Dossier parcoursup :</h2title>
-<h2under2></h2under2>
+<div class="block">
+  <h2title>Entretiens étudiants :</h2title>
+<br/>
 <content1>
-Il n’est pas toujours facile de mener en parallèle
-une année de Terminale et la réalisation de son
-dossier Parcoursup.<br/><br/>
-Compréhension des étapes, choix des vœux, aide à
-la rédaction de votre CV ou des lettres de
-motivation : <br/>nous pouvons vous aider sur <br/><strong>chacune
-de ses étapes.</strong>
+<blue>Intégrez l'école de votre choix </blue><br/> Préparez les oraux de tous les concours d'entrée aux grandes écoles postbac <br/><br/>
+
+
 </content1>
 
+<Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Découvrir</button>
+                
+                
+                </Link>
 
+</div>
+
+<div class="block">
+  <h2title>Entretiens professionnels :</h2title>
+<br/>
+<content1>
+<blue>Apprenez à convaincre</blue><br/>
+Comprenez les enjeux des entretiens d'embauche et apprenez à convaincre les recruteurs
+
+</content1>
+
+<Link to="/LP?id=50" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Découvrir</button>
+                
+                
+                </Link>
 
 </div>
 
 
-    <div class="offre_text column_start">
-  <h2title>Entretien d’embauche :</h2title>
-<h2under2></h2under2>
-<content1>
-Que ce soit pour un stage, un 1er job ou un changement de
-carrière, l’entretien de motivation est un exercice qui
-demande de la <strong>préparation et de l’entrainement.</strong><br/><br/>
-
-Mettons ensemble <blue><strong>des mots précis</strong> et convaincants</blue> sur votre
-parcours, votre projet professionnel et votre envie d’être
-sélectionné(e).
-</content1>
 
 
+            </div>
 
-</div>
+            <div class="column_items_center">
+              <br/><br/><br/>
+                        <h2><h2title><blue>Votre demande : atteindre un objectif précis</blue></h2title></h2>
+                        <h2under2></h2under2>
+                        
+                        </div>
 
-<div class="offre_text column_start">
-  <h2title>Prise de parole :</h2title>
-<h2under2></h2under2>
-<content1>
-Pour faire de votre prochaine prise de parole un moment
-réussi, voire agréable, il s’avère efficace de se concentrer
-sur le message que vous allez porter.<br/><br/>
+            <div class="offre_content">
 
-SI le contenu de votre
-communication est <blue>en résonance avec les attentes du
-public</blue>, il y a de fortes chances que tout se passe bien.
-Apprenez les règles de base qui permettent de <blue>favoriser
-<strong> l’adhésion de votre audience.</strong></blue>
-</content1>
-
-
-
-</div>
+              <content class="window">Vous êtes étudiant ou professionnel.
+Vous avez un projet qui se traduit par un <blue>objectif précis :</blue><br/><br/><br/>
+<strong>
+- vous projeter positivement dans la suite de vos études,<br/><br/>
+- valider un projet d’orientation,<br/><br/>
+- être accepté dans une école de l’enseignement supérieur,<br/><br/>
+- obtenir un premier emploi, un stage, ou un nouveau poste.</strong></content>
+            </div>
 
 
-</div>                        
-                            
-                            
-<div class="line_between" id="offre_content_telephone">
+          <div class="offre_h3_content column">
+          <div class="methode_step column window">
+         <h3>Coaching étudiant</h3>
+         <h2under></h2under> </div> 
+         <br/><br/>
+
+          <content>
+            Vous êtes <blue>collégien, lycéen ou étudiant.</blue><br/>
+Vous vous posez des questions sur la voie dans laquelle vous êtes engagé, ou sur vos choix
+d’orientation. <br/><br/>Ces interrogations ont un impact négatif sur votre <blue>motivation</blue> et sur votre capacité à
+vous engager avec <blue>confiance dans l’avenir.</blue><br/><br/>
+<strong>
+- Validation d’une orientation scolaire<br/><br/>
+- Organisation du travail<br/><br/>
+- Gestion du stress<br/><br/>
+- Démotivation</strong>
+<br/><br/>
+Dans toutes ces situations, l’écoute attentive d’un coach professionnel peut vous aider à y voir plus
+clair, et vous aider à explorer des pistes de <blue>résolution de votre problème,</blue> tout en vous laissant
+l’entière <blue>liberté de vos choix.</blue></content><br/><br/><br/><br/>
+<Link to="/LP?id=39" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Coaching étudiants</button>
+                
+                
+                </Link>
+          </div>
+
+
+
+          <div class="offre_h3_content column">
+          <div class="methode_step column window">
+         <h3>Entretiens étudiants</h3>
+         <h2under></h2under> </div> 
+         <br/><br/>
+
+          <content>
+          Vous êtes en Terminale (ou au-delà) et vous allez bientôt entrer dans la procédure <blue>Parcoursup</blue> (ou
+dans une procédure d’admission sur titre).
+Une fois votre choix d’écoles fait, vous devez passer <blue>plusieurs étapes avant d’être admissible :</blue><br/><br/>
+<strong>- rédiger un projet de formation motivé (ou une lettre de motivation),<br/><br/>
+- vous préparer pour les entretiens de motivation,<br/><br/>
+- le cas échéant, vous familiariser avec les épreuves « signature » de certaines écoles.</strong><br/><br/>
+Vous avez du mal à gérer en parallèle l’année en cours et votre projet d’études, et vous vous
+interrogez sur ce que vous allez dire pour convaincre les jurys des écoles de <blue>vous choisir, vous.</blue><br/>
+Rien de plus normal !<br/><br/>
+Savoir exprimer clairement sa motivation, et se connaître suffisamment pour parler de soi en
+entretien, ne sont pas des compétences que l’on acquiert au lycée.<br/>
+Il ne s’agit pas d’être à l’aise à l’oral – <italic>même si cela aide</italic> – mais bien de savoir choisir les <blue>mots pour
+convaincre.</blue><br/>
+Grâce à une méthodologie précise et améliorée en continu, vous êtes formé aux astuces de rédaction
+des lettres de motivation et bien préparé pour tous vos entretiens.
+
+            </content><br/><br/><br/><br/>
+<Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Entretiens étudiants</button>
+                
+                
+                </Link>
+          </div>
+
+
+          <div class="offre_h3_content column">
+          <div class="methode_step column window">
+         <h3>Entretiens professionnels</h3>
+         <h2under></h2under> </div> 
+         <br/><br/>
+
+          <content>
+          Vous voulez changer de poste.
+Vous devez faire le point sur votre situation, votre profil, et peaufiner votre projet professionnel.
+Pour cela vous devez passer par <blue>plusieurs étapes :</blue><br/><br/>
+<strong>- refaire votre CV,<br/><br/>
+- faire le bilan de vos compétences et de vos aspirations,<br/><br/>
+- cibler les offres d’emploi qui vous concernent,<br/><br/>
+- postuler et envoyer des lettres de motivation,<br/><br/>
+- vous entraîner avant de passer les entretiens.<br/><br/></strong>
+Vous n’avez pas postulé à des offres <blue>d’emploi depuis longtemps,</blue> votre CV n’est pas exactement à
+jour, et vous avez du mal à définir précisément vos compétences.<br/><br/>
+
+Vous bénéficiez de notre expérience dans <blue>l’écriture de CV, des lettres de motivation et la préparation
+aux entretiens,</blue> mais aussi du soutien et de l’ écoute d’un coach professionnel, ayant passé plus de 30
+ans en entreprise.<br/><br/>
+
+
+            </content><br/><br/><br/><br/>
+<Link to="/LP?id=50" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Entretiens professionnels</button>
+                
+                
+                </Link>
+          </div>
+
+
+          <div class="column_items_center">
+              <br/><br/><br/>
+                        <h2><h2title><blue>Pourquoi moi</blue></h2title></h2>
+                        <h2under2></h2under2>
+                        
+                        </div>
+
+            <div class="offre_content">
+
+              <content class="window">Pour mon expérience dans le <blue>conseil, l’enseignement, le coaching :</blue><br/><br/>
+L’expérience du conseil, de la conception de formations, puis ma formation et mon activité de coach
+professionnelle, m’ont donné des outils qui sont à l’origine d’une méthode que j’enrichis au fil des
+années.<br/><br/>
+
+Apprendre à communiquer efficacement est une compétence qui se développe, et chacun de nous
+peut <blue>emporter l’adhésion d’un jury, d’un recruteur ou d’un auditoire.</blue><br/><br/><br/><br/>
+<Link to="/coach" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Mon profil</button>
+                
+                
+                </Link>
+
+</content>
+            </div>
+
+            <div class="offre_h3_content column">
+          <div class="methode_step column window">
+         <h3>L’importance des mots</h3>
+         <h2under></h2under> </div> 
+         <br/><br/>
+
+          <content>
+          Vous voulez mettre toutes les chances de votre côté en ayant à vos côtés quelqu’un qui connaît à la
+fois le monde de l’entreprise et celui de l’enseignement supérieur (jurys et enseignants).<br/><br/>
+Quelqu’un qui accorde beaucoup d’importance au choix des mots justes.<br/><br/>
+Concrètement, je mets en place un environnement bienveillant et efficace pour vous accompagner
+dans les <blue>étapes qui mènent à l’atteinte de votre objectif  :</blue><br/><br/>
+<strong>
+- analyse de votre projet professionnel<br/><br/>
+- mise en évidence de vos atouts pour réussir<br/><br/>
+- rédaction de votre CV et de vos lettres de motivation,<br/><br/>
+- rédaction des projets de formations motivés pour Parcoursup,<br/><br/>
+- rédaction de réponses personnalisées aux questions de tous les types d’entretiens de
+motivation,<br/><br/>
+- simulation de tous les types d’entretiens de motivation<br/><br/></strong>
+
+
+            </content><br/><br/><br/><br/>
+
+          </div>
+
+
+          <div class="offre_h3_content column">
+          <div class="methode_step column window">
+         <h3>Communiquer pour convaincre</h3>
+         <h2under></h2under> </div> 
+         <br/><br/>
+
+          <content>
+          Je vous aide à décrire votre parcours, votre personnalité, vos compétences, tout ce qui fait que des
+décideurs vont effectivement vous sélectionner, vous, pour intégrer une école ou une entreprise.<br/><br/>
+Je pratique l’écoute active et la reformulation pour vous aider à mieux formuler votre objectif, votre
+motivation, et les moyens dont vous disposez pour réussir.
+<br/><br/>
+Dans 99% de ces situations, c’est en mettant en place une communication <blue>affirmée et pertinente</blue>
+que vous optimisez vos chances.<br/><br/>
+<blue>Prenez confiance en votre capacité à convaincre.</blue>
+
+
+            </content><br/><br/><br/><br/>
+
+          </div>
+
+          <div class="column_items_center">
+              <br/><br/><br/>
+                        <h2><h2title><blue>Des résultats concrets</blue></h2title></h2>
+                        <h2under2></h2under2>
+                        
+                        </div>
+
+            <div class="offre_content">
+
+              <content class="window">La méthodologie winentretien, améliorée en continu depuis plus de 17 ans par les retours de nos
+clients et des recherches documentaires, nous permet de vous proposer des services sur-mesure,
+dans des délais ambitieux, et avec d’excellents résultats.<br/><br/><br/><br/>
+
+
+</content>
+            </div>
+
+
+<div class="window">
+
+            <div class="line_between" id="offre_content_telephone">
 
 <div class="column_items_center">
   <h4title><blue>+ 600</blue></h4title>
@@ -212,164 +342,75 @@ Apprenez les règles de base qui permettent de <blue>favoriser
 </div>
 
 
+</div>                       
+<br/><br/><br/><br/><br/>
 </div>
-<br/><br/><br/>
-<Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-                <button id='bouton'  >Prendre rendez-vous</button>
-                <br/>
+
+
+
+       <div class="Home2_offres window">
+
+
+            
+
+<div class="block">
+  <h2title>Coaching étudiants :</h2title>
+<br/>
+<content1>
+<blue>Confiance et efficacité</blue><br/>
+S'appuyer sur l'expèrience d'un coach pendant les années de collège, lycée, et dans toutes les étapes de parcoursup.
+</content1>
+
+<Link to="/LP?id=39" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Découvrir</button>
+                
+                
                 </Link>
 
-<br/><br/><br/>
-
-
-                             
-
-
-
-
-    
-    
-
-    
-    </div>
-    </div>
-    <div class="window column mobile_off">
-                        <div class="section_title">
-                        <i class="fa-solid fa-angle-right"></i>
-                        <h2title>Être à l'aise dans son poste</h2title>
-                        
-                        
-                  </div>
-                  <div class="section_background"></div>
-
-                  <div class="note_2"><content> Nous vous aidons à résoudre les principales difficultés de la vie professionnelle rencontrées en entreprise au
-moment d’une <strong>prise de poste</strong>, d’une <strong>évolution personnelle</strong> ou d’un <strong>changement organisationnel.</strong></content></div>
-
-                  </div>
-
-                  <div class="section block mobile_on">
-                        <div class="margin_left">
-                        <h2title>Être à l'aise dans son poste</h2title>
-                        <div id="underline"></div>
-                        </div>
-                  </div>
-
-                  <div class="window">
-                  <div class='column_items_center block'>
-                        
-                        
-<div class="offre_content line_between" id="offre_content_telephone">
-
-<div class='home_offre column_items_center'>
-
-                        
-<div class="photo"><img src={offre1} alt=""/></div>
-
-
-
 </div>
 
-<div class="column_items_center" >
-
-<div class="offre_text column_start">
-<h2title>Gérer ses priorités :</h2title>
-<h2under2></h2under2>
+<div class="block">
+  <h2title>Entretiens étudiants :</h2title>
+<br/>
 <content1>
-Quand on parle d’efficacité au travail, de quoi parle-t-on
-exactement ? Des heures de travail accumulées, du temps passé
-sur ce qui était planifié, ou du temps passé sur l’imprévu ?<br/><br/>
+<blue>Intégrez l'école de votre choix </blue><br/> Préparez les oraux de tous les concours d'entrée aux grandes écoles postbac <br/><br/>
 
-La <strong>matrice d’Eisenhower</strong> est un bon début, à condition de définir
-ce que ‘urgent’ et ‘important’ signifient <blue>pour vous</blue>
 
 </content1>
 
 <Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-          <button id='bouton' >Prendre rendez-vous</button>
-          <br/>
-          </Link>
-          </div>
+                <button id='bouton' >Découvrir</button>
+                
+                
+                </Link>
 
 </div>
 
-
-
-</div> 
-
-<div class="offre_content line_between" id="offre_content_telephone">
-
-
-<div class="offre_text column_start">
-<h2title>Leadership :</h2title>
-<h2under2></h2under2>
-<content1>
-Développer son leadership, accroître sa visibilité : parlons de ce
-que ses termes regroupent dans la situation qui est <blue>la vôtre.</blue><br/><br/>
-
-Il y a autant de styles de management que de managers,
-trouvons ensemble <blue>celui qui convient le mieux à vos équipes, et
-à vous-même.</blue>
-</content1>
-
-
-
-</div>
-
-<div class="offre_text column_start">
-<h2title>Gestion du stress :</h2title>
-<h2under2></h2under2>
-<content1>
-Dans le domaine de la gestion du stress, le temps est précieux.<br/><br/> Evoquer
-ensemble vos sources de tensions avant qu’elles ne deviennent récurrentes,
-tenter quelques actions pour les résoudre, vous initier à la pleine conscience,
-je vous invite à <blue>partager votre stress afin de vous alléger.</blue>
-
-
-</content1>
-
-
-
-</div>
-
-<div class="offre_text column_start">
-<h2title>Rester ou changer :</h2title>
-<h2under2></h2under2>
-<content1>
-Une opportunité de changement professionnel se présente, et vous hésitez.
-La liste Avantages / Inconvénients ne vous permet pas d’y voir plus clair ?<br/><br/> 
-C’est peut-être parce qu’une telle décision n’est pas réductible à un choix
-rationnel. <br/>Imaginons ensemble les conséquences de chacune de vos options,
-et essayons de trouver <blue>celle que vous avez envie d’explorer</blue>
-
-
-</content1>
-
-
-
-</div>
-
-
-</div>                        
-                      
-                      
-
-
-
-
+<div class="block">
+  <h2title>Entretiens professionnels :</h2title>
 <br/>
+<content1>
+<blue>Apprenez à convaincre</blue><br/>
+Comprenez les enjeux des entretiens d'embauche et apprenez à convaincre les recruteurs
 
+</content1>
 
-                       
-
-
-
-
-
-
-
+<Link to="/LP?id=50" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Découvrir</button>
+                
+                
+                </Link>
 
 </div>
-                  </div>
+
+
+
+
+            </div>           
+
+
+                        
+    
 
             
                         

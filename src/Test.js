@@ -1,17 +1,13 @@
 
 
 import { lazy } from 'react';
-
 import './globals.css';
 import './Test2.css';
 import './Text.css';
 import './Test.css';
-
 import Nav from './Nav/Nav.js';
 import Footer from './Footer/Footer.js';
-
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
 import Offre from './Offre/Offre.js';
 import Contact from './Contact/Contact.js';
 import Methode from './Rdv/Methode.js';
@@ -28,6 +24,7 @@ import Home2 from "./Homepage/Home2.js";
 import Home3 from "./Homepage/Home3.js";
 import Schema from "./Schema/Schema.js";
 import Temoignages from "./Homepage/Temoignages.js";
+import ClientLP from "./LP/ClientLP.js";
 
 
 const MentionsLegales = lazy(() => import("./Mentions/Mentions_legales.js"));
@@ -75,9 +72,12 @@ function Test()
       </Route>
 
 
-      
+      <Route path = '/LP'  >
 
-      
+      <ClientLP />
+
+
+      </Route>
 
       <Route exact path='/rendez-vous'>
       

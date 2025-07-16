@@ -93,6 +93,8 @@ function Nav() {
         </ul>
         
         <ul id="nav_offre" class="mobile_off" >
+
+
         <Link to='../offre' >
 
         <button onClick={() => window.scrollTo(0,10)}>L'offre</button>
@@ -100,14 +102,25 @@ function Nav() {
         
 
        </Link>
+
+       
        <div class="sub-nav">
-        
+       <Link to="../offre" >
+         <br/> 
+         <button >L'Offre</button></Link>
         
        <Link to="../offre" >
-        <button onClick={() => window.scrollTo(0,310)}>Convaincre à l'oral</button>
-        <br/><br/>
-        <button onClick={() => window.scrollTo(0,1720)}>Être bien dans son poste</button>
-        </Link>
+         <br/> 
+         <button >Coaching étudiants</button></Link>
+         <br/>
+         <Link to="../offre" >
+        <button >Entretiens étudiants</button></Link>
+        <br/>
+        <Link to="../offre" >
+        <button >Entretiens professionnels</button></Link>
+        <br/>
+        
+        
         <br/>
         
         

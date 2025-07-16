@@ -10,20 +10,21 @@ export default function Home2(){
                 <content>Étudiants, professionnels : une offre sur-mesure pour toutes les étapes importantes de votre parcours</content>
             </div>
             
-            <div class="Home2_offres">
+            <div class="Home2_offres window">
 
 
-            <div class="block">
-  <h2title>Entretiens étudiants:</h2title>
+            
+
+<div class="block">
+  <h2title>Coaching étudiants :</h2title>
 <br/>
 <content1>
-<blue>Intégrez l'école de votre choix </blue><br/> préparez les oraux de tous les entretiens de motivation des concours postbac et au-delà <br/><br/>
-
-
+<blue>Confiance et efficacité</blue><br/>
+S'appuyer sur l'expèrience d'un coach pendant les années de collège, lycée, et dans toutes les étapes de parcoursup.
 </content1>
 
-<Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-                <button id='bouton' >Prendre rdv</button>
+<Link to="/LP?id=39" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Découvrir</button>
                 
                 
                 </Link>
@@ -31,15 +32,16 @@ export default function Home2(){
 </div>
 
 <div class="block">
-  <h2title>Coaching étudiants :</h2title>
+  <h2title>Entretiens étudiants :</h2title>
 <br/>
 <content1>
-<blue>Soyez convaincants à l'écrit</blue><br/>
-Rédigeons ensemble vos lettres de motivation et projets de formation motivés
+<blue>Intégrez l'école de votre choix </blue><br/> Préparez les oraux de tous les concours d'entrée aux grandes écoles postbac <br/><br/>
+
+
 </content1>
 
 <Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-                <button id='bouton' >Prendre rdv</button>
+                <button id='bouton' >Découvrir</button>
                 
                 
                 </Link>
@@ -50,13 +52,13 @@ Rédigeons ensemble vos lettres de motivation et projets de formation motivés
   <h2title>Entretiens professionnels :</h2title>
 <br/>
 <content1>
-<blue>Analysez les enjeux</blue><br/>
-Sachez adapter votre discours aux différents interlocuteurs en charge de vos entretiens
+<blue>Apprenez à convaincre</blue><br/>
+Comprenez les enjeux des entretiens d'embauche et apprenez à convaincre les recruteurs
 
 </content1>
 
-<Link to="/rendez-vous" onClick={() => window.scrollTo(0,10)}>
-                <button id='bouton' >Prendre rdv</button>
+<Link to="/LP?id=50" onClick={() => window.scrollTo(0,10)}>
+                <button id='bouton' >Découvrir</button>
                 
                 
                 </Link>
