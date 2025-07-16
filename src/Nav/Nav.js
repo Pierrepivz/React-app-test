@@ -103,20 +103,20 @@ function Nav() {
 
        </Link>
 
-       
+
        <div class="sub-nav">
        <Link to="../offre" >
          <br/> 
          <button >L'Offre</button></Link>
         
-       <Link to="../offre" >
+       <Link to="../LP?id=39" >
          <br/> 
          <button >Coaching étudiants</button></Link>
          <br/>
          <Link to="../offre" >
         <button >Entretiens étudiants</button></Link>
         <br/>
-        <Link to="../offre" >
+        <Link to="../LP?id=50" >
         <button >Entretiens professionnels</button></Link>
         <br/>
         
